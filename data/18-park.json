@@ -1,5 +1,159 @@
 {
   "property": "18 Park",
-  "updated_at": "2026-09-24T02:31:57+00:00",
-  "units": {}
+  "updated_at": "2026-09-24T02:37:34+00:00",
+  "units": {
+    "18 Park|0432": {
+      "building": "18 Park",
+      "unit": "0432",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3680,
+      "available": "10/30/2026",
+      "sqft": null,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3680
+        }
+      ]
+    },
+    "18 Park|0610": {
+      "building": "18 Park",
+      "unit": "0610",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3570,
+      "available": "10/17/2026",
+      "sqft": null,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3570
+        }
+      ]
+    },
+    "18 Park|0634": {
+      "building": "18 Park",
+      "unit": "0634",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3690,
+      "available": "12/7/2026",
+      "sqft": null,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3690
+        }
+      ]
+    },
+    "18 Park|0743": {
+      "building": "18 Park",
+      "unit": "0743",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3845,
+      "available": "10/31/2026",
+      "sqft": null,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3845
+        }
+      ]
+    },
+    "18 Park|0930": {
+      "building": "18 Park",
+      "unit": "0930",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3715,
+      "available": "12/7/2026",
+      "sqft": null,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3715
+        }
+      ]
+    },
+    "18 Park|0945": {
+      "building": "18 Park",
+      "unit": "0945",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3870,
+      "available": "11/7/2026",
+      "sqft": null,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3870
+        }
+      ]
+    },
+    "18 Park|1031": {
+      "building": "18 Park",
+      "unit": "1031",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3600,
+      "available": "10/13/2026",
+      "sqft": null,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3600
+        }
+      ]
+    },
+    "18 Park|1035": {
+      "building": "18 Park",
+      "unit": "1035",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3600,
+      "available": "12/21/2026",
+      "sqft": null,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3600
+        }
+      ]
+    },
+    "18 Park|PH18": {
+      "building": "18 Park",
+      "unit": "PH18",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3725,
+      "available": "10/13/2026",
+      "sqft": null,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3725
+        }
+      ]
+    }
+  }
 }
