@@ -1,6 +1,6 @@
 {
   "property": "18 Park",
-  "updated_at": "2026-09-24T02:37:34+00:00",
+  "updated_at": "2026-09-24T02:48:14+00:00",
   "units": {
     "18 Park|0432": {
       "building": "18 Park",
@@ -8,9 +8,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3680,
+      "base_rent_max": 4045,
       "available": "10/30/2026",
       "sqft": null,
       "special": null,
+      "floor_plan": "Floor Plan Video",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -25,9 +27,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3570,
+      "base_rent_max": 3920,
       "available": "10/17/2026",
       "sqft": null,
       "special": null,
+      "floor_plan": "Floor Plan Video",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -42,9 +46,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3690,
+      "base_rent_max": 4070,
       "available": "12/7/2026",
       "sqft": null,
       "special": null,
+      "floor_plan": "Floor Plan Video",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -59,9 +65,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3845,
+      "base_rent_max": 4215,
       "available": "10/31/2026",
       "sqft": null,
       "special": null,
+      "floor_plan": "Floor Plan Video",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -76,9 +84,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3715,
+      "base_rent_max": 4095,
       "available": "12/7/2026",
       "sqft": null,
       "special": null,
+      "floor_plan": "Floor Plan Video",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -93,9 +103,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3870,
+      "base_rent_max": 4245,
       "available": "11/7/2026",
       "sqft": null,
       "special": null,
+      "floor_plan": "Floor Plan Video",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -110,9 +122,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3600,
+      "base_rent_max": 3970,
       "available": "10/13/2026",
       "sqft": null,
       "special": null,
+      "floor_plan": "Floor Plan Video",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -127,9 +141,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3600,
+      "base_rent_max": 3945,
       "available": "12/21/2026",
       "sqft": null,
       "special": null,
+      "floor_plan": "Floor Plan Video",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -144,9 +160,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3725,
+      "base_rent_max": 4105,
       "available": "10/13/2026",
       "sqft": null,
       "special": null,
+      "floor_plan": "Floor Plan Video",
       "first_seen": "2026-09-24",
       "price_history": [
         {

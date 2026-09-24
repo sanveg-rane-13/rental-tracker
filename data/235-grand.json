@@ -1,5 +1,215 @@
 {
   "property": "235 Grand",
-  "updated_at": "2026-09-24T02:37:32+00:00",
-  "units": {}
+  "updated_at": "2026-09-24T02:48:13+00:00",
+  "units": {
+    "235 Grand|0423": {
+      "building": "235 Grand",
+      "unit": "0423",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3945,
+      "base_rent_max": 4375,
+      "available": "11/7/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3945
+        }
+      ]
+    },
+    "235 Grand|0626": {
+      "building": "235 Grand",
+      "unit": "0626",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3990,
+      "base_rent_max": 4430,
+      "available": "10/31/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3990
+        }
+      ]
+    },
+    "235 Grand|0803": {
+      "building": "235 Grand",
+      "unit": "0803",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3930,
+      "base_rent_max": 4365,
+      "available": "11/6/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3930
+        }
+      ]
+    },
+    "235 Grand|1702": {
+      "building": "235 Grand",
+      "unit": "1702",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3860,
+      "base_rent_max": 4285,
+      "available": "11/7/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3860
+        }
+      ]
+    },
+    "235 Grand|2112": {
+      "building": "235 Grand",
+      "unit": "2112",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3715,
+      "base_rent_max": 4130,
+      "available": "11/25/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3715
+        }
+      ]
+    },
+    "235 Grand|2312": {
+      "building": "235 Grand",
+      "unit": "2312",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3765,
+      "base_rent_max": 4200,
+      "available": "12/6/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3765
+        }
+      ]
+    },
+    "235 Grand|2604": {
+      "building": "235 Grand",
+      "unit": "2604",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3830,
+      "base_rent_max": 4250,
+      "available": "11/8/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3830
+        }
+      ]
+    },
+    "235 Grand|3108": {
+      "building": "235 Grand",
+      "unit": "3108",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3960,
+      "base_rent_max": 4405,
+      "available": "12/7/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3960
+        }
+      ]
+    },
+    "235 Grand|3904": {
+      "building": "235 Grand",
+      "unit": "3904",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3885,
+      "base_rent_max": 4295,
+      "available": "12/20/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3885
+        }
+      ]
+    },
+    "235 Grand|4303": {
+      "building": "235 Grand",
+      "unit": "4303",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4130,
+      "base_rent_max": 4575,
+      "available": "11/7/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4130
+        }
+      ]
+    },
+    "235 Grand|4412": {
+      "building": "235 Grand",
+      "unit": "4412",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4115,
+      "base_rent_max": 4555,
+      "available": "10/18/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4115
+        }
+      ]
+    }
+  }
 }

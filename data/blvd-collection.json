@@ -1,6 +1,6 @@
 {
   "property": "BLVD Collection",
-  "updated_at": "2026-09-24T02:37:24+00:00",
+  "updated_at": "2026-09-24T02:48:07+00:00",
   "units": {
     "BLVD 401|0308": {
       "building": "BLVD 401",
@@ -8,9 +8,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3950,
+      "base_rent_max": 5264,
       "available": "Now",
       "sqft": 749,
       "special": null,
+      "floor_plan": "B401 A2",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -29,9 +31,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4190,
+      "base_rent_max": 5584,
       "available": "Now",
       "sqft": 800,
       "special": null,
+      "floor_plan": "B401 A4",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -46,9 +50,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4215,
+      "base_rent_max": 4763,
       "available": "10/5/2026",
       "sqft": 800,
       "special": null,
+      "floor_plan": "B401 A4",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -63,9 +69,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4340,
+      "base_rent_max": 5784,
       "available": "Now",
       "sqft": 805,
       "special": null,
+      "floor_plan": "B401 A6",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -80,9 +88,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4465,
+      "base_rent_max": 5045,
       "available": "10/9/2026",
       "sqft": 805,
       "special": null,
+      "floor_plan": "B401 A6",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -97,9 +107,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3825,
+      "base_rent_max": 4935,
       "available": "Now",
       "sqft": 689,
       "special": null,
+      "floor_plan": "B425 A01",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -114,9 +126,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3965,
+      "base_rent_max": 5195,
       "available": "10/14/2026",
       "sqft": 709,
       "special": null,
+      "floor_plan": "B425 A02",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -131,9 +145,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3995,
+      "base_rent_max": 5234,
       "available": "9/30/2026",
       "sqft": 827,
       "special": null,
+      "floor_plan": "B425 A10B",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -148,9 +164,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3990,
+      "base_rent_max": 5148,
       "available": "Now",
       "sqft": 723,
       "special": null,
+      "floor_plan": "B425 A03",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -165,9 +183,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4065,
+      "base_rent_max": 5326,
       "available": "Now",
       "sqft": 827,
       "special": null,
+      "floor_plan": "B425 A10B",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -182,9 +202,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4125,
+      "base_rent_max": 5363,
       "available": "Now",
       "sqft": 776,
       "special": null,
+      "floor_plan": "B425 A7",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -199,9 +221,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4150,
+      "base_rent_max": 5395,
       "available": "Now",
       "sqft": 709,
       "special": null,
+      "floor_plan": "B425 A02",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -216,9 +240,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3600,
+      "base_rent_max": null,
       "available": "9/24/2026",
       "sqft": 786,
       "special": null,
+      "floor_plan": "B425 A6PH",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -233,9 +259,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4030,
+      "base_rent_max": 4836,
       "available": "Now",
       "sqft": 708,
       "special": null,
+      "floor_plan": "B475N A1",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -250,9 +278,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4055,
+      "base_rent_max": 4866,
       "available": "Now",
       "sqft": 708,
       "special": null,
+      "floor_plan": "B475N A1",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -267,9 +297,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4270,
+      "base_rent_max": 5124,
       "available": "Now",
       "sqft": 824,
       "special": null,
+      "floor_plan": "B475N A4",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -284,9 +316,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3780,
+      "base_rent_max": 4536,
       "available": "9/30/2026",
       "sqft": 768,
       "special": null,
+      "floor_plan": "B475S A2",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -301,9 +335,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4385,
+      "base_rent_max": 5262,
       "available": "Now",
       "sqft": 786,
       "special": null,
+      "floor_plan": "B475S A4",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -318,9 +354,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4410,
+      "base_rent_max": 5292,
       "available": "Now",
       "sqft": 786,
       "special": null,
+      "floor_plan": "B475S A4",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -335,9 +373,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4130,
+      "base_rent_max": 4956,
       "available": "Now",
       "sqft": 768,
       "special": null,
+      "floor_plan": "B475S A2",
       "first_seen": "2026-09-24",
       "price_history": [
         {
@@ -352,9 +392,11 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 4010,
+      "base_rent_max": 4812,
       "available": "Now",
       "sqft": 733,
       "special": null,
+      "floor_plan": "B475S A1",
       "first_seen": "2026-09-24",
       "price_history": [
         {
