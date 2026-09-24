@@ -6,7 +6,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 4000
+    "max_rent": 3600
   },
   {
     "name": "BLVD Collection",
@@ -15,7 +15,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3700
+    "max_rent": 3600
   },
   {
     "name": "Liberty Harbor",
@@ -50,7 +50,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3700
+    "max_rent": 3600
   },
   {
     "name": "235 Grand",
@@ -113,6 +113,21 @@
         "building": "65 Bay Street",
         "beds": "1 Bedroom",
         "url": "https://www.65bay.com/floorplans/1-br-1-ba-w%2foffice-res-06%3a-fl-3---6"
+      }
+    ],
+    "beds": [
+      "1 Bedroom"
+    ],
+    "max_rent": 3600
+  },
+  {
+    "name": "Avalon Cove",
+    "link": "https://www.avaloncommunities.com/new-jersey/jersey-city-apartments/avalon-cove/#community-unit-listings",
+    "parser": "avalon",
+    "pages": [
+      {
+        "building": "Avalon Cove",
+        "url": "https://api.avalonbay.com/json/reply/ApartmentSearch?communityCode=NJ002"
       }
     ],
     "beds": [

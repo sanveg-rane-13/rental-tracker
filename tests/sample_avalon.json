@@ -1,0 +1,38 @@
+{"results": {
+  "communityPromotions": [],
+  "availableFloorPlanTypes": [
+    {"floorPlanTypeCode": "0BD", "value": 0, "display": "Studio", "availableFloorPlans": [
+      {"floorPlanId": "3145", "floorPlanName": "S2LP", "estimatedSize": 560, "beds": 0, "baths": 1.0,
+       "finishPackages": [{"finishPackageId": 208, "finishPackageName": "Classic Package", "apartments": [
+         {"apartmentCode": "NJ002-NJ002-002-2537", "apartmentNumber": "002-2537", "buildingNumber": "002",
+          "apartmentSize": 560, "beds": 0, "baths": 1.0,
+          "pricing": {"amenitizedRent": 3100, "effectiveRent": 3100, "term": 20, "availableDate": "2026-12-01"},
+          "floor": 5, "unitKey": "NJ002-NJ002-002-2537"}]}]}]},
+    {"floorPlanTypeCode": "1BD", "value": 1, "display": "1 Bedroom", "availableFloorPlans": [
+      {"floorPlanId": "3150", "floorPlanName": "A2", "estimatedSize": 693, "beds": 1, "baths": 1.0,
+       "finishPackages": [{"finishPackageId": 207, "finishPackageName": "Renovated I", "apartments": [
+         {"apartmentCode": "NJ002-NJ002-005-5221", "apartmentNumber": "005-5221", "buildingNumber": "005",
+          "apartmentSize": 693, "beds": 1, "baths": 1.0,
+          "pricing": {"amenitizedRent": 3645, "effectiveRent": 3645, "term": 10, "availableDate": "2026-10-31"},
+          "floor": 2, "unitKey": "NJ002-NJ002-005-5221"}]}]},
+      {"floorPlanId": "3151", "floorPlanName": "A3", "estimatedSize": 752, "beds": 1, "baths": 1.0,
+       "finishPackages": [
+         {"finishPackageId": 207, "finishPackageName": "Renovated I", "apartments": [
+           {"apartmentCode": "NJ002-NJ002-004-4409", "apartmentNumber": "004-4409", "apartmentSize": 752,
+            "beds": 1, "baths": 1.0,
+            "pricing": {"amenitizedRent": 4210, "effectiveRent": 4210, "term": 21, "availableDate": "2026-11-14"},
+            "unitKey": "NJ002-NJ002-004-4409"}]},
+         {"finishPackageId": 208, "finishPackageName": "Classic Package", "apartments": [
+           {"apartmentCode": "NJ002-NJ002-004-4409", "apartmentNumber": "004-4409", "apartmentSize": 752,
+            "beds": 1, "baths": 1.0,
+            "pricing": {"amenitizedRent": 4105, "effectiveRent": 4105, "term": 12, "availableDate": "2026-11-14"},
+            "unitKey": "NJ002-NJ002-004-4409"}]},
+         {"finishPackageId": 205, "finishPackageName": "Renovated III", "apartments": [
+           {"apartmentCode": "NJ002-NJ002-003-3143", "apartmentNumber": "003-3143",
+            "beds": 1, "baths": 1.0,
+            "pricing": {"amenitizedRent": 4035, "effectiveRent": 4035, "term": 21, "availableDate": "2026-09-20"},
+            "unitKey": "NJ002-NJ002-003-3143"}]}]}]}
+  ],
+  "unavailableFloorPlans": [{"floorPlanId": "3127", "floorPlanName": "S1LP", "floorPlanType": "0BD"}],
+  "responseStatus": {}
+}}
