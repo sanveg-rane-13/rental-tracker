@@ -1,0 +1,363 @@
+{
+  "property": "BLVD Collection",
+  "updated_at": "2026-09-24T01:21:38+00:00",
+  "units": {
+    "BLVD 401|0308": {
+      "building": "BLVD 401",
+      "unit": "0308",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3950,
+      "available": "Now",
+      "sqft": 749,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3950
+        }
+      ]
+    },
+    "BLVD 401|1011": {
+      "building": "BLVD 401",
+      "unit": "1011",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4190,
+      "available": "Now",
+      "sqft": 800,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4190
+        }
+      ]
+    },
+    "BLVD 401|1511": {
+      "building": "BLVD 401",
+      "unit": "1511",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4215,
+      "available": "10/5/2026",
+      "sqft": 800,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4215
+        }
+      ]
+    },
+    "BLVD 401|1907": {
+      "building": "BLVD 401",
+      "unit": "1907",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4340,
+      "available": "Now",
+      "sqft": 805,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4340
+        }
+      ]
+    },
+    "BLVD 401|2907": {
+      "building": "BLVD 401",
+      "unit": "2907",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4465,
+      "available": "10/9/2026",
+      "sqft": 805,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4465
+        }
+      ]
+    },
+    "BLVD 425|1010": {
+      "building": "BLVD 425",
+      "unit": "1010",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3825,
+      "available": "Now",
+      "sqft": 689,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3825
+        }
+      ]
+    },
+    "BLVD 425|1504": {
+      "building": "BLVD 425",
+      "unit": "1504",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3965,
+      "available": "10/14/2026",
+      "sqft": 709,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3965
+        }
+      ]
+    },
+    "BLVD 425|1613": {
+      "building": "BLVD 425",
+      "unit": "1613",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3995,
+      "available": "9/30/2026",
+      "sqft": 827,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3995
+        }
+      ]
+    },
+    "BLVD 425|2311": {
+      "building": "BLVD 425",
+      "unit": "2311",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3990,
+      "available": "Now",
+      "sqft": 723,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3990
+        }
+      ]
+    },
+    "BLVD 425|2913": {
+      "building": "BLVD 425",
+      "unit": "2913",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4065,
+      "available": "Now",
+      "sqft": 827,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4065
+        }
+      ]
+    },
+    "BLVD 425|3307": {
+      "building": "BLVD 425",
+      "unit": "3307",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4125,
+      "available": "Now",
+      "sqft": 776,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4125
+        }
+      ]
+    },
+    "BLVD 425|3704": {
+      "building": "BLVD 425",
+      "unit": "3704",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4150,
+      "available": "Now",
+      "sqft": 709,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4150
+        }
+      ]
+    },
+    "BLVD 425|PH205": {
+      "building": "BLVD 425",
+      "unit": "PH205",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3600,
+      "available": "9/24/2026",
+      "sqft": 786,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3600
+        }
+      ]
+    },
+    "BLVD 475 North|2103N": {
+      "building": "BLVD 475 North",
+      "unit": "2103N",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4030,
+      "available": "Now",
+      "sqft": 708,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4030
+        }
+      ]
+    },
+    "BLVD 475 North|2503N": {
+      "building": "BLVD 475 North",
+      "unit": "2503N",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4055,
+      "available": "Now",
+      "sqft": 708,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4055
+        }
+      ]
+    },
+    "BLVD 475 North|4607N": {
+      "building": "BLVD 475 North",
+      "unit": "4607N",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4270,
+      "available": "Now",
+      "sqft": 824,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4270
+        }
+      ]
+    },
+    "BLVD 475 South|1802S": {
+      "building": "BLVD 475 South",
+      "unit": "1802S",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3780,
+      "available": "9/30/2026",
+      "sqft": 768,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3780
+        }
+      ]
+    },
+    "BLVD 475 South|2208S": {
+      "building": "BLVD 475 South",
+      "unit": "2208S",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4385,
+      "available": "Now",
+      "sqft": 786,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4385
+        }
+      ]
+    },
+    "BLVD 475 South|3108S": {
+      "building": "BLVD 475 South",
+      "unit": "3108S",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4410,
+      "available": "Now",
+      "sqft": 786,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4410
+        }
+      ]
+    },
+    "BLVD 475 South|4602S": {
+      "building": "BLVD 475 South",
+      "unit": "4602S",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4130,
+      "available": "Now",
+      "sqft": 768,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4130
+        }
+      ]
+    },
+    "BLVD 475 South|4805S": {
+      "building": "BLVD 475 South",
+      "unit": "4805S",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4010,
+      "available": "Now",
+      "sqft": 733,
+      "special": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4010
+        }
+      ]
+    }
+  }
+}
