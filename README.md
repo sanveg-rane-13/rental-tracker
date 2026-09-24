@@ -18,6 +18,7 @@ Which price is compared depends on what the site shows:
 |---|---|---|
 | Newport Rentals | `newport` | Total monthly rent (base + required fees), e.g. $3,064/mo rather than $3,051 base |
 | BLVD Collection | `blvd` (RentCafe page) | Base rent, lowest lease-term price (RentCafe shows "$4,055 - $4,866" and no fees) |
+| Liberty Harbor | `rentcafe` (one RentCafe page per building) | Base rent, as above |
 
 Stays silent for: availability-date changes, price changes that end over budget, units being delisted, and the **first run for a property** (it just records what's there).
 
@@ -46,6 +47,7 @@ The first run saves `data/newport-rentals.json` and sends nothing. Later runs no
 ```
 
 - `name` is shown in notifications and sets the data file name (`data/newport-rentals.json`).
+- A property spread over several pages uses `pages` instead of `url`, one entry per building: `{"building": "The Zenith", "url": "..."}`. If any page fails to load, the whole property is skipped that run, so a temporarily missing building isn't mistaken for delisted units. `link` sets where tapping a notification goes.
 - `beds` values are matched against the parser's output: `Studio`, `1 Bedroom`, `2 Bedrooms`, …
 - Leave out `max_rent` to be notified about every new unit and price change.
 

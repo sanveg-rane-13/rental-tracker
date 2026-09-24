@@ -42,16 +42,39 @@ def fetch(url):
     return r.text
 
 
+def pages_of(site):
+    """A site is either one "url", or several "pages" (e.g. one per building),
+    each {"url": ..., "building": ...}."""
+    return site.get("pages") or [{"url": site["url"]}]
+
+
+def link_of(site):
+    """Where a notification tap should go."""
+    return site.get("link") or site.get("url") or pages_of(site)[0]["url"]
+
+
 def scrape(site, html=None):
-    """Returns the site's units after the bedroom filter, or None if parsing found nothing."""
-    html = html if html is not None else fetch(site["url"])
-    units = PARSERS[site["parser"]](html)
+    """Returns the site's units after the bedroom filter, or None if parsing found nothing.
+    If any page fails to download, the exception propagates and the whole site is skipped
+    this run (otherwise that building's units would look delisted, then "new" next time)."""
+    parser = PARSERS[site["parser"]]
+    units, empty_pages = [], []
+    for page in pages_of(site):
+        page_html = html if html is not None else fetch(page["url"])
+        opts = {"building": page["building"]} if page.get("building") else {}
+        found = parser(page_html, **opts)
+        if len(pages_of(site)) > 1:
+            print(f"    {page.get('building', page['url'])}: {len(found)} units")
+        if not found:
+            empty_pages.append((page, page_html))
+        units.extend(found)
     print(f"  parsed {len(units)} units in total")
     if not units:
-        debug = OUT / "debug" / f"{state.slug(site['name'])}.html"
-        debug.parent.mkdir(parents=True, exist_ok=True)
-        debug.write_text(html, encoding="utf-8")
-        print(f"  !! no units found - saved raw HTML to {debug}")
+        for i, (page, page_html) in enumerate(empty_pages):
+            debug = OUT / "debug" / f"{state.slug(site['name'])}-{i + 1}.html"
+            debug.parent.mkdir(parents=True, exist_ok=True)
+            debug.write_text(page_html, encoding="utf-8")
+            print(f"  !! no units found on {page['url']} - saved raw HTML to {debug}")
         return None
     wanted = {b.lower() for b in site.get("beds", [])}
     if wanted:
@@ -108,7 +131,7 @@ def process_site(site, topic, send_enabled, today):
         title, body = notify.build_message(name, events)
         print(f"  --- {title} ---\n" + "\n".join("  " + line for line in body.splitlines()))
         if send_enabled:
-            notify.send(topic, title, body, click_url=site["url"])
+            notify.send(topic, title, body, click_url=link_of(site))
             print("  sent to ntfy")
         else:
             print("  (not sent: notifications disabled)")
@@ -132,7 +155,8 @@ def main():
         if site is None:
             sys.exit(f"No site named {args.site!r} in sites.json")
         print(f"\n== {site['name']} (from {args.html}) ==")
-        units = scrape(site, Path(args.html).read_text(encoding="utf-8")) or []
+        one_page = {**site, "pages": pages_of(site)[:1]}  # a saved file is a single page
+        units = scrape(one_page, Path(args.html).read_text(encoding="utf-8")) or []
         print_table(units, site.get("max_rent"))
         return
 

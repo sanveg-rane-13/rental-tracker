@@ -90,6 +90,31 @@ def test_base_rent_only_and_missing_price(monkeypatch, tmp_path):
     assert "💲 E 503: now priced at $3,400" in sent[0][2]
 
 
+def test_multi_page_site(monkeypatch, tmp_path):
+    from pathlib import Path
+    import pytest
+    html = (Path(__file__).parent / "sample_rentcafe_plain.html").read_text()
+    site = {"name": "Liberty Harbor", "parser": "rentcafe", "link": "https://example.com/avail",
+            "beds": ["1 Bedroom"], "max_rent": 3700,
+            "pages": [{"building": "The Zenith", "url": "https://a"},
+                      {"building": "The Regent", "url": "https://b"}]}
+    monkeypatch.setattr(tracker, "OUT", tmp_path / "out")
+    monkeypatch.setattr(tracker, "fetch", lambda url: html)
+    units = tracker.scrape(site)
+    keys = {state.unit_key(u) for u in units}
+    assert {"The Zenith|512", "The Regent|512", "The Zenith|906"} <= keys
+    assert len(units) == 6                       # 3 one-bed units x 2 pages
+    assert tracker.link_of(site) == "https://example.com/avail"
+
+    def flaky(url):
+        if url == "https://b":
+            raise RuntimeError("HTTP 503")
+        return html
+    monkeypatch.setattr(tracker, "fetch", flaky)
+    with pytest.raises(RuntimeError):            # one page down -> whole site skipped
+        tracker.scrape(site)
+
+
 def test_parse_collapse_does_not_overwrite(monkeypatch, tmp_path):
     run(monkeypatch, tmp_path, BASE)
     monkeypatch.setitem(tracker.PARSERS, "fake", lambda html: BASE[:2])

@@ -41,6 +41,24 @@ def test_dates_get_a_year():
     assert u["1613"]["available"] == "1/5/2027"    # January seen in November -> next year
 
 
+PLAIN = (Path(__file__).parent / "sample_rentcafe_plain.html").read_text()
+
+
+def test_plain_unit_numbers_with_building_per_page():
+    u = {x["unit"]: x for x in parse(PLAIN, building="The Zenith", today=TODAY)}
+    # 709 has no move-in date and "104-105-106" is a plan summary: both skipped.
+    # "731" (sq ft in its own span) must not be mistaken for a unit.
+    assert set(u) == {"512", "712", "906", "1604"}
+    assert u["512"] == {
+        "building": "The Zenith", "unit": "512", "beds": "1 Bedroom", "rent": None,
+        "base_rent": 3550, "base_rent_max": None, "available": "Now", "sqft": 731,
+        "special": None, "floor_plan": "PLAN G",
+    }
+    assert u["712"]["available"] == "9/30/2026"
+    assert u["906"]["base_rent"] is None and u["906"]["available"] == "10/2/2026"
+    assert u["1604"]["beds"] == "2 Bedrooms" and u["1604"]["sqft"] == 1020
+
+
 def test_without_building_names_keeps_raw_codes():
     u = {x["unit"]: x for x in parse(HTML, today=TODAY)}
     assert u["MN-2503N"]["building"] == "B475N"
