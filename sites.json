@@ -5,5 +5,12 @@
     "parser": "newport",
     "beds": ["1 Bedroom"],
     "max_rent": 4000
+  },
+  {
+    "name": "BLVD Collection",
+    "url": "https://www.rentcafe.com/apartments/nj/jersey-city/the-blvd-collection/default.aspx",
+    "parser": "blvd",
+    "beds": ["1 Bedroom"],
+    "max_rent": 3700
   }
 ]

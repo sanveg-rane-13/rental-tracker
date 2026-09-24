@@ -66,8 +66,8 @@ def print_table(units, max_rent=None):
     print(f"\n  {'Building':<24} {'Unit':<6} {'Rent':>8} {'Base':>8}  {'Available':<11} Special")
     print("  " + "-" * 78)
     for u in sorted(units, key=lambda u: state.price_of(u) or 0):
-        rent = f"${u['rent']:,}" if u["rent"] else "?"
-        base = f"${u['base_rent']:,}" if u["base_rent"] else "?"
+        rent = f"${u['rent']:,}" if u["rent"] else "–"
+        base = f"${u['base_rent']:,}" if u["base_rent"] else "–"
         over = "  (over budget)" if max_rent and (state.price_of(u) or 0) > max_rent else ""
         print(f"  {u['building']:<24} {u['unit']:<6} {rent:>8} {base:>8}  "
               f"{u['available'] or '?':<11} {u['special'] or ''}{over}")
@@ -117,7 +117,8 @@ def process_site(site, topic, send_enabled, today):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--html", help="parse a saved HTML file for the first site and print it (no state changes)")
+    ap.add_argument("--html", help="parse a saved HTML file and print it (no state changes)")
+    ap.add_argument("--site", help="with --html: which site's parser to use (default: the first)")
     ap.add_argument("--no-notify", action="store_true", help="print notifications instead of sending")
     args = ap.parse_args()
 
@@ -125,7 +126,9 @@ def main():
     OUT.mkdir(exist_ok=True)
 
     if args.html:
-        site = sites[0]
+        site = next((s for s in sites if s["name"] == args.site), None) if args.site else sites[0]
+        if site is None:
+            sys.exit(f"No site named {args.site!r} in sites.json")
         print(f"\n== {site['name']} (from {args.html}) ==")
         units = scrape(site, Path(args.html).read_text(encoding="utf-8")) or []
         print_table(units, site.get("max_rent"))

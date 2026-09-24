@@ -12,7 +12,12 @@ Checks rental listing pages every hour and sends a push notification (via [ntfy]
    - a known unit's **price changes** and the new price is at or under `max_rent` (e.g. $4,079 → $3,950)
 5. The updated `data/*.json` files are committed back to the repo, so the commit history doubles as a price history.
 
-Prices are the **total monthly rent** (base rent + required monthly fees), e.g. $3,064/mo rather than $3,051 base.
+Which price is compared depends on what the site shows:
+
+| Property | Parser | Price used |
+|---|---|---|
+| Newport Rentals | `newport` | Total monthly rent (base + required fees), e.g. $3,064/mo rather than $3,051 base |
+| BLVD Collection | `blvd` (RentCafe page) | Base rent, lowest lease-term price (RentCafe shows "$4,055 - $4,866" and no fees) |
 
 Stays silent for: availability-date changes, price changes that end over budget, units being delisted, and the **first run for a property** (it just records what's there).
 
