@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-09-24T20:05:07+00:00",
+  "updated_at": "2026-09-24T23:53:13+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -1179,14 +1179,14 @@
         }
       ]
     },
-    "Ellipse|1910": {
+    "Ellipse|1710": {
       "building": "Ellipse",
-      "unit": "1910",
+      "unit": "1710",
       "beds": "1 Bedroom",
-      "rent": 4873,
-      "base_rent": 4815,
+      "rent": 4863,
+      "base_rent": 4805,
       "base_rent_max": null,
-      "available": "Now",
+      "available": "9/25/2026",
       "sqft": 759,
       "special": null,
       "floor_plan": null,
@@ -1194,11 +1194,7 @@
       "price_history": [
         {
           "date": "2026-09-24",
-          "price": 4862
-        },
-        {
-          "date": "2026-09-24",
-          "price": 4873
+          "price": 4863
         }
       ]
     },
@@ -2506,6 +2502,25 @@
         {
           "date": "2026-09-24",
           "price": 3476
+        }
+      ]
+    },
+    "Waterside Square South|1710": {
+      "building": "Waterside Square South",
+      "unit": "1710",
+      "beds": "1 Bedroom",
+      "rent": 3550,
+      "base_rent": 3537,
+      "base_rent_max": null,
+      "available": "10/16/2026",
+      "sqft": 696,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3550
         }
       ]
     }
