@@ -3,14 +3,18 @@
     "name": "Newport Rentals",
     "url": "https://www.newportrentals.com/apartments-jersey-city-for-rent/",
     "parser": "newport",
-    "beds": ["1 Bedroom"],
+    "beds": [
+      "1 Bedroom"
+    ],
     "max_rent": 4000
   },
   {
     "name": "BLVD Collection",
     "url": "https://www.rentcafe.com/apartments/nj/jersey-city/the-blvd-collection/default.aspx",
     "parser": "blvd",
-    "beds": ["1 Bedroom"],
+    "beds": [
+      "1 Bedroom"
+    ],
     "max_rent": 3700
   },
   {
@@ -18,30 +22,66 @@
     "link": "https://www.libertyharbor.com/availability/",
     "parser": "rentcafe",
     "pages": [
-      {"building": "The Zenith", "url": "https://www.rentcafe.com/apartments/nj/jersey-city/9-regent-street-the-zenith/default.aspx"},
-      {"building": "The Regent", "url": "https://www.rentcafe.com/apartments/nj/jersey-city/30-regent-street-the-regent/default.aspx"},
-      {"building": "50 Regent", "url": "https://www.rentcafe.com/apartments/nj/jersey-city/50-regent-street/default.aspx"},
-      {"building": "88 Regent", "url": "https://www.rentcafe.com/apartments/nj/jersey-city/88-regent-street/default.aspx"},
-      {"building": "333 Grand", "url": "https://www.rentcafe.com/apartments/nj/jersey-city/333-grand-street/default.aspx"},
-      {"building": "The Junction", "url": "https://www.rentcafe.com/apartments/nj/jersey-city/123-river-street-the-junction/default.aspx"}
+      {
+        "building": "The Zenith",
+        "url": "https://www.rentcafe.com/apartments/nj/jersey-city/9-regent-street-the-zenith/default.aspx"
+      },
+      {
+        "building": "The Regent",
+        "url": "https://www.rentcafe.com/apartments/nj/jersey-city/30-regent-street-the-regent/default.aspx"
+      },
+      {
+        "building": "50 Regent",
+        "url": "https://www.rentcafe.com/apartments/nj/jersey-city/50-regent-street/default.aspx"
+      },
+      {
+        "building": "88 Regent",
+        "url": "https://www.rentcafe.com/apartments/nj/jersey-city/88-regent-street/default.aspx"
+      },
+      {
+        "building": "333 Grand",
+        "url": "https://www.rentcafe.com/apartments/nj/jersey-city/333-grand-street/default.aspx"
+      },
+      {
+        "building": "The Junction",
+        "url": "https://www.rentcafe.com/apartments/nj/jersey-city/123-river-street-the-junction/default.aspx"
+      }
     ],
-    "beds": ["1 Bedroom"],
+    "beds": [
+      "1 Bedroom"
+    ],
     "max_rent": 3700
   },
   {
     "name": "235 Grand",
     "link": "https://www.235grand.com/floorplans/1-bedroom---1-bathroom",
     "parser": "yardi_site",
-    "pages": [{"building": "235 Grand", "url": "https://www.235grand.com/availableunits"}],
-    "beds": ["1 Bedroom"],
+    "pages": [
+      {
+        "building": "235 Grand",
+        "beds": "1 Bedroom",
+        "url": "https://www.235grand.com/floorplans/1-bedroom---1-bathroom"
+      }
+    ],
+    "beds": [
+      "1 Bedroom"
+    ],
     "max_rent": 3600
   },
   {
     "name": "18 Park",
-    "link": "https://www.18park.com/availableunits",
+    "link": "https://www.18park.com/floorplans/1-bed-1-bath",
     "parser": "yardi_site",
-    "pages": [{"building": "18 Park", "url": "https://www.18park.com/availableunits"}],
-    "beds": ["1 Bedroom"],
+    "pages": [
+      {
+        "building": "18 Park",
+        "beds": "1 Bedroom",
+        "url": "https://www.18park.com/floorplans/1-bed-1-bath"
+      }
+    ],
+    "beds": [
+      "1 Bedroom"
+    ],
     "max_rent": 3600
   }
 ]

@@ -20,6 +20,12 @@ def test_units_and_beds_by_section():
     assert u["TH2"]["beds"] is None          # no bed count in its section: don't guess
 
 
+def test_beds_given_for_single_floor_plan_page():
+    u = {x["unit"]: x for x in parse(HTML, building="235 Grand", beds="1 Bedroom")}
+    assert all(x["beds"] == "1 Bedroom" for x in u.values())
+    assert u["2112"]["base_rent"] == 3715
+
+
 def test_fields():
     u = units()
     assert u["0906"] == {

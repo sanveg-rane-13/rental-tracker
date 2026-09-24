@@ -59,9 +59,14 @@ def scrape(site, html=None):
     this run (otherwise that building's units would look delisted, then "new" next time)."""
     parser = PARSERS[site["parser"]]
     units, empty_pages = [], []
-    for page in pages_of(site):
+    for i, page in enumerate(pages_of(site)):
         page_html = html if html is not None else fetch(page["url"])
-        opts = {"building": page["building"]} if page.get("building") else {}
+        if html is None:  # keep a copy of what was fetched, for debugging (uploaded with the run)
+            saved = OUT / "pages" / f"{state.slug(site['name'])}-{i + 1}.html"
+            saved.parent.mkdir(parents=True, exist_ok=True)
+            saved.write_text(page_html, encoding="utf-8")
+        # per-page options for the parser, e.g. {"building": "The Zenith"} or {"beds": "1 Bedroom"}
+        opts = {k: page[k] for k in ("building", "beds") if page.get(k)}
         found = parser(page_html, **opts)
         if len(pages_of(site)) > 1:
             print(f"    {page.get('building', page['url'])}: {len(found)} units")

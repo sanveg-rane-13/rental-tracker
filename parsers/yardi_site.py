@@ -1,7 +1,9 @@
-"""Parser for property websites on Yardi's RentCafe website template, using their
-/availableunits page, e.g.
-    https://www.235grand.com/availableunits
-    https://www.18park.com/availableunits
+"""Parser for property websites on Yardi's RentCafe website template, e.g.
+    https://www.235grand.com/floorplans/1-bedroom---1-bathroom   (one floor plan; pass beds=)
+    https://www.18park.com/availableunits                       (all plans; beds read from headings)
+
+Prefer the single-floor-plan pages with `beds` set in sites.json: reading bed
+counts from the /availableunits headings depends on markup that varies by site.
 
 Every floor plan has a heading followed by a table of its available units:
 
@@ -88,7 +90,9 @@ def _section(node):
     return _clean(heading.get_text(" ")), _clean(" ".join(parts))
 
 
-def parse(html, building=None):
+def parse(html, building=None, beds=None):
+    """beds: set this when the page is a single floor plan (e.g. /floorplans/1-bed-1-bath),
+    so every unit on it gets that bed count instead of reading it from the page."""
     soup = BeautifulSoup(html, "html.parser")
     units = {}
     for node in soup.find_all(string=lambda s: s and _code(s)):
@@ -107,13 +111,16 @@ def parse(html, building=None):
         sqft = SQFT_RE.search(before_price)
 
         heading, section = _section(node)
-        in_section = list(BEDS_RE.finditer(section))
-        beds = _beds(BEDS_RE.search(heading) or (in_section[-1] if in_section else None))
+        if beds:
+            unit_beds = beds
+        else:
+            in_section = list(BEDS_RE.finditer(section))
+            unit_beds = _beds(BEDS_RE.search(heading) or (in_section[-1] if in_section else None))
 
         units[code] = {
             "building": building or "",
             "unit": code,
-            "beds": beds,
+            "beds": unit_beds,
             "rent": None,
             "base_rent": _money(price.group(1)) if price else None,
             "base_rent_max": _money(price.group(2)) if price and price.group(2) else None,
