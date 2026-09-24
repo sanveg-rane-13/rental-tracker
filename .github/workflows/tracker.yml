@@ -3,7 +3,7 @@ name: Rental tracker
 on:
   workflow_dispatch:        # "Run workflow" button in the Actions tab
   schedule:
-    - cron: "15 * * * *"    # hourly at :15 (GitHub may start it a few minutes late)
+    - cron: "15 */3 * * *"    # every 3 hours at :15 UTC
 
 permissions:
   contents: write           # lets the job commit data/*.json back to the repo
