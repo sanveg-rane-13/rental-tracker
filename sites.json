@@ -27,5 +27,21 @@
     ],
     "beds": ["1 Bedroom"],
     "max_rent": 3700
+  },
+  {
+    "name": "235 Grand",
+    "link": "https://www.235grand.com/floorplans/1-bedroom---1-bathroom",
+    "parser": "yardi_site",
+    "pages": [{"building": "235 Grand", "url": "https://www.235grand.com/availableunits"}],
+    "beds": ["1 Bedroom"],
+    "max_rent": 3600
+  },
+  {
+    "name": "18 Park",
+    "link": "https://www.18park.com/availableunits",
+    "parser": "yardi_site",
+    "pages": [{"building": "18 Park", "url": "https://www.18park.com/availableunits"}],
+    "beds": ["1 Bedroom"],
+    "max_rent": 3600
   }
 ]

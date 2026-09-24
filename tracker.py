@@ -76,6 +76,9 @@ def scrape(site, html=None):
             debug.write_text(page_html, encoding="utf-8")
             print(f"  !! no units found on {page['url']} - saved raw HTML to {debug}")
         return None
+    unknown = [u["unit"] for u in units if not u.get("beds")]
+    if unknown:
+        print(f"  note: bed count unknown for {', '.join(unknown)} - left out by the beds filter")
     wanted = {b.lower() for b in site.get("beds", [])}
     if wanted:
         units = [u for u in units if (u["beds"] or "").lower() in wanted]
