@@ -1,0 +1,41 @@
+<html><body>
+<nav><a href="/residents/">Residents</a> <a href="/buildings/">Buildings</a></nav>
+<div class="filters"><label>1 BR</label><label>2 BR</label></div>
+<ul class="unit-list">
+  <!-- style A: pipe as text, address in separate span -->
+  <li class="unit">
+    <div class="unit-head"><h3><span>Parkside West</span> | <span>Residence 1504</span></h3><span class="addr">40 Newport Parkway</span></div>
+    <div class="layout">Studio | 1 Bathroom <a href="x.pdf" title="Floor Plan PDF, Newport Rentals - 1504">Floor Plan</a></div>
+    <div class="sqft">508 Sq Ft</div>
+    <div class="price"><strong>$2,789 /mo*</strong> <small>Base Rent: $2,776</small> <span>Available Now</span> • <span>1 Month Free</span></div>
+  </li>
+  <li class="unit">
+    <div class="unit-head"><h3><span>Lincoln House</span> | <span>Residence 405</span></h3><span class="addr">204 Tenth Street</span></div>
+    <div class="layout">1 Bedroom | 1 Bathroom <a href="x.pdf">Floor Plan</a></div>
+    <div class="sqft">700 Sq Ft</div>
+    <div class="price"><strong>$3,064 /mo*</strong> <small>Base Rent: $3,051</small> <span>Available 10/18/2026</span> • <span>0.5 Month Free</span></div>
+  </li>
+  <!-- style B: pipe drawn by CSS (no text), deeper nesting -->
+  <li class="unit"><div><div class="col">
+    <p class="bldg">Parkside East</p><p class="res">Residence 2007</p><p>30 Newport Parkway</p></div>
+    <div class="col"><p>1 Bedroom</p><p>1 Bathroom</p></div>
+    <div class="col">482 Sq Ft</div>
+    <div class="col"><div><span>$3,394</span><span>/mo*</span></div><div>Base Rent: $3,381</div><div>Available 11/6/2026</div></div>
+  </div></li>
+  <!-- same unit number in a different building must stay separate -->
+  <li class="unit">
+    <div class="unit-head"><h3><span>Ellipse</span> | <span>Residence 2007</span></h3><span class="addr">25 Park Lane South</span></div>
+    <div class="layout">1 Bedroom | 1 Bathroom</div>
+    <div class="sqft">510 Sq Ft</div>
+    <div class="price"><strong>$4,747 /mo*</strong> <small>Base Rent: $4,689</small> <span>Available Now</span></div>
+  </li>
+  <li class="unit">
+    <div class="unit-head"><h3><span>Pacific</span> | <span>Residence 303</span></h3><span class="addr">25 River Drive</span></div>
+    <div class="layout">2 Bedrooms | 2 Bathrooms</div>
+    <div class="sqft">1145 Sq Ft</div>
+    <div class="price"><strong>$4,501 /mo*</strong> <small>Base Rent: $4,488</small> <span>Available 10/5/2026</span></div>
+  </li>
+</ul>
+<!-- map-view duplicate of a card should be de-duplicated -->
+<div class="map-popup"><h3>Lincoln House | Residence 405</h3><p>1 Bedroom</p><p>$3,064 /mo*</p></div>
+</body></html>

@@ -1,0 +1,31 @@
+name: Rental tracker
+
+on:
+  workflow_dispatch:        # "Run workflow" button in the Actions tab
+  # Turn on once step 2 is confirmed working (GitHub may delay runs a few minutes):
+  # schedule:
+  #   - cron: "7 * * * *"   # hourly, at :07
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch and parse listings
+        run: python tracker.py
+
+      - name: Upload results
+        if: always()          # upload the debug HTML too if parsing failed
+        uses: actions/upload-artifact@v4
+        with:
+          name: listings
+          path: output/
