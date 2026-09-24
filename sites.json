@@ -83,5 +83,41 @@
       "1 Bedroom"
     ],
     "max_rent": 3600
+  },
+  {
+    "name": "65 Bay Street",
+    "link": "https://www.65bay.com/floorplans?Beds=1",
+    "parser": "yardi_site",
+    "pages": [
+      {
+        "building": "65 Bay Street",
+        "beds": "1 Bedroom",
+        "url": "https://www.65bay.com/floorplans/1-br-1-ba-res-01-%26-09%3a-fl-8---44"
+      },
+      {
+        "building": "65 Bay Street",
+        "beds": "1 Bedroom",
+        "url": "https://www.65bay.com/floorplans/1-br-1-ba-res-02-%26-08%3a-fl-8---44"
+      },
+      {
+        "building": "65 Bay Street",
+        "beds": "1 Bedroom",
+        "url": "https://www.65bay.com/floorplans/1-br-1-ba-w%2foffice-res-03-%26-07%3a-fl-3---48"
+      },
+      {
+        "building": "65 Bay Street",
+        "beds": "1 Bedroom",
+        "url": "https://www.65bay.com/floorplans/1-br-1-ba-w%2foffice-res-05%3a-fl-3---6"
+      },
+      {
+        "building": "65 Bay Street",
+        "beds": "1 Bedroom",
+        "url": "https://www.65bay.com/floorplans/1-br-1-ba-w%2foffice-res-06%3a-fl-3---6"
+      }
+    ],
+    "beds": [
+      "1 Bedroom"
+    ],
+    "max_rent": 3600
   }
 ]

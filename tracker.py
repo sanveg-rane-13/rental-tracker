@@ -14,8 +14,12 @@ import argparse
 import json
 import os
 import sys
+import threading
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 
@@ -36,11 +40,58 @@ HEADERS = {
 }
 
 
+MAX_WORKERS = 8   # pages downloaded at the same time, across all sites
+PER_HOST = 2      # at most this many at once from any one website (7 pages are on rentcafe.com)
+_host_slots, _host_lock = {}, threading.Lock()
+
+
+def _download(url):
+    """(html, log line). Raises requests.HTTPError for 4xx/5xx, after noting the status."""
+    host = urlparse(url).netloc
+    with _host_lock:
+        slot = _host_slots.setdefault(host, threading.Semaphore(PER_HOST))
+    with slot:
+        r = requests.get(url, headers=HEADERS, timeout=30)
+    msg = f"  GET {url} -> HTTP {r.status_code}, {len(r.text):,} bytes"
+    if not r.ok:
+        raise requests.HTTPError(f"{msg.strip()}", response=r)
+    return r.text, msg
+
+
 def fetch(url):
-    r = requests.get(url, headers=HEADERS, timeout=30)
-    print(f"  GET {url} -> HTTP {r.status_code}, {len(r.text):,} bytes")
-    r.raise_for_status()
-    return r.text
+    text, msg = _download(url)
+    print(msg)
+    return text
+
+
+def prefetch(sites):
+    """Download every page of every site in parallel. Returns {url: (html, log line, error)},
+    so sites can then be processed one at a time, in order, without waiting on the network."""
+    urls = list(dict.fromkeys(p["url"] for s in sites for p in pages_of(s)))
+    results = {}
+    started = time.monotonic()
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        futures = {pool.submit(_download, u): u for u in urls}
+        for fut in as_completed(futures):
+            url = futures[fut]
+            try:
+                html, msg = fut.result()
+                results[url] = (html, msg, None)
+            except Exception as e:  # handed to that site when it's processed
+                results[url] = (None, f"  GET {url} -> failed: {e}", e)
+    print(f"Fetched {len(urls)} pages in {time.monotonic() - started:.1f}s")
+    return results
+
+
+def _page_html(url, fetched):
+    """A prefetched page (printing its log line then), or a live fetch if not prefetched."""
+    if fetched and url in fetched:
+        html, msg, err = fetched[url]
+        print(msg)
+        if err:
+            raise err
+        return html
+    return fetch(url)
 
 
 def pages_of(site):
@@ -54,14 +105,15 @@ def link_of(site):
     return site.get("link") or site.get("url") or pages_of(site)[0]["url"]
 
 
-def scrape(site, html=None):
+def scrape(site, html=None, fetched=None):
     """Returns the site's units after the bedroom filter, or None if parsing found nothing.
     If any page fails to download, the exception propagates and the whole site is skipped
-    this run (otherwise that building's units would look delisted, then "new" next time)."""
+    this run (otherwise that building's units would look delisted, then "new" next time).
+    `fetched` holds pages already downloaded by prefetch()."""
     parser = PARSERS[site["parser"]]
     units, empty_pages = [], []
     for i, page in enumerate(pages_of(site)):
-        page_html = html if html is not None else fetch(page["url"])
+        page_html = html if html is not None else _page_html(page["url"], fetched)
         if html is None:  # keep a copy of what was fetched, for debugging (uploaded with the run)
             saved = OUT / "pages" / f"{state.slug(site['name'])}-{i + 1}.html"
             saved.parent.mkdir(parents=True, exist_ok=True)
@@ -105,12 +157,12 @@ def print_table(units, max_rent=None):
               f"{u['available'] or '?':<11} {u['special'] or ''}{over}")
 
 
-def process_site(site, topic, send_enabled, now):
+def process_site(site, topic, send_enabled, now, fetched=None):
     """Scrape one site, diff against saved state, log changes, notify, save. Returns (units, ok)."""
     name = site["name"]
     today = now.date().isoformat()
     print(f"\n== {name} ==")
-    units = scrape(site)
+    units = scrape(site, fetched=fetched)
     if units is None:
         history.log_failure(name, now, "no units parsed")
         return [], False
@@ -188,10 +240,11 @@ def main():
 
     now = datetime.now(timezone.utc)
     history.ensure_started(sites, now)
+    fetched = prefetch(sites)
     all_units, failed = [], []
     for site in sites:
         try:
-            units, ok = process_site(site, topic, send_enabled, now)
+            units, ok = process_site(site, topic, send_enabled, now, fetched)
         except Exception as e:  # one broken site shouldn't stop the others
             print(f"  !! {site['name']} failed: {e}")
             history.log_failure(site["name"], now, str(e)[:200])

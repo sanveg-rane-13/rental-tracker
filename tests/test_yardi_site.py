@@ -56,3 +56,27 @@ def test_sqft_with_hidden_cell_labels():
     assert u["0930"]["sqft"] == 1037
     assert u["1204"]["sqft"] == 702        # skips the repeated unit number
     assert u["1510"]["sqft"] == 655
+
+
+BAY = """<html><body>
+<h1>1 BR 1 BA Res 01 &amp; 09: FL 8 - 44</h1>
+<p>1 Bed | 1 Bath | Approximately 685 square feet</p>
+<div class="unit"><span>Apartment:</span> <span># 30-09</span>
+  <span>Starting at: $4,016.00</span> <span>Move-in: 10/5/2026</span> <a>Apply</a></div>
+<div class="unit"><span>Apartment:</span> <span># 08-01</span>
+  <span>Starting at: $3,796.00</span> <span>Move-in: Available Now</span></div>
+</body></html>"""
+
+
+def test_plan_page_with_one_size_for_all_units():
+    u = {x["unit"]: x for x in parse(BAY, building="65 Bay Street", beds="1 Bedroom")}
+    assert set(u) == {"30-09", "08-01"}
+    assert u["30-09"]["base_rent"] == 4016 and u["30-09"]["available"] == "10/5/2026"
+    assert u["08-01"]["available"] == "Now"
+    assert u["30-09"]["sqft"] == 685 and u["08-01"]["sqft"] == 685
+
+
+def test_plan_size_range_is_not_used():
+    ranged = BAY.replace("Approximately 685 square feet", "650 - 780 square feet")
+    u = {x["unit"]: x for x in parse(ranged, building="65 Bay Street", beds="1 Bedroom")}
+    assert u["30-09"]["sqft"] is None
