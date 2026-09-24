@@ -1,0 +1,51 @@
+name: Apartment report
+
+on:
+  workflow_dispatch:        # manual only: Actions -> Apartment report -> Run workflow
+    inputs:
+      max_rent:
+        description: "Max rent (blank = use report.json)"
+        required: false
+        default: ""
+      min_sqft:
+        description: "Min sq ft (blank = use report.json, 0 = no minimum)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read            # only reads data/, never changes the repo
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Build and send report
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          MAX_RENT: ${{ inputs.max_rent }}
+          MIN_SQFT: ${{ inputs.min_sqft }}
+        run: |
+          args=""
+          if [ -n "$MAX_RENT" ]; then args="$args --max-rent $MAX_RENT"; fi
+          if [ -n "$MIN_SQFT" ]; then args="$args --min-sqft $MIN_SQFT"; fi
+          python report.py $args
+
+      - name: Upload report CSV
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: report
+          path: output/report.csv
+          retention-days: 7

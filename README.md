@@ -42,6 +42,24 @@ Safety checks:
 
 `time_utc` / `time_ny` are when the run saw the change. Runs are hourly, so times are accurate to about an hour. The log covers the same units as the notifications (the `beds` filter in `sites.json`), at every price.
 
+## On-demand report
+
+**Actions → Apartment report → Run workflow** lists every currently tracked unit at or under a rent limit (and optionally a minimum size), from the saved `data/*.json` files. It doesn't fetch any sites.
+
+Settings in `report.json`:
+
+```json
+{ "emails": ["you@gmail.com"], "max_rent": 3500, "min_sqft": null }
+```
+
+The Run workflow form has optional **Max rent** and **Min sq ft** fields that override these for one run (Min sq ft `0` = no minimum). Units with unknown size are left out when a minimum is set, and the report says how many.
+
+Delivery:
+- **Email** (table in the body + CSV attachment) when the repo has `SMTP_USER` and `SMTP_PASSWORD` secrets and `report.json` has real addresses. With Gmail: turn on 2-Step Verification, create an app password at <https://myaccount.google.com/apppasswords>, then set `SMTP_USER` = your Gmail address and `SMTP_PASSWORD` = the 16-character app password. For another provider, also add `SMTP_HOST` / `SMTP_PORT` secrets and map them in `report.yml`.
+- Otherwise **ntfy**, on the same topic as the alerts (long reports are split into several messages).
+
+Either way the report is printed in the run log and attached to the run as `report.csv`.
+
 ## Setup
 
 1. **Phone:** install the ntfy app from the App Store and subscribe to a topic with a hard-to-guess name, e.g. `rentals-7f3k9q2m`. (Anyone who knows the topic name can read it, so don't use something like `rentals`.)
