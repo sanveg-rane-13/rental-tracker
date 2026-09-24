@@ -7,7 +7,7 @@
       "unit": "1203",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3620,
+      "base_rent": 4000,
       "available": "Now",
       "sqft": 643,
       "special": null,
@@ -15,7 +15,7 @@
       "price_history": [
         {
           "date": "2026-09-24",
-          "price": 3620
+          "price": 4000
         }
       ]
     },
