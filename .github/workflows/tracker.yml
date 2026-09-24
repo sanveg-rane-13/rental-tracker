@@ -2,9 +2,15 @@ name: Rental tracker
 
 on:
   workflow_dispatch:        # "Run workflow" button in the Actions tab
-  # Turn on once step 2 is confirmed working (GitHub may delay runs a few minutes):
-  # schedule:
-  #   - cron: "7 * * * *"   # hourly, at :07
+  schedule:
+    - cron: "7 * * * *"     # hourly at :07 UTC (GitHub may start it a few minutes late)
+
+permissions:
+  contents: write           # lets the job commit data/*.json back to the repo
+
+concurrency:
+  group: rental-tracker     # never run two at once (they'd both edit data/)
+  cancel-in-progress: false
 
 jobs:
   track:
@@ -20,12 +26,29 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Fetch and parse listings
+      - name: Fetch, compare and notify
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python tracker.py
 
-      - name: Upload results
-        if: always()          # upload the debug HTML too if parsing failed
+      - name: Save seen listings
+        if: always()        # save sites that worked even if another site failed
+        run: |
+          git config user.name "rental-tracker"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p data && git add data/
+          if git diff --cached --quiet; then
+            echo "No changes to save"
+          else
+            git commit -m "Update seen listings"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Upload latest scrape
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: listings
           path: output/
+          retention-days: 7
