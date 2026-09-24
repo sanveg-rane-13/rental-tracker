@@ -49,12 +49,11 @@ def test_text_report(data):
     assert "1 unit(s) under the rent limit with unknown size" in text
 
 
-def test_ntfy_fallback_splits_long_reports(data, monkeypatch):
-    (data / "report.json").write_text(json.dumps({"emails": ["you@example.com"], "max_rent": 5000}))
+def test_long_reports_are_split(data, monkeypatch):
+    (data / "report.json").write_text(json.dumps({"max_rent": 5000}))
     sent = []
     monkeypatch.setattr(notify, "send", lambda topic, title, body, **k: sent.append((title, body)))
     monkeypatch.setenv("NTFY_TOPIC", "t")
-    monkeypatch.delenv("SMTP_USER", raising=False)
     monkeypatch.setattr(report, "NTFY_LIMIT", 120)
     monkeypatch.setattr("sys.argv", ["report.py"])
     report.main()
@@ -63,35 +62,22 @@ def test_ntfy_fallback_splits_long_reports(data, monkeypatch):
     assert "".join(b for _, b in sent).count("Lincoln House 405") == 1
 
 
-def test_email(data, monkeypatch):
-    (data / "report.json").write_text(json.dumps(
-        {"emails": ["a@x.com", " b@y.com "], "max_rent": 3500, "min_sqft": None}))
-    monkeypatch.setenv("SMTP_USER", "me@gmail.com")
-    monkeypatch.setenv("SMTP_PASSWORD", "app-pass")
-    sent = {}
-
-    class FakeSMTP:
-        def __init__(self, host, port, timeout):
-            sent["server"] = (host, port)
-        def __enter__(self): return self
-        def __exit__(self, *a): pass
-        def starttls(self): sent["tls"] = True
-        def login(self, u, p): sent["login"] = (u, p)
-        def send_message(self, msg): sent["msg"] = msg
-
-    monkeypatch.setattr(report.smtplib, "SMTP", FakeSMTP)
-    monkeypatch.setattr("sys.argv", ["report.py", "--max-rent", "$3,500"])
-    report.main()
-    msg = sent["msg"]
-    assert sent["server"] == ("smtp.gmail.com", 587) and sent["tls"]
-    assert msg["To"] == "a@x.com, b@y.com"
-    assert msg["Subject"].startswith("Apartments at or under $3,500: 3 found")
-    parts = {p.get_content_type(): p for p in msg.walk()}
-    assert "Lincoln House" in parts["text/html"].get_content()
-    assert parts["text/csv"].get_filename() == "report.csv"
-
 
 def test_number_parsing():
     assert report._number("$3,500") == 3500
     with pytest.raises(Exception):
         report._number("cheap")
+
+
+def test_ntfy_report_with_overrides(data, monkeypatch):
+    (data / "report.json").write_text(json.dumps({"max_rent": 3000, "min_sqft": 800}))
+    sent = []
+    monkeypatch.setattr(notify, "send", lambda topic, title, body, **k: sent.append((title, body)))
+    monkeypatch.setenv("NTFY_TOPIC", "t")
+    monkeypatch.setattr("sys.argv", ["report.py", "--max-rent", "$3,500", "--min-sqft", "0"])
+    report.main()
+    assert len(sent) == 1
+    title, body = sent[0]
+    assert title == "Report: 3 apartment(s) at or under $3,500"
+    assert "Lincoln House 405: $3,064 · 700 sq ft · available now" in body
+    assert (data / "out" / "report.csv").exists()

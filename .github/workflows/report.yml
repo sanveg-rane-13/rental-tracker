@@ -31,8 +31,6 @@ jobs:
 
       - name: Build and send report
         env:
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           MAX_RENT: ${{ inputs.max_rent }}
           MIN_SQFT: ${{ inputs.min_sqft }}

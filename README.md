@@ -44,21 +44,15 @@ Safety checks:
 
 ## On-demand report
 
-**Actions → Apartment report → Run workflow** lists every currently tracked unit at or under a rent limit (and optionally a minimum size), from the saved `data/*.json` files. It doesn't fetch any sites.
+**Actions → Apartment report → Run workflow** sends your ntfy topic every currently tracked unit at or under a rent limit (and optionally a minimum size), cheapest first, grouped by property. It reads the saved `data/*.json` files and doesn't fetch any sites, so it's as current as the tracker's last run.
 
 Settings in `report.json`:
 
 ```json
-{ "emails": ["you@gmail.com"], "max_rent": 3500, "min_sqft": null }
+{ "max_rent": 3500, "min_sqft": null }
 ```
 
-The Run workflow form has optional **Max rent** and **Min sq ft** fields that override these for one run (Min sq ft `0` = no minimum). Units with unknown size are left out when a minimum is set, and the report says how many.
-
-Delivery:
-- **Email** (table in the body + CSV attachment) when the repo has `SMTP_USER` and `SMTP_PASSWORD` secrets and `report.json` has real addresses. With Gmail: turn on 2-Step Verification, create an app password at <https://myaccount.google.com/apppasswords>, then set `SMTP_USER` = your Gmail address and `SMTP_PASSWORD` = the 16-character app password. For another provider, also add `SMTP_HOST` / `SMTP_PORT` secrets and map them in `report.yml`.
-- Otherwise **ntfy**, on the same topic as the alerts (long reports are split into several messages).
-
-Either way the report is printed in the run log and attached to the run as `report.csv`.
+The Run workflow form has optional **Max rent** and **Min sq ft** fields that override these for one run (Min sq ft `0` = no minimum). Units with unknown size are left out when a minimum is set, and the report says how many. Long reports are split into several ntfy messages ("(1/3)", ...). The report is also printed in the run log and attached to the run as `report.csv`.
 
 ## Setup
 
