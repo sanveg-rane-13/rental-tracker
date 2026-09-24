@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-09-24T14:13:38+00:00",
+  "updated_at": "2026-09-24T16:21:32+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -2349,6 +2349,25 @@
         {
           "date": "2026-09-24",
           "price": 3611
+        }
+      ]
+    },
+    "Waterside Square North|2014": {
+      "building": "Waterside Square North",
+      "unit": "2014",
+      "beds": "1 Bedroom",
+      "rent": 3560,
+      "base_rent": 3547,
+      "base_rent_max": null,
+      "available": "10/11/2026",
+      "sqft": 752,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3560
         }
       ]
     },

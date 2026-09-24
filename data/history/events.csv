@@ -333,3 +333,15 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-09-24T14:13,2026-09-24 10:13,18 Park,18 Park,0634,1 Bedroom,price_change,3700,3690,3700,4080,,12/7/2026,,651,Floor Plan Video,,2026-09-24,
 2026-09-24T14:13,2026-09-24 10:13,18 Park,18 Park,0930,1 Bedroom,price_change,3725,3715,3725,4105,,12/7/2026,,637,Floor Plan Video,,2026-09-24,
 2026-09-24T14:13,2026-09-24 10:13,18 Park,18 Park,1035,1 Bedroom,price_change,3610,3600,3610,3955,,12/21/2026,,651,Floor Plan Video,,2026-09-24,
+2026-09-24T16:21,2026-09-24 12:21,Newport Rentals,Waterside Square North,2014,1 Bedroom,listed,3560,,3547,,3560,10/11/2026,,752,,,2026-09-24,
+2026-09-24T16:21,2026-09-24 12:21,BLVD Collection,BLVD 425,PH205,1 Bedroom,available_change,3600,,3600,,,Now,9/24/2026,786,B425 A6PH,,2026-09-24,
+2026-09-24T16:21,2026-09-24 12:21,65 Bay Street,65 Bay Street,30-09,1 Bedroom,listed,4016,,4016,,,Now,,685,Apartment: # 30-09,,2026-09-24,first run
+2026-09-24T16:21,2026-09-24 12:21,65 Bay Street,65 Bay Street,18-09,1 Bedroom,listed,3871,,3871,,,Now,,685,Apartment: # 18-09,,2026-09-24,first run
+2026-09-24T16:21,2026-09-24 12:21,65 Bay Street,65 Bay Street,08-01,1 Bedroom,listed,3796,,3796,,,Now,,685,Apartment: # 08-01,,2026-09-24,first run
+2026-09-24T16:21,2026-09-24 12:21,65 Bay Street,65 Bay Street,25-08,1 Bedroom,listed,4458,,4458,,,Now,,794,Apartment: # 25-08,,2026-09-24,first run
+2026-09-24T16:21,2026-09-24 12:21,65 Bay Street,65 Bay Street,27-02,1 Bedroom,listed,4398,,4398,,,Now,,794,Apartment: # 27-02,,2026-09-24,first run
+2026-09-24T16:21,2026-09-24 12:21,65 Bay Street,65 Bay Street,17-02,1 Bedroom,listed,4218,,4218,,,Now,,794,Apartment: # 17-02,,2026-09-24,first run
+2026-09-24T16:21,2026-09-24 12:21,65 Bay Street,65 Bay Street,22-07,1 Bedroom,listed,4913,,4913,,,Now,,,Apartment: # 22-07,,2026-09-24,first run
+2026-09-24T16:21,2026-09-24 12:21,65 Bay Street,65 Bay Street,30-07,1 Bedroom,listed,4950,,4950,,,Now,,,Apartment: # 30-07,,2026-09-24,first run
+2026-09-24T16:21,2026-09-24 12:21,65 Bay Street,65 Bay Street,06-05,1 Bedroom,listed,5050,,5050,,,Now,,1058,Apartment: # 06-05,,2026-09-24,first run
+2026-09-24T16:21,2026-09-24 12:21,65 Bay Street,65 Bay Street,03-06,1 Bedroom,listed,4850,,4850,,,Now,,911,Apartment: # 03-06,,2026-09-24,first run

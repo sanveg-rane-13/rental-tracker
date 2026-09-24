@@ -1,0 +1,196 @@
+{
+  "property": "65 Bay Street",
+  "updated_at": "2026-09-24T16:21:33+00:00",
+  "units": {
+    "65 Bay Street|03-06": {
+      "building": "65 Bay Street",
+      "unit": "03-06",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4850,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 911,
+      "special": null,
+      "floor_plan": "Apartment: # 03-06",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4850
+        }
+      ]
+    },
+    "65 Bay Street|06-05": {
+      "building": "65 Bay Street",
+      "unit": "06-05",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 5050,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 1058,
+      "special": null,
+      "floor_plan": "Apartment: # 06-05",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 5050
+        }
+      ]
+    },
+    "65 Bay Street|08-01": {
+      "building": "65 Bay Street",
+      "unit": "08-01",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3796,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 685,
+      "special": null,
+      "floor_plan": "Apartment: # 08-01",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3796
+        }
+      ]
+    },
+    "65 Bay Street|17-02": {
+      "building": "65 Bay Street",
+      "unit": "17-02",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4218,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 794,
+      "special": null,
+      "floor_plan": "Apartment: # 17-02",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4218
+        }
+      ]
+    },
+    "65 Bay Street|18-09": {
+      "building": "65 Bay Street",
+      "unit": "18-09",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3871,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 685,
+      "special": null,
+      "floor_plan": "Apartment: # 18-09",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 3871
+        }
+      ]
+    },
+    "65 Bay Street|22-07": {
+      "building": "65 Bay Street",
+      "unit": "22-07",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4913,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Apartment: # 22-07",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4913
+        }
+      ]
+    },
+    "65 Bay Street|25-08": {
+      "building": "65 Bay Street",
+      "unit": "25-08",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4458,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 794,
+      "special": null,
+      "floor_plan": "Apartment: # 25-08",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4458
+        }
+      ]
+    },
+    "65 Bay Street|27-02": {
+      "building": "65 Bay Street",
+      "unit": "27-02",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4398,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 794,
+      "special": null,
+      "floor_plan": "Apartment: # 27-02",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4398
+        }
+      ]
+    },
+    "65 Bay Street|30-07": {
+      "building": "65 Bay Street",
+      "unit": "30-07",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4950,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Apartment: # 30-07",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4950
+        }
+      ]
+    },
+    "65 Bay Street|30-09": {
+      "building": "65 Bay Street",
+      "unit": "30-09",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4016,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 685,
+      "special": null,
+      "floor_plan": "Apartment: # 30-09",
+      "first_seen": "2026-09-24",
+      "price_history": [
+        {
+          "date": "2026-09-24",
+          "price": 4016
+        }
+      ]
+    }
+  }
+}
