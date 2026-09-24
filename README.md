@@ -27,6 +27,21 @@ Safety checks:
 - A site that parses 0 units, or fewer than half of what was saved, is treated as a parser problem: nothing is saved or sent for it, and the run fails so you notice.
 - On GitHub Actions, the run refuses to proceed if `NTFY_TOPIC` isn't set, so no changes are recorded as seen without being notified.
 
+## History log (for analysis later)
+
+`data/history/events.csv` records every change the tracker sees, one row per change, never edited afterward. Open it in Excel, Google Sheets or pandas. Download it from GitHub with the file's **Download raw file** button.
+
+| event | meaning |
+|---|---|
+| `tracking_started` | one-time snapshot of every unit already saved when the log began |
+| `listed` | unit appeared (property's first run, a new listing, or re-listed) |
+| `price_change` | `price` is the new price, `old_price` the previous one |
+| `available_change` | move-in date changed: `available` new, `old_available` previous |
+| `delisted` | unit no longer listed; `price` and `available` are its last known values |
+| `site_failed` | property couldn't be read that run: a gap in the data, not a delisting |
+
+`time_utc` / `time_ny` are when the run saw the change. Runs are hourly, so times are accurate to about an hour. The log covers the same units as the notifications (the `beds` filter in `sites.json`), at every price.
+
 ## Setup
 
 1. **Phone:** install the ntfy app from the App Store and subscribe to a topic with a hard-to-guess name, e.g. `rentals-7f3k9q2m`. (Anyone who knows the topic name can read it, so don't use something like `rentals`.)

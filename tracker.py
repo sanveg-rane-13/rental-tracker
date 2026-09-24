@@ -19,6 +19,7 @@ from pathlib import Path
 
 import requests
 
+import history
 import notify
 import state
 from parsers import PARSERS
@@ -104,19 +105,23 @@ def print_table(units, max_rent=None):
               f"{u['available'] or '?':<11} {u['special'] or ''}{over}")
 
 
-def process_site(site, topic, send_enabled, today):
-    """Scrape one site, diff against saved state, notify, save. Returns (units, ok)."""
+def process_site(site, topic, send_enabled, now):
+    """Scrape one site, diff against saved state, log changes, notify, save. Returns (units, ok)."""
     name = site["name"]
+    today = now.date().isoformat()
     print(f"\n== {name} ==")
     units = scrape(site)
     if units is None:
+        history.log_failure(name, now, "no units parsed")
         return [], False
     max_rent = site.get("max_rent")
     print_table(units, max_rent)
 
     old = state.load(name)
     if old is None:
-        state.save(name, state.diff({}, units, today)[0])
+        new_state, events = state.diff({}, units, today)
+        history.log_events(name, events, now, note="first run")
+        state.save(name, new_state)
         print(f"\n  First run for {name}: saved {len(units)} units, no notifications sent.")
         return units, True
 
@@ -125,15 +130,19 @@ def process_site(site, topic, send_enabled, today):
     if len(old) >= 10 and len(units) < len(old) * 0.5:
         print(f"  !! only {len(units)} units vs {len(old)} saved - looks like a parsing "
               f"problem, not saving or notifying this run")
+        history.log_failure(name, now, f"only {len(units)} units vs {len(old)} saved")
         return units, False
 
-    new_state, events = state.diff(old, units, today)
-    gone = len(set(old) - set(new_state))
+    new_state, all_events = state.diff(old, units, today)
+    gone = sum(e["type"] == "delisted" for e in all_events)
+    # Only new units and price changes are notified; date changes and delistings are just logged.
+    events = [e for e in all_events if e["type"] in ("new", "price")]
     if max_rent:
         # Units with no listed price are held back until a price appears.
         events = [e for e in events
                   if state.price_of(e["unit"]) is not None and state.price_of(e["unit"]) <= max_rent]
-    print(f"\n  {len(events)} notifiable change(s), {gone} unit(s) no longer listed")
+    print(f"\n  {len(all_events)} change(s) logged, {len(events)} to notify, "
+          f"{gone} unit(s) no longer listed")
 
     if events:
         title, body = notify.build_message(name, events)
@@ -145,6 +154,9 @@ def process_site(site, topic, send_enabled, today):
             print("  (not sent: notifications disabled)")
 
     state.save(name, new_state)
+    # Logged only once saved: if notifying fails, the run stops before this and the
+    # next run finds (and logs) the same changes once.
+    history.log_events(name, all_events, now)
     return units, True
 
 
@@ -174,13 +186,15 @@ def main():
         # Without this, a scheduled run would record changes as seen without telling anyone.
         sys.exit("NTFY_TOPIC secret is not set. Add it under Settings -> Secrets and variables -> Actions.")
 
-    today = datetime.now(timezone.utc).date().isoformat()
+    now = datetime.now(timezone.utc)
+    history.ensure_started(sites, now)
     all_units, failed = [], []
     for site in sites:
         try:
-            units, ok = process_site(site, topic, send_enabled, today)
+            units, ok = process_site(site, topic, send_enabled, now)
         except Exception as e:  # one broken site shouldn't stop the others
             print(f"  !! {site['name']} failed: {e}")
+            history.log_failure(site["name"], now, str(e)[:200])
             units, ok = [], False
         all_units.extend({**u, "property": site["name"]} for u in units)
         if not ok:

@@ -50,15 +50,19 @@ def save(property_name, units):
 def diff(old, scraped, today):
     """Compare saved units with a fresh scrape.
 
-    Returns (new_state, events). Events are dicts with type "new" or "price",
-    before any budget filter is applied.
+    Returns (new_state, events), before any budget filter. Event types:
+      "new"        unit not in the saved file (first listing, or re-listed)
+      "price"      price changed (or appeared); has "old_price"
+      "available"  move-in date changed; has "old_available"   (logged, not notified)
+      "delisted"   saved unit no longer listed                  (logged, not notified)
     """
     new_state, events = {}, []
     for u in scraped:
         key = unit_key(u)
         prev = old.get(key)
         rec = {k: u.get(k) for k in
-               ("building", "unit", "beds", "rent", "base_rent", "available", "sqft", "special")}
+               ("building", "unit", "beds", "rent", "base_rent", "base_rent_max",
+                "available", "sqft", "special", "floor_plan")}
         if prev is None:
             rec["first_seen"] = today
             rec["price_history"] = [{"date": today, "price": price_of(u)}]
@@ -71,5 +75,11 @@ def diff(old, scraped, today):
             if new_price and new_price != old_price:
                 rec["price_history"].append({"date": today, "price": new_price})
                 events.append({"type": "price", "unit": rec, "old_price": old_price})
+            if prev.get("available") != rec.get("available"):
+                events.append({"type": "available", "unit": rec,
+                               "old_available": prev.get("available")})
         new_state[key] = rec
+    for key, prev in old.items():
+        if key not in new_state:
+            events.append({"type": "delisted", "unit": prev})
     return new_state, events

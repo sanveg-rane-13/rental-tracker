@@ -1,9 +1,15 @@
 """End-to-end: seed run, then a run with changes, checking what gets notified."""
 import json
 
+import csv
+from datetime import datetime, timezone
+
+import history
 import notify
 import state
 import tracker
+
+NOW = datetime(2026, 9, 24, 14, 15, tzinfo=timezone.utc)   # 10:15 in New York
 
 SITE = {"name": "Test Rentals", "url": "https://example.com", "parser": "fake",
         "beds": ["1 Bedroom"], "max_rent": 4000}
@@ -21,7 +27,7 @@ def run(monkeypatch, tmp_path, units):
     monkeypatch.setitem(tracker.PARSERS, "fake", lambda html: units)
     sent = []
     monkeypatch.setattr(notify, "send", lambda *a, **k: sent.append(a))
-    _, ok = tracker.process_site(SITE, "topic", True, "2026-09-24")
+    _, ok = tracker.process_site(SITE, "topic", True, NOW)
     assert ok
     return sent
 
@@ -118,7 +124,47 @@ def test_multi_page_site(monkeypatch, tmp_path):
 def test_parse_collapse_does_not_overwrite(monkeypatch, tmp_path):
     run(monkeypatch, tmp_path, BASE)
     monkeypatch.setitem(tracker.PARSERS, "fake", lambda html: BASE[:2])
-    _, ok = tracker.process_site(SITE, "topic", True, "2026-09-24")
+    _, ok = tracker.process_site(SITE, "topic", True, NOW)
     assert not ok
     saved = json.loads((tmp_path / "data" / "test-rentals.json").read_text())["units"]
     assert len(saved) == 14
+
+
+def read_log(tmp_path):
+    with (tmp_path / "data" / "history" / "events.csv").open() as f:
+        return list(csv.DictReader(f))
+
+
+def test_history_log(monkeypatch, tmp_path):
+    run(monkeypatch, tmp_path, BASE)                       # first run: all 1-beds "listed"
+    rows = read_log(tmp_path)
+    assert len(rows) == 14 and {r["event"] for r in rows} == {"listed"}
+    assert rows[0]["time_utc"] == "2026-09-24T14:15" and rows[0]["time_ny"] == "2026-09-24 10:15"
+    assert rows[0]["note"] == "first run"
+
+    later = [dict(u) for u in BASE if (u["building"], u["unit"]) != ("B", "202")]
+    by = {(u["building"], u["unit"]): u for u in later}
+    by[("A", "102")]["rent"] = 4000
+    by[("A", "101")]["available"] = "10/1/2026"
+    run(monkeypatch, tmp_path, later)
+
+    new_rows = read_log(tmp_path)[14:]
+    got = {(r["event"], r["building"], r["unit"]) for r in new_rows}
+    assert got == {("price_change", "A", "102"), ("available_change", "A", "101"),
+                   ("delisted", "B", "202")}
+    pc = next(r for r in new_rows if r["event"] == "price_change")
+    assert (pc["price"], pc["old_price"]) == ("4000", "4100")
+    ac = next(r for r in new_rows if r["event"] == "available_change")
+    assert (ac["available"], ac["old_available"]) == ("10/1/2026", "Now")
+    dl = next(r for r in new_rows if r["event"] == "delisted")
+    assert dl["price"] == "3700"                           # last known price
+
+
+def test_history_starts_with_snapshot_of_existing_state(monkeypatch, tmp_path):
+    run(monkeypatch, tmp_path, BASE)
+    (tmp_path / "data" / "history" / "events.csv").unlink()   # as if upgrading from before the log
+    history.ensure_started([SITE, {"name": "Never Run"}], NOW)
+    rows = read_log(tmp_path)
+    assert len(rows) == 14 and {r["event"] for r in rows} == {"tracking_started"}
+    history.ensure_started([SITE], NOW)                        # only ever once
+    assert len(read_log(tmp_path)) == 14
