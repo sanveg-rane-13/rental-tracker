@@ -99,7 +99,9 @@ def process_site(site, topic, send_enabled, today):
     new_state, events = state.diff(old, units, today)
     gone = len(set(old) - set(new_state))
     if max_rent:
-        events = [e for e in events if (state.price_of(e["unit"]) or 0) <= max_rent]
+        # Units with no listed price are held back until a price appears.
+        events = [e for e in events
+                  if state.price_of(e["unit"]) is not None and state.price_of(e["unit"]) <= max_rent]
     print(f"\n  {len(events)} notifiable change(s), {gone} unit(s) no longer listed")
 
     if events:

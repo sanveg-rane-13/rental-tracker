@@ -67,7 +67,8 @@ def diff(old, scraped, today):
             rec["first_seen"] = prev.get("first_seen", today)
             rec["price_history"] = list(prev.get("price_history", []))
             old_price, new_price = price_of(prev), price_of(u)
-            if new_price and old_price and new_price != old_price:
+            # A price appearing on a unit that had none (old_price None) also counts.
+            if new_price and new_price != old_price:
                 rec["price_history"].append({"date": today, "price": new_price})
                 events.append({"type": "price", "unit": rec, "old_price": old_price})
         new_state[key] = rec

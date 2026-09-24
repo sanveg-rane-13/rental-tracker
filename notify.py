@@ -24,6 +24,8 @@ def format_event(e):
     if e["type"] == "new":
         return f"🆕 {name}: {_money(price_of(u))}, available {_avail(u)}{special}"
     old, new = e["old_price"], price_of(u)
+    if old is None:
+        return f"💲 {name}: now priced at {_money(new)}, available {_avail(u)}{special}"
     arrow = "⬇️" if new < old else "⬆️"
     return f"{arrow} {name}: {_money(old)} → {_money(new)}, available {_avail(u)}{special}"
 

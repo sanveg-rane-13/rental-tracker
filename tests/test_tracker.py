@@ -65,6 +65,31 @@ def test_changes(monkeypatch, tmp_path):
     assert run(monkeypatch, tmp_path, changed) == []   # nothing changed -> nothing sent
 
 
+def test_base_rent_only_and_missing_price(monkeypatch, tmp_path):
+    """Sites like BLVD have rent=None and only base_rent; some units may have no price at all."""
+    def base_only(b, n, base):
+        u = unit(b, n, 3000)
+        u.update(rent=None, base_rent=base)
+        return u
+
+    first = BASE + [base_only("E", "501", 3600), base_only("E", "502", None)]
+    run(monkeypatch, tmp_path, first)
+
+    later = [dict(u) for u in first] + [base_only("E", "503", None)]  # new, no price: silent
+    by = {(u["building"], u["unit"]): u for u in later}
+    by[("E", "501")]["base_rent"] = 3500      # base-rent drop: notify
+    by[("E", "502")]["base_rent"] = 3650      # price appears: notify
+    sent = run(monkeypatch, tmp_path, later)
+    body = sent[0][2]
+    assert "⬇️ E 501: $3,600 → $3,500" in body
+    assert "💲 E 502: now priced at $3,650" in body
+    assert "503" not in body
+
+    by[("E", "503")]["base_rent"] = 3400      # its price appears later: notify then
+    sent = run(monkeypatch, tmp_path, later)
+    assert "💲 E 503: now priced at $3,400" in sent[0][2]
+
+
 def test_parse_collapse_does_not_overwrite(monkeypatch, tmp_path):
     run(monkeypatch, tmp_path, BASE)
     monkeypatch.setitem(tracker.PARSERS, "fake", lambda html: BASE[:2])
