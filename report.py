@@ -57,35 +57,69 @@ def _money(n):
     return f"${n:,}" if n else "?"
 
 
-def _avail(u):
+MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
+def _avail(u, this_year=None):
+    """'Now' -> 'now', '9/30/2026' -> 'Sep 30' (year shown only if it isn't this year)."""
     a = u.get("available") or "?"
-    return "now" if a.lower() == "now" else a
+    if a.lower() == "now":
+        return "now"
+    parts = a.split("/")
+    if len(parts) == 3 and all(p.isdigit() for p in parts):
+        m, d, y = (int(p) for p in parts)
+        this_year = this_year or datetime.now(NY).year
+        return f"{MONTHS[m - 1]} {d}" + (f", {y}" if y != this_year else "")
+    return a
+
+
+def _plural(n, word):
+    return f"{n} {word}" + ("" if n == 1 else "s")
 
 
 def describe(max_rent, min_sqft):
-    s = f"at or under {_money(max_rent)}"
-    return s + (f", at least {min_sqft:,} sq ft" if min_sqft else "")
+    """Plain ASCII on purpose: it's also used in the notification title, which is sent
+    as an HTTP header where non-ASCII characters can arrive garbled."""
+    s = f"up to {_money(max_rent)}"
+    return s + (f", {min_sqft:,}+ sq ft" if min_sqft else "")
 
 
-def text_line(u):
-    size = f" · {u['sqft']:,} sq ft" if u.get("sqft") else ""
-    special = f" · {u['special']}" if u.get("special") else ""
-    return (f"{u['building']} {u['unit']}: {_money(state.price_of(u))}{size}"
-            f" · available {_avail(u)}{special}")
+def text_line(u, show_building=True):
+    """'$3,285 · The Zenith 507 · 731 sq ft · now · 1 Month Free'"""
+    parts = [_money(state.price_of(u)),
+             f"{u['building']} {u['unit']}" if show_building else f"#{u['unit']}"]
+    if u.get("sqft"):
+        parts.append(f"{u['sqft']:,} sq ft")
+    parts.append(_avail(u))
+    if u.get("special"):
+        parts.append(u["special"])
+    return " · ".join(parts)
 
 
 def text_report(matches, max_rent, min_sqft, unknown_size):
-    lines = [f"{len(matches)} apartment(s) {describe(max_rent, min_sqft)}", ""]
-    by_property = {}
-    for u in matches:
-        by_property.setdefault(u["property"], []).append(u)
-    for prop, units in sorted(by_property.items()):
-        lines.append(f"{prop} ({len(units)})")
-        lines += [f"  {text_line(u)}" for u in units]
-        lines.append("")
+    """Plain text for ntfy: a summary, then one section per property (cheapest first),
+    each unit on one line with the price first. Sections are separated by blank lines."""
+    if not matches:
+        text = f"No apartments {describe(max_rent, min_sqft)} right now."
+    else:
+        by_property = {}
+        for u in matches:  # matches are already sorted by price
+            by_property.setdefault(u["property"], []).append(u)
+        cheapest = matches[0]
+        n_props = len(by_property)
+        blocks = [f"{_plural(len(matches), 'apartment')} {describe(max_rent, min_sqft)}\n"
+                  f"{n_props} {'property' if n_props == 1 else 'properties'} · cheapest "
+                  f"{_money(state.price_of(cheapest))} ({cheapest['property']})"]
+        for prop, units in by_property.items():  # insertion order = cheapest property first
+            one_building = all(u["building"] == prop for u in units)
+            lines = [f"━━ {prop.upper()} · {len(units)} ━━"]
+            lines += [text_line(u, show_building=not one_building) for u in units]
+            blocks.append("\n".join(lines))
+        text = "\n\n".join(blocks)
     if unknown_size:
-        lines.append(f"Not included: {unknown_size} unit(s) under the rent limit with unknown size.")
-    return "\n".join(lines).rstrip() + "\n"
+        text += (f"\n\n({_plural(unknown_size, 'unit')} under the rent limit left out: "
+                 f"size unknown)")
+    return text + "\n"
 
 
 def write_csv(matches, path):
@@ -99,14 +133,32 @@ def write_csv(matches, path):
             w.writerow({**u, "price": state.price_of(u)})
 
 
+def _fits(s):
+    return len(s.encode("utf-8")) <= NTFY_LIMIT
+
+
 def ntfy_chunks(text):
-    """Split the text report into ntfy-sized messages on line boundaries."""
+    """Split the report into ntfy-sized messages, keeping each property's section
+    together when it fits; a section too long for one message is split by lines."""
+    pieces = []
+    for block in text.strip("\n").split("\n\n"):
+        if _fits(block):
+            pieces.append(block)
+            continue
+        cur = ""
+        for line in block.split("\n"):
+            if cur and not _fits(cur + "\n" + line):
+                pieces.append(cur)
+                cur = ""
+            cur = f"{cur}\n{line}" if cur else line
+        if cur:
+            pieces.append(cur)
     chunks, cur = [], ""
-    for line in text.splitlines(keepends=True):
-        if len((cur + line).encode("utf-8")) > NTFY_LIMIT and cur:
+    for piece in pieces:
+        if cur and not _fits(cur + "\n\n" + piece):
             chunks.append(cur)
             cur = ""
-        cur += line
+        cur = f"{cur}\n\n{piece}" if cur else piece
     if cur:
         chunks.append(cur)
     return chunks
@@ -146,7 +198,7 @@ def main():
         sys.exit("NTFY_TOPIC is not set, nothing sent.")
     chunks = ntfy_chunks(text)
     for i, chunk in enumerate(chunks, 1):
-        title = f"Report: {len(matches)} apartment(s) {describe(max_rent, min_sqft)}"
+        title = f"Report: {_plural(len(matches), 'apartment')} {describe(max_rent, min_sqft)}"
         if len(chunks) > 1:
             title += f" ({i}/{len(chunks)})"
         notify.send(topic, title, chunk)

@@ -43,10 +43,9 @@ def test_select_by_rent_and_size(data):
 def test_text_report(data):
     m, unknown = report.select(report.load_units(), 3500, 720)
     text = report.text_report(m, 3500, 720, unknown)
-    assert text.startswith("1 apartment(s) at or under $3,500, at least 720 sq ft")
-    assert "Liberty Harbor (1)" in text
-    assert "The Zenith 512: $3,450 · 731 sq ft · available 9/30/2026" in text
-    assert "1 unit(s) under the rent limit with unknown size" in text
+    assert text.startswith("1 apartment up to $3,500, 720+ sq ft\n1 property · cheapest $3,450 (Liberty Harbor)")
+    assert "━━ LIBERTY HARBOR · 1 ━━\n$3,450 · The Zenith 512 · 731 sq ft · Sep 30" in text
+    assert "(1 unit under the rent limit left out: size unknown)" in text
 
 
 def test_long_reports_are_split(data, monkeypatch):
@@ -78,6 +77,29 @@ def test_ntfy_report_with_overrides(data, monkeypatch):
     report.main()
     assert len(sent) == 1
     title, body = sent[0]
-    assert title == "Report: 3 apartment(s) at or under $3,500"
-    assert "Lincoln House 405: $3,064 · 700 sq ft · available now" in body
+    assert title == "Report: 3 apartments up to $3,500"
+    assert title.isascii()
+    assert "$3,064 · Lincoln House 405 · 700 sq ft · now" in body
     assert (data / "out" / "report.csv").exists()
+
+
+def test_sections_ordered_by_cheapest_and_single_building_short_form(data):
+    state.save("18 Park", {"18|0610": {**unit("18 Park", "0610", base=2900, sqft=651)}})
+    m, _ = report.select(report.load_units(), 3500)
+    text = report.text_report(m, 3500, None, 0)
+    sections = [line for line in text.splitlines() if line.startswith("━━")]
+    assert sections == ["━━ 18 PARK · 1 ━━", "━━ NEWPORT RENTALS · 1 ━━", "━━ LIBERTY HARBOR · 2 ━━"]
+    assert "$2,900 · #0610 · 651 sq ft · now" in text     # building name not repeated
+
+
+def test_empty_report(data):
+    assert report.text_report([], 1000, None, 0) == "No apartments up to $1,000 right now.\n"
+
+
+def test_chunks_keep_sections_together(monkeypatch):
+    monkeypatch.setattr(report, "NTFY_LIMIT", 60)
+    text = "summary line\n\n━━ A · 2 ━━\n$1 · a\n$2 · b\n\n━━ B · 1 ━━\n$3 · c\n"
+    chunks = report.ntfy_chunks(text)
+    assert all(len(c.encode()) <= 60 for c in chunks)
+    assert any("━━ A · 2 ━━\n$1 · a\n$2 · b" in c for c in chunks)   # section A not split
+    assert "".join(chunks).count("$") == 3
