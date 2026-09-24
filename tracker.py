@@ -1,21 +1,26 @@
 #!/usr/bin/env python3
-"""Rental tracker, step 1/2: fetch each site, parse its units, print and save them.
+"""Rental tracker: fetch each site, compare with what was seen before, and push
+new units / price changes within budget to ntfy.
 
 Usage:
-    python tracker.py                    # fetch every site in sites.json
-    python tracker.py --html page.html   # parse a saved page instead (first site's parser)
+    python tracker.py                    # normal run (notifies if NTFY_TOPIC is set)
+    python tracker.py --no-notify        # print what would be sent, don't send
+    python tracker.py --html page.html   # parse a saved page for the first site, no state changes
 
-Output goes to output/listings.json. If a site returns no units, its raw HTML
-is saved to output/debug/ so the parser can be fixed.
+Saved state: data/<property>.json (one file per property, committed back to the repo).
+Latest scrape: output/listings.json. Raw HTML of a site that parsed 0 units: output/debug/.
 """
 import argparse
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
 
+import notify
+import state
 from parsers import PARSERS
 
 ROOT = Path(__file__).parent
@@ -37,79 +42,120 @@ def fetch(url):
     return r.text
 
 
-def slug(name):
-    return "".join(c if c.isalnum() else "-" for c in name.lower()).strip("-")
-
-
-def run_site(site, html=None):
-    print(f"\n== {site['name']} ==")
+def scrape(site, html=None):
+    """Returns the site's units after the bedroom filter, or None if parsing found nothing."""
     html = html if html is not None else fetch(site["url"])
     units = PARSERS[site["parser"]](html)
     print(f"  parsed {len(units)} units in total")
-
     if not units:
-        debug = OUT / "debug" / f"{slug(site['name'])}.html"
+        debug = OUT / "debug" / f"{state.slug(site['name'])}.html"
         debug.parent.mkdir(parents=True, exist_ok=True)
         debug.write_text(html, encoding="utf-8")
         print(f"  !! no units found - saved raw HTML to {debug}")
         return None
-
     wanted = {b.lower() for b in site.get("beds", [])}
     if wanted:
         units = [u for u in units if (u["beds"] or "").lower() in wanted]
         print(f"  {len(units)} match beds filter {site['beds']}")
-
-    for u in units:
-        u["property"] = site["name"]
-        u["source_url"] = site["url"]
     return units
 
 
-def print_table(units):
+def print_table(units, max_rent=None):
     if not units:
         return
-    print(f"\n{'Building':<24} {'Unit':<6} {'Rent':>8} {'Base':>8}  {'Available':<11} Special")
-    print("-" * 78)
-    for u in sorted(units, key=lambda u: (u["rent"] or 0)):
+    print(f"\n  {'Building':<24} {'Unit':<6} {'Rent':>8} {'Base':>8}  {'Available':<11} Special")
+    print("  " + "-" * 78)
+    for u in sorted(units, key=lambda u: state.price_of(u) or 0):
         rent = f"${u['rent']:,}" if u["rent"] else "?"
         base = f"${u['base_rent']:,}" if u["base_rent"] else "?"
-        print(f"{u['building']:<24} {u['unit']:<6} {rent:>8} {base:>8}  "
-              f"{u['available'] or '?':<11} {u['special'] or ''}")
+        over = "  (over budget)" if max_rent and (state.price_of(u) or 0) > max_rent else ""
+        print(f"  {u['building']:<24} {u['unit']:<6} {rent:>8} {base:>8}  "
+              f"{u['available'] or '?':<11} {u['special'] or ''}{over}")
+
+
+def process_site(site, topic, send_enabled, today):
+    """Scrape one site, diff against saved state, notify, save. Returns (units, ok)."""
+    name = site["name"]
+    print(f"\n== {name} ==")
+    units = scrape(site)
+    if units is None:
+        return [], False
+    max_rent = site.get("max_rent")
+    print_table(units, max_rent)
+
+    old = state.load(name)
+    if old is None:
+        state.save(name, state.diff({}, units, today)[0])
+        print(f"\n  First run for {name}: saved {len(units)} units, no notifications sent.")
+        return units, True
+
+    # A layout change that breaks half the parsing shouldn't wipe the saved units
+    # (the next good run would then re-announce all of them as new).
+    if len(old) >= 10 and len(units) < len(old) * 0.5:
+        print(f"  !! only {len(units)} units vs {len(old)} saved - looks like a parsing "
+              f"problem, not saving or notifying this run")
+        return units, False
+
+    new_state, events = state.diff(old, units, today)
+    gone = len(set(old) - set(new_state))
+    if max_rent:
+        events = [e for e in events if (state.price_of(e["unit"]) or 0) <= max_rent]
+    print(f"\n  {len(events)} notifiable change(s), {gone} unit(s) no longer listed")
+
+    if events:
+        title, body = notify.build_message(name, events)
+        print(f"  --- {title} ---\n" + "\n".join("  " + line for line in body.splitlines()))
+        if send_enabled:
+            notify.send(topic, title, body, click_url=site["url"])
+            print("  sent to ntfy")
+        else:
+            print("  (not sent: notifications disabled)")
+
+    state.save(name, new_state)
+    return units, True
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--html", help="parse a saved HTML file instead of fetching")
+    ap.add_argument("--html", help="parse a saved HTML file for the first site and print it (no state changes)")
+    ap.add_argument("--no-notify", action="store_true", help="print notifications instead of sending")
     args = ap.parse_args()
 
     sites = json.loads((ROOT / "sites.json").read_text())
     OUT.mkdir(exist_ok=True)
 
+    if args.html:
+        site = sites[0]
+        print(f"\n== {site['name']} (from {args.html}) ==")
+        units = scrape(site, Path(args.html).read_text(encoding="utf-8")) or []
+        print_table(units, site.get("max_rent"))
+        return
+
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    send_enabled = bool(topic) and not args.no_notify
+    if not topic and not args.no_notify and os.environ.get("GITHUB_ACTIONS"):
+        # Without this, a scheduled run would record changes as seen without telling anyone.
+        sys.exit("NTFY_TOPIC secret is not set. Add it under Settings -> Secrets and variables -> Actions.")
+
+    today = datetime.now(timezone.utc).date().isoformat()
     all_units, failed = [], []
     for site in sites:
         try:
-            html = Path(args.html).read_text(encoding="utf-8") if args.html else None
-            units = run_site(site, html)
-        except Exception as e:  # keep going so one broken site doesn't stop the rest
+            units, ok = process_site(site, topic, send_enabled, today)
+        except Exception as e:  # one broken site shouldn't stop the others
             print(f"  !! {site['name']} failed: {e}")
-            units = None
-        if units is None:
+            units, ok = [], False
+        all_units.extend({**u, "property": site["name"]} for u in units)
+        if not ok:
             failed.append(site["name"])
-        else:
-            print_table(units)
-            all_units.extend(units)
-        if args.html:
-            break
 
-    result = {
+    (OUT / "listings.json").write_text(json.dumps({
         "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "failed_sites": failed,
         "units": all_units,
-    }
-    (OUT / "listings.json").write_text(json.dumps(result, indent=2))
-    print(f"\nSaved {len(all_units)} units to output/listings.json")
+    }, indent=2))
     if failed:
-        print(f"Failed sites: {', '.join(failed)}")
+        print(f"\nFailed sites: {', '.join(failed)}")
         sys.exit(1)
 
 

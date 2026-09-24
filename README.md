@@ -1,35 +1,59 @@
 # Rental tracker
 
-Tracks rental listing pages and (later) sends push notifications for new units and price changes.
+Checks rental listing pages every hour and sends a push notification (via [ntfy](https://ntfy.sh)) when a unit within budget is newly listed or changes price.
 
-**Current stage:** steps 1–2. The script fetches each site, parses its units, prints them and saves them to `output/listings.json`.
+## How it works
 
-## Files
+1. `tracker.py` fetches each site in `sites.json` and parses its units with the matching parser in `parsers/`.
+2. Only units matching `beds` are kept.
+3. The units are compared with `data/<property>.json`, which holds every unit seen before, including over-budget ones.
+4. You're notified (one message per property per run) when:
+   - a **new unit** appears at or under `max_rent`
+   - a known unit's **price changes** and the new price is at or under `max_rent` (e.g. $4,079 → $3,950)
+5. The updated `data/*.json` files are committed back to the repo, so the commit history doubles as a price history.
 
-| File | What it does |
-|---|---|
-| `sites.json` | Sites to track: property name, URL, which parser to use, bedroom filter |
-| `parsers/newport.py` | Parser for Newport Rentals |
-| `tracker.py` | Fetches every site, applies the filter, prints a table, writes `output/listings.json` |
-| `.github/workflows/tracker.yml` | Runs the tracker on GitHub Actions (manual for now, hourly later) |
-| `tests/` | Parser tests against a sample page |
+Prices are the **total monthly rent** (base rent + required monthly fees), e.g. $3,064/mo rather than $3,051 base.
 
-## Run locally
+Stays silent for: availability-date changes, price changes that end over budget, units being delisted, and the **first run for a property** (it just records what's there).
 
-```bash
-pip install -r requirements.txt
-python tracker.py
+Safety checks:
+- A site that parses 0 units, or fewer than half of what was saved, is treated as a parser problem: nothing is saved or sent for it, and the run fails so you notice.
+- On GitHub Actions, the run refuses to proceed if `NTFY_TOPIC` isn't set, so no changes are recorded as seen without being notified.
+
+## Setup
+
+1. **Phone:** install the ntfy app from the App Store and subscribe to a topic with a hard-to-guess name, e.g. `rentals-7f3k9q2m`. (Anyone who knows the topic name can read it, so don't use something like `rentals`.)
+2. **GitHub:** in the repo, go to **Settings → Secrets and variables → Actions → New repository secret**. Name: `NTFY_TOPIC`, value: your topic name.
+3. Push this code. The workflow runs hourly by itself; you can also start it from **Actions → Rental tracker → Run workflow**.
+
+The first run saves `data/newport-rentals.json` and sends nothing. Later runs notify on changes.
+
+## Configuration: `sites.json`
+
+```json
+{
+  "name": "Newport Rentals",
+  "url": "https://www.newportrentals.com/apartments-jersey-city-for-rent/",
+  "parser": "newport",
+  "beds": ["1 Bedroom"],
+  "max_rent": 4000
+}
 ```
 
-## Run on GitHub Actions
-
-1. Create a new repo (private is fine; an hourly run uses about 700 of the 2,000 free minutes a month).
-2. Push this folder to it.
-3. Open **Actions → Rental tracker → Run workflow**.
-4. The log prints the table of units. `output/listings.json` is attached to the run under **Artifacts**.
-
-If a site returns no units, the job fails and its raw HTML is saved in `output/debug/` in the same artifact. Send that file over and the parser can be adjusted.
+- `name` is shown in notifications and sets the data file name (`data/newport-rentals.json`).
+- `beds` values are matched against the parser's output: `Studio`, `1 Bedroom`, `2 Bedrooms`, …
+- Leave out `max_rent` to be notified about every new unit and price change.
 
 ## Adding a site
 
-Add an entry to `sites.json`, write `parsers/<name>.py` with a `parse(html) -> list[dict]` function, and register it in `parsers/__init__.py`. Each unit dict needs at least `building`, `unit`, `beds`, `rent` and `available`.
+Add an entry to `sites.json`, write `parsers/<name>.py` with a `parse(html) -> list[dict]` function, and register it in `parsers/__init__.py`. Each unit needs `building`, `unit`, `beds`, `rent` and `available`, and ideally `base_rent`, `sqft` and `special`.
+
+## Running locally
+
+```bash
+pip install -r requirements.txt
+python tracker.py --no-notify              # full run, prints notifications instead of sending
+NTFY_TOPIC=your-topic python tracker.py    # full run with notifications
+python tracker.py --html saved_page.html   # just parse a saved page
+python -m pytest tests                     # tests
+```

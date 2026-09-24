@@ -3,6 +3,7 @@
     "name": "Newport Rentals",
     "url": "https://www.newportrentals.com/apartments-jersey-city-for-rent/",
     "parser": "newport",
-    "beds": ["1 Bedroom"]
+    "beds": ["1 Bedroom"],
+    "max_rent": 4000
   }
 ]
