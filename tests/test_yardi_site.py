@@ -36,3 +36,23 @@ def test_fields():
     assert u["0610"]["available"] == "Now"
     assert u["2112"]["sqft"] is None and u["2112"]["base_rent"] == 3715   # no Sq. Ft. column
     assert u["TH2"]["sqft"] == 1100
+
+
+LABELED = """<html><body><h2>1 bed 1 bath</h2><table><tbody>
+<tr><td><span class="lbl">Apartment</span> #0906</td>
+    <td><span class="lbl">Sq. Ft.</span> 646</td>
+    <td><span class="lbl">Rent</span> $3,720.00 to -$4,090.00</td>
+    <td><span class="lbl">Date Available</span> 9/25/2026</td><td><a>Apply</a></td></tr>
+<tr><td>#0930</td><td><span>Sq.Ft.:</span><span>1,037</span></td><td>$3,725.00</td><td>12/7/2026</td></tr>
+<tr><td>#1204</td><td><span class="sr-only">Unit 1204</span> 702</td><td>$3,650.00</td><td>Now</td></tr>
+<tr><td>#1510</td><td>655 sq ft</td><td>$3,610.00</td><td>Now</td></tr>
+</tbody></table></body></html>"""
+
+
+def test_sqft_with_hidden_cell_labels():
+    u = {x["unit"]: x for x in parse(LABELED, building="18 Park", beds="1 Bedroom")}
+    assert u["0906"]["sqft"] == 646
+    assert u["0906"]["base_rent"] == 3720 and u["0906"]["available"] == "9/25/2026"
+    assert u["0930"]["sqft"] == 1037
+    assert u["1204"]["sqft"] == 702        # skips the repeated unit number
+    assert u["1510"]["sqft"] == 655

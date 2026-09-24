@@ -25,7 +25,9 @@ from bs4 import BeautifulSoup, NavigableString
 
 CODE_RE = re.compile(r"^#\s?([A-Z0-9][A-Z0-9-]{1,9})$", re.I)
 PRICE_RE = re.compile(r"\$\s*([\d,]+)(?:\.\d{2})?(?:\s*(?:to|-)\s*-?\s*\$\s*([\d,]+)(?:\.\d{2})?)?")
-SQFT_RE = re.compile(r"^\s*([\d,]{3,6})\b")
+SQFT_LABELED_RE = re.compile(
+    r"Sq\.?\s*F(?:ee)?t\.?\s*:?\s*(\d{1,2},\d{3}|\d{3,5})\b|\b(\d{1,2},\d{3}|\d{3,5})\s*Sq\.?\s*F(?:ee)?t", re.I)
+NUMBER_RE = re.compile(r"(?<![\d,$#.])\b(\d{1,2},\d{3}|\d{3,5})\b(?![\d,.])")
 DATE_RE = re.compile(r"\b(\d{1,2}/\d{1,2}/\d{4})\b|\b(Now)\b", re.I)
 BEDS_RE = re.compile(r"\b(?:(Studio)|(\d+)\s*-?\s*(?:Bed(?:room)?s?|BR))\b", re.I)
 HEADINGS = ["h1", "h2", "h3", "h4", "h5"]
@@ -51,6 +53,19 @@ def _beds(match):
         return "Studio"
     n = int(match.group(2))
     return f"{n} Bedroom" + ("s" if n > 1 else "")
+
+
+def _sqft(text, code):
+    """Square footage from the row text between the unit number and the rent.
+    Cells often carry hidden mobile labels ("Sq. Ft. 646"), so prefer a labeled
+    number, then any standalone number that isn't the unit number repeated."""
+    m = SQFT_LABELED_RE.search(text)
+    if m:
+        return _money(m.group(1) or m.group(2))
+    for m in NUMBER_RE.finditer(text):
+        if m.group(1).lstrip("0") != code.lstrip("0"):
+            return _money(m.group(1))
+    return None
 
 
 def _find_row(node):
@@ -108,7 +123,7 @@ def parse(html, building=None, beds=None):
             continue
         price = PRICE_RE.search(after)
         before_price = after[: price.start()] if price else after[: date.start()]
-        sqft = SQFT_RE.search(before_price)
+        sqft = _sqft(before_price, code)
 
         heading, section = _section(node)
         if beds:
@@ -125,7 +140,7 @@ def parse(html, building=None, beds=None):
             "base_rent": _money(price.group(1)) if price else None,
             "base_rent_max": _money(price.group(2)) if price and price.group(2) else None,
             "available": date.group(1) or "Now",
-            "sqft": _money(sqft.group(1)) if sqft else None,
+            "sqft": sqft,
             "special": None,
             "floor_plan": heading or None,
         }
