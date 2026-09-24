@@ -7,7 +7,7 @@
       "unit": "0308",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3950,
+      "base_rent": 4200,
       "available": "Now",
       "sqft": 749,
       "special": null,
@@ -15,7 +15,7 @@
       "price_history": [
         {
           "date": "2026-09-24",
-          "price": 3950
+          "price": 4200
         }
       ]
     },
