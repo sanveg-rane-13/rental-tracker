@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-09-25T17:13:36+00:00",
+  "updated_at": "2026-09-25T20:39:16+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -790,33 +790,6 @@
         {
           "date": "2026-09-25",
           "price": 4499
-        }
-      ]
-    },
-    "Bisby|2405": {
-      "building": "Bisby",
-      "unit": "2405",
-      "beds": "1 Bedroom",
-      "rent": 4894,
-      "base_rent": 4836,
-      "base_rent_max": null,
-      "available": "10/22/2026",
-      "sqft": 773,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4862
-        },
-        {
-          "date": "2026-09-24",
-          "price": 4873
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4894
         }
       ]
     },
@@ -1645,33 +1618,6 @@
         }
       ]
     },
-    "Lincoln House|404": {
-      "building": "Lincoln House",
-      "unit": "404",
-      "beds": "1 Bedroom",
-      "rent": 3093,
-      "base_rent": 3080,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 716,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3089
-        },
-        {
-          "date": "2026-09-24",
-          "price": 3098
-        },
-        {
-          "date": "2026-09-25",
-          "price": 3093
-        }
-      ]
-    },
     "Lincoln House|405": {
       "building": "Lincoln House",
       "unit": "405",
@@ -1912,33 +1858,6 @@
         {
           "date": "2026-09-25",
           "price": 3437
-        }
-      ]
-    },
-    "Parkside West|1415": {
-      "building": "Parkside West",
-      "unit": "1415",
-      "beds": "1 Bedroom",
-      "rent": 3347,
-      "base_rent": 3334,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 767,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3389
-        },
-        {
-          "date": "2026-09-24",
-          "price": 3371
-        },
-        {
-          "date": "2026-09-25",
-          "price": 3347
         }
       ]
     },
@@ -2290,6 +2209,25 @@
         {
           "date": "2026-09-25",
           "price": 3243
+        }
+      ]
+    },
+    "Southampton|1801": {
+      "building": "Southampton",
+      "unit": "1801",
+      "beds": "1 Bedroom",
+      "rent": 3912,
+      "base_rent": 3864,
+      "base_rent_max": null,
+      "available": "10/19/2026",
+      "sqft": 849,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-25",
+      "price_history": [
+        {
+          "date": "2026-09-25",
+          "price": 3912
         }
       ]
     },
