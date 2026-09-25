@@ -507,3 +507,7 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-09-25T14:39,2026-09-25 10:39,Newport Rentals,Beach,311,1 Bedroom,price_change,5099,5078,5041,,5099,Now,,761,,0.5 Month Free,2026-09-24,
 2026-09-25T14:39,2026-09-25 10:39,Newport Rentals,Bisby,803,1 Bedroom,price_change,5104,5083,5046,,5104,10/25/2026,,835,,0.5 Month Free,2026-09-24,
 2026-09-25T14:39,2026-09-25 10:39,Newport Rentals,Beach,1223,1 Bedroom,price_change,5124,5103,5066,,5124,9/30/2026,,730,,0.5 Month Free,2026-09-24,
+2026-09-25T17:13,2026-09-25 13:13,Newport Rentals,Ellipse,2702,1 Bedroom,available_change,4899,,4841,,4899,10/11/2026,10/4/2026,753,,0.5 Month Free,2026-09-24,
+2026-09-25T17:13,2026-09-25 13:13,Newport Rentals,Beach,1227,1 Bedroom,delisted,4969,,4911,,4969,11/15/2026,,727,,0.5 Month Free,2026-09-24,
+2026-09-25T17:13,2026-09-25 13:13,Newport Rentals,East Hampton,2601,1 Bedroom,delisted,4018,,3970,,4018,10/26/2026,,862,,0.5 Month Free,2026-09-24,
+2026-09-25T17:13,2026-09-25 13:13,65 Bay Street,65 Bay Street,17-02,1 Bedroom,delisted,4232,,4232,,,Now,,794,Apartment: # 17-02,,2026-09-24,
