@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-09-24T23:53:13+00:00",
+  "updated_at": "2026-09-25T03:08:11+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -1379,29 +1379,6 @@
         {
           "date": "2026-09-24",
           "price": 4828
-        }
-      ]
-    },
-    "Laguna|210": {
-      "building": "Laguna",
-      "unit": "210",
-      "beds": "1 Bedroom",
-      "rent": 4578,
-      "base_rent": 4520,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 838,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4567
-        },
-        {
-          "date": "2026-09-24",
-          "price": 4578
         }
       ]
     },
