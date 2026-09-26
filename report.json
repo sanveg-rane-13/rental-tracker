@@ -1,4 +1,10 @@
 {
-  "max_rent": 3400,
-  "min_sqft": null
+  "max_rent": 3500,
+  "min_sqft": null,
+  "skip_buildings": [
+    "Waterside Square North",
+    "Waterside Square South",
+    "Parkside East",
+    "Parkside West"
+  ]
 }

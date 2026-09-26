@@ -11,6 +11,10 @@ on:
         description: "Min sq ft (blank = use report.json, 0 = no minimum)"
         required: false
         default: ""
+      skip_buildings:
+        description: "Skip excluded buildings (listed in report.json)"
+        type: boolean
+        default: true
 
 permissions:
   contents: read            # only reads data/, never changes the repo
@@ -34,10 +38,12 @@ jobs:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           MAX_RENT: ${{ inputs.max_rent }}
           MIN_SQFT: ${{ inputs.min_sqft }}
+          SKIP_BUILDINGS: ${{ inputs.skip_buildings }}
         run: |
           args=""
           if [ -n "$MAX_RENT" ]; then args="$args --max-rent $MAX_RENT"; fi
           if [ -n "$MIN_SQFT" ]; then args="$args --min-sqft $MIN_SQFT"; fi
+          if [ "$SKIP_BUILDINGS" = "false" ]; then args="$args --include-all"; fi
           python report.py $args
 
       - name: Upload report CSV

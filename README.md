@@ -50,10 +50,11 @@ Safety checks:
 Settings in `report.json`:
 
 ```json
-{ "max_rent": 3500, "min_sqft": null }
+{ "max_rent": 3500, "min_sqft": null,
+  "skip_buildings": ["Waterside Square North", "Waterside Square South", "Parkside East", "Parkside West"] }
 ```
 
-The Run workflow form has optional **Max rent** and **Min sq ft** fields that override these for one run (Min sq ft `0` = no minimum). Units with unknown size are left out when a minimum is set, and the report says how many. Long reports are split into several ntfy messages ("(1/3)", ...). The report is also printed in the run log and attached to the run as `report.csv`.
+The Run workflow form has optional **Max rent** and **Min sq ft** fields that override these for one run (Min sq ft `0` = no minimum). The **Skip excluded buildings** checkbox (on by default) leaves out the buildings in `skip_buildings` (matched by building name, any capitalization); the report notes how many matching units it left out. Uncheck it to include them for that run. Units with unknown size are left out when a minimum is set, and the report says how many. Long reports are split into several ntfy messages ("(1/3)", ...). The report is also printed in the run log and attached to the run as `report.csv`.
 
 ## Setup
 

@@ -103,3 +103,30 @@ def test_chunks_keep_sections_together(monkeypatch):
     assert all(len(c.encode()) <= 60 for c in chunks)
     assert any("━━ A · 2 ━━\n$1 · a\n$2 · b" in c for c in chunks)   # section A not split
     assert "".join(chunks).count("$") == 3
+
+
+def test_skip_buildings(data, monkeypatch):
+    (data / "report.json").write_text(json.dumps(
+        {"max_rent": 3500, "skip_buildings": ["lincoln house ", "Parkside East"]}))
+    sent = []
+    monkeypatch.setattr(notify, "send", lambda topic, title, body, **k: sent.append((title, body)))
+    monkeypatch.setenv("NTFY_TOPIC", "t")
+
+    monkeypatch.setattr("sys.argv", ["report.py"])                    # checkbox on (default)
+    report.main()
+    title, body = sent[-1]
+    assert title == "Report: 2 apartments up to $3,500"
+    assert "Lincoln House" not in body.split("(")[0]
+    assert "(1 unit in excluded buildings not shown)" in body
+
+    monkeypatch.setattr("sys.argv", ["report.py", "--include-all"])   # checkbox off
+    report.main()
+    title, body = sent[-1]
+    assert title == "Report: 3 apartments up to $3,500"
+    assert "Lincoln House 405" in body and "excluded" not in body
+
+
+def test_skip_list_optional(data):
+    units = report.load_units()
+    assert report.skip_buildings(units, None) == (units, 0)
+    assert report.skip_buildings(units, ["", "  "]) == (units, 0)

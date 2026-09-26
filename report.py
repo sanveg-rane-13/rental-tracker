@@ -35,6 +35,16 @@ def load_units():
     return units
 
 
+def skip_buildings(units, names):
+    """(units not in the named buildings, number of units skipped).
+    Names match building names case-insensitively, e.g. "Parkside East"."""
+    skip = {n.strip().lower() for n in names or [] if n.strip()}
+    if not skip:
+        return units, 0
+    kept = [u for u in units if (u.get("building") or "").strip().lower() not in skip]
+    return kept, len(units) - len(kept)
+
+
 def select(units, max_rent, min_sqft=None):
     """(matches sorted by price, count skipped because size is unknown)."""
     matches, unknown_size = [], 0
@@ -96,7 +106,7 @@ def text_line(u, show_building=True):
     return " · ".join(parts)
 
 
-def text_report(matches, max_rent, min_sqft, unknown_size):
+def text_report(matches, max_rent, min_sqft, unknown_size, skipped=0):
     """Plain text for ntfy: a summary, then one section per property (cheapest first),
     each unit on one line with the price first. Sections are separated by blank lines."""
     if not matches:
@@ -116,9 +126,13 @@ def text_report(matches, max_rent, min_sqft, unknown_size):
             lines += [text_line(u, show_building=not one_building) for u in units]
             blocks.append("\n".join(lines))
         text = "\n\n".join(blocks)
+    notes = []
     if unknown_size:
-        text += (f"\n\n({_plural(unknown_size, 'unit')} under the rent limit left out: "
-                 f"size unknown)")
+        notes.append(f"{_plural(unknown_size, 'unit')} under the rent limit left out: size unknown")
+    if skipped:
+        notes.append(f"{_plural(skipped, 'unit')} in excluded buildings not shown")
+    if notes:
+        text += "\n\n" + "\n".join(f"({n})" for n in notes)
     return text + "\n"
 
 
@@ -176,6 +190,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--max-rent", type=_number, help="override report.json max_rent")
     ap.add_argument("--min-sqft", type=_number, help="override report.json min_sqft (0 = none)")
+    ap.add_argument("--include-all", action="store_true",
+                    help="don't skip the buildings in report.json skip_buildings")
     ap.add_argument("--dry-run", action="store_true", help="print only, send nothing")
     args = ap.parse_args()
 
@@ -186,7 +202,11 @@ def main():
         sys.exit("No max_rent: set it in report.json or pass --max-rent")
 
     matches, unknown_size = select(load_units(), max_rent, min_sqft or None)
-    text = text_report(matches, max_rent, min_sqft, unknown_size)
+    skipped = 0
+    if not args.include_all:
+        # the note counts units that matched the filters but are in excluded buildings
+        matches, skipped = skip_buildings(matches, cfg.get("skip_buildings"))
+    text = text_report(matches, max_rent, min_sqft, unknown_size, skipped)
     write_csv(matches, OUT / "report.csv")
     stamp = datetime.now(NY).strftime("%Y-%m-%d %H:%M")
     print(f"Report {stamp}\n\n{text}")
