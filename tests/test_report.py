@@ -105,7 +105,7 @@ def test_chunks_keep_sections_together(monkeypatch):
     assert "".join(chunks).count("$") == 3
 
 
-def test_skip_buildings(data, monkeypatch):
+def test_skip_buildings(data, monkeypatch, capsys):
     (data / "report.json").write_text(json.dumps(
         {"max_rent": 3500, "skip_buildings": ["lincoln house ", "Parkside East"]}))
     sent = []
@@ -116,8 +116,8 @@ def test_skip_buildings(data, monkeypatch):
     report.main()
     title, body = sent[-1]
     assert title == "Report: 2 apartments up to $3,500"
-    assert "Lincoln House" not in body.split("(")[0]
-    assert "(1 unit in excluded buildings not shown)" in body
+    assert "Lincoln House" not in body and "excluded" not in body     # no note in the notification
+    assert "Skipped 1 matching unit in excluded buildings" in capsys.readouterr().out   # log only
 
     monkeypatch.setattr("sys.argv", ["report.py", "--include-all"])   # checkbox off
     report.main()

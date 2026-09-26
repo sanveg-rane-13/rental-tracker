@@ -106,7 +106,7 @@ def text_line(u, show_building=True):
     return " · ".join(parts)
 
 
-def text_report(matches, max_rent, min_sqft, unknown_size, skipped=0):
+def text_report(matches, max_rent, min_sqft, unknown_size):
     """Plain text for ntfy: a summary, then one section per property (cheapest first),
     each unit on one line with the price first. Sections are separated by blank lines."""
     if not matches:
@@ -126,13 +126,9 @@ def text_report(matches, max_rent, min_sqft, unknown_size, skipped=0):
             lines += [text_line(u, show_building=not one_building) for u in units]
             blocks.append("\n".join(lines))
         text = "\n\n".join(blocks)
-    notes = []
     if unknown_size:
-        notes.append(f"{_plural(unknown_size, 'unit')} under the rent limit left out: size unknown")
-    if skipped:
-        notes.append(f"{_plural(skipped, 'unit')} in excluded buildings not shown")
-    if notes:
-        text += "\n\n" + "\n".join(f"({n})" for n in notes)
+        text += (f"\n\n({_plural(unknown_size, 'unit')} under the rent limit left out: "
+                 f"size unknown)")
     return text + "\n"
 
 
@@ -204,9 +200,12 @@ def main():
     matches, unknown_size = select(load_units(), max_rent, min_sqft or None)
     skipped = 0
     if not args.include_all:
-        # the note counts units that matched the filters but are in excluded buildings
+        # counts units that matched the filters but are in excluded buildings (logged)
         matches, skipped = skip_buildings(matches, cfg.get("skip_buildings"))
-    text = text_report(matches, max_rent, min_sqft, unknown_size, skipped)
+    text = text_report(matches, max_rent, min_sqft, unknown_size)
+    if skipped:  # log only, not in the notification
+        print(f"Skipped {_plural(skipped, 'matching unit')} in excluded buildings "
+              f"(uncheck 'Skip excluded buildings' to include them)")
     write_csv(matches, OUT / "report.csv")
     stamp = datetime.now(NY).strftime("%Y-%m-%d %H:%M")
     print(f"Report {stamp}\n\n{text}")
