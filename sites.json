@@ -6,7 +6,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3600
+    "max_rent": 4000
   },
   {
     "name": "BLVD Collection",
@@ -15,42 +15,16 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3600
+    "max_rent": 3700
   },
   {
     "name": "Liberty Harbor",
-    "link": "https://www.libertyharbor.com/availability/",
-    "parser": "rentcafe",
-    "pages": [
-      {
-        "building": "The Zenith",
-        "url": "https://www.rentcafe.com/apartments/nj/jersey-city/9-regent-street-the-zenith/default.aspx"
-      },
-      {
-        "building": "The Regent",
-        "url": "https://www.rentcafe.com/apartments/nj/jersey-city/30-regent-street-the-regent/default.aspx"
-      },
-      {
-        "building": "50 Regent",
-        "url": "https://www.rentcafe.com/apartments/nj/jersey-city/50-regent-street/default.aspx"
-      },
-      {
-        "building": "88 Regent",
-        "url": "https://www.rentcafe.com/apartments/nj/jersey-city/88-regent-street/default.aspx"
-      },
-      {
-        "building": "333 Grand",
-        "url": "https://www.rentcafe.com/apartments/nj/jersey-city/333-grand-street/default.aspx"
-      },
-      {
-        "building": "The Junction",
-        "url": "https://www.rentcafe.com/apartments/nj/jersey-city/123-river-street-the-junction/default.aspx"
-      }
-    ],
+    "url": "https://www.libertyharbor.com/availability/",
+    "parser": "libertyharbor",
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3600
+    "max_rent": 3700
   },
   {
     "name": "235 Grand",
