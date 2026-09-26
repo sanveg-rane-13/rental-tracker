@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-09-26T21:11:58+00:00",
+  "updated_at": "2026-09-26T23:39:30+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -906,29 +906,6 @@
         {
           "date": "2026-09-26",
           "price": 4507
-        }
-      ]
-    },
-    "Bisby|2403": {
-      "building": "Bisby",
-      "unit": "2403",
-      "beds": "1 Bedroom",
-      "rent": 5252,
-      "base_rent": 5194,
-      "base_rent_max": null,
-      "available": "10/12/2026",
-      "sqft": 835,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-09-26",
-      "price_history": [
-        {
-          "date": "2026-09-26",
-          "price": 5244
-        },
-        {
-          "date": "2026-09-26",
-          "price": 5252
         }
       ]
     },
