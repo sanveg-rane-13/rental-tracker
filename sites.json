@@ -108,5 +108,20 @@
       "1 Bedroom"
     ],
     "max_rent": 3600
+  },
+  {
+    "name": "Hudson Point",
+    "link": "https://www.equityapartments.com/new-york-city/jersey-city/hudson-point-apartments#unit-availability-tile",
+    "parser": "equity",
+    "pages": [
+      {
+        "building": "Hudson Point",
+        "url": "https://www.equityapartments.com/new-york-city/jersey-city/hudson-point-apartments"
+      }
+    ],
+    "beds": [
+      "1 Bedroom"
+    ],
+    "max_rent": 3600
   }
 ]
