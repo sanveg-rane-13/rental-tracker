@@ -739,3 +739,4 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-09-27T01:44,2026-09-26 21:44,Liberty Harbor,,,,site_failed,,,,,,,,,,,,UNITS_DYNAMIC not found in page - the site's layout may have changed
 2026-09-27T01:44,2026-09-26 21:44,Equity Apartments,,,,site_failed,,,,,,,,,,,,"GET https://www.equityapartments.com/new-york-city/jersey-city/hudson-point-apartments -> HTTP 403, 6,223 bytes"
 2026-09-27T01:44,2026-09-26 21:44,IronState Properties,,,,site_failed,,,,,,,,,,,,no units parsed
+2026-09-27T01:50,2026-09-26 21:50,Equity Apartments,,,,site_failed,,,,,,,,,,,,"GET https://www.equityapartments.com/new-york-city/jersey-city/hudson-point-apartments (via proxy) -> HTTP 500, 579 bytes"
