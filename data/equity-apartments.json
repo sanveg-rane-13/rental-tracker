@@ -1,0 +1,329 @@
+{
+  "property": "Equity Apartments",
+  "updated_at": "2026-09-27T12:50:54+00:00",
+  "units": {
+    "Hudson Point|130": {
+      "building": "Hudson Point",
+      "unit": "130",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3718,
+      "base_rent_max": null,
+      "available": "11/6/2026",
+      "sqft": 824,
+      "special": null,
+      "floor_plan": "Morris (A2)",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3718
+        }
+      ]
+    },
+    "Hudson Point|302": {
+      "building": "Hudson Point",
+      "unit": "302",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3443,
+      "base_rent_max": null,
+      "available": "10/9/2026",
+      "sqft": 726,
+      "special": null,
+      "floor_plan": "Hudson (A1)",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3443
+        }
+      ]
+    },
+    "Hudson Point|316": {
+      "building": "Hudson Point",
+      "unit": "316",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3353,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 726,
+      "special": null,
+      "floor_plan": "Hudson (A13)",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3353
+        }
+      ]
+    },
+    "Hudson Point|405": {
+      "building": "Hudson Point",
+      "unit": "405",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3403,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 726,
+      "special": null,
+      "floor_plan": "Hudson (A13)",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3403
+        }
+      ]
+    },
+    "Hudson Point|520": {
+      "building": "Hudson Point",
+      "unit": "520",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3403,
+      "base_rent_max": null,
+      "available": "10/1/2026",
+      "sqft": 726,
+      "special": null,
+      "floor_plan": "Hudson (A13)",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3403
+        }
+      ]
+    },
+    "Madox|416": {
+      "building": "Madox",
+      "unit": "416",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3485,
+      "base_rent_max": null,
+      "available": "10/14/2026",
+      "sqft": 665,
+      "special": null,
+      "floor_plan": "A3-2",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3485
+        }
+      ]
+    },
+    "Madox|418": {
+      "building": "Madox",
+      "unit": "418",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3505,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 689,
+      "special": null,
+      "floor_plan": "A3-9",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3505
+        }
+      ]
+    },
+    "Portside Towers|2006": {
+      "building": "Portside Towers",
+      "unit": "2006",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3966,
+      "base_rent_max": null,
+      "available": "10/8/2026",
+      "sqft": 913,
+      "special": null,
+      "floor_plan": "E1 & J1",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3966
+        }
+      ]
+    },
+    "Portside Towers|212": {
+      "building": "Portside Towers",
+      "unit": "212",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3347,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 700,
+      "special": null,
+      "floor_plan": "L",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3347
+        }
+      ]
+    },
+    "Portside Towers|808": {
+      "building": "Portside Towers",
+      "unit": "808",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3923,
+      "base_rent_max": null,
+      "available": "10/17/2026",
+      "sqft": 889,
+      "special": null,
+      "floor_plan": "D1 & K1",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3923
+        }
+      ]
+    },
+    "The Pier|1-245": {
+      "building": "The Pier",
+      "unit": "1-245",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3996,
+      "base_rent_max": null,
+      "available": "10/2/2026",
+      "sqft": 741,
+      "special": null,
+      "floor_plan": "A5",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3996
+        }
+      ]
+    },
+    "The Pier|1-318": {
+      "building": "The Pier",
+      "unit": "1-318",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3826,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 703,
+      "special": null,
+      "floor_plan": "A3",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3826
+        }
+      ]
+    },
+    "The Pier|1-414": {
+      "building": "The Pier",
+      "unit": "1-414",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3788,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 703,
+      "special": null,
+      "floor_plan": "A3",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3788
+        }
+      ]
+    },
+    "The Pier|1-531": {
+      "building": "The Pier",
+      "unit": "1-531",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4004,
+      "base_rent_max": null,
+      "available": "10/23/2026",
+      "sqft": 830,
+      "special": null,
+      "floor_plan": "A8",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 4004
+        }
+      ]
+    },
+    "The Pier|1-533": {
+      "building": "The Pier",
+      "unit": "1-533",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3925,
+      "base_rent_max": null,
+      "available": "12/18/2026",
+      "sqft": 741,
+      "special": null,
+      "floor_plan": "A5",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3925
+        }
+      ]
+    },
+    "The Pier|1-542": {
+      "building": "The Pier",
+      "unit": "1-542",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3798,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 703,
+      "special": null,
+      "floor_plan": "A3",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3798
+        }
+      ]
+    },
+    "The Pier|1-633": {
+      "building": "The Pier",
+      "unit": "1-633",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3884,
+      "base_rent_max": null,
+      "available": "10/7/2026",
+      "sqft": 741,
+      "special": null,
+      "floor_plan": "A5",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3884
+        }
+      ]
+    }
+  }
+}
