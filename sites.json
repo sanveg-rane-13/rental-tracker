@@ -134,7 +134,7 @@
       "1 Bedroom"
     ],
     "max_rent": 3600,
-    "proxy": "allorigins"
+    "proxy": "public"
   },
   {
     "name": "IronState Properties",

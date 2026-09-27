@@ -13,6 +13,10 @@ class FakeResponse:
         self.status_code, self.text = status, f"<html>{url}</html>"
         self.ok = status < 400
 
+    def raise_for_status(self):
+        if not self.ok:
+            raise requests.HTTPError(f"HTTP {self.status_code}", response=self)
+
 
 @pytest.fixture
 def fake_net(monkeypatch):
@@ -93,7 +97,7 @@ def test_proxy_fetches_via_proxy_but_keys_and_logs_original(fake_net, monkeypatc
     assert seen["fetch_url"].startswith("https://api.allorigins.win/raw?url=")
     assert "blocked.test" in seen["fetch_url"]                # original url encoded inside
     _, msg, err = fetched["https://blocked.test/hudson"]
-    assert err is None and "via proxy" in msg
+    assert err is None and "via " in msg
 
 
 def test_unknown_proxy_is_reported(fake_net):

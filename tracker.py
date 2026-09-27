@@ -61,35 +61,53 @@ _host_slots, _host_lock = {}, threading.Lock()
 
 # Some sites (e.g. equityapartments.com) block GitHub's datacenter IP with 403. A site can set
 # "proxy" in sites.json to fetch through a public read proxy that requests the page from its own
-# IP and returns the raw HTML (so embedded data like ea5.unitAvailability survives).
+# IP and returns the raw HTML (so embedded data like ea5.unitAvailability survives). Each proxy
+# name maps to an ordered list of templates; they're tried in turn until one returns a page, so
+# one flaky proxy (a 500, a timeout) falls through to the next. {url} = percent-encoded, {raw} = as-is.
 PROXIES = {
-    "allorigins": "https://api.allorigins.win/raw?url={url}",
+    "public": [
+        "https://api.allorigins.win/raw?url={url}",
+        "https://corsproxy.io/?url={url}",
+        "https://thingproxy.freeboard.io/fetch/{raw}",
+    ],
 }
+PROXIES["allorigins"] = PROXIES["public"]   # back-compat alias
 
 
-def _proxy_url(url, proxy):
+def _proxy_templates(proxy):
     if not proxy:
-        return url
-    template = PROXIES.get(proxy)
-    if not template:
+        return [None]
+    if proxy not in PROXIES:
         raise ValueError(f"unknown proxy {proxy!r}; known: {', '.join(PROXIES)}")
-    return template.format(url=quote(url, safe=""))
+    return PROXIES[proxy]
 
 
-def _download(url, proxy=None):
-    """(html, log line). Fetches url (through `proxy` if set) but logs the real url.
-    Raises requests.HTTPError for 4xx/5xx, after noting the status."""
-    fetch_url = _proxy_url(url, proxy)
+def _get(url, template):
+    """One attempt. template=None fetches url directly; otherwise through the proxy."""
+    fetch_url = url if template is None else template.format(
+        url=quote(url, safe=""), raw=url)
     host = urlparse(fetch_url).netloc
     with _host_lock:
         slot = _host_slots.setdefault(host, threading.Semaphore(PER_HOST))
     with slot:
         r = requests.get(fetch_url, headers=HEADERS, timeout=45)
-    via = " (via proxy)" if fetch_url != url else ""
-    msg = f"  GET {url}{via} -> HTTP {r.status_code}, {len(r.text):,} bytes"
-    if not r.ok:
-        raise requests.HTTPError(f"{msg.strip()}", response=r)
-    return r.text, msg
+    r.raise_for_status()
+    return r.text, r.status_code, len(r.text)
+
+
+def _download(url, proxy=None):
+    """(html, log line). Tries the proxy's backends in order (or a direct fetch if no proxy).
+    Raises the last error if every attempt fails."""
+    templates = _proxy_templates(proxy)
+    last_error = None
+    for template in templates:
+        try:
+            text, status, size = _get(url, template)
+            via = "" if template is None else f" (via {urlparse(template).netloc})"
+            return text, f"  GET {url}{via} -> HTTP {status}, {size:,} bytes"
+        except Exception as e:
+            last_error = e
+    raise last_error
 
 
 def fetch(url):
