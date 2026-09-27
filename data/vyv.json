@@ -1,0 +1,443 @@
+{
+  "property": "VYV",
+  "updated_at": "2026-09-27T13:08:21+00:00",
+  "units": {
+    "|N-0309": {
+      "building": "",
+      "unit": "N-0309",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3933,
+      "base_rent_max": null,
+      "available": "10/7/2026",
+      "sqft": 836,
+      "special": null,
+      "floor_plan": "A22",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3933
+        }
+      ]
+    },
+    "|N-1508": {
+      "building": "",
+      "unit": "N-1508",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3979,
+      "base_rent_max": null,
+      "available": "12/5/2026",
+      "sqft": 879,
+      "special": null,
+      "floor_plan": "A24",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3979
+        }
+      ]
+    },
+    "|N-2204": {
+      "building": "",
+      "unit": "N-2204",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3728,
+      "base_rent_max": null,
+      "available": "12/22/2026",
+      "sqft": 739,
+      "special": null,
+      "floor_plan": "A13",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3728
+        }
+      ]
+    },
+    "|N-2701": {
+      "building": "",
+      "unit": "N-2701",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3880,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 763,
+      "special": null,
+      "floor_plan": "A16",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3880
+        }
+      ]
+    },
+    "|N-3312": {
+      "building": "",
+      "unit": "N-3312",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3722,
+      "base_rent_max": null,
+      "available": "11/17/2026",
+      "sqft": 720,
+      "special": null,
+      "floor_plan": "A07",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3722
+        }
+      ]
+    },
+    "|N-3401": {
+      "building": "",
+      "unit": "N-3401",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3965,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 763,
+      "special": null,
+      "floor_plan": "A16",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3965
+        }
+      ]
+    },
+    "|N-3504": {
+      "building": "",
+      "unit": "N-3504",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3908,
+      "base_rent_max": null,
+      "available": "11/7/2026",
+      "sqft": 739,
+      "special": null,
+      "floor_plan": "A13",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3908
+        }
+      ]
+    },
+    "|S-0256": {
+      "building": "",
+      "unit": "S-0256",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3862,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 787,
+      "special": null,
+      "floor_plan": "A19",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3862
+        }
+      ]
+    },
+    "|S-0453": {
+      "building": "",
+      "unit": "S-0453",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3711,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 733,
+      "special": null,
+      "floor_plan": "A10",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3711
+        }
+      ]
+    },
+    "|S-1058": {
+      "building": "",
+      "unit": "S-1058",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3703,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 769,
+      "special": null,
+      "floor_plan": "A17",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3703
+        }
+      ]
+    },
+    "|S-1361": {
+      "building": "",
+      "unit": "S-1361",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3835,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 734,
+      "special": null,
+      "floor_plan": "A11",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3835
+        }
+      ]
+    },
+    "|S-1559": {
+      "building": "",
+      "unit": "S-1559",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3665,
+      "base_rent_max": null,
+      "available": "11/22/2026",
+      "sqft": 759,
+      "special": null,
+      "floor_plan": "A15",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3665
+        }
+      ]
+    },
+    "|S-1855": {
+      "building": "",
+      "unit": "S-1855",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3677,
+      "base_rent_max": null,
+      "available": "12/22/2026",
+      "sqft": 703,
+      "special": null,
+      "floor_plan": "A05",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3677
+        }
+      ]
+    },
+    "|S-1858": {
+      "building": "",
+      "unit": "S-1858",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3813,
+      "base_rent_max": null,
+      "available": "10/7/2026",
+      "sqft": 769,
+      "special": null,
+      "floor_plan": "A17",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3813
+        }
+      ]
+    },
+    "|S-1955": {
+      "building": "",
+      "unit": "S-1955",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3677,
+      "base_rent_max": null,
+      "available": "11/5/2026",
+      "sqft": 703,
+      "special": null,
+      "floor_plan": "A05",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3677
+        }
+      ]
+    },
+    "|S-1961": {
+      "building": "",
+      "unit": "S-1961",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3815,
+      "base_rent_max": null,
+      "available": "1/8/2027",
+      "sqft": 734,
+      "special": null,
+      "floor_plan": "A11",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3815
+        }
+      ]
+    },
+    "|S-2055": {
+      "building": "",
+      "unit": "S-2055",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3687,
+      "base_rent_max": null,
+      "available": "12/2/2026",
+      "sqft": 703,
+      "special": null,
+      "floor_plan": "A05",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3687
+        }
+      ]
+    },
+    "|S-2161": {
+      "building": "",
+      "unit": "S-2161",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3825,
+      "base_rent_max": null,
+      "available": "10/12/2026",
+      "sqft": 734,
+      "special": null,
+      "floor_plan": "A11",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3825
+        }
+      ]
+    },
+    "|S-2261": {
+      "building": "",
+      "unit": "S-2261",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3835,
+      "base_rent_max": null,
+      "available": "11/23/2026",
+      "sqft": 734,
+      "special": null,
+      "floor_plan": "A11",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3835
+        }
+      ]
+    },
+    "|S-2659": {
+      "building": "",
+      "unit": "S-2659",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3795,
+      "base_rent_max": null,
+      "available": "10/14/2026",
+      "sqft": 759,
+      "special": null,
+      "floor_plan": "A15",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3795
+        }
+      ]
+    },
+    "|S-3255": {
+      "building": "",
+      "unit": "S-3255",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3827,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 703,
+      "special": null,
+      "floor_plan": "A05",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3827
+        }
+      ]
+    },
+    "|S-3258": {
+      "building": "",
+      "unit": "S-3258",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3913,
+      "base_rent_max": null,
+      "available": "11/1/2026",
+      "sqft": 769,
+      "special": null,
+      "floor_plan": "A17",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3913
+        }
+      ]
+    },
+    "|S-3561": {
+      "building": "",
+      "unit": "S-3561",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4015,
+      "base_rent_max": null,
+      "available": "11/27/2026",
+      "sqft": 734,
+      "special": null,
+      "floor_plan": "A11",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 4015
+        }
+      ]
+    }
+  }
+}
