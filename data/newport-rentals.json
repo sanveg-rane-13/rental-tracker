@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-09-27T13:08:21+00:00",
+  "updated_at": "2026-09-27T16:59:38+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -749,8 +749,8 @@
       "building": "Beach",
       "unit": "1223",
       "beds": "1 Bedroom",
-      "rent": 5132,
-      "base_rent": 5074,
+      "rent": 5144,
+      "base_rent": 5086,
       "base_rent_max": null,
       "available": "9/30/2026",
       "sqft": 730,
@@ -773,6 +773,10 @@
         {
           "date": "2026-09-26",
           "price": 5132
+        },
+        {
+          "date": "2026-09-27",
+          "price": 5144
         }
       ]
     },
@@ -780,8 +784,8 @@
       "building": "Beach",
       "unit": "311",
       "beds": "1 Bedroom",
-      "rent": 5107,
-      "base_rent": 5049,
+      "rent": 5119,
+      "base_rent": 5061,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 761,
@@ -804,6 +808,10 @@
         {
           "date": "2026-09-26",
           "price": 5107
+        },
+        {
+          "date": "2026-09-27",
+          "price": 5119
         }
       ]
     },
@@ -811,8 +819,8 @@
       "building": "Beach",
       "unit": "322",
       "beds": "1 Bedroom",
-      "rent": 5047,
-      "base_rent": 4989,
+      "rent": 5059,
+      "base_rent": 5001,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 723,
@@ -835,6 +843,10 @@
         {
           "date": "2026-09-26",
           "price": 5047
+        },
+        {
+          "date": "2026-09-27",
+          "price": 5059
         }
       ]
     },
@@ -842,8 +854,8 @@
       "building": "Beach",
       "unit": "708",
       "beds": "1 Bedroom",
-      "rent": 4572,
-      "base_rent": 4514,
+      "rent": 4584,
+      "base_rent": 4526,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 552,
@@ -866,6 +878,10 @@
         {
           "date": "2026-09-26",
           "price": 4572
+        },
+        {
+          "date": "2026-09-27",
+          "price": 4584
         }
       ]
     },
@@ -873,8 +889,8 @@
       "building": "Beach",
       "unit": "722",
       "beds": "1 Bedroom",
-      "rent": 5067,
-      "base_rent": 5009,
+      "rent": 5079,
+      "base_rent": 5021,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 723,
@@ -897,6 +913,10 @@
         {
           "date": "2026-09-26",
           "price": 5067
+        },
+        {
+          "date": "2026-09-27",
+          "price": 5079
         }
       ]
     },
@@ -1235,41 +1255,6 @@
         {
           "date": "2026-09-27",
           "price": 4769
-        }
-      ]
-    },
-    "Bisby|803": {
-      "building": "Bisby",
-      "unit": "803",
-      "beds": "1 Bedroom",
-      "rent": 5124,
-      "base_rent": 5066,
-      "base_rent_max": null,
-      "available": "10/25/2026",
-      "sqft": 835,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 5072
-        },
-        {
-          "date": "2026-09-24",
-          "price": 5083
-        },
-        {
-          "date": "2026-09-25",
-          "price": 5104
-        },
-        {
-          "date": "2026-09-26",
-          "price": 5112
-        },
-        {
-          "date": "2026-09-27",
-          "price": 5124
         }
       ]
     },
@@ -2140,8 +2125,8 @@
       "building": "Pacific",
       "unit": "1907",
       "beds": "1 Bedroom",
-      "rent": 4059,
-      "base_rent": 4046,
+      "rent": 4056,
+      "base_rent": 4043,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 841,
@@ -2164,6 +2149,10 @@
         {
           "date": "2026-09-26",
           "price": 4059
+        },
+        {
+          "date": "2026-09-27",
+          "price": 4056
         }
       ]
     },
@@ -2171,8 +2160,8 @@
       "building": "Pacific",
       "unit": "2006",
       "beds": "1 Bedroom",
-      "rent": 3964,
-      "base_rent": 3951,
+      "rent": 3961,
+      "base_rent": 3948,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 799,
@@ -2195,6 +2184,10 @@
         {
           "date": "2026-09-26",
           "price": 3964
+        },
+        {
+          "date": "2026-09-27",
+          "price": 3961
         }
       ]
     },
@@ -2202,8 +2195,8 @@
       "building": "Pacific",
       "unit": "2008",
       "beds": "1 Bedroom",
-      "rent": 3839,
-      "base_rent": 3826,
+      "rent": 3836,
+      "base_rent": 3823,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 808,
@@ -2226,6 +2219,10 @@
         {
           "date": "2026-09-26",
           "price": 3839
+        },
+        {
+          "date": "2026-09-27",
+          "price": 3836
         }
       ]
     },
@@ -2233,8 +2230,8 @@
       "building": "Pacific",
       "unit": "506",
       "beds": "1 Bedroom",
-      "rent": 3894,
-      "base_rent": 3881,
+      "rent": 3891,
+      "base_rent": 3878,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 799,
@@ -2257,6 +2254,10 @@
         {
           "date": "2026-09-26",
           "price": 3894
+        },
+        {
+          "date": "2026-09-27",
+          "price": 3891
         }
       ]
     },

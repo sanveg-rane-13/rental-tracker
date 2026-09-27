@@ -1,6 +1,6 @@
 {
   "property": "BLVD Collection",
-  "updated_at": "2026-09-27T13:08:21+00:00",
+  "updated_at": "2026-09-27T16:59:39+00:00",
   "units": {
     "BLVD 401|0308": {
       "building": "BLVD 401",
@@ -68,8 +68,8 @@
       "unit": "1907",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4340,
-      "base_rent_max": 5784,
+      "base_rent": 4020,
+      "base_rent_max": null,
       "available": "Now",
       "sqft": 805,
       "special": null,
@@ -79,6 +79,10 @@
         {
           "date": "2026-09-24",
           "price": 4340
+        },
+        {
+          "date": "2026-09-27",
+          "price": 4020
         }
       ]
     },
@@ -106,8 +110,8 @@
       "unit": "1010",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3825,
-      "base_rent_max": 4935,
+      "base_rent": 3505,
+      "base_rent_max": null,
       "available": "Now",
       "sqft": 689,
       "special": null,
@@ -117,6 +121,10 @@
         {
           "date": "2026-09-24",
           "price": 3825
+        },
+        {
+          "date": "2026-09-27",
+          "price": 3505
         }
       ]
     },
@@ -163,8 +171,8 @@
       "unit": "2311",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3990,
-      "base_rent_max": 5148,
+      "base_rent": 3620,
+      "base_rent_max": null,
       "available": "Now",
       "sqft": 723,
       "special": null,
@@ -174,6 +182,10 @@
         {
           "date": "2026-09-24",
           "price": 3990
+        },
+        {
+          "date": "2026-09-27",
+          "price": 3620
         }
       ]
     },
@@ -296,8 +308,8 @@
       "unit": "4607N",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4270,
-      "base_rent_max": 5124,
+      "base_rent": 4185,
+      "base_rent_max": null,
       "available": "Now",
       "sqft": 824,
       "special": null,
@@ -307,6 +319,10 @@
         {
           "date": "2026-09-24",
           "price": 4270
+        },
+        {
+          "date": "2026-09-27",
+          "price": 4185
         }
       ]
     },
@@ -372,8 +388,8 @@
       "unit": "4602S",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4130,
-      "base_rent_max": 4956,
+      "base_rent": 4005,
+      "base_rent_max": null,
       "available": "Now",
       "sqft": 768,
       "special": null,
@@ -383,6 +399,10 @@
         {
           "date": "2026-09-24",
           "price": 4130
+        },
+        {
+          "date": "2026-09-27",
+          "price": 4005
         }
       ]
     },
@@ -391,8 +411,8 @@
       "unit": "4805S",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4010,
-      "base_rent_max": 4812,
+      "base_rent": 3905,
+      "base_rent_max": null,
       "available": "Now",
       "sqft": 733,
       "special": null,
@@ -402,6 +422,10 @@
         {
           "date": "2026-09-24",
           "price": 4010
+        },
+        {
+          "date": "2026-09-27",
+          "price": 3905
         }
       ]
     }

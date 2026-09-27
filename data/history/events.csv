@@ -914,3 +914,20 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-09-27T13:08,2026-09-27 09:08,VYV,,N-0309,1 Bedroom,listed,3933,,3933,,,10/7/2026,,836,A22,,2026-09-27,first run
 2026-09-27T13:08,2026-09-27 09:08,Lenox,,626,1 Bedroom,listed,3590,,3590,,,10/6/2026,,643,A12,,2026-09-27,first run
 2026-09-27T13:08,2026-09-27 09:08,Lenox,,804,1 Bedroom,listed,3875,,3875,,,10/3/2026,,718,A1a,,2026-09-27,first run
+2026-09-27T16:59,2026-09-27 12:59,Newport Rentals,Pacific,2008,1 Bedroom,price_change,3836,3839,3823,,3836,Now,,808,,0.5 Month Free,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,Newport Rentals,Pacific,506,1 Bedroom,price_change,3891,3894,3878,,3891,Now,,799,,0.5 Month Free,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,Newport Rentals,Pacific,2006,1 Bedroom,price_change,3961,3964,3948,,3961,Now,,799,,0.5 Month Free,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,Newport Rentals,Pacific,1907,1 Bedroom,price_change,4056,4059,4043,,4056,Now,,841,,0.5 Month Free,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,Newport Rentals,Beach,708,1 Bedroom,price_change,4584,4572,4526,,4584,Now,,552,,0.5 Month Free,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,Newport Rentals,Beach,322,1 Bedroom,price_change,5059,5047,5001,,5059,Now,,723,,0.5 Month Free,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,Newport Rentals,Beach,722,1 Bedroom,price_change,5079,5067,5021,,5079,Now,,723,,0.5 Month Free,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,Newport Rentals,Beach,311,1 Bedroom,price_change,5119,5107,5061,,5119,Now,,761,,0.5 Month Free,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,Newport Rentals,Beach,1223,1 Bedroom,price_change,5144,5132,5086,,5144,9/30/2026,,730,,0.5 Month Free,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,Newport Rentals,Bisby,803,1 Bedroom,delisted,5124,,5066,,5124,10/25/2026,,835,,0.5 Month Free,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,BLVD Collection,BLVD 475 South,4805S,1 Bedroom,price_change,3905,4010,3905,,,Now,,733,B475S A1,,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,BLVD Collection,BLVD 475 South,4602S,1 Bedroom,price_change,4005,4130,4005,,,Now,,768,B475S A2,,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,BLVD Collection,BLVD 475 North,4607N,1 Bedroom,price_change,4185,4270,4185,,,Now,,824,B475N A4,,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,BLVD Collection,BLVD 425,1010,1 Bedroom,price_change,3505,3825,3505,,,Now,,689,B425 A01,,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,BLVD Collection,BLVD 425,2311,1 Bedroom,price_change,3620,3990,3620,,,Now,,723,B425 A03,,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,BLVD Collection,BLVD 401,1907,1 Bedroom,price_change,4020,4340,4020,,,Now,,805,B401 A6,,2026-09-24,
+2026-09-27T16:59,2026-09-27 12:59,Equity Apartments,The Pier,1-602,1 Bedroom,delisted,3736,,3736,,,Now,,825,A7,,2026-09-27,
