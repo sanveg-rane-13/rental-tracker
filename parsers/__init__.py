@@ -2,9 +2,11 @@
 from sites.json, like `building`) and returns a list of unit dicts."""
 from functools import partial
 
-from . import avalon, equity, ironstate, libertyharbor, newport, rentcafe, yardi_site
+from . import (apartmentlist, avalon, equity, ironstate, libertyharbor, newport,
+               rentcafe, yardi_site)
 
 PARSERS = {
+    "apartmentlist": apartmentlist.parse,
     "avalon": avalon.parse,
     "equity": equity.parse,
     "ironstate": ironstate.parse,

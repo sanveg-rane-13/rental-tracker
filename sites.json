@@ -6,7 +6,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 4000
+    "max_rent": 3800
   },
   {
     "name": "BLVD Collection",
@@ -40,7 +40,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3600
+    "max_rent": 3700
   },
   {
     "name": "18 Park",
@@ -56,7 +56,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3600
+    "max_rent": 3700
   },
   {
     "name": "65 Bay Street",
@@ -92,7 +92,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3600
+    "max_rent": 3700
   },
   {
     "name": "Avalon Cove",
@@ -107,34 +107,34 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3600
+    "max_rent": 3700
   },
   {
     "name": "Equity Apartments",
-    "parser": "equity",
+    "parser": "apartmentlist",
     "pages": [
       {
         "building": "Hudson Point",
-        "url": "https://www.equityapartments.com/new-york-city/jersey-city/hudson-point-apartments"
+        "url": "https://www.apartmentlist.com/nj/jersey-city/hudson-point"
       },
       {
         "building": "Portside Towers",
-        "url": "https://www.equityapartments.com/new-york-city/jersey-city/portside-towers-apartments"
+        "url": "https://www.apartmentlist.com/nj/jersey-city/portside-towers"
       },
       {
         "building": "Madox",
-        "url": "https://www.equityapartments.com/new-york-city/downtown-jersey-city/madox-apartments"
+        "url": "https://www.apartmentlist.com/nj/jersey-city/madox"
       },
       {
         "building": "The Pier",
-        "url": "https://www.equityapartments.com/new-york-city/jersey-city/the-pier-apartments"
+        "url": "https://www.apartmentlist.com/nj/jersey-city/the-pier"
       }
     ],
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3600,
-    "enabled": false
+    "max_rent": 3700,
+    "link": "https://www.equityapartments.com/new-york-city/jersey-city-apartments"
   },
   {
     "name": "IronState Properties",
@@ -160,6 +160,6 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3600
+    "max_rent": 3700
   }
 ]
