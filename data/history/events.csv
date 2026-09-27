@@ -870,3 +870,4 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-09-27T12:05,2026-09-27 08:05,Avalon Cove,Avalon Cove,2125,1 Bedroom,price_change,3850,3855,3850,,,10/17/2026,,805,A7,10-month lease,2026-09-24,
 2026-09-27T12:05,2026-09-27 08:05,Avalon Cove,Avalon Cove,2128,1 Bedroom,price_change,4115,4110,4115,,,11/19/2026,,817,A8,21-month lease,2026-09-24,
 2026-09-27T12:05,2026-09-27 08:05,Avalon Cove,Avalon Cove,4409,1 Bedroom,delisted,4210,,4210,,,11/14/2026,,752,A3,21-month lease,2026-09-24,
+2026-09-27T12:28,2026-09-27 08:28,Equity Apartments,,,,site_failed,,,,,,,,,,,,HTTP 403
