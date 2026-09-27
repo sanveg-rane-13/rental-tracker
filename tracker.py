@@ -295,6 +295,12 @@ def main():
         sys.exit("NTFY_TOPIC secret is not set. Add it under Settings -> Secrets and variables -> Actions.")
 
     now = datetime.now(timezone.utc)
+    # A site with "enabled": false in sites.json is skipped entirely (not fetched, compared or
+    # notified). Its saved data is left untouched, so re-enabling later resumes cleanly.
+    disabled = [s["name"] for s in sites if s.get("enabled") is False]
+    if disabled:
+        print(f"Skipping disabled sites: {', '.join(disabled)}")
+    sites = [s for s in sites if s.get("enabled") is not False]
     history.ensure_started(sites, now)
     fetched = prefetch(sites)
     all_units, failed = [], []
