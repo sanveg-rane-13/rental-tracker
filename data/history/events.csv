@@ -937,3 +937,8 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-09-27T20:43,2026-09-27 16:43,IronState Properties,The Gotham,5059882,1 Bedroom,delisted,3610,,3610,,,10/29/2026,,799,5059882,,2026-09-27,
 2026-09-27T21:22,2026-09-27 17:22,Equity Apartments,The Pier,1-602,1 Bedroom,listed,3736,,3736,,,Now,,825,A7,,2026-09-27,
 2026-09-27T21:22,2026-09-27 17:22,Equity Apartments,The Pier,1-633,1 Bedroom,available_change,3884,,3884,,,10/8/2026,10/7/2026,741,A5,,2026-09-27,
+2026-09-27T23:59,2026-09-27 19:59,Newport Rentals,Lincoln House,402,1 Bedroom,listed,3189,,3176,,3189,10/31/2026,,725,,,2026-09-27,
+2026-09-27T23:59,2026-09-27 19:59,Equity Apartments,Portside Towers,2006,1 Bedroom,available_change,3966,,3966,,,10/7/2026,10/8/2026,913,E1 & J1,,2026-09-27,
+2026-09-27T23:59,2026-09-27 19:59,Equity Apartments,Portside Towers,808,1 Bedroom,available_change,3923,,3923,,,10/16/2026,10/17/2026,889,D1 & K1,,2026-09-27,
+2026-09-27T23:59,2026-09-27 19:59,Equity Apartments,The Pier,1-633,1 Bedroom,available_change,3884,,3884,,,10/7/2026,10/8/2026,741,A5,,2026-09-27,
+2026-09-27T23:59,2026-09-27 19:59,Equity Apartments,The Pier,1-602,1 Bedroom,delisted,3736,,3736,,,Now,,825,A7,,2026-09-27,

@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-09-27T21:22:49+00:00",
+  "updated_at": "2026-09-27T23:59:45+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -2048,6 +2048,25 @@
         {
           "date": "2026-09-27",
           "price": 3184
+        }
+      ]
+    },
+    "Lincoln House|402": {
+      "building": "Lincoln House",
+      "unit": "402",
+      "beds": "1 Bedroom",
+      "rent": 3189,
+      "base_rent": 3176,
+      "base_rent_max": null,
+      "available": "10/31/2026",
+      "sqft": 725,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3189
         }
       ]
     },
