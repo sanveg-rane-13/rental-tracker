@@ -82,29 +82,46 @@ def _proxy_templates(proxy):
     return PROXIES[proxy]
 
 
-def _get(url, template):
-    """One attempt. template=None fetches url directly; otherwise through the proxy."""
+def _get_impersonate(fetch_url, browser):
+    """Fetch with curl_cffi, impersonating a real browser's TLS/JA3 fingerprint.
+    Some WAFs (e.g. Akamai on equityapartments.com) block Python's requests by fingerprint
+    even with browser headers; this makes the handshake look like Chrome. curl_cffi sets its
+    own matching browser headers, so we don't pass ours."""
+    from curl_cffi import requests as cffi   # imported lazily; only needed for impersonating sites
+    r = cffi.get(fetch_url, impersonate=browser, timeout=45)
+    return r.text, r.status_code, len(r.text)
+
+
+def _get(url, template, impersonate=None):
+    """One attempt. template=None fetches url directly; otherwise through the proxy.
+    impersonate (e.g. 'chrome') routes through curl_cffi instead of requests."""
     fetch_url = url if template is None else template.format(
         url=quote(url, safe=""), raw=url)
     host = urlparse(fetch_url).netloc
     with _host_lock:
         slot = _host_slots.setdefault(host, threading.Semaphore(PER_HOST))
     with slot:
+        if impersonate:
+            text, status, size = _get_impersonate(fetch_url, impersonate)
+            if status >= 400:
+                raise requests.HTTPError(f"HTTP {status}")
+            return text, status, size
         r = requests.get(fetch_url, headers=HEADERS, timeout=45)
     r.raise_for_status()
     return r.text, r.status_code, len(r.text)
 
 
-def _download(url, proxy=None):
+def _download(url, proxy=None, impersonate=None):
     """(html, log line). Tries the proxy's backends in order (or a direct fetch if no proxy).
     Raises the last error if every attempt fails."""
     templates = _proxy_templates(proxy)
     last_error = None
     for template in templates:
         try:
-            text, status, size = _get(url, template)
+            text, status, size = _get(url, template, impersonate)
             via = "" if template is None else f" (via {urlparse(template).netloc})"
-            return text, f"  GET {url}{via} -> HTTP {status}, {size:,} bytes"
+            tls = " [chrome-tls]" if impersonate else ""
+            return text, f"  GET {url}{via}{tls} -> HTTP {status}, {size:,} bytes"
         except Exception as e:
             last_error = e
     raise last_error
@@ -119,15 +136,15 @@ def fetch(url):
 def prefetch(sites):
     """Download every page of every site in parallel. Returns {url: (html, log line, error)},
     so sites can then be processed one at a time, in order, without waiting on the network."""
-    # {original url: proxy name}; a page inherits its site's "proxy". Dedup by original url.
+    # {original url: (proxy name, impersonate)}; a page inherits its site's options. Dedup by url.
     targets = {}
     for s in sites:
         for p in pages_of(s):
-            targets.setdefault(p["url"], s.get("proxy"))
+            targets.setdefault(p["url"], (s.get("proxy"), s.get("impersonate")))
     results = {}
     started = time.monotonic()
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        futures = {pool.submit(_download, u, pr): u for u, pr in targets.items()}
+        futures = {pool.submit(_download, u, pr, imp): u for u, (pr, imp) in targets.items()}
         for fut in as_completed(futures):
             url = futures[fut]
             try:
