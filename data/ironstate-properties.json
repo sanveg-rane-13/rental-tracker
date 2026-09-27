@@ -1,0 +1,253 @@
+{
+  "property": "IronState Properties",
+  "updated_at": "2026-09-27T01:40:32+00:00",
+  "units": {
+    "50 Columbus|4775281": {
+      "building": "50 Columbus",
+      "unit": "4775281",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3810,
+      "base_rent_max": null,
+      "available": "10/09/2026",
+      "sqft": 781,
+      "special": null,
+      "floor_plan": "4775281",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3810
+        }
+      ]
+    },
+    "50 Columbus|4775840": {
+      "building": "50 Columbus",
+      "unit": "4775840",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4370,
+      "base_rent_max": null,
+      "available": "10/10/2026",
+      "sqft": 837,
+      "special": null,
+      "floor_plan": "4775840",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 4370
+        }
+      ]
+    },
+    "50 Columbus|4775841": {
+      "building": "50 Columbus",
+      "unit": "4775841",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4245,
+      "base_rent_max": null,
+      "available": "12/03/2026",
+      "sqft": 840,
+      "special": null,
+      "floor_plan": "4775841",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 4245
+        }
+      ]
+    },
+    "50 Columbus|5255677": {
+      "building": "50 Columbus",
+      "unit": "5255677",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3535,
+      "base_rent_max": null,
+      "available": "10/21/2026",
+      "sqft": 678,
+      "special": null,
+      "floor_plan": "5255677",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3535
+        }
+      ]
+    },
+    "70 Columbus|2042222": {
+      "building": "70 Columbus",
+      "unit": "2042222",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3760,
+      "base_rent_max": null,
+      "available": "10/21/2026",
+      "sqft": 660,
+      "special": null,
+      "floor_plan": "2042222",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3760
+        }
+      ]
+    },
+    "90 Columbus|2442555": {
+      "building": "90 Columbus",
+      "unit": "2442555",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4050,
+      "base_rent_max": null,
+      "available": "11/30/2026",
+      "sqft": 676,
+      "special": null,
+      "floor_plan": "2442555",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 4050
+        }
+      ]
+    },
+    "90 Columbus|2442623": {
+      "building": "90 Columbus",
+      "unit": "2442623",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3800,
+      "base_rent_max": null,
+      "available": "11/08/2026",
+      "sqft": 692,
+      "special": null,
+      "floor_plan": "2442623",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3800
+        }
+      ]
+    },
+    "90 Columbus|2442631": {
+      "building": "90 Columbus",
+      "unit": "2442631",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4290,
+      "base_rent_max": null,
+      "available": "11/15/2026",
+      "sqft": 708,
+      "special": null,
+      "floor_plan": "2442631",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 4290
+        }
+      ]
+    },
+    "90 Columbus|2442655": {
+      "building": "90 Columbus",
+      "unit": "2442655",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4295,
+      "base_rent_max": null,
+      "available": "11/04/2026",
+      "sqft": 694,
+      "special": null,
+      "floor_plan": "2442655",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 4295
+        }
+      ]
+    },
+    "The Gotham|5059848": {
+      "building": "The Gotham",
+      "unit": "5059848",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3405,
+      "base_rent_max": null,
+      "available": null,
+      "sqft": 680,
+      "special": null,
+      "floor_plan": "5059848",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3405
+        }
+      ]
+    },
+    "The Gotham|5059868": {
+      "building": "The Gotham",
+      "unit": "5059868",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3425,
+      "base_rent_max": null,
+      "available": "10/14/2026",
+      "sqft": 708,
+      "special": null,
+      "floor_plan": "5059868",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3425
+        }
+      ]
+    },
+    "The Gotham|5059872": {
+      "building": "The Gotham",
+      "unit": "5059872",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3625,
+      "base_rent_max": null,
+      "available": null,
+      "sqft": 715,
+      "special": null,
+      "floor_plan": "5059872",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3625
+        }
+      ]
+    },
+    "The Gotham|5059882": {
+      "building": "The Gotham",
+      "unit": "5059882",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3610,
+      "base_rent_max": null,
+      "available": "10/29/2026",
+      "sqft": 799,
+      "special": null,
+      "floor_plan": "5059882",
+      "first_seen": "2026-09-27",
+      "price_history": [
+        {
+          "date": "2026-09-27",
+          "price": 3610
+        }
+      ]
+    }
+  }
+}
