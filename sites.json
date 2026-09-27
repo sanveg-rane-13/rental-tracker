@@ -6,7 +6,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3800
+    "max_rent": 3600
   },
   {
     "name": "BLVD Collection",
@@ -15,7 +15,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3700
+    "max_rent": 3600
   },
   {
     "name": "Liberty Harbor",
@@ -24,7 +24,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3700
+    "max_rent": 3600
   },
   {
     "name": "235 Grand",
@@ -40,7 +40,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3700
+    "max_rent": 3600
   },
   {
     "name": "18 Park",
@@ -56,7 +56,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3700
+    "max_rent": 3600
   },
   {
     "name": "65 Bay Street",
@@ -92,7 +92,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3700
+    "max_rent": 3600
   },
   {
     "name": "Avalon Cove",
@@ -107,7 +107,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3700
+    "max_rent": 3600
   },
   {
     "name": "Equity Apartments",
@@ -133,7 +133,7 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3700,
+    "max_rent": 3600,
     "link": "https://www.equityapartments.com/new-york-city/jersey-city-apartments"
   },
   {
@@ -160,6 +160,24 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3700
+    "max_rent": 3600
+  },
+  {
+    "name": "VYV",
+    "url": "https://www.apartmentlist.com/nj/jersey-city/vyv--2",
+    "parser": "apartmentlist",
+    "beds": [
+      "1 Bedroom"
+    ],
+    "max_rent": 3600
+  },
+  {
+    "name": "Lenox",
+    "url": "https://www.apartmentlist.com/nj/jersey-city/lenox",
+    "parser": "apartmentlist",
+    "beds": [
+      "1 Bedroom"
+    ],
+    "max_rent": 3600
   }
 ]
