@@ -77,3 +77,27 @@ def test_scrape_uses_prefetched_pages(fake_net, monkeypatch, tmp_path):
     units = tracker.scrape(site, fetched=fetched)
     assert len(units) == 1
     assert (tmp_path / "pages" / "one-1.html").exists()
+
+
+def test_proxy_fetches_via_proxy_but_keys_and_logs_original(fake_net, monkeypatch):
+    seen = {}
+    real = tracker.requests.get
+    def spy(url, **k):
+        seen["fetch_url"] = url
+        return real(url, **k)
+    monkeypatch.setattr(tracker.requests, "get", spy)
+    site = {"name": "Eq", "proxy": "allorigins",
+            "pages": [{"url": "https://blocked.test/hudson"}]}
+    fetched = tracker.prefetch([site])
+    assert "https://blocked.test/hudson" in fetched          # keyed by original url
+    assert seen["fetch_url"].startswith("https://api.allorigins.win/raw?url=")
+    assert "blocked.test" in seen["fetch_url"]                # original url encoded inside
+    _, msg, err = fetched["https://blocked.test/hudson"]
+    assert err is None and "via proxy" in msg
+
+
+def test_unknown_proxy_is_reported(fake_net):
+    site = {"name": "X", "proxy": "nope", "pages": [{"url": "https://a.test/x"}]}
+    fetched = tracker.prefetch([site])
+    _, _, err = fetched["https://a.test/x"]
+    assert isinstance(err, ValueError) and "unknown proxy" in str(err)

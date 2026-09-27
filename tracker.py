@@ -19,7 +19,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import quote, urlparse
 
 import requests
 
@@ -41,7 +41,9 @@ HEADERS = {
     "Accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,"
                "image/avif,image/webp,image/apng,*/*;q=0.8,application/json;q=0.9"),
     "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
+    # No Accept-Encoding: let `requests` advertise only what it can decode. Adding "br"
+    # (Brotli) here makes servers send Brotli that requests can't decompress without an
+    # extra library, so pages arrive garbled and parse to zero units.
     "Upgrade-Insecure-Requests": "1",
     "Sec-Ch-Ua": '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
     "Sec-Ch-Ua-Mobile": "?0",
@@ -57,15 +59,34 @@ MAX_WORKERS = 8   # pages downloaded at the same time, across all sites
 PER_HOST = 2      # at most this many at once from any one website (7 pages are on rentcafe.com)
 _host_slots, _host_lock = {}, threading.Lock()
 
+# Some sites (e.g. equityapartments.com) block GitHub's datacenter IP with 403. A site can set
+# "proxy" in sites.json to fetch through a public read proxy that requests the page from its own
+# IP and returns the raw HTML (so embedded data like ea5.unitAvailability survives).
+PROXIES = {
+    "allorigins": "https://api.allorigins.win/raw?url={url}",
+}
 
-def _download(url):
-    """(html, log line). Raises requests.HTTPError for 4xx/5xx, after noting the status."""
-    host = urlparse(url).netloc
+
+def _proxy_url(url, proxy):
+    if not proxy:
+        return url
+    template = PROXIES.get(proxy)
+    if not template:
+        raise ValueError(f"unknown proxy {proxy!r}; known: {', '.join(PROXIES)}")
+    return template.format(url=quote(url, safe=""))
+
+
+def _download(url, proxy=None):
+    """(html, log line). Fetches url (through `proxy` if set) but logs the real url.
+    Raises requests.HTTPError for 4xx/5xx, after noting the status."""
+    fetch_url = _proxy_url(url, proxy)
+    host = urlparse(fetch_url).netloc
     with _host_lock:
         slot = _host_slots.setdefault(host, threading.Semaphore(PER_HOST))
     with slot:
-        r = requests.get(url, headers=HEADERS, timeout=30)
-    msg = f"  GET {url} -> HTTP {r.status_code}, {len(r.text):,} bytes"
+        r = requests.get(fetch_url, headers=HEADERS, timeout=45)
+    via = " (via proxy)" if fetch_url != url else ""
+    msg = f"  GET {url}{via} -> HTTP {r.status_code}, {len(r.text):,} bytes"
     if not r.ok:
         raise requests.HTTPError(f"{msg.strip()}", response=r)
     return r.text, msg
@@ -80,11 +101,15 @@ def fetch(url):
 def prefetch(sites):
     """Download every page of every site in parallel. Returns {url: (html, log line, error)},
     so sites can then be processed one at a time, in order, without waiting on the network."""
-    urls = list(dict.fromkeys(p["url"] for s in sites for p in pages_of(s)))
+    # {original url: proxy name}; a page inherits its site's "proxy". Dedup by original url.
+    targets = {}
+    for s in sites:
+        for p in pages_of(s):
+            targets.setdefault(p["url"], s.get("proxy"))
     results = {}
     started = time.monotonic()
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        futures = {pool.submit(_download, u): u for u in urls}
+        futures = {pool.submit(_download, u, pr): u for u, pr in targets.items()}
         for fut in as_completed(futures):
             url = futures[fut]
             try:
@@ -92,7 +117,7 @@ def prefetch(sites):
                 results[url] = (html, msg, None)
             except Exception as e:  # handed to that site when it's processed
                 results[url] = (None, f"  GET {url} -> failed: {e}", e)
-    print(f"Fetched {len(urls)} pages in {time.monotonic() - started:.1f}s")
+    print(f"Fetched {len(targets)} pages in {time.monotonic() - started:.1f}s")
     return results
 
 
