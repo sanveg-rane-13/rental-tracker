@@ -22,6 +22,7 @@ Which price is compared depends on what the site shows:
 | 235 Grand, 18 Park, 65 Bay Street | `yardi_site` (the building's own floor-plan pages) | Base rent, low end of "$3,720.00 to $4,090.00" |
 | Avalon Cove | `avalon` (AvalonBay's apartment-search JSON, community code `NJ002`) | Best offered rent; its lease length goes in the notification ("10-month lease") |
 | Equity Apartments (Hudson Point, Portside Towers, Madox) | `equity` (data embedded in each equityapartments.com community page) | Estimated total monthly charge (base + required fees), like Newport |
+| IronState Properties (50 Columbus, The Gotham, 70 Columbus, 90 Columbus) | `ironstate` (units in the ironstate.com page; keyed by floorplan id) | Base rent (no fees shown) |
 
 Stays silent for: availability-date changes, price changes that end over budget, units being delisted, and the **first run for a property** (it just records what's there).
 

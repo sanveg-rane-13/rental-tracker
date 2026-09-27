@@ -130,5 +130,31 @@
       "1 Bedroom"
     ],
     "max_rent": 3600
+  },
+  {
+    "name": "IronState Properties",
+    "parser": "ironstate",
+    "pages": [
+      {
+        "building": "50 Columbus",
+        "url": "https://ironstate.com/property/50-columbus/"
+      },
+      {
+        "building": "The Gotham",
+        "url": "https://ironstate.com/property/the-gotham/"
+      },
+      {
+        "building": "70 Columbus",
+        "url": "https://ironstate.com/property/70-columbus/"
+      },
+      {
+        "building": "90 Columbus",
+        "url": "https://ironstate.com/property/90-columbus/"
+      }
+    ],
+    "beds": [
+      "1 Bedroom"
+    ],
+    "max_rent": 3600
   }
 ]
