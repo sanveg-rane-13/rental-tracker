@@ -90,7 +90,7 @@ def parse(html, building="", today=None, **_):
             beds = u.get("Bed", bedroom_type.get("BedroomCount"))
             units[key] = {
                 "building": building,
-                "unit": unit_id,
+                "unit": _unit_label(bldg_id, unit_id),
                 "beds": _beds(beds),
                 "rent": _total(u),
                 "base_rent": _money(best.get("Price")),
@@ -100,8 +100,15 @@ def parse(html, building="", today=None, **_):
                 "special": _special(u),
                 "floor_plan": (u.get("FloorplanName") or "").strip() or None,
             }
-    # A multi-building community would reuse unit numbers; prefix the building then.
-    if len({b for b, _ in units}) > 1:
-        for (bldg_id, _), unit in units.items():
-            unit["unit"] = f"{bldg_id}-{unit['unit']}"
     return list(units.values())
+
+
+def _unit_label(bldg_id, unit_id):
+    """Unit number as shown and saved. Units in the first (or only) building keep their
+    plain number ("316"); others get their building ID in front ("002-1203"), since towers
+    can reuse numbers. This depends only on the unit itself, so a unit's label never
+    changes because of what else happens to be listed."""
+    b = bldg_id.strip()
+    if not b or (b.isdigit() and int(b) <= 1):
+        return unit_id
+    return f"{b}-{unit_id}"

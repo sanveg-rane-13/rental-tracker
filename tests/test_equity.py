@@ -44,3 +44,23 @@ def test_past_date_becomes_now():
 def test_missing_data_is_an_error():
     with pytest.raises(ValueError, match="ea5.unitAvailability not found"):
         PARSERS["equity"]("<html>{{vm.totalUnitCount}}</html>", building="Hudson Point")
+
+
+def _page(units):
+    import json
+    data = {"BedroomTypes": [{"BedroomCount": 1, "AvailableUnits": units}]}
+    return f"<script>var ea5 = ea5 || {{}}; ea5.unitAvailability = {json.dumps(data)};</script>"
+
+
+def _u(unit_id, bldg, price=3000):
+    return {"UnitId": unit_id, "BuildingId": bldg, "AvailableDate": "10/1/2026", "Bed": 1,
+            "BestTerm": {"Length": 12, "Price": price}, "SqFt": 700}
+
+
+def test_tower_prefix_is_stable():
+    """A unit's label depends only on its own building, not on what else is listed."""
+    alone = PARSERS["equity"](_page([_u("1203", "002")]), building="Portside Towers", today=TODAY)
+    mixed = PARSERS["equity"](_page([_u("1203", "002"), _u("1203", "001"), _u("805", "1")]),
+                              building="Portside Towers", today=TODAY)
+    assert [u["unit"] for u in alone] == ["002-1203"]
+    assert sorted(u["unit"] for u in mixed) == ["002-1203", "1203", "805"]

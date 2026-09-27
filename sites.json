@@ -110,13 +110,16 @@
     "max_rent": 3600
   },
   {
-    "name": "Hudson Point",
-    "link": "https://www.equityapartments.com/new-york-city/jersey-city/hudson-point-apartments#unit-availability-tile",
+    "name": "Equity Apartments",
     "parser": "equity",
     "pages": [
       {
         "building": "Hudson Point",
         "url": "https://www.equityapartments.com/new-york-city/jersey-city/hudson-point-apartments"
+      },
+      {
+        "building": "Portside Towers",
+        "url": "https://www.equityapartments.com/new-york-city/jersey-city/portside-towers-apartments"
       }
     ],
     "beds": [

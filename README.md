@@ -21,7 +21,7 @@ Which price is compared depends on what the site shows:
 | Liberty Harbor | `libertyharbor` (data embedded in libertyharbor.com/availability) | The site's advertised price; units on promotion are marked "discounted" (likely net effective rent) |
 | 235 Grand, 18 Park, 65 Bay Street | `yardi_site` (the building's own floor-plan pages) | Base rent, low end of "$3,720.00 to $4,090.00" |
 | Avalon Cove | `avalon` (AvalonBay's apartment-search JSON, community code `NJ002`) | Best offered rent; its lease length goes in the notification ("10-month lease") |
-| Hudson Point | `equity` (data embedded in the equityapartments.com page) | Estimated total monthly charge (base + required fees), like Newport |
+| Equity Apartments (Hudson Point, Portside Towers) | `equity` (data embedded in each equityapartments.com community page) | Estimated total monthly charge (base + required fees), like Newport |
 
 Stays silent for: availability-date changes, price changes that end over budget, units being delisted, and the **first run for a property** (it just records what's there).
 
