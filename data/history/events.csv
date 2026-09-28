@@ -947,3 +947,5 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-09-28T01:36,2026-09-27 21:36,Equity Apartments,Portside Towers,2006,1 Bedroom,available_change,3966,,3966,,,10/8/2026,10/7/2026,913,E1 & J1,,2026-09-27,
 2026-09-28T01:36,2026-09-27 21:36,Equity Apartments,Portside Towers,908,1 Bedroom,listed,3874,,3874,,,9/29/2026,,960,G,,2026-09-28,
 2026-09-28T01:36,2026-09-27 21:36,Equity Apartments,Portside Towers,808,1 Bedroom,available_change,3923,,3923,,,10/17/2026,10/16/2026,889,D1 & K1,,2026-09-27,
+2026-09-28T05:26,2026-09-28 01:26,Newport Rentals,Ellipse,3506,1 Bedroom,available_change,4894,,4836,,4894,Now,9/28/2026,752,,0.5 Month Free,2026-09-24,
+2026-09-28T05:26,2026-09-28 01:26,Equity Apartments,Portside Towers,908,1 Bedroom,delisted,3874,,3874,,,9/29/2026,,960,G,,2026-09-28,
