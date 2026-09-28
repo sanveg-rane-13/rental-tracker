@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-09-28T21:15:03+00:00",
+  "updated_at": "2026-09-28T23:40:52+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -988,45 +988,6 @@
         {
           "date": "2026-09-28",
           "price": 4540
-        }
-      ]
-    },
-    "Bisby|2905": {
-      "building": "Bisby",
-      "unit": "2905",
-      "beds": "1 Bedroom",
-      "rent": 4935,
-      "base_rent": 4877,
-      "base_rent_max": null,
-      "available": "9/30/2026",
-      "sqft": 773,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4862
-        },
-        {
-          "date": "2026-09-24",
-          "price": 4873
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4894
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4902
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4914
-        },
-        {
-          "date": "2026-09-28",
-          "price": 4935
         }
       ]
     },
@@ -2315,45 +2276,6 @@
         {
           "date": "2026-09-27",
           "price": 3891
-        }
-      ]
-    },
-    "Parkside East|2301": {
-      "building": "Parkside East",
-      "unit": "2301",
-      "beds": "1 Bedroom",
-      "rent": 3349,
-      "base_rent": 3336,
-      "base_rent_max": null,
-      "available": "11/6/2026",
-      "sqft": 771,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3394
-        },
-        {
-          "date": "2026-09-24",
-          "price": 3376
-        },
-        {
-          "date": "2026-09-25",
-          "price": 3352
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3367
-        },
-        {
-          "date": "2026-09-27",
-          "price": 3358
-        },
-        {
-          "date": "2026-09-28",
-          "price": 3349
         }
       ]
     },
@@ -3696,6 +3618,25 @@
         {
           "date": "2026-09-28",
           "price": 3524
+        }
+      ]
+    },
+    "Waterside Square South|916": {
+      "building": "Waterside Square South",
+      "unit": "916",
+      "beds": "1 Bedroom",
+      "rent": 3378,
+      "base_rent": 3365,
+      "base_rent_max": null,
+      "available": "10/6/2026",
+      "sqft": 711,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-28",
+      "price_history": [
+        {
+          "date": "2026-09-28",
+          "price": 3378
         }
       ]
     }
