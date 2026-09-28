@@ -27,38 +27,6 @@
     "max_rent": 3600
   },
   {
-    "name": "235 Grand",
-    "link": "https://www.235grand.com/floorplans/1-bedroom---1-bathroom",
-    "parser": "yardi_site",
-    "pages": [
-      {
-        "building": "235 Grand",
-        "beds": "1 Bedroom",
-        "url": "https://www.235grand.com/floorplans/1-bedroom---1-bathroom"
-      }
-    ],
-    "beds": [
-      "1 Bedroom"
-    ],
-    "max_rent": 3600
-  },
-  {
-    "name": "18 Park",
-    "link": "https://www.18park.com/floorplans/1-bed-1-bath",
-    "parser": "yardi_site",
-    "pages": [
-      {
-        "building": "18 Park",
-        "beds": "1 Bedroom",
-        "url": "https://www.18park.com/floorplans/1-bed-1-bath"
-      }
-    ],
-    "beds": [
-      "1 Bedroom"
-    ],
-    "max_rent": 3600
-  },
-  {
     "name": "65 Bay Street",
     "link": "https://www.65bay.com/floorplans?Beds=1",
     "parser": "yardi_site",
@@ -175,6 +143,31 @@
     "name": "Lenox",
     "url": "https://www.apartmentlist.com/nj/jersey-city/lenox",
     "parser": "apartmentlist",
+    "beds": [
+      "1 Bedroom"
+    ],
+    "max_rent": 3600
+  },
+  {
+    "name": "Northern Chapter Properties",
+    "parser": "yardi_site",
+    "pages": [
+      {
+        "building": "235 Grand",
+        "beds": "1 Bedroom",
+        "url": "https://www.235grand.com/floorplans/1-bedroom---1-bathroom"
+      },
+      {
+        "building": "18 Park",
+        "beds": "1 Bedroom",
+        "url": "https://www.18park.com/floorplans/1-bed-1-bath"
+      },
+      {
+        "building": "225 Grand",
+        "beds": "1 Bedroom",
+        "url": "https://www.225grandstreet.com/floorplans/1-br---1ba?Beds=1"
+      }
+    ],
     "beds": [
       "1 Bedroom"
     ],

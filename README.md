@@ -19,7 +19,7 @@ Which price is compared depends on what the site shows:
 | Newport Rentals | `newport` | Total monthly rent (base + required fees), e.g. $3,064/mo rather than $3,051 base |
 | BLVD Collection | `blvd` (RentCafe page) | Base rent, lowest lease-term price (RentCafe shows "$4,055 - $4,866" and no fees) |
 | Liberty Harbor | `libertyharbor` (data embedded in libertyharbor.com/availability) | The site's advertised price; units on promotion are marked "discounted" (likely net effective rent) |
-| 235 Grand, 18 Park, 65 Bay Street | `yardi_site` (the building's own floor-plan pages) | Base rent, low end of "$3,720.00 to $4,090.00" |
+| Northern Chapter Properties (235 Grand, 18 Park, 225 Grand), 65 Bay Street | `yardi_site` (the building's own floor-plan pages) | Base rent, low end of "$3,720.00 to $4,090.00" |
 | Avalon Cove | `avalon` (AvalonBay's apartment-search JSON, community code `NJ002`) | Best offered rent; its lease length goes in the notification ("10-month lease") |
 | Equity Apartments (Hudson Point, Portside Towers, Madox, The Pier) | `apartmentlist` (equityapartments.com blocks GitHub's IP, so we read the same units from apartmentlist.com) | Base rent (no fees shown) |
 | IronState Properties (50 Columbus, The Gotham, 70 Columbus, 90 Columbus) | `ironstate` (units in the ironstate.com page; keyed by floorplan id) | Base rent (no fees shown) |
