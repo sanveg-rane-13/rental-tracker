@@ -1,7 +1,26 @@
 {
   "property": "235 Grand",
-  "updated_at": "2026-09-28T14:25:47+00:00",
+  "updated_at": "2026-09-28T20:05:32+00:00",
   "units": {
+    "235 Grand|0225": {
+      "building": "235 Grand",
+      "unit": "0225",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3975,
+      "base_rent_max": 4440,
+      "available": "12/7/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-09-28",
+      "price_history": [
+        {
+          "date": "2026-09-28",
+          "price": 3975
+        }
+      ]
+    },
     "235 Grand|0423": {
       "building": "235 Grand",
       "unit": "0423",

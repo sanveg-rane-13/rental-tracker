@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-09-28T14:25:47+00:00",
+  "updated_at": "2026-09-28T20:05:32+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -664,41 +664,6 @@
         }
       ]
     },
-    "Atlantic|3412": {
-      "building": "Atlantic",
-      "unit": "3412",
-      "beds": "1 Bedroom",
-      "rent": 4376,
-      "base_rent": 4328,
-      "base_rent_max": null,
-      "available": "10/16/2026",
-      "sqft": 796,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4364
-        },
-        {
-          "date": "2026-09-24",
-          "price": 4373
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4378
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4379
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4376
-        }
-      ]
-    },
     "Atlantic|912": {
       "building": "Atlantic",
       "unit": "912",
@@ -770,6 +735,25 @@
         {
           "date": "2026-09-28",
           "price": 5165
+        }
+      ]
+    },
+    "Beach|209": {
+      "building": "Beach",
+      "unit": "209",
+      "beds": "1 Bedroom",
+      "rent": 4839,
+      "base_rent": 4781,
+      "base_rent_max": null,
+      "available": "10/29/2026",
+      "sqft": 713,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-28",
+      "price_history": [
+        {
+          "date": "2026-09-28",
+          "price": 4839
         }
       ]
     },
@@ -1304,41 +1288,6 @@
         {
           "date": "2026-09-28",
           "price": 4790
-        }
-      ]
-    },
-    "East Hampton|1511": {
-      "building": "East Hampton",
-      "unit": "1511",
-      "beds": "1 Bedroom",
-      "rent": 3651,
-      "base_rent": 3603,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 743,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3639
-        },
-        {
-          "date": "2026-09-24",
-          "price": 3648
-        },
-        {
-          "date": "2026-09-25",
-          "price": 3653
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3654
-        },
-        {
-          "date": "2026-09-27",
-          "price": 3651
         }
       ]
     },
@@ -2315,6 +2264,25 @@
         }
       ]
     },
+    "Pacific|2206": {
+      "building": "Pacific",
+      "unit": "2206",
+      "beds": "1 Bedroom",
+      "rent": 3971,
+      "base_rent": 3958,
+      "base_rent_max": null,
+      "available": "10/15/2026",
+      "sqft": 799,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-28",
+      "price_history": [
+        {
+          "date": "2026-09-28",
+          "price": 3971
+        }
+      ]
+    },
     "Pacific|506": {
       "building": "Pacific",
       "unit": "506",
@@ -2503,6 +2471,25 @@
         {
           "date": "2026-09-28",
           "price": 3379
+        }
+      ]
+    },
+    "Parkside West|3007": {
+      "building": "Parkside West",
+      "unit": "3007",
+      "beds": "1 Bedroom",
+      "rent": 3518,
+      "base_rent": 3505,
+      "base_rent_max": null,
+      "available": "11/11/2026",
+      "sqft": 766,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-28",
+      "price_history": [
+        {
+          "date": "2026-09-28",
+          "price": 3518
         }
       ]
     },
@@ -2919,6 +2906,25 @@
         {
           "date": "2026-09-27",
           "price": 4096
+        }
+      ]
+    },
+    "Southampton|2104": {
+      "building": "Southampton",
+      "unit": "2104",
+      "beds": "1 Bedroom",
+      "rent": 4001,
+      "base_rent": 3953,
+      "base_rent_max": null,
+      "available": "10/4/2026",
+      "sqft": 851,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-28",
+      "price_history": [
+        {
+          "date": "2026-09-28",
+          "price": 4001
         }
       ]
     },
