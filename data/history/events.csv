@@ -1042,3 +1042,7 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-09-28T20:05,2026-09-28 16:05,Equity Apartments,The Pier,1-542,1 Bedroom,listed,3798,,3798,,,Now,,703,A3,,2026-09-28,
 2026-09-28T20:05,2026-09-28 16:05,Equity Apartments,The Pier,1-633,1 Bedroom,available_change,3884,,3884,,,10/8/2026,10/7/2026,741,A5,,2026-09-27,
 2026-09-28T20:05,2026-09-28 16:05,IronState Properties,50 Columbus,4775281,1 Bedroom,available_change,3810,,3810,,,10/01/2026,10/09/2026,781,4775281,,2026-09-27,
+2026-09-28T21:14,2026-09-28 17:14,Equity Apartments,The Pier,1-633,1 Bedroom,available_change,3884,,3884,,,10/7/2026,10/8/2026,741,A5,,2026-09-27,
+2026-09-28T21:14,2026-09-28 17:14,Equity Apartments,The Pier,1-542,1 Bedroom,delisted,3798,,3798,,,Now,,703,A3,,2026-09-28,
+2026-09-28T21:14,2026-09-28 17:14,Equity Apartments,The Pier,1-602,1 Bedroom,delisted,3736,,3736,,,Now,,825,A7,,2026-09-28,
+2026-09-28T21:14,2026-09-28 17:14,VYV,,N-0309,1 Bedroom,delisted,3933,,3933,,,10/7/2026,,836,A22,,2026-09-27,
