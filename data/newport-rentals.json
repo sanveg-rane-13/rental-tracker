@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-09-29T18:05:58+00:00",
+  "updated_at": "2026-09-29T22:17:11+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -1407,6 +1407,44 @@
         }
       ]
     },
+    "East Hampton|1204": {
+      "building": "East Hampton",
+      "unit": "1204",
+      "beds": "1 Bedroom",
+      "rent": 4093,
+      "base_rent": 4045,
+      "base_rent_max": null,
+      "available": "11/8/2026",
+      "sqft": 761,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-29",
+      "price_history": [
+        {
+          "date": "2026-09-29",
+          "price": 4093
+        }
+      ]
+    },
+    "East Hampton|1609": {
+      "building": "East Hampton",
+      "unit": "1609",
+      "beds": "1 Bedroom",
+      "rent": 3943,
+      "base_rent": 3895,
+      "base_rent_max": null,
+      "available": "11/2/2026",
+      "sqft": 817,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-29",
+      "price_history": [
+        {
+          "date": "2026-09-29",
+          "price": 3943
+        }
+      ]
+    },
     "East Hampton|1711": {
       "building": "East Hampton",
       "unit": "1711",
@@ -2224,7 +2262,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 645,
-      "special": "0.5 Month Free",
+      "special": null,
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -2267,7 +2305,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 713,
-      "special": "0.5 Month Free",
+      "special": null,
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -2337,7 +2375,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 725,
-      "special": "0.5 Month Free",
+      "special": null,
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -2559,7 +2597,7 @@
       "base_rent_max": null,
       "available": "10/11/2026",
       "sqft": 771,
-      "special": "0.5 Month Free",
+      "special": null,
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -2602,7 +2640,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 767,
-      "special": "0.5 Month Free",
+      "special": null,
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -2645,7 +2683,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 767,
-      "special": "0.5 Month Free",
+      "special": null,
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
