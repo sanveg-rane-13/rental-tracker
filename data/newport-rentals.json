@@ -1,13 +1,13 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-09-30T05:34:50+00:00",
+  "updated_at": "2026-09-30T12:37:27+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
       "unit": "1604",
       "beds": "1 Bedroom",
-      "rent": 4689,
-      "base_rent": 4646,
+      "rent": 4511,
+      "base_rent": 4468,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 790,
@@ -42,6 +42,10 @@
         {
           "date": "2026-09-29",
           "price": 4689
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4511
         }
       ]
     },
@@ -49,8 +53,8 @@
       "building": "Aquablu",
       "unit": "2404",
       "beds": "1 Bedroom",
-      "rent": 4529,
-      "base_rent": 4486,
+      "rent": 4351,
+      "base_rent": 4308,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 790,
@@ -85,6 +89,10 @@
         {
           "date": "2026-09-29",
           "price": 4529
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4351
         }
       ]
     },
@@ -92,8 +100,8 @@
       "building": "Aquablu",
       "unit": "2804",
       "beds": "1 Bedroom",
-      "rent": 4749,
-      "base_rent": 4706,
+      "rent": 4571,
+      "base_rent": 4528,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 790,
@@ -128,6 +136,10 @@
         {
           "date": "2026-09-29",
           "price": 4749
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4571
         }
       ]
     },
@@ -135,8 +147,8 @@
       "building": "Aquablu",
       "unit": "418",
       "beds": "1 Bedroom",
-      "rent": 4159,
-      "base_rent": 4116,
+      "rent": 3981,
+      "base_rent": 3938,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 811,
@@ -171,6 +183,10 @@
         {
           "date": "2026-09-29",
           "price": 4159
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3981
         }
       ]
     },
@@ -178,8 +194,8 @@
       "building": "Aquablu",
       "unit": "621",
       "beds": "1 Bedroom",
-      "rent": 4294,
-      "base_rent": 4251,
+      "rent": 4116,
+      "base_rent": 4073,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 816,
@@ -214,6 +230,10 @@
         {
           "date": "2026-09-29",
           "price": 4294
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4116
         }
       ]
     },
@@ -221,8 +241,8 @@
       "building": "Aquablu",
       "unit": "624",
       "beds": "1 Bedroom",
-      "rent": 4369,
-      "base_rent": 4326,
+      "rent": 4191,
+      "base_rent": 4148,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 812,
@@ -257,6 +277,10 @@
         {
           "date": "2026-09-29",
           "price": 4369
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4191
         }
       ]
     },
@@ -264,8 +288,8 @@
       "building": "Atlantic",
       "unit": "1006",
       "beds": "1 Bedroom",
-      "rent": 3918,
-      "base_rent": 3870,
+      "rent": 3846,
+      "base_rent": 3798,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 795,
@@ -296,6 +320,10 @@
         {
           "date": "2026-09-29",
           "price": 3918
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3846
         }
       ]
     },
@@ -303,8 +331,8 @@
       "building": "Atlantic",
       "unit": "111",
       "beds": "1 Bedroom",
-      "rent": 4223,
-      "base_rent": 4175,
+      "rent": 4151,
+      "base_rent": 4103,
       "base_rent_max": null,
       "available": "12/4/2026",
       "sqft": 1000,
@@ -335,6 +363,10 @@
         {
           "date": "2026-09-29",
           "price": 4223
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4151
         }
       ]
     },
@@ -342,8 +374,8 @@
       "building": "Atlantic",
       "unit": "1202",
       "beds": "1 Bedroom",
-      "rent": 4348,
-      "base_rent": 4300,
+      "rent": 4276,
+      "base_rent": 4228,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 794,
@@ -374,6 +406,10 @@
         {
           "date": "2026-09-29",
           "price": 4348
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4276
         }
       ]
     },
@@ -381,8 +417,8 @@
       "building": "Atlantic",
       "unit": "1404",
       "beds": "1 Bedroom",
-      "rent": 4193,
-      "base_rent": 4145,
+      "rent": 4121,
+      "base_rent": 4073,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 880,
@@ -413,6 +449,10 @@
         {
           "date": "2026-09-29",
           "price": 4193
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4121
         }
       ]
     },
@@ -420,8 +460,8 @@
       "building": "Atlantic",
       "unit": "1508",
       "beds": "1 Bedroom",
-      "rent": 4088,
-      "base_rent": 4040,
+      "rent": 4016,
+      "base_rent": 3968,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 758,
@@ -452,6 +492,10 @@
         {
           "date": "2026-09-29",
           "price": 4088
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4016
         }
       ]
     },
@@ -459,8 +503,8 @@
       "building": "Atlantic",
       "unit": "2210",
       "beds": "1 Bedroom",
-      "rent": 3888,
-      "base_rent": 3840,
+      "rent": 3816,
+      "base_rent": 3768,
       "base_rent_max": null,
       "available": "10/7/2026",
       "sqft": 899,
@@ -495,6 +539,10 @@
         {
           "date": "2026-09-29",
           "price": 3888
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3816
         }
       ]
     },
@@ -502,8 +550,8 @@
       "building": "Atlantic",
       "unit": "2302",
       "beds": "1 Bedroom",
-      "rent": 4398,
-      "base_rent": 4350,
+      "rent": 4326,
+      "base_rent": 4278,
       "base_rent_max": null,
       "available": "11/5/2026",
       "sqft": 794,
@@ -534,6 +582,10 @@
         {
           "date": "2026-09-29",
           "price": 4398
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4326
         }
       ]
     },
@@ -541,8 +593,8 @@
       "building": "Atlantic",
       "unit": "2701",
       "beds": "1 Bedroom",
-      "rent": 4183,
-      "base_rent": 4135,
+      "rent": 4111,
+      "base_rent": 4063,
       "base_rent_max": null,
       "available": "10/25/2026",
       "sqft": 860,
@@ -573,6 +625,10 @@
         {
           "date": "2026-09-29",
           "price": 4183
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4111
         }
       ]
     },
@@ -580,8 +636,8 @@
       "building": "Atlantic",
       "unit": "2806",
       "beds": "1 Bedroom",
-      "rent": 4113,
-      "base_rent": 4065,
+      "rent": 4041,
+      "base_rent": 3993,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 795,
@@ -612,6 +668,10 @@
         {
           "date": "2026-09-29",
           "price": 4113
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4041
         }
       ]
     },
@@ -619,8 +679,8 @@
       "building": "Atlantic",
       "unit": "2810",
       "beds": "1 Bedroom",
-      "rent": 3918,
-      "base_rent": 3870,
+      "rent": 3846,
+      "base_rent": 3798,
       "base_rent_max": null,
       "available": "10/28/2026",
       "sqft": 899,
@@ -655,6 +715,10 @@
         {
           "date": "2026-09-29",
           "price": 3918
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3846
         }
       ]
     },
@@ -662,8 +726,8 @@
       "building": "Atlantic",
       "unit": "3401",
       "beds": "1 Bedroom",
-      "rent": 4393,
-      "base_rent": 4345,
+      "rent": 4321,
+      "base_rent": 4273,
       "base_rent_max": null,
       "available": "10/21/2026",
       "sqft": 860,
@@ -694,6 +758,10 @@
         {
           "date": "2026-09-29",
           "price": 4393
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4321
         }
       ]
     },
@@ -701,8 +769,8 @@
       "building": "Atlantic",
       "unit": "3406",
       "beds": "1 Bedroom",
-      "rent": 4208,
-      "base_rent": 4160,
+      "rent": 4136,
+      "base_rent": 4088,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 795,
@@ -733,6 +801,10 @@
         {
           "date": "2026-09-29",
           "price": 4208
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4136
         }
       ]
     },
@@ -740,8 +812,8 @@
       "building": "Atlantic",
       "unit": "3412",
       "beds": "1 Bedroom",
-      "rent": 4378,
-      "base_rent": 4330,
+      "rent": 4306,
+      "base_rent": 4258,
       "base_rent_max": null,
       "available": "10/4/2026",
       "sqft": 796,
@@ -752,6 +824,10 @@
         {
           "date": "2026-09-29",
           "price": 4378
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4306
         }
       ]
     },
@@ -759,8 +835,8 @@
       "building": "Atlantic",
       "unit": "912",
       "beds": "1 Bedroom",
-      "rent": 4083,
-      "base_rent": 4035,
+      "rent": 4011,
+      "base_rent": 3963,
       "base_rent_max": null,
       "available": "12/3/2026",
       "sqft": 796,
@@ -791,6 +867,10 @@
         {
           "date": "2026-09-29",
           "price": 4083
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4011
         }
       ]
     },
@@ -798,8 +878,8 @@
       "building": "Beach",
       "unit": "1223",
       "beds": "1 Bedroom",
-      "rent": 5169,
-      "base_rent": 5111,
+      "rent": 5091,
+      "base_rent": 5033,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 730,
@@ -834,6 +914,10 @@
         {
           "date": "2026-09-29",
           "price": 5169
+        },
+        {
+          "date": "2026-09-30",
+          "price": 5091
         }
       ]
     },
@@ -841,8 +925,8 @@
       "building": "Beach",
       "unit": "209",
       "beds": "1 Bedroom",
-      "rent": 4844,
-      "base_rent": 4786,
+      "rent": 4766,
+      "base_rent": 4708,
       "base_rent_max": null,
       "available": "10/29/2026",
       "sqft": 713,
@@ -857,6 +941,10 @@
         {
           "date": "2026-09-29",
           "price": 4844
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4766
         }
       ]
     },
@@ -864,8 +952,8 @@
       "building": "Beach",
       "unit": "311",
       "beds": "1 Bedroom",
-      "rent": 5144,
-      "base_rent": 5086,
+      "rent": 5066,
+      "base_rent": 5008,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 761,
@@ -900,6 +988,10 @@
         {
           "date": "2026-09-29",
           "price": 5144
+        },
+        {
+          "date": "2026-09-30",
+          "price": 5066
         }
       ]
     },
@@ -907,8 +999,8 @@
       "building": "Beach",
       "unit": "322",
       "beds": "1 Bedroom",
-      "rent": 5084,
-      "base_rent": 5026,
+      "rent": 5006,
+      "base_rent": 4948,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 723,
@@ -943,6 +1035,10 @@
         {
           "date": "2026-09-29",
           "price": 5084
+        },
+        {
+          "date": "2026-09-30",
+          "price": 5006
         }
       ]
     },
@@ -950,8 +1046,8 @@
       "building": "Beach",
       "unit": "708",
       "beds": "1 Bedroom",
-      "rent": 4609,
-      "base_rent": 4551,
+      "rent": 4531,
+      "base_rent": 4473,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 552,
@@ -986,6 +1082,10 @@
         {
           "date": "2026-09-29",
           "price": 4609
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4531
         }
       ]
     },
@@ -993,8 +1093,8 @@
       "building": "Beach",
       "unit": "722",
       "beds": "1 Bedroom",
-      "rent": 5104,
-      "base_rent": 5046,
+      "rent": 5026,
+      "base_rent": 4968,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 723,
@@ -1029,6 +1129,10 @@
         {
           "date": "2026-09-29",
           "price": 5104
+        },
+        {
+          "date": "2026-09-30",
+          "price": 5026
         }
       ]
     },
@@ -1036,8 +1140,8 @@
       "building": "Bisby",
       "unit": "1806",
       "beds": "1 Bedroom",
-      "rent": 4759,
-      "base_rent": 4701,
+      "rent": 4681,
+      "base_rent": 4623,
       "base_rent_max": null,
       "available": "11/19/2026",
       "sqft": 795,
@@ -1072,6 +1176,10 @@
         {
           "date": "2026-09-29",
           "price": 4759
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4681
         }
       ]
     },
@@ -1079,8 +1187,8 @@
       "building": "Bisby",
       "unit": "207",
       "beds": "1 Bedroom",
-      "rent": 4544,
-      "base_rent": 4486,
+      "rent": 4466,
+      "base_rent": 4408,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 780,
@@ -1115,6 +1223,10 @@
         {
           "date": "2026-09-29",
           "price": 4544
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4466
         }
       ]
     },
@@ -1122,8 +1234,8 @@
       "building": "Bisby",
       "unit": "407",
       "beds": "1 Bedroom",
-      "rent": 4804,
-      "base_rent": 4746,
+      "rent": 4726,
+      "base_rent": 4668,
       "base_rent_max": null,
       "available": "12/7/2026",
       "sqft": 780,
@@ -1158,6 +1270,10 @@
         {
           "date": "2026-09-29",
           "price": 4804
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4726
         }
       ]
     },
@@ -1165,8 +1281,8 @@
       "building": "Bisby",
       "unit": "409",
       "beds": "1 Bedroom",
-      "rent": 4929,
-      "base_rent": 4871,
+      "rent": 4851,
+      "base_rent": 4793,
       "base_rent_max": null,
       "available": "10/24/2026",
       "sqft": 827,
@@ -1201,6 +1317,10 @@
         {
           "date": "2026-09-29",
           "price": 4929
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4851
         }
       ]
     },
@@ -1208,8 +1328,8 @@
       "building": "Bisby",
       "unit": "503",
       "beds": "1 Bedroom",
-      "rent": 5059,
-      "base_rent": 5001,
+      "rent": 4981,
+      "base_rent": 4923,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 835,
@@ -1244,6 +1364,10 @@
         {
           "date": "2026-09-29",
           "price": 5059
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4981
         }
       ]
     },
@@ -1251,8 +1375,8 @@
       "building": "Bisby",
       "unit": "505",
       "beds": "1 Bedroom",
-      "rent": 4759,
-      "base_rent": 4701,
+      "rent": 4681,
+      "base_rent": 4623,
       "base_rent_max": null,
       "available": "11/4/2026",
       "sqft": 773,
@@ -1287,6 +1411,10 @@
         {
           "date": "2026-09-29",
           "price": 4759
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4681
         }
       ]
     },
@@ -1294,8 +1422,8 @@
       "building": "Bisby",
       "unit": "507",
       "beds": "1 Bedroom",
-      "rent": 4809,
-      "base_rent": 4751,
+      "rent": 4731,
+      "base_rent": 4673,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 780,
@@ -1330,6 +1458,10 @@
         {
           "date": "2026-09-29",
           "price": 4809
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4731
         }
       ]
     },
@@ -1337,8 +1469,8 @@
       "building": "Bisby",
       "unit": "603",
       "beds": "1 Bedroom",
-      "rent": 5064,
-      "base_rent": 5006,
+      "rent": 4986,
+      "base_rent": 4928,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 835,
@@ -1361,6 +1493,10 @@
         {
           "date": "2026-09-29",
           "price": 5064
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4986
         }
       ]
     },
@@ -1368,8 +1504,8 @@
       "building": "Bisby",
       "unit": "705",
       "beds": "1 Bedroom",
-      "rent": 4794,
-      "base_rent": 4736,
+      "rent": 4716,
+      "base_rent": 4658,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 773,
@@ -1404,6 +1540,10 @@
         {
           "date": "2026-09-29",
           "price": 4794
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4716
         }
       ]
     },
@@ -1411,8 +1551,8 @@
       "building": "East Hampton",
       "unit": "1204",
       "beds": "1 Bedroom",
-      "rent": 4093,
-      "base_rent": 4045,
+      "rent": 4021,
+      "base_rent": 3973,
       "base_rent_max": null,
       "available": "11/8/2026",
       "sqft": 761,
@@ -1423,6 +1563,10 @@
         {
           "date": "2026-09-29",
           "price": 4093
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4021
         }
       ]
     },
@@ -1430,8 +1574,8 @@
       "building": "East Hampton",
       "unit": "1609",
       "beds": "1 Bedroom",
-      "rent": 3943,
-      "base_rent": 3895,
+      "rent": 3871,
+      "base_rent": 3823,
       "base_rent_max": null,
       "available": "11/2/2026",
       "sqft": 817,
@@ -1442,6 +1586,10 @@
         {
           "date": "2026-09-29",
           "price": 3943
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3871
         }
       ]
     },
@@ -1449,8 +1597,8 @@
       "building": "East Hampton",
       "unit": "1711",
       "beds": "1 Bedroom",
-      "rent": 3663,
-      "base_rent": 3615,
+      "rent": 3591,
+      "base_rent": 3543,
       "base_rent_max": null,
       "available": "10/7/2026",
       "sqft": 743,
@@ -1473,6 +1621,10 @@
         {
           "date": "2026-09-29",
           "price": 3663
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3591
         }
       ]
     },
@@ -1480,8 +1632,8 @@
       "building": "East Hampton",
       "unit": "1808",
       "beds": "1 Bedroom",
-      "rent": 4193,
-      "base_rent": 4145,
+      "rent": 4121,
+      "base_rent": 4073,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 832,
@@ -1512,6 +1664,10 @@
         {
           "date": "2026-09-29",
           "price": 4193
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4121
         }
       ]
     },
@@ -1519,8 +1675,8 @@
       "building": "East Hampton",
       "unit": "2206",
       "beds": "1 Bedroom",
-      "rent": 4098,
-      "base_rent": 4050,
+      "rent": 4026,
+      "base_rent": 3978,
       "base_rent_max": null,
       "available": "11/8/2026",
       "sqft": 862,
@@ -1551,6 +1707,10 @@
         {
           "date": "2026-09-29",
           "price": 4098
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4026
         }
       ]
     },
@@ -1558,8 +1718,8 @@
       "building": "East Hampton",
       "unit": "2809",
       "beds": "1 Bedroom",
-      "rent": 4003,
-      "base_rent": 3955,
+      "rent": 3931,
+      "base_rent": 3883,
       "base_rent_max": null,
       "available": "10/31/2026",
       "sqft": 817,
@@ -1590,6 +1750,10 @@
         {
           "date": "2026-09-29",
           "price": 4003
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3931
         }
       ]
     },
@@ -1597,8 +1761,8 @@
       "building": "East Hampton",
       "unit": "3011",
       "beds": "1 Bedroom",
-      "rent": 3793,
-      "base_rent": 3745,
+      "rent": 3721,
+      "base_rent": 3673,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 743,
@@ -1629,6 +1793,10 @@
         {
           "date": "2026-09-29",
           "price": 3793
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3721
         }
       ]
     },
@@ -1636,8 +1804,8 @@
       "building": "East Hampton",
       "unit": "415",
       "beds": "1 Bedroom",
-      "rent": 4013,
-      "base_rent": 3965,
+      "rent": 3941,
+      "base_rent": 3893,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 828,
@@ -1668,6 +1836,10 @@
         {
           "date": "2026-09-29",
           "price": 4013
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3941
         }
       ]
     },
@@ -1675,8 +1847,8 @@
       "building": "East Hampton",
       "unit": "701",
       "beds": "1 Bedroom",
-      "rent": 4103,
-      "base_rent": 4055,
+      "rent": 4031,
+      "base_rent": 3983,
       "base_rent_max": null,
       "available": "10/2/2026",
       "sqft": 862,
@@ -1707,6 +1879,10 @@
         {
           "date": "2026-09-29",
           "price": 4103
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4031
         }
       ]
     },
@@ -1714,8 +1890,8 @@
       "building": "East Hampton",
       "unit": "706",
       "beds": "1 Bedroom",
-      "rent": 4253,
-      "base_rent": 4205,
+      "rent": 4181,
+      "base_rent": 4133,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 862,
@@ -1746,6 +1922,10 @@
         {
           "date": "2026-09-29",
           "price": 4253
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4181
         }
       ]
     },
@@ -1753,8 +1933,8 @@
       "building": "East Hampton",
       "unit": "715",
       "beds": "1 Bedroom",
-      "rent": 4053,
-      "base_rent": 4005,
+      "rent": 3981,
+      "base_rent": 3933,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 828,
@@ -1785,6 +1965,10 @@
         {
           "date": "2026-09-29",
           "price": 4053
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3981
         }
       ]
     },
@@ -1792,8 +1976,8 @@
       "building": "East Hampton",
       "unit": "809",
       "beds": "1 Bedroom",
-      "rent": 4148,
-      "base_rent": 4100,
+      "rent": 4076,
+      "base_rent": 4028,
       "base_rent_max": null,
       "available": "10/8/2026",
       "sqft": 817,
@@ -1824,6 +2008,10 @@
         {
           "date": "2026-09-29",
           "price": 4148
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4076
         }
       ]
     },
@@ -1831,8 +2019,8 @@
       "building": "Ellipse",
       "unit": "1606",
       "beds": "1 Bedroom",
-      "rent": 4824,
-      "base_rent": 4766,
+      "rent": 4746,
+      "base_rent": 4688,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 742,
@@ -1867,6 +2055,10 @@
         {
           "date": "2026-09-29",
           "price": 4824
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4746
         }
       ]
     },
@@ -1874,8 +2066,8 @@
       "building": "Ellipse",
       "unit": "1710",
       "beds": "1 Bedroom",
-      "rent": 4929,
-      "base_rent": 4871,
+      "rent": 4851,
+      "base_rent": 4793,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 759,
@@ -1906,6 +2098,10 @@
         {
           "date": "2026-09-29",
           "price": 4929
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4851
         }
       ]
     },
@@ -1913,8 +2109,8 @@
       "building": "Ellipse",
       "unit": "2202",
       "beds": "1 Bedroom",
-      "rent": 4919,
-      "base_rent": 4861,
+      "rent": 4841,
+      "base_rent": 4783,
       "base_rent_max": null,
       "available": "10/6/2026",
       "sqft": 753,
@@ -1949,6 +2145,10 @@
         {
           "date": "2026-09-29",
           "price": 4919
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4841
         }
       ]
     },
@@ -1956,8 +2156,8 @@
       "building": "Ellipse",
       "unit": "2702",
       "beds": "1 Bedroom",
-      "rent": 4944,
-      "base_rent": 4886,
+      "rent": 4866,
+      "base_rent": 4808,
       "base_rent_max": null,
       "available": "10/11/2026",
       "sqft": 753,
@@ -1992,6 +2192,10 @@
         {
           "date": "2026-09-29",
           "price": 4944
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4866
         }
       ]
     },
@@ -1999,8 +2203,8 @@
       "building": "Ellipse",
       "unit": "2806",
       "beds": "1 Bedroom",
-      "rent": 4884,
-      "base_rent": 4826,
+      "rent": 4806,
+      "base_rent": 4748,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 742,
@@ -2035,6 +2239,10 @@
         {
           "date": "2026-09-29",
           "price": 4884
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4806
         }
       ]
     },
@@ -2042,8 +2250,8 @@
       "building": "Ellipse",
       "unit": "306",
       "beds": "1 Bedroom",
-      "rent": 4764,
-      "base_rent": 4706,
+      "rent": 4686,
+      "base_rent": 4628,
       "base_rent_max": null,
       "available": "11/6/2026",
       "sqft": 742,
@@ -2078,6 +2286,10 @@
         {
           "date": "2026-09-29",
           "price": 4764
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4686
         }
       ]
     },
@@ -2085,8 +2297,8 @@
       "building": "Ellipse",
       "unit": "3506",
       "beds": "1 Bedroom",
-      "rent": 4919,
-      "base_rent": 4861,
+      "rent": 4841,
+      "base_rent": 4783,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 752,
@@ -2121,6 +2333,10 @@
         {
           "date": "2026-09-29",
           "price": 4919
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4841
         }
       ]
     },
@@ -2128,8 +2344,8 @@
       "building": "Ellipse",
       "unit": "3706",
       "beds": "1 Bedroom",
-      "rent": 4929,
-      "base_rent": 4871,
+      "rent": 4851,
+      "base_rent": 4793,
       "base_rent_max": null,
       "available": "12/6/2026",
       "sqft": 752,
@@ -2164,6 +2380,10 @@
         {
           "date": "2026-09-29",
           "price": 4929
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4851
         }
       ]
     },
@@ -2171,8 +2391,8 @@
       "building": "Ellipse",
       "unit": "3806",
       "beds": "1 Bedroom",
-      "rent": 4934,
-      "base_rent": 4876,
+      "rent": 4856,
+      "base_rent": 4798,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 752,
@@ -2207,6 +2427,10 @@
         {
           "date": "2026-09-29",
           "price": 4934
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4856
         }
       ]
     },
@@ -2214,8 +2438,8 @@
       "building": "Ellipse",
       "unit": "910",
       "beds": "1 Bedroom",
-      "rent": 4894,
-      "base_rent": 4836,
+      "rent": 4816,
+      "base_rent": 4758,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 759,
@@ -2250,6 +2474,10 @@
         {
           "date": "2026-09-29",
           "price": 4894
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4816
         }
       ]
     },
@@ -2257,8 +2485,8 @@
       "building": "Lincoln House",
       "unit": "310",
       "beds": "1 Bedroom",
-      "rent": 3199,
-      "base_rent": 3186,
+      "rent": 3218,
+      "base_rent": 3205,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 645,
@@ -2293,6 +2521,10 @@
         {
           "date": "2026-09-29",
           "price": 3199
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3218
         }
       ]
     },
@@ -2300,8 +2532,8 @@
       "building": "Lincoln House",
       "unit": "324",
       "beds": "1 Bedroom",
-      "rent": 3214,
-      "base_rent": 3201,
+      "rent": 3233,
+      "base_rent": 3220,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 713,
@@ -2336,6 +2568,10 @@
         {
           "date": "2026-09-29",
           "price": 3214
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3233
         }
       ]
     },
@@ -2343,8 +2579,8 @@
       "building": "Lincoln House",
       "unit": "402",
       "beds": "1 Bedroom",
-      "rent": 3219,
-      "base_rent": 3206,
+      "rent": 3238,
+      "base_rent": 3225,
       "base_rent_max": null,
       "available": "10/31/2026",
       "sqft": 725,
@@ -2363,6 +2599,10 @@
         {
           "date": "2026-09-29",
           "price": 3219
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3238
         }
       ]
     },
@@ -2370,8 +2610,8 @@
       "building": "Lincoln House",
       "unit": "626",
       "beds": "1 Bedroom",
-      "rent": 3179,
-      "base_rent": 3166,
+      "rent": 3198,
+      "base_rent": 3185,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 725,
@@ -2406,6 +2646,10 @@
         {
           "date": "2026-09-29",
           "price": 3179
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3198
         }
       ]
     },
@@ -2413,8 +2657,8 @@
       "building": "Pacific",
       "unit": "1907",
       "beds": "1 Bedroom",
-      "rent": 4058,
-      "base_rent": 4045,
+      "rent": 3986,
+      "base_rent": 3973,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 841,
@@ -2445,6 +2689,10 @@
         {
           "date": "2026-09-29",
           "price": 4058
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3986
         }
       ]
     },
@@ -2452,8 +2700,8 @@
       "building": "Pacific",
       "unit": "2006",
       "beds": "1 Bedroom",
-      "rent": 3963,
-      "base_rent": 3950,
+      "rent": 3891,
+      "base_rent": 3878,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 799,
@@ -2484,6 +2732,10 @@
         {
           "date": "2026-09-29",
           "price": 3963
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3891
         }
       ]
     },
@@ -2491,8 +2743,8 @@
       "building": "Pacific",
       "unit": "2008",
       "beds": "1 Bedroom",
-      "rent": 3838,
-      "base_rent": 3825,
+      "rent": 3766,
+      "base_rent": 3753,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 808,
@@ -2523,6 +2775,10 @@
         {
           "date": "2026-09-29",
           "price": 3838
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3766
         }
       ]
     },
@@ -2530,8 +2786,8 @@
       "building": "Pacific",
       "unit": "2206",
       "beds": "1 Bedroom",
-      "rent": 3973,
-      "base_rent": 3960,
+      "rent": 3901,
+      "base_rent": 3888,
       "base_rent_max": null,
       "available": "10/15/2026",
       "sqft": 799,
@@ -2546,6 +2802,10 @@
         {
           "date": "2026-09-29",
           "price": 3973
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3901
         }
       ]
     },
@@ -2553,8 +2813,8 @@
       "building": "Pacific",
       "unit": "506",
       "beds": "1 Bedroom",
-      "rent": 3893,
-      "base_rent": 3880,
+      "rent": 3821,
+      "base_rent": 3808,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 799,
@@ -2585,6 +2845,10 @@
         {
           "date": "2026-09-29",
           "price": 3893
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3821
         }
       ]
     },
@@ -2592,8 +2856,8 @@
       "building": "Parkside East",
       "unit": "3001",
       "beds": "1 Bedroom",
-      "rent": 3417,
-      "base_rent": 3404,
+      "rent": 3399,
+      "base_rent": 3386,
       "base_rent_max": null,
       "available": "10/11/2026",
       "sqft": 771,
@@ -2628,6 +2892,29 @@
         {
           "date": "2026-09-29",
           "price": 3417
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3399
+        }
+      ]
+    },
+    "Parkside East|3008": {
+      "building": "Parkside East",
+      "unit": "3008",
+      "beds": "1 Bedroom",
+      "rent": 3363,
+      "base_rent": 3350,
+      "base_rent_max": null,
+      "available": "10/14/2026",
+      "sqft": 765,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-30",
+      "price_history": [
+        {
+          "date": "2026-09-30",
+          "price": 3363
         }
       ]
     },
@@ -2635,8 +2922,8 @@
       "building": "Parkside West",
       "unit": "1515",
       "beds": "1 Bedroom",
-      "rent": 3332,
-      "base_rent": 3319,
+      "rent": 3314,
+      "base_rent": 3301,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 767,
@@ -2671,6 +2958,10 @@
         {
           "date": "2026-09-29",
           "price": 3332
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3314
         }
       ]
     },
@@ -2678,8 +2969,8 @@
       "building": "Parkside West",
       "unit": "2115",
       "beds": "1 Bedroom",
-      "rent": 3362,
-      "base_rent": 3349,
+      "rent": 3344,
+      "base_rent": 3331,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 767,
@@ -2714,6 +3005,10 @@
         {
           "date": "2026-09-29",
           "price": 3362
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3344
         }
       ]
     },
@@ -2721,8 +3016,8 @@
       "building": "Parkside West",
       "unit": "3007",
       "beds": "1 Bedroom",
-      "rent": 3502,
-      "base_rent": 3489,
+      "rent": 3484,
+      "base_rent": 3471,
       "base_rent_max": null,
       "available": "11/11/2026",
       "sqft": 766,
@@ -2737,6 +3032,10 @@
         {
           "date": "2026-09-29",
           "price": 3502
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3484
         }
       ]
     },
@@ -2744,8 +3043,8 @@
       "building": "Riverside",
       "unit": "1005",
       "beds": "1 Bedroom",
-      "rent": 4003,
-      "base_rent": 3955,
+      "rent": 3881,
+      "base_rent": 3833,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 813,
@@ -2776,6 +3075,10 @@
         {
           "date": "2026-09-29",
           "price": 4003
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3881
         }
       ]
     },
@@ -2783,8 +3086,8 @@
       "building": "Riverside",
       "unit": "1502",
       "beds": "1 Bedroom",
-      "rent": 3898,
-      "base_rent": 3850,
+      "rent": 3776,
+      "base_rent": 3728,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 818,
@@ -2815,6 +3118,10 @@
         {
           "date": "2026-09-29",
           "price": 3898
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3776
         }
       ]
     },
@@ -2822,8 +3129,8 @@
       "building": "Riverside",
       "unit": "1511",
       "beds": "1 Bedroom",
-      "rent": 3923,
-      "base_rent": 3875,
+      "rent": 3801,
+      "base_rent": 3753,
       "base_rent_max": null,
       "available": "11/20/2026",
       "sqft": 834,
@@ -2854,6 +3161,10 @@
         {
           "date": "2026-09-29",
           "price": 3923
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3801
         }
       ]
     },
@@ -2861,8 +3172,8 @@
       "building": "Riverside",
       "unit": "2107",
       "beds": "1 Bedroom",
-      "rent": 4203,
-      "base_rent": 4155,
+      "rent": 4081,
+      "base_rent": 4033,
       "base_rent_max": null,
       "available": "10/28/2026",
       "sqft": 815,
@@ -2893,6 +3204,10 @@
         {
           "date": "2026-09-29",
           "price": 4203
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4081
         }
       ]
     },
@@ -2900,8 +3215,8 @@
       "building": "Riverside",
       "unit": "2111",
       "beds": "1 Bedroom",
-      "rent": 4128,
-      "base_rent": 4080,
+      "rent": 4006,
+      "base_rent": 3958,
       "base_rent_max": null,
       "available": "10/16/2026",
       "sqft": 834,
@@ -2932,6 +3247,10 @@
         {
           "date": "2026-09-29",
           "price": 4128
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4006
         }
       ]
     },
@@ -2939,8 +3258,8 @@
       "building": "Riverside",
       "unit": "2607",
       "beds": "1 Bedroom",
-      "rent": 4228,
-      "base_rent": 4180,
+      "rent": 4106,
+      "base_rent": 4058,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 815,
@@ -2971,6 +3290,10 @@
         {
           "date": "2026-09-29",
           "price": 4228
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4106
         }
       ]
     },
@@ -2978,8 +3301,8 @@
       "building": "Riverside",
       "unit": "505",
       "beds": "1 Bedroom",
-      "rent": 4153,
-      "base_rent": 4105,
+      "rent": 4031,
+      "base_rent": 3983,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 828,
@@ -3010,6 +3333,10 @@
         {
           "date": "2026-09-29",
           "price": 4153
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4031
         }
       ]
     },
@@ -3017,8 +3344,8 @@
       "building": "Riverside",
       "unit": "612",
       "beds": "1 Bedroom",
-      "rent": 3858,
-      "base_rent": 3810,
+      "rent": 3736,
+      "base_rent": 3688,
       "base_rent_max": null,
       "available": "10/29/2026",
       "sqft": 792,
@@ -3049,6 +3376,10 @@
         {
           "date": "2026-09-29",
           "price": 3858
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3736
         }
       ]
     },
@@ -3056,8 +3387,8 @@
       "building": "Riverside",
       "unit": "905",
       "beds": "1 Bedroom",
-      "rent": 4173,
-      "base_rent": 4125,
+      "rent": 4051,
+      "base_rent": 4003,
       "base_rent_max": null,
       "available": "10/22/2026",
       "sqft": 813,
@@ -3088,6 +3419,10 @@
         {
           "date": "2026-09-29",
           "price": 4173
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4051
         }
       ]
     },
@@ -3095,8 +3430,8 @@
       "building": "Southampton",
       "unit": "1801",
       "beds": "1 Bedroom",
-      "rent": 3913,
-      "base_rent": 3865,
+      "rent": 3841,
+      "base_rent": 3793,
       "base_rent_max": null,
       "available": "10/19/2026",
       "sqft": 849,
@@ -3119,6 +3454,29 @@
         {
           "date": "2026-09-29",
           "price": 3913
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3841
+        }
+      ]
+    },
+    "Southampton|1904": {
+      "building": "Southampton",
+      "unit": "1904",
+      "beds": "1 Bedroom",
+      "rent": 4030,
+      "base_rent": 3982,
+      "base_rent_max": null,
+      "available": "10/7/2026",
+      "sqft": 851,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-30",
+      "price_history": [
+        {
+          "date": "2026-09-30",
+          "price": 4030
         }
       ]
     },
@@ -3126,8 +3484,8 @@
       "building": "Southampton",
       "unit": "2008",
       "beds": "1 Bedroom",
-      "rent": 4098,
-      "base_rent": 4050,
+      "rent": 4026,
+      "base_rent": 3978,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 765,
@@ -3158,6 +3516,10 @@
         {
           "date": "2026-09-29",
           "price": 4098
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4026
         }
       ]
     },
@@ -3165,8 +3527,8 @@
       "building": "Southampton",
       "unit": "2104",
       "beds": "1 Bedroom",
-      "rent": 4003,
-      "base_rent": 3955,
+      "rent": 3931,
+      "base_rent": 3883,
       "base_rent_max": null,
       "available": "10/4/2026",
       "sqft": 851,
@@ -3181,6 +3543,10 @@
         {
           "date": "2026-09-29",
           "price": 4003
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3931
         }
       ]
     },
@@ -3188,8 +3554,8 @@
       "building": "Southampton",
       "unit": "2202",
       "beds": "1 Bedroom",
-      "rent": 4108,
-      "base_rent": 4060,
+      "rent": 4036,
+      "base_rent": 3988,
       "base_rent_max": null,
       "available": "10/9/2026",
       "sqft": 821,
@@ -3220,6 +3586,10 @@
         {
           "date": "2026-09-29",
           "price": 4108
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4036
         }
       ]
     },
@@ -3227,8 +3597,8 @@
       "building": "Southampton",
       "unit": "2407",
       "beds": "1 Bedroom",
-      "rent": 4093,
-      "base_rent": 4045,
+      "rent": 4021,
+      "base_rent": 3973,
       "base_rent_max": null,
       "available": "11/2/2026",
       "sqft": 838,
@@ -3259,6 +3629,10 @@
         {
           "date": "2026-09-29",
           "price": 4093
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4021
         }
       ]
     },
@@ -3266,8 +3640,8 @@
       "building": "Southampton",
       "unit": "2912",
       "beds": "1 Bedroom",
-      "rent": 3993,
-      "base_rent": 3945,
+      "rent": 3921,
+      "base_rent": 3873,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 798,
@@ -3298,6 +3672,10 @@
         {
           "date": "2026-09-29",
           "price": 3993
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3921
         }
       ]
     },
@@ -3305,8 +3683,8 @@
       "building": "Southampton",
       "unit": "3004",
       "beds": "1 Bedroom",
-      "rent": 3983,
-      "base_rent": 3935,
+      "rent": 3911,
+      "base_rent": 3863,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 851,
@@ -3337,6 +3715,10 @@
         {
           "date": "2026-09-29",
           "price": 3983
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3911
         }
       ]
     },
@@ -3344,8 +3726,8 @@
       "building": "Southampton",
       "unit": "3108",
       "beds": "1 Bedroom",
-      "rent": 4218,
-      "base_rent": 4170,
+      "rent": 4146,
+      "base_rent": 4098,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 765,
@@ -3376,6 +3758,10 @@
         {
           "date": "2026-09-29",
           "price": 4218
+        },
+        {
+          "date": "2026-09-30",
+          "price": 4146
         }
       ]
     },
@@ -3383,8 +3769,8 @@
       "building": "Southampton",
       "unit": "3307",
       "beds": "1 Bedroom",
-      "rent": 3903,
-      "base_rent": 3855,
+      "rent": 3831,
+      "base_rent": 3783,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 838,
@@ -3415,6 +3801,10 @@
         {
           "date": "2026-09-29",
           "price": 3903
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3831
         }
       ]
     },
@@ -3422,8 +3812,8 @@
       "building": "Southampton",
       "unit": "3312",
       "beds": "1 Bedroom",
-      "rent": 3948,
-      "base_rent": 3900,
+      "rent": 3876,
+      "base_rent": 3828,
       "base_rent_max": null,
       "available": "11/3/2026",
       "sqft": 798,
@@ -3454,6 +3844,10 @@
         {
           "date": "2026-09-29",
           "price": 3948
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3876
         }
       ]
     },
@@ -3461,8 +3855,8 @@
       "building": "Southampton",
       "unit": "406",
       "beds": "1 Bedroom",
-      "rent": 3873,
-      "base_rent": 3825,
+      "rent": 3801,
+      "base_rent": 3753,
       "base_rent_max": null,
       "available": "10/5/2026",
       "sqft": 796,
@@ -3493,6 +3887,10 @@
         {
           "date": "2026-09-29",
           "price": 3873
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3801
         }
       ]
     },
@@ -3500,8 +3898,8 @@
       "building": "Southampton",
       "unit": "508",
       "beds": "1 Bedroom",
-      "rent": 3878,
-      "base_rent": 3830,
+      "rent": 3806,
+      "base_rent": 3758,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 765,
@@ -3532,6 +3930,10 @@
         {
           "date": "2026-09-29",
           "price": 3878
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3806
         }
       ]
     },
@@ -3539,8 +3941,8 @@
       "building": "Southampton",
       "unit": "808",
       "beds": "1 Bedroom",
-      "rent": 3993,
-      "base_rent": 3945,
+      "rent": 3921,
+      "base_rent": 3873,
       "base_rent_max": null,
       "available": "10/31/2026",
       "sqft": 765,
@@ -3571,6 +3973,10 @@
         {
           "date": "2026-09-29",
           "price": 3993
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3921
         }
       ]
     },
@@ -3578,8 +3984,8 @@
       "building": "Waterside Square North",
       "unit": "1114",
       "beds": "1 Bedroom",
-      "rent": 3517,
-      "base_rent": 3504,
+      "rent": 3499,
+      "base_rent": 3486,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 752,
@@ -3614,6 +4020,10 @@
         {
           "date": "2026-09-29",
           "price": 3517
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3499
         }
       ]
     },
@@ -3621,8 +4031,8 @@
       "building": "Waterside Square North",
       "unit": "1706",
       "beds": "1 Bedroom",
-      "rent": 3537,
-      "base_rent": 3524,
+      "rent": 3519,
+      "base_rent": 3506,
       "base_rent_max": null,
       "available": "10/10/2026",
       "sqft": 745,
@@ -3657,6 +4067,10 @@
         {
           "date": "2026-09-29",
           "price": 3537
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3519
         }
       ]
     },
@@ -3664,8 +4078,8 @@
       "building": "Waterside Square North",
       "unit": "1710",
       "beds": "1 Bedroom",
-      "rent": 3567,
-      "base_rent": 3554,
+      "rent": 3549,
+      "base_rent": 3536,
       "base_rent_max": null,
       "available": "12/2/2026",
       "sqft": 696,
@@ -3700,6 +4114,10 @@
         {
           "date": "2026-09-29",
           "price": 3567
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3549
         }
       ]
     },
@@ -3707,8 +4125,8 @@
       "building": "Waterside Square North",
       "unit": "2014",
       "beds": "1 Bedroom",
-      "rent": 3517,
-      "base_rent": 3504,
+      "rent": 3499,
+      "base_rent": 3486,
       "base_rent_max": null,
       "available": "10/10/2026",
       "sqft": 752,
@@ -3739,6 +4157,10 @@
         {
           "date": "2026-09-29",
           "price": 3517
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3499
         }
       ]
     },
@@ -3746,8 +4168,8 @@
       "building": "Waterside Square North",
       "unit": "2016",
       "beds": "1 Bedroom",
-      "rent": 3507,
-      "base_rent": 3494,
+      "rent": 3489,
+      "base_rent": 3476,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 711,
@@ -3782,6 +4204,10 @@
         {
           "date": "2026-09-29",
           "price": 3507
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3489
         }
       ]
     },
@@ -3789,8 +4215,8 @@
       "building": "Waterside Square North",
       "unit": "2214",
       "beds": "1 Bedroom",
-      "rent": 3567,
-      "base_rent": 3554,
+      "rent": 3549,
+      "base_rent": 3536,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 752,
@@ -3825,6 +4251,10 @@
         {
           "date": "2026-09-29",
           "price": 3567
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3549
         }
       ]
     },
@@ -3832,8 +4262,8 @@
       "building": "Waterside Square North",
       "unit": "407",
       "beds": "1 Bedroom",
-      "rent": 3617,
-      "base_rent": 3604,
+      "rent": 3599,
+      "base_rent": 3586,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 738,
@@ -3868,6 +4298,10 @@
         {
           "date": "2026-09-29",
           "price": 3617
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3599
         }
       ]
     },
@@ -3875,8 +4309,8 @@
       "building": "Waterside Square North",
       "unit": "814",
       "beds": "1 Bedroom",
-      "rent": 3502,
-      "base_rent": 3489,
+      "rent": 3484,
+      "base_rent": 3471,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 752,
@@ -3911,6 +4345,10 @@
         {
           "date": "2026-09-29",
           "price": 3502
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3484
         }
       ]
     },
@@ -3918,8 +4356,8 @@
       "building": "Waterside Square North",
       "unit": "906",
       "beds": "1 Bedroom",
-      "rent": 3417,
-      "base_rent": 3404,
+      "rent": 3399,
+      "base_rent": 3386,
       "base_rent_max": null,
       "available": "10/10/2026",
       "sqft": 745,
@@ -3954,6 +4392,10 @@
         {
           "date": "2026-09-29",
           "price": 3417
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3399
         }
       ]
     },
@@ -3961,8 +4403,8 @@
       "building": "Waterside Square South",
       "unit": "1116",
       "beds": "1 Bedroom",
-      "rent": 3432,
-      "base_rent": 3419,
+      "rent": 3414,
+      "base_rent": 3401,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 711,
@@ -3997,6 +4439,10 @@
         {
           "date": "2026-09-29",
           "price": 3432
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3414
         }
       ]
     },
@@ -4004,8 +4450,8 @@
       "building": "Waterside Square South",
       "unit": "1710",
       "beds": "1 Bedroom",
-      "rent": 3507,
-      "base_rent": 3494,
+      "rent": 3489,
+      "base_rent": 3476,
       "base_rent_max": null,
       "available": "10/16/2026",
       "sqft": 696,
@@ -4036,6 +4482,10 @@
         {
           "date": "2026-09-29",
           "price": 3507
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3489
         }
       ]
     },
@@ -4043,8 +4493,8 @@
       "building": "Waterside Square South",
       "unit": "916",
       "beds": "1 Bedroom",
-      "rent": 3362,
-      "base_rent": 3349,
+      "rent": 3344,
+      "base_rent": 3331,
       "base_rent_max": null,
       "available": "10/6/2026",
       "sqft": 711,
@@ -4059,6 +4509,10 @@
         {
           "date": "2026-09-29",
           "price": 3362
+        },
+        {
+          "date": "2026-09-30",
+          "price": 3344
         }
       ]
     }
