@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-09-29T22:17:11+00:00",
+  "updated_at": "2026-09-30T05:34:51+00:00",
   "units": {
     "333 Grand|1007": {
       "building": "333 Grand",
@@ -442,25 +442,6 @@
         {
           "date": "2026-09-24",
           "price": 4186
-        }
-      ]
-    },
-    "88 Regent|2404": {
-      "building": "88 Regent",
-      "unit": "2404",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 4009,
-      "base_rent_max": null,
-      "available": "10/11/2026",
-      "sqft": 636,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4009
         }
       ]
     },
@@ -941,6 +922,25 @@
         }
       ]
     },
+    "The Zenith|504": {
+      "building": "The Zenith",
+      "unit": "504",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3120,
+      "base_rent_max": null,
+      "available": "11/11/2026",
+      "sqft": 664,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-09-30",
+      "price_history": [
+        {
+          "date": "2026-09-30",
+          "price": 3120
+        }
+      ]
+    },
     "The Zenith|507": {
       "building": "The Zenith",
       "unit": "507",
@@ -1036,7 +1036,7 @@
       "rent": null,
       "base_rent": 3277,
       "base_rent_max": null,
-      "available": "9/30/2026",
+      "available": "Now",
       "sqft": 736,
       "special": "discounted",
       "floor_plan": null,
@@ -1118,29 +1118,6 @@
         {
           "date": "2026-09-26",
           "price": 3254
-        }
-      ]
-    },
-    "The Zenith|811": {
-      "building": "The Zenith",
-      "unit": "811",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3282,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 736,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3580
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3282
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "property": "Equity Apartments",
-  "updated_at": "2026-09-29T22:17:11+00:00",
+  "updated_at": "2026-09-30T05:34:51+00:00",
   "units": {
     "Hudson Point|130": {
       "building": "Hudson Point",
@@ -59,21 +59,21 @@
         }
       ]
     },
-    "Hudson Point|405": {
+    "Hudson Point|415": {
       "building": "Hudson Point",
-      "unit": "405",
+      "unit": "415",
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3403,
       "base_rent_max": null,
-      "available": "Now",
+      "available": "10/8/2026",
       "sqft": 726,
       "special": null,
       "floor_plan": "Hudson (A13)",
-      "first_seen": "2026-09-27",
+      "first_seen": "2026-09-30",
       "price_history": [
         {
-          "date": "2026-09-27",
+          "date": "2026-09-30",
           "price": 3403
         }
       ]
