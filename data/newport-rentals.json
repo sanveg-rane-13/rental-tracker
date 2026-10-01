@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-01T13:18:03+00:00",
+  "updated_at": "2026-10-01T18:26:25+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -856,6 +856,25 @@
         }
       ]
     },
+    "Atlantic|3610": {
+      "building": "Atlantic",
+      "unit": "3610",
+      "beds": "1 Bedroom",
+      "rent": 3881,
+      "base_rent": 3833,
+      "base_rent_max": null,
+      "available": "10/17/2026",
+      "sqft": 899,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-01",
+      "price_history": [
+        {
+          "date": "2026-10-01",
+          "price": 3881
+        }
+      ]
+    },
     "Atlantic|912": {
       "building": "Atlantic",
       "unit": "912",
@@ -1706,45 +1725,6 @@
         {
           "date": "2026-10-01",
           "price": 3866
-        }
-      ]
-    },
-    "East Hampton|1711": {
-      "building": "East Hampton",
-      "unit": "1711",
-      "beds": "1 Bedroom",
-      "rent": 3586,
-      "base_rent": 3538,
-      "base_rent_max": null,
-      "available": "10/7/2026",
-      "sqft": 743,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-25",
-      "price_history": [
-        {
-          "date": "2026-09-25",
-          "price": 3663
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3664
-        },
-        {
-          "date": "2026-09-27",
-          "price": 3661
-        },
-        {
-          "date": "2026-09-29",
-          "price": 3663
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3591
-        },
-        {
-          "date": "2026-10-01",
-          "price": 3586
         }
       ]
     },
@@ -3662,6 +3642,25 @@
         }
       ]
     },
+    "Southampton|1708": {
+      "building": "Southampton",
+      "unit": "1708",
+      "beds": "1 Bedroom",
+      "rent": 3846,
+      "base_rent": 3798,
+      "base_rent_max": null,
+      "available": "11/14/2026",
+      "sqft": 765,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-01",
+      "price_history": [
+        {
+          "date": "2026-10-01",
+          "price": 3846
+        }
+      ]
+    },
     "Southampton|1801": {
       "building": "Southampton",
       "unit": "1801",
@@ -4775,6 +4774,25 @@
         {
           "date": "2026-10-01",
           "price": 3395
+        }
+      ]
+    },
+    "Waterside Square South|1705": {
+      "building": "Waterside Square South",
+      "unit": "1705",
+      "beds": "1 Bedroom",
+      "rent": 3435,
+      "base_rent": 3422,
+      "base_rent_max": null,
+      "available": "10/17/2026",
+      "sqft": 684,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-01",
+      "price_history": [
+        {
+          "date": "2026-10-01",
+          "price": 3435
         }
       ]
     },
