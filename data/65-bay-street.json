@@ -1,6 +1,6 @@
 {
   "property": "65 Bay Street",
-  "updated_at": "2026-10-01T00:34:31+00:00",
+  "updated_at": "2026-10-01T10:10:37+00:00",
   "units": {
     "65 Bay Street|03-06": {
       "building": "65 Bay Street",
@@ -53,7 +53,7 @@
       "unit": "08-01",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3654,
+      "base_rent": 3669,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 685,
@@ -88,6 +88,10 @@
         {
           "date": "2026-09-30",
           "price": 3654
+        },
+        {
+          "date": "2026-10-01",
+          "price": 3669
         }
       ]
     },
@@ -96,7 +100,7 @@
       "unit": "18-09",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3694,
+      "base_rent": 3709,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 685,
@@ -131,6 +135,10 @@
         {
           "date": "2026-09-30",
           "price": 3694
+        },
+        {
+          "date": "2026-10-01",
+          "price": 3709
         }
       ]
     },
@@ -170,7 +178,7 @@
       "unit": "25-08",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4239,
+      "base_rent": 4255,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 794,
@@ -205,6 +213,10 @@
         {
           "date": "2026-09-30",
           "price": 4239
+        },
+        {
+          "date": "2026-10-01",
+          "price": 4255
         }
       ]
     },
@@ -213,7 +225,7 @@
       "unit": "27-02",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4179,
+      "base_rent": 4195,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 794,
@@ -248,6 +260,10 @@
         {
           "date": "2026-09-30",
           "price": 4179
+        },
+        {
+          "date": "2026-10-01",
+          "price": 4195
         }
       ]
     },
@@ -282,46 +298,22 @@
         }
       ]
     },
-    "65 Bay Street|30-09": {
+    "65 Bay Street|31-01": {
       "building": "65 Bay Street",
-      "unit": "30-09",
+      "unit": "31-01",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3874,
+      "base_rent": 3789,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 685,
       "special": null,
-      "floor_plan": "Apartment: # 30-09",
-      "first_seen": "2026-09-24",
+      "floor_plan": "Apartment: # 31-01",
+      "first_seen": "2026-10-01",
       "price_history": [
         {
-          "date": "2026-09-24",
-          "price": 4016
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4028
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4044
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4060
-        },
-        {
-          "date": "2026-09-28",
-          "price": 4076
-        },
-        {
-          "date": "2026-09-29",
-          "price": 4070
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3874
+          "date": "2026-10-01",
+          "price": 3789
         }
       ]
     }
