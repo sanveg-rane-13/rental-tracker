@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-10-01T18:26:25+00:00",
+  "updated_at": "2026-10-02T00:48:26+00:00",
   "units": {
     "333 Grand|1007": {
       "building": "333 Grand",
@@ -277,7 +277,7 @@
       "rent": null,
       "base_rent": 3378,
       "base_rent_max": null,
-      "available": "10/2/2026",
+      "available": "Now",
       "sqft": 741,
       "special": "discounted",
       "floor_plan": null,

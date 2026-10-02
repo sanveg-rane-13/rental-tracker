@@ -1,50 +1,7 @@
 {
   "property": "Avalon Cove",
-  "updated_at": "2026-10-01T18:26:25+00:00",
+  "updated_at": "2026-10-02T00:48:26+00:00",
   "units": {
-    "Avalon Cove|2125": {
-      "building": "Avalon Cove",
-      "unit": "2125",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3810,
-      "base_rent_max": null,
-      "available": "10/17/2026",
-      "sqft": 805,
-      "special": "11-month lease",
-      "floor_plan": "A7",
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3885
-        },
-        {
-          "date": "2026-09-25",
-          "price": 3880
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3855
-        },
-        {
-          "date": "2026-09-27",
-          "price": 3850
-        },
-        {
-          "date": "2026-09-28",
-          "price": 3840
-        },
-        {
-          "date": "2026-09-29",
-          "price": 3830
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3810
-        }
-      ]
-    },
     "Avalon Cove|2128": {
       "building": "Avalon Cove",
       "unit": "2128",
@@ -326,6 +283,25 @@
         {
           "date": "2026-10-01",
           "price": 3855
+        }
+      ]
+    },
+    "Avalon Cove|5539": {
+      "building": "Avalon Cove",
+      "unit": "5539",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4430,
+      "base_rent_max": null,
+      "available": "11/11/2026",
+      "sqft": 1351,
+      "special": "10-month lease",
+      "floor_plan": "A14LP",
+      "first_seen": "2026-10-02",
+      "price_history": [
+        {
+          "date": "2026-10-02",
+          "price": 4430
         }
       ]
     },

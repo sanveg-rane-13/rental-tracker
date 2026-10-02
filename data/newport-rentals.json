@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-01T18:26:25+00:00",
+  "updated_at": "2026-10-02T00:48:26+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -489,6 +489,25 @@
         {
           "date": "2026-10-01",
           "price": 4011
+        }
+      ]
+    },
+    "Atlantic|2108": {
+      "building": "Atlantic",
+      "unit": "2108",
+      "beds": "1 Bedroom",
+      "rent": 4041,
+      "base_rent": 3993,
+      "base_rent_max": null,
+      "available": "12/14/2026",
+      "sqft": 758,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-02",
+      "price_history": [
+        {
+          "date": "2026-10-02",
+          "price": 4041
         }
       ]
     },
@@ -1775,6 +1794,25 @@
         }
       ]
     },
+    "East Hampton|2004": {
+      "building": "East Hampton",
+      "unit": "2004",
+      "beds": "1 Bedroom",
+      "rent": 4051,
+      "base_rent": 4003,
+      "base_rent_max": null,
+      "available": "11/8/2026",
+      "sqft": 761,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-02",
+      "price_history": [
+        {
+          "date": "2026-10-02",
+          "price": 4051
+        }
+      ]
+    },
     "East Hampton|2206": {
       "building": "East Hampton",
       "unit": "2206",
@@ -1916,50 +1954,41 @@
         }
       ]
     },
-    "East Hampton|415": {
+    "East Hampton|3206": {
       "building": "East Hampton",
-      "unit": "415",
+      "unit": "3206",
       "beds": "1 Bedroom",
-      "rent": 3936,
-      "base_rent": 3888,
+      "rent": 4006,
+      "base_rent": 3958,
       "base_rent_max": null,
-      "available": "Now",
-      "sqft": 828,
-      "special": "0.5 Month Free",
+      "available": "12/13/2026",
+      "sqft": 862,
+      "special": null,
       "floor_plan": null,
-      "first_seen": "2026-09-24",
+      "first_seen": "2026-10-02",
       "price_history": [
         {
-          "date": "2026-09-24",
-          "price": 3999
-        },
+          "date": "2026-10-02",
+          "price": 4006
+        }
+      ]
+    },
+    "East Hampton|615": {
+      "building": "East Hampton",
+      "unit": "615",
+      "beds": "1 Bedroom",
+      "rent": 3796,
+      "base_rent": 3748,
+      "base_rent_max": null,
+      "available": "10/18/2026",
+      "sqft": 828,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-02",
+      "price_history": [
         {
-          "date": "2026-09-24",
-          "price": 4008
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4013
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4014
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4011
-        },
-        {
-          "date": "2026-09-29",
-          "price": 4013
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3941
-        },
-        {
-          "date": "2026-10-01",
-          "price": 3936
+          "date": "2026-10-02",
+          "price": 3796
         }
       ]
     },
@@ -4268,6 +4297,25 @@
         {
           "date": "2026-10-01",
           "price": 3916
+        }
+      ]
+    },
+    "Waterside Square North|1006": {
+      "building": "Waterside Square North",
+      "unit": "1006",
+      "beds": "1 Bedroom",
+      "rent": 3470,
+      "base_rent": 3457,
+      "base_rent_max": null,
+      "available": "11/28/2026",
+      "sqft": 745,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-02",
+      "price_history": [
+        {
+          "date": "2026-10-02",
+          "price": 3470
         }
       ]
     },
