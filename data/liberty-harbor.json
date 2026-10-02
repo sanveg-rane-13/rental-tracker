@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-10-02T09:48:35+00:00",
+  "updated_at": "2026-10-02T17:52:57+00:00",
   "units": {
     "333 Grand|1007": {
       "building": "333 Grand",
@@ -99,17 +99,21 @@
       "unit": "204",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3839,
+      "base_rent": 3519,
       "base_rent_max": null,
       "available": "10/11/2026",
       "sqft": 737,
-      "special": null,
+      "special": "discounted",
       "floor_plan": null,
       "first_seen": "2026-09-28",
       "price_history": [
         {
           "date": "2026-09-28",
           "price": 3839
+        },
+        {
+          "date": "2026-10-02",
+          "price": 3519
         }
       ]
     },
@@ -182,6 +186,25 @@
         }
       ]
     },
+    "333 Grand|407": {
+      "building": "333 Grand",
+      "unit": "407",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3680,
+      "base_rent_max": null,
+      "available": "11/11/2026",
+      "sqft": 686,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-02",
+      "price_history": [
+        {
+          "date": "2026-10-02",
+          "price": 3680
+        }
+      ]
+    },
     "333 Grand|612": {
       "building": "333 Grand",
       "unit": "612",
@@ -244,6 +267,25 @@
         {
           "date": "2026-09-30",
           "price": 3240
+        }
+      ]
+    },
+    "333 Grand|816": {
+      "building": "333 Grand",
+      "unit": "816",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3970,
+      "base_rent_max": null,
+      "available": "11/11/2026",
+      "sqft": 746,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-02",
+      "price_history": [
+        {
+          "date": "2026-10-02",
+          "price": 3970
         }
       ]
     },
@@ -331,22 +373,45 @@
         }
       ]
     },
+    "50 Regent|808": {
+      "building": "50 Regent",
+      "unit": "808",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3610,
+      "base_rent_max": null,
+      "available": "11/11/2026",
+      "sqft": 667,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-02",
+      "price_history": [
+        {
+          "date": "2026-10-02",
+          "price": 3610
+        }
+      ]
+    },
     "50 Regent|915": {
       "building": "50 Regent",
       "unit": "915",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3613,
+      "base_rent": 3312,
       "base_rent_max": null,
       "available": "10/11/2026",
       "sqft": 667,
-      "special": null,
+      "special": "discounted",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
         {
           "date": "2026-09-24",
           "price": 3613
+        },
+        {
+          "date": "2026-10-02",
+          "price": 3312
         }
       ]
     },
@@ -397,17 +462,21 @@
       "unit": "1905",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3911,
+      "base_rent": 3585,
       "base_rent_max": null,
       "available": "10/11/2026",
       "sqft": 636,
-      "special": null,
+      "special": "discounted",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
         {
           "date": "2026-09-24",
           "price": 3911
+        },
+        {
+          "date": "2026-10-02",
+          "price": 3585
         }
       ]
     },
@@ -492,17 +561,21 @@
       "unit": "504",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3761,
+      "base_rent": 3448,
       "base_rent_max": null,
       "available": "10/11/2026",
       "sqft": 663,
-      "special": null,
+      "special": "discounted",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
         {
           "date": "2026-09-24",
           "price": 3761
+        },
+        {
+          "date": "2026-10-02",
+          "price": 3448
         }
       ]
     },
@@ -511,17 +584,21 @@
       "unit": "811",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3960,
+      "base_rent": 3630,
       "base_rent_max": null,
       "available": "10/11/2026",
       "sqft": 653,
-      "special": null,
+      "special": "discounted",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
         {
           "date": "2026-09-24",
           "price": 3960
+        },
+        {
+          "date": "2026-10-02",
+          "price": 3630
         }
       ]
     },
@@ -553,17 +630,21 @@
       "unit": "914",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3563,
+      "base_rent": 3266,
       "base_rent_max": null,
       "available": "10/11/2026",
       "sqft": 594,
-      "special": null,
+      "special": "discounted",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
         {
           "date": "2026-09-24",
           "price": 3563
+        },
+        {
+          "date": "2026-10-02",
+          "price": 3266
         }
       ]
     },
@@ -675,29 +756,6 @@
         {
           "date": "2026-09-26",
           "price": 3112
-        }
-      ]
-    },
-    "The Regent|406": {
-      "building": "The Regent",
-      "unit": "406",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3266,
-      "base_rent_max": null,
-      "available": "10/11/2026",
-      "sqft": 789,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3563
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3266
         }
       ]
     },
@@ -836,17 +894,21 @@
       "unit": "902",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3365,
+      "base_rent": 3085,
       "base_rent_max": null,
       "available": "10/11/2026",
       "sqft": 654,
-      "special": null,
+      "special": "discounted",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
         {
           "date": "2026-09-24",
           "price": 3365
+        },
+        {
+          "date": "2026-10-02",
+          "price": 3085
         }
       ]
     },
