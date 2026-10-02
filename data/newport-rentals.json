@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-02T17:52:57+00:00",
+  "updated_at": "2026-10-02T22:15:57+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -541,7 +541,7 @@
       "base_rent_max": null,
       "available": "12/14/2026",
       "sqft": 758,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-02",
       "price_history": [
@@ -929,7 +929,7 @@
       "base_rent_max": null,
       "available": "10/4/2026",
       "sqft": 796,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-29",
       "price_history": [
@@ -960,7 +960,7 @@
       "base_rent_max": null,
       "available": "10/17/2026",
       "sqft": 899,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-01",
       "price_history": [
@@ -1089,7 +1089,7 @@
       "base_rent_max": null,
       "available": "10/29/2026",
       "sqft": 713,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-28",
       "price_history": [
@@ -1729,7 +1729,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 835,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-26",
       "price_history": [
@@ -1827,7 +1827,7 @@
       "base_rent_max": null,
       "available": "11/8/2026",
       "sqft": 761,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-29",
       "price_history": [
@@ -1858,7 +1858,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 743,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-01",
       "price_history": [
@@ -1881,7 +1881,7 @@
       "base_rent_max": null,
       "available": "11/2/2026",
       "sqft": 817,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-29",
       "price_history": [
@@ -1900,6 +1900,25 @@
         {
           "date": "2026-10-02",
           "price": 3862
+        }
+      ]
+    },
+    "East Hampton|1801": {
+      "building": "East Hampton",
+      "unit": "1801",
+      "beds": "1 Bedroom",
+      "rent": 3832,
+      "base_rent": 3784,
+      "base_rent_max": null,
+      "available": "10/26/2026",
+      "sqft": 862,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-02",
+      "price_history": [
+        {
+          "date": "2026-10-02",
+          "price": 3832
         }
       ]
     },
@@ -2139,7 +2158,7 @@
       "base_rent_max": null,
       "available": "12/13/2026",
       "sqft": 862,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-02",
       "price_history": [
@@ -2162,7 +2181,7 @@
       "base_rent_max": null,
       "available": "10/18/2026",
       "sqft": 828,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-02",
       "price_history": [
@@ -3292,7 +3311,7 @@
       "base_rent_max": null,
       "available": "10/15/2026",
       "sqft": 799,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-28",
       "price_history": [
@@ -3929,10 +3948,10 @@
       "building": "Riverside",
       "unit": "905",
       "beds": "1 Bedroom",
-      "rent": 4042,
-      "base_rent": 3994,
+      "rent": 3867,
+      "base_rent": 3819,
       "base_rent_max": null,
-      "available": "10/22/2026",
+      "available": "10/17/2026",
       "sqft": 813,
       "special": "0.5 Month Free",
       "floor_plan": null,
@@ -3973,6 +3992,10 @@
         {
           "date": "2026-10-02",
           "price": 4042
+        },
+        {
+          "date": "2026-10-02",
+          "price": 3867
         }
       ]
     },
@@ -3985,7 +4008,7 @@
       "base_rent_max": null,
       "available": "11/4/2026",
       "sqft": 838,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-30",
       "price_history": [
@@ -4012,7 +4035,7 @@
       "base_rent_max": null,
       "available": "11/14/2026",
       "sqft": 765,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-01",
       "price_history": [
@@ -4026,49 +4049,6 @@
         }
       ]
     },
-    "Southampton|1801": {
-      "building": "Southampton",
-      "unit": "1801",
-      "beds": "1 Bedroom",
-      "rent": 3832,
-      "base_rent": 3784,
-      "base_rent_max": null,
-      "available": "10/19/2026",
-      "sqft": 849,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-09-25",
-      "price_history": [
-        {
-          "date": "2026-09-25",
-          "price": 3912
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3914
-        },
-        {
-          "date": "2026-09-27",
-          "price": 3911
-        },
-        {
-          "date": "2026-09-29",
-          "price": 3913
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3841
-        },
-        {
-          "date": "2026-10-01",
-          "price": 3836
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3832
-        }
-      ]
-    },
     "Southampton|1904": {
       "building": "Southampton",
       "unit": "1904",
@@ -4078,7 +4058,7 @@
       "base_rent_max": null,
       "available": "10/7/2026",
       "sqft": 851,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-30",
       "price_history": [
@@ -4156,7 +4136,7 @@
       "base_rent_max": null,
       "available": "10/4/2026",
       "sqft": 851,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-28",
       "price_history": [
@@ -4701,7 +4681,7 @@
       "base_rent_max": null,
       "available": "11/28/2026",
       "sqft": 745,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-02",
       "price_history": [
@@ -5270,7 +5250,7 @@
       "base_rent_max": null,
       "available": "10/17/2026",
       "sqft": 684,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-01",
       "price_history": [
@@ -5344,7 +5324,7 @@
       "base_rent_max": null,
       "available": "10/6/2026",
       "sqft": 711,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-28",
       "price_history": [
