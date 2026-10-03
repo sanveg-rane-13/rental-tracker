@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-10-03T16:19:08+00:00",
+  "updated_at": "2026-10-03T21:17:46+00:00",
   "units": {
     "333 Grand|1007": {
       "building": "333 Grand",
@@ -518,6 +518,25 @@
         }
       ]
     },
+    "88 Regent|2808": {
+      "building": "88 Regent",
+      "unit": "2808",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3835,
+      "base_rent_max": null,
+      "available": "11/11/2026",
+      "sqft": 594,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-03",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 3835
+        }
+      ]
+    },
     "88 Regent|3001": {
       "building": "88 Regent",
       "unit": "3001",
@@ -806,17 +825,21 @@
       "unit": "601",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3415,
+      "base_rent": 3130,
       "base_rent_max": null,
       "available": "10/12/2026",
       "sqft": 673,
-      "special": null,
+      "special": "discounted",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
         {
           "date": "2026-09-24",
           "price": 3415
+        },
+        {
+          "date": "2026-10-03",
+          "price": 3130
         }
       ]
     },

@@ -1899,3 +1899,8 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-03T11:41,2026-10-03 07:41,Northern Chapter Properties,225 Grand,0428,1 Bedroom,price_change,3265,3315,3265,3595,,Now,,666,Floor Plan Video,,2026-09-28,
 2026-10-03T16:19,2026-10-03 12:19,Newport Rentals,Atlantic,1508,1 Bedroom,delisted,4005,,3957,,4005,Now,,758,,0.5 Month Free,2026-09-24,
 2026-10-03T16:19,2026-10-03 12:19,VYV,,N-3406,1 Bedroom,price_change,3822,3821,3822,,,11/13/2026,,720,A07,,2026-10-03,
+2026-10-03T21:17,2026-10-03 17:17,Newport Rentals,East Hampton,1511,1 Bedroom,delisted,3570,,3522,,3570,Now,,743,,0.5 Month Free,2026-10-01,
+2026-10-03T21:17,2026-10-03 17:17,Newport Rentals,Southampton,2912,1 Bedroom,delisted,3910,,3862,,3910,Now,,798,,0.5 Month Free,2026-09-24,
+2026-10-03T21:17,2026-10-03 17:17,Liberty Harbor,88 Regent,2808,1 Bedroom,listed,3835,,3835,,,11/11/2026,,594,,,2026-10-03,
+2026-10-03T21:17,2026-10-03 17:17,Liberty Harbor,The Regent,601,1 Bedroom,price_change,3130,3415,3130,,,10/12/2026,,673,,discounted,2026-09-24,
+2026-10-03T21:17,2026-10-03 17:17,IronState Properties,50 Columbus,4775281,1 Bedroom,available_change,3810,,3810,,,10/09/2026,,781,4775281,,2026-09-27,
