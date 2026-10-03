@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-02T22:15:57+00:00",
+  "updated_at": "2026-10-03T05:20:52+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -3149,6 +3149,25 @@
         }
       ]
     },
+    "Pacific|1402": {
+      "building": "Pacific",
+      "unit": "1402",
+      "beds": "1 Bedroom",
+      "rent": 3452,
+      "base_rent": 3439,
+      "base_rent_max": null,
+      "available": "10/22/2026",
+      "sqft": 764,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-03",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 3452
+        }
+      ]
+    },
     "Pacific|1907": {
       "building": "Pacific",
       "unit": "1907",
@@ -3334,6 +3353,25 @@
         {
           "date": "2026-10-02",
           "price": 3892
+        }
+      ]
+    },
+    "Pacific|601": {
+      "building": "Pacific",
+      "unit": "601",
+      "beds": "1 Bedroom",
+      "rent": 3242,
+      "base_rent": 3229,
+      "base_rent_max": null,
+      "available": "12/8/2026",
+      "sqft": 821,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-03",
+      "price_history": [
+        {
+          "date": "2026-10-03",
+          "price": 3242
         }
       ]
     },
