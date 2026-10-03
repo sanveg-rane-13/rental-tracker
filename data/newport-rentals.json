@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-03T11:41:36+00:00",
+  "updated_at": "2026-10-03T16:19:08+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -514,61 +514,6 @@
         {
           "date": "2026-10-03",
           "price": 4110
-        }
-      ]
-    },
-    "Atlantic|1508": {
-      "building": "Atlantic",
-      "unit": "1508",
-      "beds": "1 Bedroom",
-      "rent": 4005,
-      "base_rent": 3957,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 758,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4074
-        },
-        {
-          "date": "2026-09-24",
-          "price": 4083
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4088
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4089
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4086
-        },
-        {
-          "date": "2026-09-29",
-          "price": 4088
-        },
-        {
-          "date": "2026-09-30",
-          "price": 4016
-        },
-        {
-          "date": "2026-10-01",
-          "price": 4011
-        },
-        {
-          "date": "2026-10-02",
-          "price": 4007
-        },
-        {
-          "date": "2026-10-03",
-          "price": 4005
         }
       ]
     },
