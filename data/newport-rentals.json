@@ -1,13 +1,13 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-04T12:24:13+00:00",
+  "updated_at": "2026-10-04T18:38:55+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
       "unit": "1604",
       "beds": "1 Bedroom",
-      "rent": 4544,
-      "base_rent": 4501,
+      "rent": 4562,
+      "base_rent": 4519,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 790,
@@ -58,6 +58,10 @@
         {
           "date": "2026-10-03",
           "price": 4544
+        },
+        {
+          "date": "2026-10-04",
+          "price": 4562
         }
       ]
     },
@@ -65,8 +69,8 @@
       "building": "Aquablu",
       "unit": "2404",
       "beds": "1 Bedroom",
-      "rent": 4384,
-      "base_rent": 4341,
+      "rent": 4402,
+      "base_rent": 4359,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 790,
@@ -117,6 +121,10 @@
         {
           "date": "2026-10-03",
           "price": 4384
+        },
+        {
+          "date": "2026-10-04",
+          "price": 4402
         }
       ]
     },
@@ -124,8 +132,8 @@
       "building": "Aquablu",
       "unit": "2804",
       "beds": "1 Bedroom",
-      "rent": 4604,
-      "base_rent": 4561,
+      "rent": 4622,
+      "base_rent": 4579,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 790,
@@ -176,6 +184,10 @@
         {
           "date": "2026-10-03",
           "price": 4604
+        },
+        {
+          "date": "2026-10-04",
+          "price": 4622
         }
       ]
     },
@@ -183,8 +195,8 @@
       "building": "Aquablu",
       "unit": "621",
       "beds": "1 Bedroom",
-      "rent": 4149,
-      "base_rent": 4106,
+      "rent": 4167,
+      "base_rent": 4124,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 816,
@@ -235,6 +247,10 @@
         {
           "date": "2026-10-03",
           "price": 4149
+        },
+        {
+          "date": "2026-10-04",
+          "price": 4167
         }
       ]
     },
@@ -242,8 +258,8 @@
       "building": "Aquablu",
       "unit": "624",
       "beds": "1 Bedroom",
-      "rent": 4224,
-      "base_rent": 4181,
+      "rent": 4242,
+      "base_rent": 4199,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 812,
@@ -294,6 +310,10 @@
         {
           "date": "2026-10-03",
           "price": 4224
+        },
+        {
+          "date": "2026-10-04",
+          "price": 4242
         }
       ]
     },
@@ -3781,8 +3801,8 @@
       "building": "Parkside West",
       "unit": "1515",
       "beds": "1 Bedroom",
-      "rent": 3277,
-      "base_rent": 3264,
+      "rent": 3267,
+      "base_rent": 3254,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 767,
@@ -3833,6 +3853,10 @@
         {
           "date": "2026-10-03",
           "price": 3277
+        },
+        {
+          "date": "2026-10-04",
+          "price": 3267
         }
       ]
     },
@@ -3840,8 +3864,8 @@
       "building": "Parkside West",
       "unit": "2115",
       "beds": "1 Bedroom",
-      "rent": 3307,
-      "base_rent": 3294,
+      "rent": 3297,
+      "base_rent": 3284,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 767,
@@ -3892,6 +3916,10 @@
         {
           "date": "2026-10-03",
           "price": 3307
+        },
+        {
+          "date": "2026-10-04",
+          "price": 3297
         }
       ]
     },
@@ -3899,8 +3927,8 @@
       "building": "Parkside West",
       "unit": "3007",
       "beds": "1 Bedroom",
-      "rent": 3447,
-      "base_rent": 3434,
+      "rent": 3437,
+      "base_rent": 3424,
       "base_rent_max": null,
       "available": "11/11/2026",
       "sqft": 766,
@@ -3931,6 +3959,10 @@
         {
           "date": "2026-10-03",
           "price": 3447
+        },
+        {
+          "date": "2026-10-04",
+          "price": 3437
         }
       ]
     },
