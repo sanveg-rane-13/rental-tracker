@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-04T23:57:46+00:00",
+  "updated_at": "2026-10-05T05:43:44+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -188,69 +188,6 @@
         {
           "date": "2026-10-04",
           "price": 4622
-        }
-      ]
-    },
-    "Aquablu|621": {
-      "building": "Aquablu",
-      "unit": "621",
-      "beds": "1 Bedroom",
-      "rent": 4167,
-      "base_rent": 4124,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 816,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4217
-        },
-        {
-          "date": "2026-09-24",
-          "price": 4228
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4249
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4257
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4269
-        },
-        {
-          "date": "2026-09-28",
-          "price": 4290
-        },
-        {
-          "date": "2026-09-29",
-          "price": 4294
-        },
-        {
-          "date": "2026-09-30",
-          "price": 4116
-        },
-        {
-          "date": "2026-10-01",
-          "price": 4129
-        },
-        {
-          "date": "2026-10-02",
-          "price": 4135
-        },
-        {
-          "date": "2026-10-03",
-          "price": 4149
-        },
-        {
-          "date": "2026-10-04",
-          "price": 4167
         }
       ]
     },
@@ -4025,65 +3962,6 @@
         }
       ]
     },
-    "Riverside|1502": {
-      "building": "Riverside",
-      "unit": "1502",
-      "beds": "1 Bedroom",
-      "rent": 3769,
-      "base_rent": 3721,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 818,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3884
-        },
-        {
-          "date": "2026-09-24",
-          "price": 3893
-        },
-        {
-          "date": "2026-09-25",
-          "price": 3898
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3899
-        },
-        {
-          "date": "2026-09-27",
-          "price": 3896
-        },
-        {
-          "date": "2026-09-29",
-          "price": 3898
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3776
-        },
-        {
-          "date": "2026-10-01",
-          "price": 3771
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3767
-        },
-        {
-          "date": "2026-10-03",
-          "price": 3765
-        },
-        {
-          "date": "2026-10-04",
-          "price": 3769
-        }
-      ]
-    },
     "Riverside|1511": {
       "building": "Riverside",
       "unit": "1511",
@@ -5006,7 +4884,7 @@
       "rent": 3794,
       "base_rent": 3746,
       "base_rent_max": null,
-      "available": "10/5/2026",
+      "available": "Now",
       "sqft": 796,
       "special": "0.5 Month Free",
       "floor_plan": null,

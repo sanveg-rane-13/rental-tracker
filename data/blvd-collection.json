@@ -1,6 +1,6 @@
 {
   "property": "BLVD Collection",
-  "updated_at": "2026-10-04T23:57:46+00:00",
+  "updated_at": "2026-10-05T05:43:44+00:00",
   "units": {
     "BLVD 401|0308": {
       "building": "BLVD 401",
@@ -51,7 +51,7 @@
       "rent": null,
       "base_rent": 4215,
       "base_rent_max": 4763,
-      "available": "10/5/2026",
+      "available": "Now",
       "sqft": 800,
       "special": null,
       "floor_plan": "B401 A4",
