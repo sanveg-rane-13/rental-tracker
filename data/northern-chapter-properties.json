@@ -1,6 +1,6 @@
 {
   "property": "Northern Chapter Properties",
-  "updated_at": "2026-10-05T14:43:21+00:00",
+  "updated_at": "2026-10-05T22:02:10+00:00",
   "units": {
     "18 Park|0410": {
       "building": "18 Park",
@@ -117,6 +117,25 @@
         {
           "date": "2026-09-28",
           "price": 3885
+        }
+      ]
+    },
+    "18 Park|0825": {
+      "building": "18 Park",
+      "unit": "0825",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3690,
+      "base_rent_max": 4195,
+      "available": "10/24/2026",
+      "sqft": 651,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-10-05",
+      "price_history": [
+        {
+          "date": "2026-10-05",
+          "price": 3690
         }
       ]
     },
@@ -971,6 +990,25 @@
         {
           "date": "2026-10-05",
           "price": 4020
+        }
+      ]
+    },
+    "235 Grand|3401": {
+      "building": "235 Grand",
+      "unit": "3401",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4125,
+      "base_rent_max": 4730,
+      "available": "11/16/2026",
+      "sqft": null,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-10-05",
+      "price_history": [
+        {
+          "date": "2026-10-05",
+          "price": 4125
         }
       ]
     },
