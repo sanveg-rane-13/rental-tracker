@@ -1,15 +1,15 @@
 {
   "property": "Avalon Cove",
-  "updated_at": "2026-10-06T06:23:29+00:00",
+  "updated_at": "2026-10-06T13:02:01+00:00",
   "units": {
     "Avalon Cove|2128": {
       "building": "Avalon Cove",
       "unit": "2128",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4130,
+      "base_rent": 4150,
       "base_rent_max": null,
-      "available": "11/19/2026",
+      "available": "11/20/2026",
       "sqft": 817,
       "special": "22-month lease",
       "floor_plan": "A8",
@@ -50,6 +50,10 @@
         {
           "date": "2026-10-05",
           "price": 4130
+        },
+        {
+          "date": "2026-10-06",
+          "price": 4150
         }
       ]
     },
@@ -58,9 +62,9 @@
       "unit": "2219",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3700,
+      "base_rent": 3720,
       "base_rent_max": null,
-      "available": "12/3/2026",
+      "available": "12/1/2026",
       "sqft": 693,
       "special": "20-month lease",
       "floor_plan": "A2",
@@ -97,6 +101,10 @@
         {
           "date": "2026-10-05",
           "price": 3700
+        },
+        {
+          "date": "2026-10-06",
+          "price": 3720
         }
       ]
     },
@@ -105,9 +113,9 @@
       "unit": "3138",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4170,
+      "base_rent": 4190,
       "base_rent_max": null,
-      "available": "11/9/2026",
+      "available": "11/12/2026",
       "sqft": 778,
       "special": "22-month lease",
       "floor_plan": "A5",
@@ -148,6 +156,10 @@
         {
           "date": "2026-10-05",
           "price": 4170
+        },
+        {
+          "date": "2026-10-06",
+          "price": 4190
         }
       ]
     },
@@ -156,9 +168,9 @@
       "unit": "3143",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3920,
+      "base_rent": 3940,
       "base_rent_max": null,
-      "available": "11/18/2026",
+      "available": "11/16/2026",
       "sqft": 778,
       "special": "22-month lease",
       "floor_plan": "A18",
@@ -195,6 +207,10 @@
         {
           "date": "2026-10-05",
           "price": 3920
+        },
+        {
+          "date": "2026-10-06",
+          "price": 3940
         }
       ]
     },
@@ -203,9 +219,9 @@
       "unit": "3330",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4030,
+      "base_rent": 4050,
       "base_rent_max": null,
-      "available": "11/5/2026",
+      "available": "11/2/2026",
       "sqft": 817,
       "special": "22-month lease",
       "floor_plan": "A8",
@@ -242,6 +258,10 @@
         {
           "date": "2026-10-05",
           "price": 4030
+        },
+        {
+          "date": "2026-10-06",
+          "price": 4050
         }
       ]
     },
@@ -252,7 +272,7 @@
       "rent": null,
       "base_rent": 3820,
       "base_rent_max": null,
-      "available": "10/10/2026",
+      "available": "10/7/2026",
       "sqft": 778,
       "special": "23-month lease",
       "floor_plan": "A18",
@@ -305,9 +325,9 @@
       "unit": "5221",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3935,
+      "base_rent": 3930,
       "base_rent_max": null,
-      "available": "10/31/2026",
+      "available": "10/28/2026",
       "sqft": 693,
       "special": "10-month lease",
       "floor_plan": "A2",
@@ -344,6 +364,10 @@
         {
           "date": "2026-10-05",
           "price": 3935
+        },
+        {
+          "date": "2026-10-06",
+          "price": 3930
         }
       ]
     },
@@ -354,7 +378,7 @@
       "rent": null,
       "base_rent": 4225,
       "base_rent_max": null,
-      "available": "12/19/2026",
+      "available": "12/22/2026",
       "sqft": 832,
       "special": "21-month lease",
       "floor_plan": "A11",
@@ -375,9 +399,9 @@
       "unit": "5327",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3905,
+      "base_rent": 3925,
       "base_rent_max": null,
-      "available": "11/28/2026",
+      "available": "11/26/2026",
       "sqft": 818,
       "special": "10-month lease",
       "floor_plan": "A9",
@@ -418,6 +442,10 @@
         {
           "date": "2026-10-05",
           "price": 3905
+        },
+        {
+          "date": "2026-10-06",
+          "price": 3925
         }
       ]
     },
@@ -426,9 +454,9 @@
       "unit": "5539",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4480,
+      "base_rent": 4500,
       "base_rent_max": null,
-      "available": "11/14/2026",
+      "available": "11/12/2026",
       "sqft": 1351,
       "special": "10-month lease",
       "floor_plan": "A14LP",
@@ -453,6 +481,10 @@
         {
           "date": "2026-10-05",
           "price": 4480
+        },
+        {
+          "date": "2026-10-06",
+          "price": 4500
         }
       ]
     },
@@ -463,7 +495,7 @@
       "rent": null,
       "base_rent": 4300,
       "base_rent_max": null,
-      "available": "12/31/2026",
+      "available": "1/1/2027",
       "sqft": 817,
       "special": "20-month lease",
       "floor_plan": "A8",
@@ -492,9 +524,9 @@
       "unit": "6455",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3820,
+      "base_rent": 3770,
       "base_rent_max": null,
-      "available": "11/11/2026",
+      "available": "11/6/2026",
       "sqft": 752,
       "special": "10-month lease",
       "floor_plan": "A3",
@@ -539,6 +571,10 @@
         {
           "date": "2026-10-05",
           "price": 3820
+        },
+        {
+          "date": "2026-10-06",
+          "price": 3770
         }
       ]
     }

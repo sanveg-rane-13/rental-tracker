@@ -1,6 +1,6 @@
 {
   "property": "IronState Properties",
-  "updated_at": "2026-10-06T06:23:30+00:00",
+  "updated_at": "2026-10-06T13:02:01+00:00",
   "units": {
     "50 Columbus|4775281": {
       "building": "50 Columbus",
@@ -227,6 +227,25 @@
         {
           "date": "2026-09-27",
           "price": 3425
+        }
+      ]
+    },
+    "The Gotham|5059882": {
+      "building": "The Gotham",
+      "unit": "5059882",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3610,
+      "base_rent_max": null,
+      "available": "10/29/2026",
+      "sqft": 799,
+      "special": null,
+      "floor_plan": "5059882",
+      "first_seen": "2026-10-06",
+      "price_history": [
+        {
+          "date": "2026-10-06",
+          "price": 3610
         }
       ]
     }
