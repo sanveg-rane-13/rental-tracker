@@ -2410,3 +2410,17 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-06T15:58,2026-10-06 11:58,Equity Apartments,,,,site_failed,,,,,,,,,,,,403 Client Error:  for url: https://www.apartmentlist.com/nj/jersey-city/hudson-point
 2026-10-06T15:58,2026-10-06 11:58,VYV,,,,site_failed,,,,,,,,,,,,403 Client Error:  for url: https://www.apartmentlist.com/nj/jersey-city/vyv--2
 2026-10-06T15:58,2026-10-06 11:58,Lenox,,,,site_failed,,,,,,,,,,,,403 Client Error:  for url: https://www.apartmentlist.com/nj/jersey-city/lenox
+2026-10-06T22:40,2026-10-06 18:40,Newport Rentals,Pacific,1402,1 Bedroom,delisted,3455,,3442,,3455,10/22/2026,,764,,,2026-10-03,
+2026-10-06T22:40,2026-10-06 18:40,Liberty Harbor,88 Regent,1504,1 Bedroom,listed,3950,,3950,,,11/11/2026,,636,,,2026-10-06,
+2026-10-06T22:40,2026-10-06 18:40,Liberty Harbor,The Regent,401,1 Bedroom,listed,3610,,3610,,,11/11/2026,,673,,,2026-10-06,
+2026-10-06T22:40,2026-10-06 18:40,Liberty Harbor,The Regent,203,1 Bedroom,price_change,3199,3490,3199,,,10/16/2026,,628,,discounted,2026-09-24,
+2026-10-06T22:40,2026-10-06 18:40,Liberty Harbor,The Junction,402,1 Bedroom,delisted,3227,,3227,,,10/10/2026,,674,,discounted,2026-09-24,
+2026-10-06T22:40,2026-10-06 18:40,Avalon Cove,Avalon Cove,2219,1 Bedroom,available_change,3720,,3720,,,12/2/2026,12/1/2026,693,A2,20-month lease,2026-09-24,
+2026-10-06T22:40,2026-10-06 18:40,Avalon Cove,Avalon Cove,3143,1 Bedroom,available_change,3940,,3940,,,11/17/2026,11/16/2026,778,A18,22-month lease,2026-09-24,
+2026-10-06T22:40,2026-10-06 18:40,Avalon Cove,Avalon Cove,3138,1 Bedroom,available_change,4190,,4190,,,11/13/2026,11/10/2026,778,A5,22-month lease,2026-09-24,
+2026-10-06T22:40,2026-10-06 18:40,Avalon Cove,Avalon Cove,5327,1 Bedroom,available_change,3925,,3925,,,11/27/2026,11/26/2026,818,A9,10-month lease,2026-09-24,
+2026-10-06T22:40,2026-10-06 18:40,Avalon Cove,Avalon Cove,5539,1 Bedroom,available_change,4500,,4500,,,11/17/2026,11/12/2026,1351,A14LP,10-month lease,2026-10-02,
+2026-10-06T22:40,2026-10-06 18:40,Equity Apartments,Portside Towers,2006,1 Bedroom,price_change,4074,3974,4074,,,10/8/2026,,913,E1 & J1,,2026-09-27,
+2026-10-06T22:40,2026-10-06 18:40,Equity Apartments,Portside Towers,808,1 Bedroom,price_change,4050,3950,4050,,,10/17/2026,,889,D1 & K1,,2026-09-27,
+2026-10-06T22:40,2026-10-06 18:40,IronState Properties,70 Columbus,2042222,1 Bedroom,delisted,3760,,3760,,,10/21/2026,,660,2042222,,2026-09-27,
+2026-10-06T22:40,2026-10-06 18:40,VYV,,N-3303,1 Bedroom,listed,3883,,3883,,,Now,,739,A13,,2026-10-06,
