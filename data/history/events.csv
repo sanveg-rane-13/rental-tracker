@@ -2243,3 +2243,11 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-05T22:02,2026-10-05 18:02,VYV,,S-3258,1 Bedroom,price_change,3933,3913,3933,,,11/1/2026,,769,A17,,2026-09-27,
 2026-10-05T22:02,2026-10-05 18:02,Northern Chapter Properties,235 Grand,3401,1 Bedroom,listed,4125,,4125,4730,,11/16/2026,,,Floor Plan Video,,2026-10-05,
 2026-10-05T22:02,2026-10-05 18:02,Northern Chapter Properties,18 Park,0825,1 Bedroom,listed,3690,,3690,4195,,10/24/2026,,651,Floor Plan Video,,2026-10-05,
+2026-10-06T06:23,2026-10-06 02:23,Newport Rentals,Waterside Square South,916,1 Bedroom,available_change,3337,,3324,,3337,Now,10/6/2026,711,,0.5 Month Free,2026-09-28,
+2026-10-06T06:23,2026-10-06 02:23,Newport Rentals,Southampton,1707,1 Bedroom,listed,3803,,3755,,3803,10/23/2026,,838,,,2026-10-06,
+2026-10-06T06:23,2026-10-06 02:23,Newport Rentals,Ellipse,2202,1 Bedroom,available_change,4906,,4848,,4906,Now,10/6/2026,753,,0.5 Month Free,2026-09-24,
+2026-10-06T06:23,2026-10-06 02:23,Liberty Harbor,88 Regent,504,1 Bedroom,delisted,3448,,3448,,,10/11/2026,,663,,discounted,2026-09-24,
+2026-10-06T06:23,2026-10-06 02:23,Equity Apartments,,,,site_failed,,,,,,,,,,,,403 Client Error:  for url: https://www.apartmentlist.com/nj/jersey-city/hudson-point
+2026-10-06T06:23,2026-10-06 02:23,IronState Properties,The Gotham,5059872,1 Bedroom,delisted,3625,,3625,,,,,715,5059872,,2026-09-27,
+2026-10-06T06:23,2026-10-06 02:23,VYV,,,,site_failed,,,,,,,,,,,,403 Client Error:  for url: https://www.apartmentlist.com/nj/jersey-city/vyv--2
+2026-10-06T06:23,2026-10-06 02:23,Lenox,,,,site_failed,,,,,,,,,,,,403 Client Error:  for url: https://www.apartmentlist.com/nj/jersey-city/lenox
