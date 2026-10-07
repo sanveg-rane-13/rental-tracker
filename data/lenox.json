@@ -1,6 +1,6 @@
 {
   "property": "Lenox",
-  "updated_at": "2026-10-06T22:40:20+00:00",
+  "updated_at": "2026-10-07T06:02:47+00:00",
   "units": {
     "|626": {
       "building": "",
@@ -9,7 +9,7 @@
       "rent": null,
       "base_rent": 3590,
       "base_rent_max": null,
-      "available": "10/7/2026",
+      "available": "Now",
       "sqft": 643,
       "special": null,
       "floor_plan": "A12",

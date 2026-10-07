@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-06T22:40:19+00:00",
+  "updated_at": "2026-10-07T06:02:47+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -600,7 +600,7 @@
       "rent": 3810,
       "base_rent": 3762,
       "base_rent_max": null,
-      "available": "10/7/2026",
+      "available": "Now",
       "sqft": 899,
       "special": "1 Month Free",
       "floor_plan": null,
@@ -795,73 +795,6 @@
         {
           "date": "2026-10-06",
           "price": 4105
-        }
-      ]
-    },
-    "Atlantic|2806": {
-      "building": "Atlantic",
-      "unit": "2806",
-      "beds": "1 Bedroom",
-      "rent": 4035,
-      "base_rent": 3987,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 795,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4099
-        },
-        {
-          "date": "2026-09-24",
-          "price": 4108
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4113
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4114
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4111
-        },
-        {
-          "date": "2026-09-29",
-          "price": 4113
-        },
-        {
-          "date": "2026-09-30",
-          "price": 4041
-        },
-        {
-          "date": "2026-10-01",
-          "price": 4036
-        },
-        {
-          "date": "2026-10-02",
-          "price": 4032
-        },
-        {
-          "date": "2026-10-03",
-          "price": 4030
-        },
-        {
-          "date": "2026-10-04",
-          "price": 4034
-        },
-        {
-          "date": "2026-10-05",
-          "price": 4033
-        },
-        {
-          "date": "2026-10-06",
-          "price": 4035
         }
       ]
     },
@@ -4924,7 +4857,7 @@
       "rent": 4025,
       "base_rent": 3977,
       "base_rent_max": null,
-      "available": "10/7/2026",
+      "available": "Now",
       "sqft": 851,
       "special": "1 Month Free",
       "floor_plan": null,

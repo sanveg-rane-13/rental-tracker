@@ -1,6 +1,6 @@
 {
   "property": "VYV",
-  "updated_at": "2026-10-06T22:40:20+00:00",
+  "updated_at": "2026-10-07T06:02:47+00:00",
   "units": {
     "|N-2204": {
       "building": "",
@@ -217,29 +217,6 @@
         }
       ]
     },
-    "|S-1855": {
-      "building": "",
-      "unit": "S-1855",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3697,
-      "base_rent_max": null,
-      "available": "12/22/2026",
-      "sqft": 703,
-      "special": null,
-      "floor_plan": "A05",
-      "first_seen": "2026-09-27",
-      "price_history": [
-        {
-          "date": "2026-09-27",
-          "price": 3677
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3697
-        }
-      ]
-    },
     "|S-1961": {
       "building": "",
       "unit": "S-1961",
@@ -283,6 +260,25 @@
         {
           "date": "2026-10-05",
           "price": 3707
+        }
+      ]
+    },
+    "|S-2061": {
+      "building": "",
+      "unit": "S-2061",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3844,
+      "base_rent_max": null,
+      "available": "11/7/2026",
+      "sqft": 734,
+      "special": null,
+      "floor_plan": "A11",
+      "first_seen": "2026-10-07",
+      "price_history": [
+        {
+          "date": "2026-10-07",
+          "price": 3844
         }
       ]
     },
