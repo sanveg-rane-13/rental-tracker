@@ -1,6 +1,6 @@
 {
   "property": "VYV",
-  "updated_at": "2026-10-07T06:02:47+00:00",
+  "updated_at": "2026-10-07T13:27:13+00:00",
   "units": {
     "|N-2204": {
       "building": "",
@@ -25,35 +25,12 @@
         }
       ]
     },
-    "|N-2701": {
-      "building": "",
-      "unit": "N-2701",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3900,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 763,
-      "special": null,
-      "floor_plan": "A16",
-      "first_seen": "2026-10-02",
-      "price_history": [
-        {
-          "date": "2026-10-02",
-          "price": 3880
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3900
-        }
-      ]
-    },
     "|N-3303": {
       "building": "",
       "unit": "N-3303",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3883,
+      "base_rent": 3903,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 739,
@@ -64,6 +41,10 @@
         {
           "date": "2026-10-06",
           "price": 3883
+        },
+        {
+          "date": "2026-10-07",
+          "price": 3903
         }
       ]
     },
@@ -268,7 +249,7 @@
       "unit": "S-2061",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3844,
+      "base_rent": 3845,
       "base_rent_max": null,
       "available": "11/7/2026",
       "sqft": 734,
@@ -279,6 +260,10 @@
         {
           "date": "2026-10-07",
           "price": 3844
+        },
+        {
+          "date": "2026-10-07",
+          "price": 3845
         }
       ]
     },
@@ -329,6 +314,25 @@
         {
           "date": "2026-10-05",
           "price": 3727
+        }
+      ]
+    },
+    "|S-3059": {
+      "building": "",
+      "unit": "S-3059",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3850,
+      "base_rent_max": null,
+      "available": "11/14/2026",
+      "sqft": 759,
+      "special": null,
+      "floor_plan": "A15",
+      "first_seen": "2026-10-07",
+      "price_history": [
+        {
+          "date": "2026-10-07",
+          "price": 3850
         }
       ]
     },
