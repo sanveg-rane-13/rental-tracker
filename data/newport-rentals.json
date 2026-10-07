@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-07T13:27:13+00:00",
+  "updated_at": "2026-10-07T20:38:32+00:00",
   "units": {
     "Aquablu|1604": {
       "building": "Aquablu",
@@ -626,81 +626,6 @@
         {
           "date": "2026-10-07",
           "price": 4051
-        }
-      ]
-    },
-    "Atlantic|2210": {
-      "building": "Atlantic",
-      "unit": "2210",
-      "beds": "1 Bedroom",
-      "rent": 3821,
-      "base_rent": 3773,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 899,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4200
-        },
-        {
-          "date": "2026-09-24",
-          "price": 3874
-        },
-        {
-          "date": "2026-09-24",
-          "price": 3883
-        },
-        {
-          "date": "2026-09-25",
-          "price": 3888
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3889
-        },
-        {
-          "date": "2026-09-27",
-          "price": 3886
-        },
-        {
-          "date": "2026-09-29",
-          "price": 3888
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3816
-        },
-        {
-          "date": "2026-10-01",
-          "price": 3811
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3807
-        },
-        {
-          "date": "2026-10-03",
-          "price": 3805
-        },
-        {
-          "date": "2026-10-04",
-          "price": 3809
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3808
-        },
-        {
-          "date": "2026-10-06",
-          "price": 3810
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3821
         }
       ]
     },
@@ -1804,6 +1729,25 @@
         {
           "date": "2026-10-07",
           "price": 5083
+        }
+      ]
+    },
+    "Bisby|2906": {
+      "building": "Bisby",
+      "unit": "2906",
+      "beds": "1 Bedroom",
+      "rent": 4607,
+      "base_rent": 4549,
+      "base_rent_max": null,
+      "available": "11/13/2026",
+      "sqft": 795,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-07",
+      "price_history": [
+        {
+          "date": "2026-10-07",
+          "price": 4607
         }
       ]
     },
@@ -4522,77 +4466,6 @@
         {
           "date": "2026-10-07",
           "price": 3404
-        }
-      ]
-    },
-    "Riverside|1005": {
-      "building": "Riverside",
-      "unit": "1005",
-      "beds": "1 Bedroom",
-      "rent": 3886,
-      "base_rent": 3838,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 813,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3989
-        },
-        {
-          "date": "2026-09-24",
-          "price": 3998
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4003
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4004
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4001
-        },
-        {
-          "date": "2026-09-29",
-          "price": 4003
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3881
-        },
-        {
-          "date": "2026-10-01",
-          "price": 3876
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3872
-        },
-        {
-          "date": "2026-10-03",
-          "price": 3870
-        },
-        {
-          "date": "2026-10-04",
-          "price": 3874
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3873
-        },
-        {
-          "date": "2026-10-06",
-          "price": 3875
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3886
         }
       ]
     },
