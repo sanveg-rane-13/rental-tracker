@@ -2974,3 +2974,6 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-11T12:52,2026-10-11 08:52,Northern Chapter Properties,225 Grand,1010,1 Bedroom,price_change,3265,3280,3265,3570,,Now,,758,Floor Plan Video,,2026-09-28,
 2026-10-11T19:34,2026-10-11 15:34,Northern Chapter Properties,225 Grand,0519,1 Bedroom,delisted,3897,,3897,4252,,Now,,864,Floor Plan Video,,2026-09-28,
 2026-10-11T19:34,2026-10-11 15:34,Northern Chapter Properties,235 Grand,3401,1 Bedroom,delisted,4080,,4080,4510,,11/16/2026,,,Floor Plan Video,,2026-10-05,
+2026-10-12T00:33,2026-10-11 20:33,Liberty Harbor,The Regent,601,1 Bedroom,available_change,3130,,3130,,,Now,10/12/2026,673,,discounted,2026-09-24,
+2026-10-12T00:33,2026-10-11 20:33,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3820,,3820,,,10/13/2026,10/12/2026,778,A18,23-month lease,2026-09-24,
+2026-10-12T00:33,2026-10-11 20:33,VYV,,S-2161,1 Bedroom,available_change,3895,,3895,,,Now,10/12/2026,734,A11,,2026-09-27,
