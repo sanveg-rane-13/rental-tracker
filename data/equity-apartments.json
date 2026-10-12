@@ -1,6 +1,6 @@
 {
   "property": "Equity Apartments",
-  "updated_at": "2026-10-12T10:53:01+00:00",
+  "updated_at": "2026-10-12T21:17:05+00:00",
   "units": {
     "Hudson Point|130": {
       "building": "Hudson Point",
@@ -182,6 +182,25 @@
         {
           "date": "2026-09-27",
           "price": 3347
+        }
+      ]
+    },
+    "Portside Towers|314": {
+      "building": "Portside Towers",
+      "unit": "314",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4120,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 1012,
+      "special": null,
+      "floor_plan": "N1",
+      "first_seen": "2026-10-12",
+      "price_history": [
+        {
+          "date": "2026-10-12",
+          "price": 4120
         }
       ]
     },
