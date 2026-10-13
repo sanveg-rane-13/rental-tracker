@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-12T21:17:04+00:00",
+  "updated_at": "2026-10-13T06:48:38+00:00",
   "units": {
     "Aquablu|523": {
       "building": "Aquablu",
@@ -5613,89 +5613,6 @@
         }
       ]
     },
-    "Waterside Square North|1114": {
-      "building": "Waterside Square North",
-      "unit": "1114",
-      "beds": "1 Bedroom",
-      "rent": 3420,
-      "base_rent": 3407,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 752,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3579
-        },
-        {
-          "date": "2026-09-24",
-          "price": 3561
-        },
-        {
-          "date": "2026-09-25",
-          "price": 3537
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3552
-        },
-        {
-          "date": "2026-09-27",
-          "price": 3543
-        },
-        {
-          "date": "2026-09-28",
-          "price": 3534
-        },
-        {
-          "date": "2026-09-29",
-          "price": 3517
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3499
-        },
-        {
-          "date": "2026-10-01",
-          "price": 3480
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3463
-        },
-        {
-          "date": "2026-10-03",
-          "price": 3462
-        },
-        {
-          "date": "2026-10-04",
-          "price": 3452
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3442
-        },
-        {
-          "date": "2026-10-06",
-          "price": 3433
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3419
-        },
-        {
-          "date": "2026-10-08",
-          "price": 3425
-        },
-        {
-          "date": "2026-10-12",
-          "price": 3420
-        }
-      ]
-    },
     "Waterside Square North|1706": {
       "building": "Waterside Square North",
       "unit": "1706",
@@ -5859,6 +5776,25 @@
         {
           "date": "2026-10-12",
           "price": 3470
+        }
+      ]
+    },
+    "Waterside Square North|1805": {
+      "building": "Waterside Square North",
+      "unit": "1805",
+      "beds": "1 Bedroom",
+      "rent": 3364,
+      "base_rent": 3351,
+      "base_rent_max": null,
+      "available": "11/9/2026",
+      "sqft": 684,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-13",
+      "price_history": [
+        {
+          "date": "2026-10-13",
+          "price": 3364
         }
       ]
     },
@@ -6361,57 +6297,6 @@
         {
           "date": "2026-10-12",
           "price": 3370
-        }
-      ]
-    },
-    "Waterside Square South|1705": {
-      "building": "Waterside Square South",
-      "unit": "1705",
-      "beds": "1 Bedroom",
-      "rent": 3375,
-      "base_rent": 3362,
-      "base_rent_max": null,
-      "available": "10/17/2026",
-      "sqft": 684,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-10-01",
-      "price_history": [
-        {
-          "date": "2026-10-01",
-          "price": 3435
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3418
-        },
-        {
-          "date": "2026-10-03",
-          "price": 3417
-        },
-        {
-          "date": "2026-10-04",
-          "price": 3407
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3397
-        },
-        {
-          "date": "2026-10-06",
-          "price": 3388
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3374
-        },
-        {
-          "date": "2026-10-08",
-          "price": 3380
-        },
-        {
-          "date": "2026-10-12",
-          "price": 3375
         }
       ]
     }
