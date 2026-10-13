@@ -1,13 +1,13 @@
 {
   "property": "65 Bay Street",
-  "updated_at": "2026-10-13T06:48:39+00:00",
+  "updated_at": "2026-10-13T10:39:10+00:00",
   "units": {
     "65 Bay Street|03-06": {
       "building": "65 Bay Street",
       "unit": "03-06",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4630,
+      "base_rent": 4634,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 911,
@@ -18,6 +18,10 @@
         {
           "date": "2026-10-10",
           "price": 4630
+        },
+        {
+          "date": "2026-10-13",
+          "price": 4634
         }
       ]
     },
@@ -26,7 +30,7 @@
       "unit": "06-05",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4848,
+      "base_rent": 4852,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 1058,
@@ -45,6 +49,10 @@
         {
           "date": "2026-10-05",
           "price": 4848
+        },
+        {
+          "date": "2026-10-13",
+          "price": 4852
         }
       ]
     },
@@ -53,7 +61,7 @@
       "unit": "08-01",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3801,
+      "base_rent": 3813,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 685,
@@ -132,6 +140,10 @@
         {
           "date": "2026-10-12",
           "price": 3801
+        },
+        {
+          "date": "2026-10-13",
+          "price": 3813
         }
       ]
     },
@@ -140,7 +152,7 @@
       "unit": "18-09",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3841,
+      "base_rent": 3853,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 685,
@@ -219,6 +231,10 @@
         {
           "date": "2026-10-12",
           "price": 3841
+        },
+        {
+          "date": "2026-10-13",
+          "price": 3853
         }
       ]
     },
@@ -227,7 +243,7 @@
       "unit": "25-08",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4397,
+      "base_rent": 4410,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 794,
@@ -306,6 +322,10 @@
         {
           "date": "2026-10-12",
           "price": 4397
+        },
+        {
+          "date": "2026-10-13",
+          "price": 4410
         }
       ]
     },
@@ -314,7 +334,7 @@
       "unit": "27-02",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4337,
+      "base_rent": 4350,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 794,
@@ -393,6 +413,10 @@
         {
           "date": "2026-10-12",
           "price": 4337
+        },
+        {
+          "date": "2026-10-13",
+          "price": 4350
         }
       ]
     },
@@ -401,7 +425,7 @@
       "unit": "30-07",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4465,
+      "base_rent": 4468,
       "base_rent_max": null,
       "available": "Now",
       "sqft": null,
@@ -424,6 +448,10 @@
         {
           "date": "2026-09-30",
           "price": 4465
+        },
+        {
+          "date": "2026-10-13",
+          "price": 4468
         }
       ]
     },
@@ -432,7 +460,7 @@
       "unit": "30-09",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4021,
+      "base_rent": 4033,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 685,
@@ -459,6 +487,10 @@
         {
           "date": "2026-10-12",
           "price": 4021
+        },
+        {
+          "date": "2026-10-13",
+          "price": 4033
         }
       ]
     },
@@ -467,7 +499,7 @@
       "unit": "31-01",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3921,
+      "base_rent": 3933,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 685,
@@ -518,6 +550,10 @@
         {
           "date": "2026-10-12",
           "price": 3921
+        },
+        {
+          "date": "2026-10-13",
+          "price": 3933
         }
       ]
     }
