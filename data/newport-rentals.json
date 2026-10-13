@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-13T10:39:10+00:00",
+  "updated_at": "2026-10-13T16:57:41+00:00",
   "units": {
     "Aquablu|523": {
       "building": "Aquablu",
@@ -2059,6 +2059,25 @@
         {
           "date": "2026-10-13",
           "price": 4099
+        }
+      ]
+    },
+    "East Hampton|2304": {
+      "building": "East Hampton",
+      "unit": "2304",
+      "beds": "1 Bedroom",
+      "rent": 4143,
+      "base_rent": 4095,
+      "base_rent_max": null,
+      "available": "10/26/2026",
+      "sqft": 761,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-13",
+      "price_history": [
+        {
+          "date": "2026-10-13",
+          "price": 4143
         }
       ]
     },
@@ -4613,7 +4632,7 @@
       "rent": 3994,
       "base_rent": 3946,
       "base_rent_max": null,
-      "available": "10/19/2026",
+      "available": "10/27/2026",
       "sqft": 815,
       "special": null,
       "floor_plan": null,
