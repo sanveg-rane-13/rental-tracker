@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-10-13T16:57:41+00:00",
+  "updated_at": "2026-10-14T04:56:09+00:00",
   "units": {
     "333 Grand|1007": {
       "building": "333 Grand",
@@ -741,7 +741,7 @@
       "unit": "221",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3020,
+      "base_rent": 2718,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 628,
@@ -760,6 +760,10 @@
         {
           "date": "2026-10-08",
           "price": 3020
+        },
+        {
+          "date": "2026-10-14",
+          "price": 2718
         }
       ]
     },
@@ -1135,7 +1139,7 @@
       "unit": "608",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3011,
+      "base_rent": 2709,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 702,
@@ -1154,6 +1158,10 @@
         {
           "date": "2026-10-08",
           "price": 3011
+        },
+        {
+          "date": "2026-10-14",
+          "price": 2709
         }
       ]
     },
@@ -1189,7 +1197,7 @@
       "unit": "711",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3277,
+      "base_rent": 2947,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 736,
@@ -1204,6 +1212,10 @@
         {
           "date": "2026-09-26",
           "price": 3277
+        },
+        {
+          "date": "2026-10-14",
+          "price": 2947
         }
       ]
     },
@@ -1212,7 +1224,7 @@
       "unit": "712",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3126,
+      "base_rent": 2970,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 731,
@@ -1231,6 +1243,10 @@
         {
           "date": "2026-10-08",
           "price": 3126
+        },
+        {
+          "date": "2026-10-14",
+          "price": 2970
         }
       ]
     },
@@ -1264,7 +1280,7 @@
       "rent": null,
       "base_rent": 3369,
       "base_rent_max": null,
-      "available": "10/14/2026",
+      "available": "Now",
       "sqft": 700,
       "special": "discounted",
       "floor_plan": null,
@@ -1310,7 +1326,7 @@
       "rent": null,
       "base_rent": 3282,
       "base_rent_max": null,
-      "available": "10/14/2026",
+      "available": "Now",
       "sqft": 736,
       "special": "discounted",
       "floor_plan": null,

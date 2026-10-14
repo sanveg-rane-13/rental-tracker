@@ -3329,3 +3329,17 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-13T22:46,2026-10-13 18:46,Liberty Harbor,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.libertyharbor.com/availability/
 2026-10-13T22:46,2026-10-13 18:46,IronState Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://ironstate.com/property/50-columbus/
 2026-10-13T22:46,2026-10-13 18:46,Northern Chapter Properties,18 Park,0610,1 Bedroom,delisted,3440,,3440,3780,,10/17/2026,,651,Floor Plan Video,,2026-09-28,
+2026-10-14T04:56,2026-10-14 00:56,Newport Rentals,Parkside East,3008,1 Bedroom,available_change,3301,,3288,,3301,Now,10/14/2026,765,,,2026-09-30,
+2026-10-14T04:56,2026-10-14 00:56,Liberty Harbor,The Zenith,711,1 Bedroom,price_change,2947,3277,2947,,,Now,,736,,discounted,2026-09-24,
+2026-10-14T04:56,2026-10-14 00:56,Liberty Harbor,The Zenith,811,1 Bedroom,available_change,3282,,3282,,,Now,10/14/2026,736,,discounted,2026-10-07,
+2026-10-14T04:56,2026-10-14 00:56,Liberty Harbor,The Zenith,712,1 Bedroom,price_change,2970,3126,2970,,,Now,,731,,discounted,2026-09-24,
+2026-10-14T04:56,2026-10-14 00:56,Liberty Harbor,The Zenith,608,1 Bedroom,price_change,2709,3011,2709,,,Now,,702,,discounted,2026-09-24,
+2026-10-14T04:56,2026-10-14 00:56,Liberty Harbor,The Zenith,718,1 Bedroom,available_change,3369,,3369,,,Now,10/14/2026,700,,discounted,2026-09-24,
+2026-10-14T04:56,2026-10-14 00:56,Liberty Harbor,The Regent,221,1 Bedroom,price_change,2718,3020,2718,,,Now,,628,,discounted,2026-09-24,
+2026-10-14T04:56,2026-10-14 00:56,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3820,,3820,,,10/15/2026,10/14/2026,778,A18,23-month lease,2026-09-24,
+2026-10-14T04:56,2026-10-14 00:56,Equity Apartments,Madox,416,1 Bedroom,available_change,3485,,3485,,,Now,10/14/2026,665,A3-2,,2026-09-27,
+2026-10-14T04:56,2026-10-14 00:56,IronState Properties,The Gotham,5059868,1 Bedroom,available_change,3425,,3425,,,,10/14/2026,708,5059868,,2026-09-27,
+2026-10-14T04:56,2026-10-14 00:56,IronState Properties,70 Columbus,2042224,1 Bedroom,listed,3775,,3775,,,12/17/2026,,669,2042224,,2026-10-14,
+2026-10-14T04:56,2026-10-14 00:56,VYV,,S-2959,1 Bedroom,listed,3874,,3874,,,12/17/2026,,759,A15,,2026-10-14,
+2026-10-14T04:56,2026-10-14 00:56,VYV,,S-2161,1 Bedroom,delisted,3895,,3895,,,Now,,734,A11,,2026-09-27,
+2026-10-14T04:56,2026-10-14 00:56,VYV,,S-2555,1 Bedroom,delisted,3777,,3777,,,11/6/2026,,703,A05,,2026-10-02,
