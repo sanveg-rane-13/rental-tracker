@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-14T17:12:49+00:00",
+  "updated_at": "2026-10-14T21:43:07+00:00",
   "units": {
     "Aquablu|523": {
       "building": "Aquablu",
@@ -2232,6 +2232,25 @@
         }
       ]
     },
+    "East Hampton|301": {
+      "building": "East Hampton",
+      "unit": "301",
+      "beds": "1 Bedroom",
+      "rent": 3813,
+      "base_rent": 3765,
+      "base_rent_max": null,
+      "available": "12/7/2026",
+      "sqft": 862,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-14",
+      "price_history": [
+        {
+          "date": "2026-10-14",
+          "price": 3813
+        }
+      ]
+    },
     "East Hampton|3206": {
       "building": "East Hampton",
       "unit": "3206",
@@ -4042,7 +4061,7 @@
       "rent": 3903,
       "base_rent": 3890,
       "base_rent_max": null,
-      "available": "10/15/2026",
+      "available": "Now",
       "sqft": 799,
       "special": "0.05 Month Free",
       "floor_plan": null,
@@ -4891,10 +4910,10 @@
       "building": "Riverside",
       "unit": "612",
       "beds": "1 Bedroom",
-      "rent": 3738,
-      "base_rent": 3690,
+      "rent": 3563,
+      "base_rent": 3515,
       "base_rent_max": null,
-      "available": "10/29/2026",
+      "available": "10/21/2026",
       "sqft": 792,
       "special": "0.05 Month Free",
       "floor_plan": null,
@@ -4971,6 +4990,10 @@
         {
           "date": "2026-10-14",
           "price": 3738
+        },
+        {
+          "date": "2026-10-14",
+          "price": 3563
         }
       ]
     },
@@ -5418,10 +5441,10 @@
       "building": "Southampton",
       "unit": "2407",
       "beds": "1 Bedroom",
-      "rent": 4023,
-      "base_rent": 3975,
+      "rent": 3848,
+      "base_rent": 3800,
       "base_rent_max": null,
-      "available": "11/2/2026",
+      "available": "10/25/2026",
       "sqft": 838,
       "special": "1 Month Free",
       "floor_plan": null,
@@ -5498,6 +5521,10 @@
         {
           "date": "2026-10-14",
           "price": 4023
+        },
+        {
+          "date": "2026-10-14",
+          "price": 3848
         }
       ]
     },
