@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-14T21:43:07+00:00",
+  "updated_at": "2026-10-15T04:42:10+00:00",
   "units": {
     "Aquablu|523": {
       "building": "Aquablu",
@@ -309,8 +309,8 @@
       "building": "Atlantic",
       "unit": "2108",
       "beds": "1 Bedroom",
-      "rent": 4048,
-      "base_rent": 4000,
+      "rent": 3873,
+      "base_rent": 3825,
       "base_rent_max": null,
       "available": "12/14/2026",
       "sqft": 758,
@@ -361,6 +361,10 @@
         {
           "date": "2026-10-14",
           "price": 4048
+        },
+        {
+          "date": "2026-10-15",
+          "price": 3873
         }
       ]
     },
@@ -6870,101 +6874,6 @@
         {
           "date": "2026-10-14",
           "price": 3431
-        }
-      ]
-    },
-    "Waterside Square North|906": {
-      "building": "Waterside Square North",
-      "unit": "906",
-      "beds": "1 Bedroom",
-      "rent": 3396,
-      "base_rent": 3383,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 745,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3479
-        },
-        {
-          "date": "2026-09-24",
-          "price": 3461
-        },
-        {
-          "date": "2026-09-25",
-          "price": 3437
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3452
-        },
-        {
-          "date": "2026-09-27",
-          "price": 3443
-        },
-        {
-          "date": "2026-09-28",
-          "price": 3434
-        },
-        {
-          "date": "2026-09-29",
-          "price": 3417
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3399
-        },
-        {
-          "date": "2026-10-01",
-          "price": 3380
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3363
-        },
-        {
-          "date": "2026-10-03",
-          "price": 3362
-        },
-        {
-          "date": "2026-10-04",
-          "price": 3352
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3342
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3392
-        },
-        {
-          "date": "2026-10-06",
-          "price": 3383
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3369
-        },
-        {
-          "date": "2026-10-08",
-          "price": 3375
-        },
-        {
-          "date": "2026-10-12",
-          "price": 3370
-        },
-        {
-          "date": "2026-10-13",
-          "price": 3386
-        },
-        {
-          "date": "2026-10-14",
-          "price": 3396
         }
       ]
     }

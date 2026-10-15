@@ -1,6 +1,6 @@
 {
   "property": "VYV",
-  "updated_at": "2026-10-14T21:43:07+00:00",
+  "updated_at": "2026-10-15T04:42:10+00:00",
   "units": {
     "|N-1710": {
       "building": "",
@@ -198,7 +198,7 @@
       "rent": null,
       "base_rent": 3773,
       "base_rent_max": null,
-      "available": "10/15/2026",
+      "available": "Now",
       "sqft": 769,
       "special": null,
       "floor_plan": "A17",
