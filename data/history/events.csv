@@ -3638,3 +3638,10 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-15T11:32,2026-10-15 07:32,Northern Chapter Properties,235 Grand,3108,1 Bedroom,price_change,4000,3990,4000,4445,,12/7/2026,,,Floor Plan Video,,2026-09-28,
 2026-10-15T11:32,2026-10-15 07:32,Northern Chapter Properties,235 Grand,3904,1 Bedroom,price_change,3925,3915,3925,4335,,12/20/2026,,,Floor Plan Video,,2026-09-28,
 2026-10-15T11:32,2026-10-15 07:32,Northern Chapter Properties,18 Park,0610,1 Bedroom,price_change,3350,3425,3350,3690,,10/17/2026,,651,Floor Plan Video,,2026-10-14,
+2026-10-15T17:03,2026-10-15 13:03,BLVD Collection,BLVD 475 North,2103N,1 Bedroom,price_change,3965,4030,3965,,,Now,,708,B475N A1,,2026-09-24,
+2026-10-15T17:03,2026-10-15 13:03,Liberty Harbor,The Zenith,711,1 Bedroom,price_change,2743,2947,2743,,,Now,,736,,discounted,2026-09-24,
+2026-10-15T17:03,2026-10-15 13:03,Liberty Harbor,The Zenith,712,1 Bedroom,price_change,2732,2970,2732,,,Now,,731,,discounted,2026-09-24,
+2026-10-15T17:03,2026-10-15 13:03,Liberty Harbor,333 Grand,612,1 Bedroom,available_change,3426,,3426,,,10/25/2026,10/17/2026,746,,discounted,2026-09-24,
+2026-10-15T17:03,2026-10-15 13:03,Equity Apartments,Madox,416,1 Bedroom,available_change,3485,,3485,,,10/16/2026,Now,665,A3-2,,2026-09-27,
+2026-10-15T17:03,2026-10-15 13:03,Equity Apartments,Hudson Point,520,1 Bedroom,delisted,3353,,3353,,,Now,,726,Hudson (A13),,2026-09-27,
+2026-10-15T17:03,2026-10-15 13:03,VYV,,,,site_failed,,,,,,,,,,,,only 5 units vs 15 saved
