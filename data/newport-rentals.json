@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-16T11:27:12+00:00",
+  "updated_at": "2026-10-16T16:41:11+00:00",
   "units": {
     "Aquablu|2804": {
       "building": "Aquablu",
@@ -626,6 +626,25 @@
         {
           "date": "2026-10-16",
           "price": 4122
+        }
+      ]
+    },
+    "Atlantic|3010": {
+      "building": "Atlantic",
+      "unit": "3010",
+      "beds": "1 Bedroom",
+      "rent": 3866,
+      "base_rent": 3818,
+      "base_rent_max": null,
+      "available": "11/7/2026",
+      "sqft": 899,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-16",
+      "price_history": [
+        {
+          "date": "2026-10-16",
+          "price": 3866
         }
       ]
     },
@@ -4596,25 +4615,6 @@
         }
       ]
     },
-    "Pacific|401": {
-      "building": "Pacific",
-      "unit": "401",
-      "beds": "1 Bedroom",
-      "rent": 3252,
-      "base_rent": 3239,
-      "base_rent_max": null,
-      "available": "11/8/2026",
-      "sqft": 821,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-10-15",
-      "price_history": [
-        {
-          "date": "2026-10-15",
-          "price": 3252
-        }
-      ]
-    },
     "Parkside East|2301": {
       "building": "Parkside East",
       "unit": "2301",
@@ -5682,6 +5682,25 @@
         }
       ]
     },
+    "Southampton|1208": {
+      "building": "Southampton",
+      "unit": "1208",
+      "beds": "1 Bedroom",
+      "rent": 3841,
+      "base_rent": 3793,
+      "base_rent_max": null,
+      "available": "11/11/2026",
+      "sqft": 765,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-16",
+      "price_history": [
+        {
+          "date": "2026-10-16",
+          "price": 3841
+        }
+      ]
+    },
     "Southampton|1604": {
       "building": "Southampton",
       "unit": "1604",
@@ -6569,6 +6588,25 @@
         {
           "date": "2026-10-16",
           "price": 3887
+        }
+      ]
+    },
+    "Southampton|3501": {
+      "building": "Southampton",
+      "unit": "3501",
+      "beds": "1 Bedroom",
+      "rent": 3936,
+      "base_rent": 3888,
+      "base_rent_max": null,
+      "available": "11/8/2026",
+      "sqft": 849,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-16",
+      "price_history": [
+        {
+          "date": "2026-10-16",
+          "price": 3936
         }
       ]
     },
