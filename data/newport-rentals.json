@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-16T16:41:11+00:00",
+  "updated_at": "2026-10-16T21:11:36+00:00",
   "units": {
     "Aquablu|2804": {
       "building": "Aquablu",
@@ -365,6 +365,25 @@
         {
           "date": "2026-10-16",
           "price": 4067
+        }
+      ]
+    },
+    "Atlantic|2006": {
+      "building": "Atlantic",
+      "unit": "2006",
+      "beds": "1 Bedroom",
+      "rent": 3901,
+      "base_rent": 3853,
+      "base_rent_max": null,
+      "available": "12/2/2026",
+      "sqft": 795,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-16",
+      "price_history": [
+        {
+          "date": "2026-10-16",
+          "price": 3901
         }
       ]
     },
@@ -5294,101 +5313,6 @@
         }
       ]
     },
-    "Riverside|2607": {
-      "building": "Riverside",
-      "unit": "2607",
-      "beds": "1 Bedroom",
-      "rent": 4117,
-      "base_rent": 4069,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 815,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4214
-        },
-        {
-          "date": "2026-09-24",
-          "price": 4223
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4228
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4229
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4226
-        },
-        {
-          "date": "2026-09-29",
-          "price": 4228
-        },
-        {
-          "date": "2026-09-30",
-          "price": 4106
-        },
-        {
-          "date": "2026-10-01",
-          "price": 4101
-        },
-        {
-          "date": "2026-10-02",
-          "price": 4097
-        },
-        {
-          "date": "2026-10-03",
-          "price": 4095
-        },
-        {
-          "date": "2026-10-04",
-          "price": 4099
-        },
-        {
-          "date": "2026-10-05",
-          "price": 4098
-        },
-        {
-          "date": "2026-10-06",
-          "price": 4100
-        },
-        {
-          "date": "2026-10-07",
-          "price": 4111
-        },
-        {
-          "date": "2026-10-08",
-          "price": 4128
-        },
-        {
-          "date": "2026-10-12",
-          "price": 4170
-        },
-        {
-          "date": "2026-10-13",
-          "price": 4179
-        },
-        {
-          "date": "2026-10-14",
-          "price": 4108
-        },
-        {
-          "date": "2026-10-15",
-          "price": 4118
-        },
-        {
-          "date": "2026-10-16",
-          "price": 4117
-        }
-      ]
-    },
     "Riverside|505": {
       "building": "Riverside",
       "unit": "505",
@@ -5679,25 +5603,6 @@
         {
           "date": "2026-10-16",
           "price": 3887
-        }
-      ]
-    },
-    "Southampton|1208": {
-      "building": "Southampton",
-      "unit": "1208",
-      "beds": "1 Bedroom",
-      "rent": 3841,
-      "base_rent": 3793,
-      "base_rent_max": null,
-      "available": "11/11/2026",
-      "sqft": 765,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-10-16",
-      "price_history": [
-        {
-          "date": "2026-10-16",
-          "price": 3841
         }
       ]
     },

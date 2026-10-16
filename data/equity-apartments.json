@@ -1,6 +1,6 @@
 {
   "property": "Equity Apartments",
-  "updated_at": "2026-10-16T16:41:11+00:00",
+  "updated_at": "2026-10-16T21:11:37+00:00",
   "units": {
     "Hudson Point|130": {
       "building": "Hudson Point",
@@ -76,7 +76,7 @@
       "unit": "416",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3485,
+      "base_rent": 3435,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 665,
@@ -87,6 +87,10 @@
         {
           "date": "2026-09-27",
           "price": 3485
+        },
+        {
+          "date": "2026-10-16",
+          "price": 3435
         }
       ]
     },
@@ -95,7 +99,7 @@
       "unit": "418",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3380,
+      "base_rent": 3330,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 689,
@@ -106,6 +110,10 @@
         {
           "date": "2026-10-15",
           "price": 3380
+        },
+        {
+          "date": "2026-10-16",
+          "price": 3330
         }
       ]
     },
@@ -114,7 +122,7 @@
       "unit": "522",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3895,
+      "base_rent": 3845,
       "base_rent_max": null,
       "available": "12/10/2026",
       "sqft": 877,
@@ -125,6 +133,10 @@
         {
           "date": "2026-10-16",
           "price": 3895
+        },
+        {
+          "date": "2026-10-16",
+          "price": 3845
         }
       ]
     },
@@ -133,7 +145,7 @@
       "unit": "816",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3555,
+      "base_rent": 3505,
       "base_rent_max": null,
       "available": "12/25/2026",
       "sqft": 665,
@@ -144,6 +156,10 @@
         {
           "date": "2026-10-14",
           "price": 3555
+        },
+        {
+          "date": "2026-10-16",
+          "price": 3505
         }
       ]
     },
