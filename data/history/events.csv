@@ -3653,3 +3653,7 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-15T21:24,2026-10-15 17:24,IronState Properties,70 Columbus,2042224,1 Bedroom,delisted,3775,,3775,,,12/17/2026,,669,2042224,,2026-10-14,
 2026-10-15T21:24,2026-10-15 17:24,VYV,,,,site_failed,,,,,,,,,,,,only 5 units vs 15 saved
 2026-10-15T21:24,2026-10-15 17:24,Northern Chapter Properties,225 Grand,0918,1 Bedroom,delisted,3155,,3155,3455,,Now,,666,Floor Plan Video,,2026-10-10,
+2026-10-16T04:34,2026-10-16 00:34,Liberty Harbor,The Regent,203,1 Bedroom,available_change,3199,,3199,,,Now,10/16/2026,628,,discounted,2026-09-24,
+2026-10-16T04:34,2026-10-16 00:34,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3785,,3785,,,10/17/2026,10/16/2026,778,A18,23-month lease,2026-09-24,
+2026-10-16T04:34,2026-10-16 00:34,Equity Apartments,Madox,522,1 Bedroom,listed,3895,,3895,,,12/11/2026,,877,B9,,2026-10-16,
+2026-10-16T04:34,2026-10-16 00:34,VYV,,,,site_failed,,,,,,,,,,,,only 5 units vs 15 saved

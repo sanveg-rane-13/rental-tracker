@@ -1,6 +1,6 @@
 {
   "property": "Equity Apartments",
-  "updated_at": "2026-10-15T21:25:18+00:00",
+  "updated_at": "2026-10-16T04:34:42+00:00",
   "units": {
     "Hudson Point|130": {
       "building": "Hudson Point",
@@ -106,6 +106,25 @@
         {
           "date": "2026-10-15",
           "price": 3380
+        }
+      ]
+    },
+    "Madox|522": {
+      "building": "Madox",
+      "unit": "522",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3895,
+      "base_rent_max": null,
+      "available": "12/11/2026",
+      "sqft": 877,
+      "special": null,
+      "floor_plan": "B9",
+      "first_seen": "2026-10-16",
+      "price_history": [
+        {
+          "date": "2026-10-16",
+          "price": 3895
         }
       ]
     },
