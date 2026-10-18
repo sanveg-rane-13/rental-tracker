@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-10-17T23:08:42+00:00",
+  "updated_at": "2026-10-18T04:36:38+00:00",
   "units": {
     "333 Grand|1007": {
       "building": "333 Grand",
@@ -732,37 +732,6 @@
         }
       ]
     },
-    "The Regent|221": {
-      "building": "The Regent",
-      "unit": "221",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 2718,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 628,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3395
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3112
-        },
-        {
-          "date": "2026-10-08",
-          "price": 3020
-        },
-        {
-          "date": "2026-10-14",
-          "price": 2718
-        }
-      ]
-    },
     "The Regent|306": {
       "building": "The Regent",
       "unit": "306",
@@ -1031,6 +1000,25 @@
         }
       ]
     },
+    "The Zenith|509": {
+      "building": "The Zenith",
+      "unit": "509",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3350,
+      "base_rent_max": null,
+      "available": "1/11/2027",
+      "sqft": 702,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-18",
+      "price_history": [
+        {
+          "date": "2026-10-18",
+          "price": 3350
+        }
+      ]
+    },
     "The Zenith|510": {
       "building": "The Zenith",
       "unit": "510",
@@ -1139,52 +1127,6 @@
         {
           "date": "2026-10-04",
           "price": 3675
-        }
-      ]
-    },
-    "The Zenith|718": {
-      "building": "The Zenith",
-      "unit": "718",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 2915,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 700,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3675
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3369
-        },
-        {
-          "date": "2026-10-17",
-          "price": 2915
-        }
-      ]
-    },
-    "The Zenith|811": {
-      "building": "The Zenith",
-      "unit": "811",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3282,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 736,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-10-07",
-      "price_history": [
-        {
-          "date": "2026-10-07",
-          "price": 3282
         }
       ]
     },
