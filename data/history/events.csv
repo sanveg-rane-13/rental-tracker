@@ -4119,3 +4119,9 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-18T11:08,2026-10-18 07:08,Northern Chapter Properties,225 Grand,0711,1 Bedroom,price_change,3290,3285,3290,3595,,Now,,744,Floor Plan Video,,2026-09-28,
 2026-10-18T11:08,2026-10-18 07:08,Northern Chapter Properties,225 Grand,1010,1 Bedroom,price_change,3245,3240,3245,3550,,Now,,758,Floor Plan Video,,2026-09-28,
 2026-10-18T15:53,2026-10-18 11:53,Northern Chapter Properties,225 Grand,1009,1 Bedroom,delisted,3250,,3250,3545,,Now,,744,Floor Plan Video,,2026-09-28,
+2026-10-18T20:46,2026-10-18 16:46,Liberty Harbor,50 Regent,915,1 Bedroom,delisted,3312,,3312,,,Now,,667,,discounted,2026-09-24,
+2026-10-18T20:46,2026-10-18 16:46,Liberty Harbor,88 Regent,PH3305,1 Bedroom,delisted,3630,,3630,,,Now,,636,,discounted,2026-09-26,
+2026-10-18T20:46,2026-10-18 16:46,65 Bay Street,,,,site_failed,,,,,,,,,,,,"HTTPSConnectionPool(host='www.65bay.com', port=443): Read timed out. (read timeout=45)"
+2026-10-18T20:46,2026-10-18 16:46,Equity Apartments,Hudson Point,302,1 Bedroom,delisted,3393,,3393,,,Now,,726,Hudson (A1),,2026-10-04,
+2026-10-18T20:46,2026-10-18 16:46,IronState Properties,90 Columbus,2442631,1 Bedroom,delisted,4290,,4290,,,11/15/2026,,708,2442631,,2026-09-27,
+2026-10-18T20:46,2026-10-18 16:46,VYV,,S-1655,1 Bedroom,delisted,3737,,3737,,,11/17/2026,,703,A05,,2026-10-13,
