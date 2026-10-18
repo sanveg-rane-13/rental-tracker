@@ -1,6 +1,6 @@
 {
   "property": "65 Bay Street",
-  "updated_at": "2026-10-18T15:53:28+00:00",
+  "updated_at": "2026-10-18T23:14:45+00:00",
   "units": {
     "65 Bay Street|03-06": {
       "building": "65 Bay Street",
@@ -315,117 +315,6 @@
         {
           "date": "2026-10-18",
           "price": 3841
-        }
-      ]
-    },
-    "65 Bay Street|25-08": {
-      "building": "65 Bay Street",
-      "unit": "25-08",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 4395,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 794,
-      "special": null,
-      "floor_plan": "Apartment: # 25-08",
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4458
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4472
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4489
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4506
-        },
-        {
-          "date": "2026-09-28",
-          "price": 4523
-        },
-        {
-          "date": "2026-09-29",
-          "price": 4516
-        },
-        {
-          "date": "2026-09-30",
-          "price": 4239
-        },
-        {
-          "date": "2026-10-01",
-          "price": 4255
-        },
-        {
-          "date": "2026-10-02",
-          "price": 4271
-        },
-        {
-          "date": "2026-10-03",
-          "price": 4284
-        },
-        {
-          "date": "2026-10-04",
-          "price": 4300
-        },
-        {
-          "date": "2026-10-05",
-          "price": 4316
-        },
-        {
-          "date": "2026-10-06",
-          "price": 4332
-        },
-        {
-          "date": "2026-10-07",
-          "price": 4345
-        },
-        {
-          "date": "2026-10-08",
-          "price": 4358
-        },
-        {
-          "date": "2026-10-09",
-          "price": 4371
-        },
-        {
-          "date": "2026-10-11",
-          "price": 4384
-        },
-        {
-          "date": "2026-10-12",
-          "price": 4397
-        },
-        {
-          "date": "2026-10-13",
-          "price": 4410
-        },
-        {
-          "date": "2026-10-14",
-          "price": 4423
-        },
-        {
-          "date": "2026-10-15",
-          "price": 4416
-        },
-        {
-          "date": "2026-10-16",
-          "price": 4409
-        },
-        {
-          "date": "2026-10-17",
-          "price": 4402
-        },
-        {
-          "date": "2026-10-18",
-          "price": 4395
         }
       ]
     },

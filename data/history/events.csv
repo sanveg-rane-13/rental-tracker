@@ -4125,3 +4125,9 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-18T20:46,2026-10-18 16:46,Equity Apartments,Hudson Point,302,1 Bedroom,delisted,3393,,3393,,,Now,,726,Hudson (A1),,2026-10-04,
 2026-10-18T20:46,2026-10-18 16:46,IronState Properties,90 Columbus,2442631,1 Bedroom,delisted,4290,,4290,,,11/15/2026,,708,2442631,,2026-09-27,
 2026-10-18T20:46,2026-10-18 16:46,VYV,,S-1655,1 Bedroom,delisted,3737,,3737,,,11/17/2026,,703,A05,,2026-10-13,
+2026-10-18T23:14,2026-10-18 19:14,65 Bay Street,65 Bay Street,25-08,1 Bedroom,delisted,4395,,4395,,,Now,,794,Apartment: # 25-08,,2026-09-24,
+2026-10-18T23:14,2026-10-18 19:14,Equity Apartments,,,,site_failed,,,,,,,,,,,,403 Client Error:  for url: https://www.apartmentlist.com/nj/jersey-city/hudson-point
+2026-10-18T23:14,2026-10-18 19:14,VYV,,,,site_failed,,,,,,,,,,,,403 Client Error:  for url: https://www.apartmentlist.com/nj/jersey-city/vyv--2
+2026-10-18T23:14,2026-10-18 19:14,Lenox,,,,site_failed,,,,,,,,,,,,403 Client Error:  for url: https://www.apartmentlist.com/nj/jersey-city/lenox
+2026-10-18T23:14,2026-10-18 19:14,Northern Chapter Properties,235 Grand,1401,1 Bedroom,delisted,3945,,3945,4425,,Now,,,Floor Plan Video,,2026-10-01,
+2026-10-18T23:14,2026-10-18 19:14,Northern Chapter Properties,235 Grand,4412,1 Bedroom,delisted,4140,,4140,4630,,Now,,,Floor Plan Video,,2026-09-28,
