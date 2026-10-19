@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-19T13:19:53+00:00",
+  "updated_at": "2026-10-19T20:36:21+00:00",
   "units": {
     "Aquablu|2804": {
       "building": "Aquablu",
@@ -765,37 +765,6 @@
         {
           "date": "2026-10-19",
           "price": 4129
-        }
-      ]
-    },
-    "Atlantic|3010": {
-      "building": "Atlantic",
-      "unit": "3010",
-      "beds": "1 Bedroom",
-      "rent": 3874,
-      "base_rent": 3826,
-      "base_rent_max": null,
-      "available": "11/7/2026",
-      "sqft": 899,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-10-16",
-      "price_history": [
-        {
-          "date": "2026-10-16",
-          "price": 3866
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3876
-        },
-        {
-          "date": "2026-10-18",
-          "price": 3878
-        },
-        {
-          "date": "2026-10-19",
-          "price": 3874
         }
       ]
     },
@@ -1935,7 +1904,7 @@
       "rent": 4853,
       "base_rent": 4795,
       "base_rent_max": null,
-      "available": "10/24/2026",
+      "available": "10/30/2026",
       "sqft": 827,
       "special": null,
       "floor_plan": null,
@@ -4832,50 +4801,22 @@
         }
       ]
     },
-    "Pacific|1402": {
+    "Pacific|1901": {
       "building": "Pacific",
-      "unit": "1402",
+      "unit": "1901",
       "beds": "1 Bedroom",
-      "rent": 3479,
-      "base_rent": 3466,
+      "rent": 3453,
+      "base_rent": 3440,
       "base_rent_max": null,
-      "available": "11/8/2026",
-      "sqft": 764,
-      "special": "0.5 Month Free",
+      "available": "11/7/2026",
+      "sqft": 821,
+      "special": null,
       "floor_plan": null,
-      "first_seen": "2026-10-12",
+      "first_seen": "2026-10-19",
       "price_history": [
         {
-          "date": "2026-10-12",
-          "price": 3525
-        },
-        {
-          "date": "2026-10-13",
-          "price": 3534
-        },
-        {
-          "date": "2026-10-14",
-          "price": 3463
-        },
-        {
-          "date": "2026-10-15",
-          "price": 3473
-        },
-        {
-          "date": "2026-10-16",
-          "price": 3472
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3481
-        },
-        {
-          "date": "2026-10-18",
-          "price": 3483
-        },
-        {
           "date": "2026-10-19",
-          "price": 3479
+          "price": 3453
         }
       ]
     },
@@ -7152,113 +7093,6 @@
         }
       ]
     },
-    "Southampton|3108": {
-      "building": "Southampton",
-      "unit": "3108",
-      "beds": "1 Bedroom",
-      "rent": 4164,
-      "base_rent": 4116,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 765,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4204
-        },
-        {
-          "date": "2026-09-24",
-          "price": 4213
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4218
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4219
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4216
-        },
-        {
-          "date": "2026-09-29",
-          "price": 4218
-        },
-        {
-          "date": "2026-09-30",
-          "price": 4146
-        },
-        {
-          "date": "2026-10-01",
-          "price": 4141
-        },
-        {
-          "date": "2026-10-02",
-          "price": 4137
-        },
-        {
-          "date": "2026-10-03",
-          "price": 4135
-        },
-        {
-          "date": "2026-10-04",
-          "price": 4139
-        },
-        {
-          "date": "2026-10-05",
-          "price": 4138
-        },
-        {
-          "date": "2026-10-06",
-          "price": 4140
-        },
-        {
-          "date": "2026-10-07",
-          "price": 4151
-        },
-        {
-          "date": "2026-10-08",
-          "price": 4168
-        },
-        {
-          "date": "2026-10-12",
-          "price": 4210
-        },
-        {
-          "date": "2026-10-13",
-          "price": 4219
-        },
-        {
-          "date": "2026-10-14",
-          "price": 4148
-        },
-        {
-          "date": "2026-10-15",
-          "price": 4158
-        },
-        {
-          "date": "2026-10-16",
-          "price": 4157
-        },
-        {
-          "date": "2026-10-17",
-          "price": 4166
-        },
-        {
-          "date": "2026-10-18",
-          "price": 4168
-        },
-        {
-          "date": "2026-10-19",
-          "price": 4164
-        }
-      ]
-    },
     "Southampton|3308": {
       "building": "Southampton",
       "unit": "3308",
@@ -7433,6 +7267,25 @@
         {
           "date": "2026-10-19",
           "price": 3944
+        }
+      ]
+    },
+    "Southampton|3604": {
+      "building": "Southampton",
+      "unit": "3604",
+      "beds": "1 Bedroom",
+      "rent": 4023,
+      "base_rent": 3975,
+      "base_rent_max": null,
+      "available": "11/12/2026",
+      "sqft": 851,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-19",
+      "price_history": [
+        {
+          "date": "2026-10-19",
+          "price": 4023
         }
       ]
     },
@@ -7647,6 +7500,25 @@
         {
           "date": "2026-10-19",
           "price": 3824
+        }
+      ]
+    },
+    "Southampton|806": {
+      "building": "Southampton",
+      "unit": "806",
+      "beds": "1 Bedroom",
+      "rent": 3713,
+      "base_rent": 3665,
+      "base_rent_max": null,
+      "available": "12/28/2026",
+      "sqft": 796,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-19",
+      "price_history": [
+        {
+          "date": "2026-10-19",
+          "price": 3713
         }
       ]
     },
