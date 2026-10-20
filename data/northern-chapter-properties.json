@@ -1,6 +1,6 @@
 {
   "property": "Northern Chapter Properties",
-  "updated_at": "2026-10-20T19:18:17+00:00",
+  "updated_at": "2026-10-20T23:54:09+00:00",
   "units": {
     "18 Park|0410": {
       "building": "18 Park",
@@ -500,6 +500,25 @@
         {
           "date": "2026-10-14",
           "price": 3460
+        }
+      ]
+    },
+    "18 Park|1044": {
+      "building": "18 Park",
+      "unit": "1044",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3605,
+      "base_rent_max": 4090,
+      "available": "12/26/2026",
+      "sqft": 651,
+      "special": null,
+      "floor_plan": "Floor Plan Video",
+      "first_seen": "2026-10-20",
+      "price_history": [
+        {
+          "date": "2026-10-20",
+          "price": 3605
         }
       ]
     },

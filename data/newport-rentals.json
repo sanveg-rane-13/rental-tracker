@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-20T19:18:12+00:00",
+  "updated_at": "2026-10-20T23:54:08+00:00",
   "units": {
     "Aquablu|2804": {
       "building": "Aquablu",
@@ -2368,7 +2368,7 @@
       "base_rent_max": null,
       "available": "11/22/2026",
       "sqft": 743,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-12",
       "price_history": [
@@ -2419,7 +2419,7 @@
       "base_rent_max": null,
       "available": "11/8/2026",
       "sqft": 761,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-29",
       "price_history": [
@@ -2510,7 +2510,7 @@
       "base_rent_max": null,
       "available": "11/2/2026",
       "sqft": 817,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-29",
       "price_history": [
@@ -2601,7 +2601,7 @@
       "base_rent_max": null,
       "available": "10/26/2026",
       "sqft": 862,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-02",
       "price_history": [
@@ -2680,7 +2680,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 832,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -2791,7 +2791,7 @@
       "base_rent_max": null,
       "available": "11/8/2026",
       "sqft": 761,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-02",
       "price_history": [
@@ -2874,7 +2874,7 @@
       "base_rent_max": null,
       "available": "11/8/2026",
       "sqft": 862,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -2983,9 +2983,9 @@
       "rent": 3952,
       "base_rent": 3904,
       "base_rent_max": null,
-      "available": "11/8/2026",
+      "available": "10/31/2026",
       "sqft": 817,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -3096,7 +3096,7 @@
       "base_rent_max": null,
       "available": "12/7/2026",
       "sqft": 862,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-14",
       "price_history": [
@@ -3139,7 +3139,7 @@
       "base_rent_max": null,
       "available": "12/13/2026",
       "sqft": 862,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-02",
       "price_history": [
@@ -3222,7 +3222,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 828,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-02",
       "price_history": [
@@ -3305,7 +3305,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 862,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -3416,7 +3416,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 828,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -3527,7 +3527,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 817,
-      "special": "0.5 Month Free",
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -5427,101 +5427,6 @@
         }
       ]
     },
-    "Pacific|2206": {
-      "building": "Pacific",
-      "unit": "2206",
-      "beds": "1 Bedroom",
-      "rent": 3922,
-      "base_rent": 3909,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 799,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-28",
-      "price_history": [
-        {
-          "date": "2026-09-28",
-          "price": 3971
-        },
-        {
-          "date": "2026-09-29",
-          "price": 3973
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3901
-        },
-        {
-          "date": "2026-10-01",
-          "price": 3896
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3892
-        },
-        {
-          "date": "2026-10-03",
-          "price": 3890
-        },
-        {
-          "date": "2026-10-04",
-          "price": 3894
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3893
-        },
-        {
-          "date": "2026-10-06",
-          "price": 3895
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3906
-        },
-        {
-          "date": "2026-10-08",
-          "price": 3923
-        },
-        {
-          "date": "2026-10-12",
-          "price": 3965
-        },
-        {
-          "date": "2026-10-13",
-          "price": 3974
-        },
-        {
-          "date": "2026-10-14",
-          "price": 3903
-        },
-        {
-          "date": "2026-10-15",
-          "price": 3913
-        },
-        {
-          "date": "2026-10-16",
-          "price": 3912
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3921
-        },
-        {
-          "date": "2026-10-18",
-          "price": 3923
-        },
-        {
-          "date": "2026-10-19",
-          "price": 3919
-        },
-        {
-          "date": "2026-10-20",
-          "price": 3922
-        }
-      ]
-    },
     "Parkside East|2301": {
       "building": "Parkside East",
       "unit": "2301",
@@ -6702,6 +6607,44 @@
         {
           "date": "2026-10-20",
           "price": 3836
+        }
+      ]
+    },
+    "Southampton|1208": {
+      "building": "Southampton",
+      "unit": "1208",
+      "beds": "1 Bedroom",
+      "rent": 3851,
+      "base_rent": 3803,
+      "base_rent_max": null,
+      "available": "11/12/2026",
+      "sqft": 765,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-20",
+      "price_history": [
+        {
+          "date": "2026-10-20",
+          "price": 3851
+        }
+      ]
+    },
+    "Southampton|1408": {
+      "building": "Southampton",
+      "unit": "1408",
+      "beds": "1 Bedroom",
+      "rent": 3856,
+      "base_rent": 3808,
+      "base_rent_max": null,
+      "available": "11/12/2026",
+      "sqft": 765,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-20",
+      "price_history": [
+        {
+          "date": "2026-10-20",
+          "price": 3856
         }
       ]
     },
@@ -8020,7 +7963,7 @@
       "base_rent_max": null,
       "available": "11/28/2026",
       "sqft": 745,
-      "special": "1 Month Free",
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-02",
       "price_history": [
@@ -8103,7 +8046,7 @@
       "base_rent_max": null,
       "available": "12/2/2026",
       "sqft": 696,
-      "special": "1 Month Free",
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -8218,7 +8161,7 @@
       "base_rent_max": null,
       "available": "11/9/2026",
       "sqft": 684,
-      "special": "1 Month Free",
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-13",
       "price_history": [
@@ -8269,7 +8212,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 752,
-      "special": "1 Month Free",
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -8384,7 +8327,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 711,
-      "special": "1 Month Free",
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -8499,7 +8442,7 @@
       "base_rent_max": null,
       "available": "11/12/2026",
       "sqft": 745,
-      "special": "1 Month Free",
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-13",
       "price_history": [
@@ -8546,7 +8489,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 752,
-      "special": "1 Month Free",
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -8661,7 +8604,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 738,
-      "special": "1 Month Free",
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -8776,7 +8719,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 752,
-      "special": "1 Month Free",
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -8891,7 +8834,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 711,
-      "special": null,
+      "special": "0.5 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-20",
       "price_history": [
