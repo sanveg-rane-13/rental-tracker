@@ -1,26 +1,7 @@
 {
   "property": "IronState Properties",
-  "updated_at": "2026-10-21T04:51:10+00:00",
+  "updated_at": "2026-10-21T11:51:59+00:00",
   "units": {
-    "50 Columbus|4775281": {
-      "building": "50 Columbus",
-      "unit": "4775281",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3810,
-      "base_rent_max": null,
-      "available": null,
-      "sqft": 781,
-      "special": null,
-      "floor_plan": "4775281",
-      "first_seen": "2026-09-27",
-      "price_history": [
-        {
-          "date": "2026-09-27",
-          "price": 3810
-        }
-      ]
-    },
     "50 Columbus|4775839": {
       "building": "50 Columbus",
       "unit": "4775839",

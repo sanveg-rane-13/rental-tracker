@@ -1,6 +1,6 @@
 {
   "property": "Northern Chapter Properties",
-  "updated_at": "2026-10-21T04:51:11+00:00",
+  "updated_at": "2026-10-21T11:51:59+00:00",
   "units": {
     "18 Park|0410": {
       "building": "18 Park",
@@ -509,7 +509,7 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3605,
-      "base_rent_max": 4090,
+      "base_rent_max": 3950,
       "available": "12/26/2026",
       "sqft": 651,
       "special": null,
@@ -673,7 +673,7 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3285,
-      "base_rent_max": 3590,
+      "base_rent_max": 3595,
       "available": "Now",
       "sqft": 758,
       "special": null,
@@ -849,8 +849,8 @@
       "unit": "0610",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3300,
-      "base_rent_max": 3605,
+      "base_rent": 3305,
+      "base_rent_max": 3610,
       "available": "Now",
       "sqft": 758,
       "special": null,
@@ -892,6 +892,10 @@
         {
           "date": "2026-10-20",
           "price": 3300
+        },
+        {
+          "date": "2026-10-21",
+          "price": 3305
         }
       ]
     },
@@ -900,8 +904,8 @@
       "unit": "0708",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3205,
-      "base_rent_max": 3500,
+      "base_rent": 3210,
+      "base_rent_max": 3505,
       "available": "Now",
       "sqft": 660,
       "special": null,
@@ -943,6 +947,10 @@
         {
           "date": "2026-10-20",
           "price": 3205
+        },
+        {
+          "date": "2026-10-21",
+          "price": 3210
         }
       ]
     },
@@ -952,7 +960,7 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3300,
-      "base_rent_max": 3605,
+      "base_rent_max": 3610,
       "available": "Now",
       "sqft": 744,
       "special": null,
@@ -1014,8 +1022,8 @@
       "unit": "1010",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3250,
-      "base_rent_max": 3555,
+      "base_rent": 3255,
+      "base_rent_max": 3560,
       "available": "Now",
       "sqft": 758,
       "special": null,
@@ -1057,6 +1065,10 @@
         {
           "date": "2026-10-19",
           "price": 3250
+        },
+        {
+          "date": "2026-10-21",
+          "price": 3255
         }
       ]
     },
@@ -1066,7 +1078,7 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3520,
-      "base_rent_max": 3845,
+      "base_rent_max": 3850,
       "available": "Now",
       "sqft": 758,
       "special": null,
@@ -1125,7 +1137,7 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3395,
-      "base_rent_max": 3715,
+      "base_rent_max": 3720,
       "available": "Now",
       "sqft": 760,
       "special": null,
@@ -1191,8 +1203,8 @@
       "unit": "1518",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3325,
-      "base_rent_max": 3630,
+      "base_rent": 3330,
+      "base_rent_max": 3635,
       "available": "Now",
       "sqft": 666,
       "special": null,
@@ -1234,6 +1246,10 @@
         {
           "date": "2026-10-20",
           "price": 3325
+        },
+        {
+          "date": "2026-10-21",
+          "price": 3330
         }
       ]
     },
@@ -1539,8 +1555,8 @@
       "unit": "1401",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4035,
-      "base_rent_max": 4510,
+      "base_rent": 3960,
+      "base_rent_max": 4435,
       "available": "Now",
       "sqft": null,
       "special": null,
@@ -1550,6 +1566,10 @@
         {
           "date": "2026-10-20",
           "price": 4035
+        },
+        {
+          "date": "2026-10-21",
+          "price": 3960
         }
       ]
     },
@@ -2053,8 +2073,8 @@
       "unit": "4412",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4205,
-      "base_rent_max": 4690,
+      "base_rent": 4155,
+      "base_rent_max": 4640,
       "available": "Now",
       "sqft": null,
       "special": null,
@@ -2064,6 +2084,10 @@
         {
           "date": "2026-10-20",
           "price": 4205
+        },
+        {
+          "date": "2026-10-21",
+          "price": 4155
         }
       ]
     }
