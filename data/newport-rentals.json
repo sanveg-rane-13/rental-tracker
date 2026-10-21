@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-21T17:14:25+00:00",
+  "updated_at": "2026-10-21T21:44:34+00:00",
   "units": {
     "Aquablu|2804": {
       "building": "Aquablu",
@@ -42,6 +42,25 @@
         {
           "date": "2026-10-21",
           "price": 4742
+        }
+      ]
+    },
+    "Aquablu|521": {
+      "building": "Aquablu",
+      "unit": "521",
+      "beds": "1 Bedroom",
+      "rent": 4282,
+      "base_rent": 4239,
+      "base_rent_max": null,
+      "available": "11/4/2026",
+      "sqft": 816,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-21",
+      "price_history": [
+        {
+          "date": "2026-10-21",
+          "price": 4282
         }
       ]
     },
@@ -2467,6 +2486,25 @@
         }
       ]
     },
+    "Bisby|907": {
+      "building": "Bisby",
+      "unit": "907",
+      "beds": "1 Bedroom",
+      "rent": 4707,
+      "base_rent": 4649,
+      "base_rent_max": null,
+      "available": "10/29/2026",
+      "sqft": 780,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-21",
+      "price_history": [
+        {
+          "date": "2026-10-21",
+          "price": 4707
+        }
+      ]
+    },
     "East Hampton|1011": {
       "building": "East Hampton",
       "unit": "1011",
@@ -3109,6 +3147,25 @@
         {
           "date": "2026-10-21",
           "price": 4058
+        }
+      ]
+    },
+    "East Hampton|2604": {
+      "building": "East Hampton",
+      "unit": "2604",
+      "beds": "1 Bedroom",
+      "rent": 4052,
+      "base_rent": 4004,
+      "base_rent_max": null,
+      "available": "11/15/2026",
+      "sqft": 761,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-21",
+      "price_history": [
+        {
+          "date": "2026-10-21",
+          "price": 4052
         }
       ]
     },

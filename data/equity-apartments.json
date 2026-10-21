@@ -1,6 +1,6 @@
 {
   "property": "Equity Apartments",
-  "updated_at": "2026-10-21T17:14:26+00:00",
+  "updated_at": "2026-10-21T21:44:34+00:00",
   "units": {
     "Hudson Point|130": {
       "building": "Hudson Point",
@@ -192,7 +192,7 @@
       "unit": "1206",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4017,
+      "base_rent": 3967,
       "base_rent_max": null,
       "available": "11/12/2026",
       "sqft": 913,
@@ -211,6 +211,10 @@
         {
           "date": "2026-10-14",
           "price": 4017
+        },
+        {
+          "date": "2026-10-21",
+          "price": 3967
         }
       ]
     },
@@ -219,7 +223,7 @@
       "unit": "2006",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4199,
+      "base_rent": 4149,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 913,
@@ -234,6 +238,10 @@
         {
           "date": "2026-10-14",
           "price": 4199
+        },
+        {
+          "date": "2026-10-21",
+          "price": 4149
         }
       ]
     },
@@ -261,7 +269,7 @@
       "unit": "314",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4020,
+      "base_rent": 3970,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 1012,
@@ -276,6 +284,10 @@
         {
           "date": "2026-10-14",
           "price": 4020
+        },
+        {
+          "date": "2026-10-21",
+          "price": 3970
         }
       ]
     },
@@ -284,9 +296,9 @@
       "unit": "808",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4025,
+      "base_rent": 3975,
       "base_rent_max": null,
-      "available": "Now",
+      "available": "10/22/2026",
       "sqft": 889,
       "special": null,
       "floor_plan": "D1 & K1",
@@ -311,6 +323,10 @@
         {
           "date": "2026-10-14",
           "price": 4025
+        },
+        {
+          "date": "2026-10-21",
+          "price": 3975
         }
       ]
     },
@@ -473,6 +489,25 @@
         {
           "date": "2026-10-14",
           "price": 3900
+        }
+      ]
+    },
+    "The Pier|1-609": {
+      "building": "The Pier",
+      "unit": "1-609",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3964,
+      "base_rent_max": null,
+      "available": "12/25/2026",
+      "sqft": 830,
+      "special": null,
+      "floor_plan": "A8",
+      "first_seen": "2026-10-21",
+      "price_history": [
+        {
+          "date": "2026-10-21",
+          "price": 3964
         }
       ]
     },
