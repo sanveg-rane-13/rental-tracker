@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-21T11:51:58+00:00",
+  "updated_at": "2026-10-21T17:14:25+00:00",
   "units": {
     "Aquablu|2804": {
       "building": "Aquablu",
@@ -6911,29 +6911,6 @@
         {
           "date": "2026-10-21",
           "price": 3798
-        }
-      ]
-    },
-    "Southampton|1208": {
-      "building": "Southampton",
-      "unit": "1208",
-      "beds": "1 Bedroom",
-      "rent": 3813,
-      "base_rent": 3765,
-      "base_rent_max": null,
-      "available": "11/12/2026",
-      "sqft": 765,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-10-20",
-      "price_history": [
-        {
-          "date": "2026-10-20",
-          "price": 3851
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3813
         }
       ]
     },
