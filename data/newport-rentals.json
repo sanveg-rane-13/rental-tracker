@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-22T17:12:35+00:00",
+  "updated_at": "2026-10-22T21:37:40+00:00",
   "units": {
     "Aquablu|2804": {
       "building": "Aquablu",
@@ -5118,6 +5118,25 @@
         }
       ]
     },
+    "Laguna|505": {
+      "building": "Laguna",
+      "unit": "505",
+      "beds": "1 Bedroom",
+      "rent": 4653,
+      "base_rent": 4595,
+      "base_rent_max": null,
+      "available": "12/19/2026",
+      "sqft": 759,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-22",
+      "price_history": [
+        {
+          "date": "2026-10-22",
+          "price": 4653
+        }
+      ]
+    },
     "Lincoln House|310": {
       "building": "Lincoln House",
       "unit": "310",
@@ -5538,6 +5557,25 @@
         {
           "date": "2026-10-22",
           "price": 3303
+        }
+      ]
+    },
+    "Pacific|1502": {
+      "building": "Pacific",
+      "unit": "1502",
+      "beds": "1 Bedroom",
+      "rent": 3685,
+      "base_rent": 3672,
+      "base_rent_max": null,
+      "available": "12/25/2026",
+      "sqft": 764,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-22",
+      "price_history": [
+        {
+          "date": "2026-10-22",
+          "price": 3685
         }
       ]
     },
