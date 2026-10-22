@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-21T21:44:34+00:00",
+  "updated_at": "2026-10-22T04:50:13+00:00",
   "units": {
     "Aquablu|2804": {
       "building": "Aquablu",
@@ -504,45 +504,6 @@
         {
           "date": "2026-10-21",
           "price": 4088
-        }
-      ]
-    },
-    "Atlantic|2006": {
-      "building": "Atlantic",
-      "unit": "2006",
-      "beds": "1 Bedroom",
-      "rent": 3923,
-      "base_rent": 3875,
-      "base_rent_max": null,
-      "available": "12/2/2026",
-      "sqft": 795,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-10-16",
-      "price_history": [
-        {
-          "date": "2026-10-16",
-          "price": 3901
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3911
-        },
-        {
-          "date": "2026-10-18",
-          "price": 3913
-        },
-        {
-          "date": "2026-10-19",
-          "price": 3909
-        },
-        {
-          "date": "2026-10-20",
-          "price": 3912
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3923
         }
       ]
     },
@@ -5421,33 +5382,6 @@
         {
           "date": "2026-10-21",
           "price": 3304
-        }
-      ]
-    },
-    "Pacific|1901": {
-      "building": "Pacific",
-      "unit": "1901",
-      "beds": "1 Bedroom",
-      "rent": 3468,
-      "base_rent": 3455,
-      "base_rent_max": null,
-      "available": "11/7/2026",
-      "sqft": 821,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-10-19",
-      "price_history": [
-        {
-          "date": "2026-10-19",
-          "price": 3453
-        },
-        {
-          "date": "2026-10-20",
-          "price": 3457
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3468
         }
       ]
     },
