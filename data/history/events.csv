@@ -4775,3 +4775,8 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-22T21:37,2026-10-22 17:37,Liberty Harbor,The Zenith,618,1 Bedroom,listed,3208,,3208,,,Now,,700,,discounted,2026-10-22,
 2026-10-22T21:37,2026-10-22 17:37,Liberty Harbor,333 Grand,1112,1 Bedroom,listed,4050,,4050,,,12/11/2026,,743,,,2026-10-22,
 2026-10-22T21:37,2026-10-22 17:37,VYV,,,,site_failed,,,,,,,,,,,,only 6 units vs 14 saved
+2026-10-23T04:52,2026-10-23 00:52,Newport Rentals,Ellipse,3802,1 Bedroom,available_change,4904,,4846,,4904,Now,10/23/2026,757,,,2026-10-20,
+2026-10-23T04:52,2026-10-23 00:52,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3820,,3820,,,10/24/2026,10/23/2026,778,A18,23-month lease,2026-09-24,
+2026-10-23T04:52,2026-10-23 00:52,Equity Apartments,Portside Towers,505,1 Bedroom,listed,4225,,4225,,,11/4/2026,,960,G,,2026-10-23,
+2026-10-23T04:52,2026-10-23 00:52,Equity Apartments,The Pier,1-531,1 Bedroom,available_change,3979,,3979,,,10/26/2026,10/23/2026,830,A8,,2026-09-27,
+2026-10-23T04:52,2026-10-23 00:52,VYV,,,,site_failed,,,,,,,,,,,,only 6 units vs 14 saved
