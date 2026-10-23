@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-23T11:41:45+00:00",
+  "updated_at": "2026-10-23T17:09:58+00:00",
   "units": {
     "Aquablu|2804": {
       "building": "Aquablu",
@@ -8237,61 +8237,6 @@
         }
       ]
     },
-    "Southampton|2512": {
-      "building": "Southampton",
-      "unit": "2512",
-      "beds": "1 Bedroom",
-      "rent": 3904,
-      "base_rent": 3856,
-      "base_rent_max": null,
-      "available": "11/24/2026",
-      "sqft": 798,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-10-14",
-      "price_history": [
-        {
-          "date": "2026-10-14",
-          "price": 3903
-        },
-        {
-          "date": "2026-10-15",
-          "price": 3913
-        },
-        {
-          "date": "2026-10-16",
-          "price": 3912
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3921
-        },
-        {
-          "date": "2026-10-18",
-          "price": 3923
-        },
-        {
-          "date": "2026-10-19",
-          "price": 3919
-        },
-        {
-          "date": "2026-10-20",
-          "price": 3922
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3883
-        },
-        {
-          "date": "2026-10-22",
-          "price": 3895
-        },
-        {
-          "date": "2026-10-23",
-          "price": 3904
-        }
-      ]
-    },
     "Southampton|3104": {
       "building": "Southampton",
       "unit": "3104",
@@ -10007,6 +9952,25 @@
         {
           "date": "2026-10-23",
           "price": 3429
+        }
+      ]
+    },
+    "Waterside Square South|1710": {
+      "building": "Waterside Square South",
+      "unit": "1710",
+      "beds": "1 Bedroom",
+      "rent": 3484,
+      "base_rent": 3471,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 696,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-23",
+      "price_history": [
+        {
+          "date": "2026-10-23",
+          "price": 3484
         }
       ]
     },
