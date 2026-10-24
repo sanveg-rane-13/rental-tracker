@@ -5140,3 +5140,6 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-24T20:51,2026-10-24 16:51,Liberty Harbor,333 Grand,304,1 Bedroom,price_change,3007,3231,3007,,,Now,,671,,discounted,2026-09-24,
 2026-10-24T20:51,2026-10-24 16:51,Liberty Harbor,333 Grand,703,1 Bedroom,price_change,3057,3218,3057,,,Now,,643,,discounted,2026-09-24,
 2026-10-24T20:51,2026-10-24 16:51,VYV,,,,site_failed,,,,,,,,,,,,only 6 units vs 14 saved
+2026-10-24T23:16,2026-10-24 19:16,Equity Apartments,The Pier,1-309,1 Bedroom,listed,4094,,4094,,,11/6/2026,,830,A8,,2026-10-24,
+2026-10-24T23:16,2026-10-24 19:16,Equity Apartments,Portside Towers,1206,1 Bedroom,delisted,3967,,3967,,,11/12/2026,,913,E1 & J1,,2026-10-09,
+2026-10-24T23:16,2026-10-24 19:16,VYV,,,,site_failed,,,,,,,,,,,,only 6 units vs 14 saved
