@@ -1,13 +1,13 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-10-24T15:58:25+00:00",
+  "updated_at": "2026-10-24T20:52:05+00:00",
   "units": {
     "333 Grand|1007": {
       "building": "333 Grand",
       "unit": "1007",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3309,
+      "base_rent": 3144,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 671,
@@ -22,6 +22,10 @@
         {
           "date": "2026-09-26",
           "price": 3309
+        },
+        {
+          "date": "2026-10-24",
+          "price": 3144
         }
       ]
     },
@@ -145,7 +149,7 @@
       "unit": "304",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3231,
+      "base_rent": 3007,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 671,
@@ -160,6 +164,10 @@
         {
           "date": "2026-09-26",
           "price": 3231
+        },
+        {
+          "date": "2026-10-24",
+          "price": 3007
         }
       ]
     },
@@ -210,7 +218,7 @@
       "unit": "703",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3218,
+      "base_rent": 3057,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 643,
@@ -225,6 +233,10 @@
         {
           "date": "2026-09-26",
           "price": 3218
+        },
+        {
+          "date": "2026-10-24",
+          "price": 3057
         }
       ]
     },
@@ -978,7 +990,7 @@
       "unit": "618",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3208,
+      "base_rent": 3016,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 700,
@@ -989,6 +1001,10 @@
         {
           "date": "2026-10-22",
           "price": 3208
+        },
+        {
+          "date": "2026-10-24",
+          "price": 3016
         }
       ]
     },
@@ -1020,7 +1036,7 @@
       "unit": "719",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3254,
+      "base_rent": 3016,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 662,
@@ -1031,6 +1047,10 @@
         {
           "date": "2026-10-22",
           "price": 3254
+        },
+        {
+          "date": "2026-10-24",
+          "price": 3016
         }
       ]
     },

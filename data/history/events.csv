@@ -5133,3 +5133,10 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-24T11:04,2026-10-24 07:04,Northern Chapter Properties,225 Grand,1010,1 Bedroom,price_change,3270,3265,3270,3580,,Now,,758,Floor Plan Video,,2026-09-28,
 2026-10-24T15:58,2026-10-24 11:58,BLVD Collection,BLVD 475 South,2208S,1 Bedroom,price_change,4295,4385,4295,,,Now,,786,B475S A4,,2026-09-24,
 2026-10-24T15:58,2026-10-24 11:58,VYV,,,,site_failed,,,,,,,,,,,,only 6 units vs 14 saved
+2026-10-24T20:51,2026-10-24 16:51,Newport Rentals,Waterside Square North,2206,1 Bedroom,listed,3371,,3358,,3371,11/12/2026,,745,,,2026-10-24,
+2026-10-24T20:51,2026-10-24 16:51,Liberty Harbor,The Zenith,618,1 Bedroom,price_change,3016,3208,3016,,,Now,,700,,discounted,2026-10-22,
+2026-10-24T20:51,2026-10-24 16:51,Liberty Harbor,The Zenith,719,1 Bedroom,price_change,3016,3254,3016,,,Now,,662,,discounted,2026-10-22,
+2026-10-24T20:51,2026-10-24 16:51,Liberty Harbor,333 Grand,1007,1 Bedroom,price_change,3144,3309,3144,,,Now,,671,,discounted,2026-09-25,
+2026-10-24T20:51,2026-10-24 16:51,Liberty Harbor,333 Grand,304,1 Bedroom,price_change,3007,3231,3007,,,Now,,671,,discounted,2026-09-24,
+2026-10-24T20:51,2026-10-24 16:51,Liberty Harbor,333 Grand,703,1 Bedroom,price_change,3057,3218,3057,,,Now,,643,,discounted,2026-09-24,
+2026-10-24T20:51,2026-10-24 16:51,VYV,,,,site_failed,,,,,,,,,,,,only 6 units vs 14 saved
