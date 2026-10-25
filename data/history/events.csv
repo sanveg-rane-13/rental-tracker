@@ -5335,3 +5335,6 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-25T20:53,2026-10-25 16:53,VYV,,S-3250,1 Bedroom,price_change,3704,3754,3704,,,12/30/2026,,757,A14,,2026-10-16,
 2026-10-25T20:53,2026-10-25 16:53,VYV,,S-3462,1 Bedroom,price_change,4800,4850,4800,,,12/1/2026,,965,A25,,2026-10-14,
 2026-10-25T20:53,2026-10-25 16:53,VYV,,S-0256,1 Bedroom,delisted,3932,,3932,,,Now,,787,A19,,2026-09-27,
+2026-10-25T23:17,2026-10-25 19:17,IronState Properties,50 Columbus,4775841,1 Bedroom,delisted,4245,,4245,,,12/03/2026,,840,4775841,,2026-09-27,
+2026-10-25T23:17,2026-10-25 19:17,VYV,,,,site_failed,,,,,,,,,,,,only 6 units vs 14 saved
+2026-10-25T23:17,2026-10-25 19:17,Northern Chapter Properties,235 Grand,2312,1 Bedroom,delisted,3865,,3865,4310,,12/6/2026,,,Floor Plan Video,,2026-09-28,
