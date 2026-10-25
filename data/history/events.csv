@@ -5143,3 +5143,12 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-24T23:16,2026-10-24 19:16,Equity Apartments,The Pier,1-309,1 Bedroom,listed,4094,,4094,,,11/6/2026,,830,A8,,2026-10-24,
 2026-10-24T23:16,2026-10-24 19:16,Equity Apartments,Portside Towers,1206,1 Bedroom,delisted,3967,,3967,,,11/12/2026,,913,E1 & J1,,2026-10-09,
 2026-10-24T23:16,2026-10-24 19:16,VYV,,,,site_failed,,,,,,,,,,,,only 6 units vs 14 saved
+2026-10-25T04:43,2026-10-25 00:43,Liberty Harbor,333 Grand,903,1 Bedroom,listed,3675,,3675,,,11/6/2026,,643,,,2026-10-25,
+2026-10-25T04:43,2026-10-25 00:43,Liberty Harbor,50 Regent,304,1 Bedroom,delisted,2906,,2906,,,Now,,741,,discounted,2026-09-26,
+2026-10-25T04:43,2026-10-25 00:43,Liberty Harbor,50 Regent,504,1 Bedroom,delisted,3497,,3497,,,11/11/2026,,741,,discounted,2026-09-24,
+2026-10-25T04:43,2026-10-25 00:43,Liberty Harbor,The Regent,902,1 Bedroom,delisted,2924,,2924,,,Now,,654,,discounted,2026-10-09,
+2026-10-25T04:43,2026-10-25 00:43,Liberty Harbor,The Zenith,812,1 Bedroom,delisted,2906,,2906,,,Now,,731,,discounted,2026-09-26,
+2026-10-25T04:43,2026-10-25 00:43,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3735,,3735,,,10/26/2026,10/25/2026,778,A18,23-month lease,2026-09-24,
+2026-10-25T04:43,2026-10-25 00:43,Equity Apartments,Portside Towers,1206,1 Bedroom,listed,3967,,3967,,,11/12/2026,,913,E1 & J1,,2026-10-25,
+2026-10-25T04:43,2026-10-25 00:43,Equity Apartments,Hudson Point,316,1 Bedroom,delisted,3278,,3278,,,Now,,726,Hudson (A12),,2026-10-22,
+2026-10-25T04:43,2026-10-25 00:43,VYV,,,,site_failed,,,,,,,,,,,,only 6 units vs 14 saved

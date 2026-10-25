@@ -1,6 +1,6 @@
 {
   "property": "Avalon Cove",
-  "updated_at": "2026-10-24T23:17:03+00:00",
+  "updated_at": "2026-10-25T04:43:54+00:00",
   "units": {
     "Avalon Cove|2121": {
       "building": "Avalon Cove",
@@ -587,7 +587,7 @@
       "rent": null,
       "base_rent": 3735,
       "base_rent_max": null,
-      "available": "10/25/2026",
+      "available": "10/26/2026",
       "sqft": 778,
       "special": "23-month lease",
       "floor_plan": "A18",
