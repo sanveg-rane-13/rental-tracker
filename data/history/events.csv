@@ -5314,3 +5314,6 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-25T11:33,2026-10-25 07:33,Northern Chapter Properties,225 Grand,0601,1 Bedroom,price_change,3485,3480,3485,3810,,Now,,777,Floor Plan Video,,2026-10-07,
 2026-10-25T11:33,2026-10-25 07:33,Northern Chapter Properties,225 Grand,0711,1 Bedroom,price_change,3325,3320,3325,3635,,Now,,744,Floor Plan Video,,2026-09-28,
 2026-10-25T11:33,2026-10-25 07:33,Northern Chapter Properties,225 Grand,1010,1 Bedroom,price_change,3280,3270,3280,3585,,Now,,758,Floor Plan Video,,2026-09-28,
+2026-10-25T16:23,2026-10-25 12:23,Equity Apartments,Hudson Point,316,1 Bedroom,listed,3278,,3278,,,Now,,726,Hudson (A12),,2026-10-25,
+2026-10-25T16:23,2026-10-25 12:23,Equity Apartments,The Pier,1-309,1 Bedroom,available_change,4094,,4094,,,11/5/2026,11/6/2026,830,A8,,2026-10-24,
+2026-10-25T16:23,2026-10-25 12:23,VYV,,,,site_failed,,,,,,,,,,,,only 6 units vs 14 saved
