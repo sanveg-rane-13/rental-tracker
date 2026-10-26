@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-26T13:06:39+00:00",
+  "updated_at": "2026-10-26T20:29:59+00:00",
   "units": {
     "Aquablu|2804": {
       "building": "Aquablu",
@@ -2431,6 +2431,25 @@
         {
           "date": "2026-10-26",
           "price": 4568
+        }
+      ]
+    },
+    "Bisby|2906": {
+      "building": "Bisby",
+      "unit": "2906",
+      "beds": "1 Bedroom",
+      "rent": 4523,
+      "base_rent": 4465,
+      "base_rent_max": null,
+      "available": "11/13/2026",
+      "sqft": 795,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-26",
+      "price_history": [
+        {
+          "date": "2026-10-26",
+          "price": 4523
         }
       ]
     },
@@ -4956,6 +4975,25 @@
         }
       ]
     },
+    "Ellipse|2710": {
+      "building": "Ellipse",
+      "unit": "2710",
+      "beds": "1 Bedroom",
+      "rent": 4688,
+      "base_rent": 4630,
+      "base_rent_max": null,
+      "available": "12/25/2026",
+      "sqft": 759,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-26",
+      "price_history": [
+        {
+          "date": "2026-10-26",
+          "price": 4688
+        }
+      ]
+    },
     "Ellipse|2806": {
       "building": "Ellipse",
       "unit": "2806",
@@ -6788,6 +6826,25 @@
         }
       ]
     },
+    "Pacific|2811": {
+      "building": "Pacific",
+      "unit": "2811",
+      "beds": "1 Bedroom",
+      "rent": 3493,
+      "base_rent": 3480,
+      "base_rent_max": null,
+      "available": "10/31/2026",
+      "sqft": 773,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-26",
+      "price_history": [
+        {
+          "date": "2026-10-26",
+          "price": 3493
+        }
+      ]
+    },
     "Pacific|806": {
       "building": "Pacific",
       "unit": "806",
@@ -6816,6 +6873,25 @@
         {
           "date": "2026-10-26",
           "price": 3924
+        }
+      ]
+    },
+    "Parkside East|2308": {
+      "building": "Parkside East",
+      "unit": "2308",
+      "beds": "1 Bedroom",
+      "rent": 3318,
+      "base_rent": 3305,
+      "base_rent_max": null,
+      "available": "11/29/2026",
+      "sqft": 765,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-26",
+      "price_history": [
+        {
+          "date": "2026-10-26",
+          "price": 3318
         }
       ]
     },
@@ -6927,6 +7003,25 @@
         {
           "date": "2026-10-26",
           "price": 3353
+        }
+      ]
+    },
+    "Parkside East|3401": {
+      "building": "Parkside East",
+      "unit": "3401",
+      "beds": "1 Bedroom",
+      "rent": 3383,
+      "base_rent": 3370,
+      "base_rent_max": null,
+      "available": "11/27/2026",
+      "sqft": 771,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-26",
+      "price_history": [
+        {
+          "date": "2026-10-26",
+          "price": 3383
         }
       ]
     },
@@ -8164,6 +8259,25 @@
         }
       ]
     },
+    "Roosevelt House|503": {
+      "building": "Roosevelt House",
+      "unit": "503",
+      "beds": "1 Bedroom",
+      "rent": 3070,
+      "base_rent": 3037,
+      "base_rent_max": null,
+      "available": "12/8/2026",
+      "sqft": 720,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-26",
+      "price_history": [
+        {
+          "date": "2026-10-26",
+          "price": 3070
+        }
+      ]
+    },
     "Southampton|1202": {
       "building": "Southampton",
       "unit": "1202",
@@ -8204,6 +8318,25 @@
         {
           "date": "2026-10-26",
           "price": 3854
+        }
+      ]
+    },
+    "Southampton|1404": {
+      "building": "Southampton",
+      "unit": "1404",
+      "beds": "1 Bedroom",
+      "rent": 3933,
+      "base_rent": 3885,
+      "base_rent_max": null,
+      "available": "12/2/2026",
+      "sqft": 851,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-26",
+      "price_history": [
+        {
+          "date": "2026-10-26",
+          "price": 3933
         }
       ]
     },
@@ -8615,6 +8748,25 @@
         {
           "date": "2026-10-26",
           "price": 3899
+        }
+      ]
+    },
+    "Southampton|1801": {
+      "building": "Southampton",
+      "unit": "1801",
+      "beds": "1 Bedroom",
+      "rent": 3878,
+      "base_rent": 3830,
+      "base_rent_max": null,
+      "available": "11/17/2026",
+      "sqft": 849,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-26",
+      "price_history": [
+        {
+          "date": "2026-10-26",
+          "price": 3878
         }
       ]
     },
@@ -9704,6 +9856,25 @@
         {
           "date": "2026-10-26",
           "price": 3844
+        }
+      ]
+    },
+    "Southampton|612": {
+      "building": "Southampton",
+      "unit": "612",
+      "beds": "1 Bedroom",
+      "rent": 3673,
+      "base_rent": 3625,
+      "base_rent_max": null,
+      "available": "11/29/2026",
+      "sqft": 798,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-26",
+      "price_history": [
+        {
+          "date": "2026-10-26",
+          "price": 3673
         }
       ]
     },
