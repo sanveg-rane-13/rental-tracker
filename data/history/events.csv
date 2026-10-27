@@ -5516,3 +5516,8 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-26T20:29,2026-10-26 16:29,IronState Properties,90 Columbus,2442631,1 Bedroom,listed,4290,,4290,,,11/15/2026,,708,2442631,,2026-10-26,
 2026-10-26T20:29,2026-10-26 16:29,Lenox,,804,1 Bedroom,price_change,4195,4194,4195,,,Now,,718,A1a,,2026-10-02,
 2026-10-26T20:29,2026-10-26 16:29,Northern Chapter Properties,225 Grand,1209,1 Bedroom,listed,3380,,3380,3820,,Now,,744,Floor Plan Video,,2026-10-26,
+2026-10-27T00:27,2026-10-26 20:27,Newport Rentals,Ellipse,210,1 Bedroom,listed,4468,,4410,,4468,12/25/2026,,802,,,2026-10-27,
+2026-10-27T00:27,2026-10-26 20:27,Newport Rentals,Bisby,1011,1 Bedroom,available_change,4568,,4510,,4568,11/13/2026,11/1/2026,827,,,2026-10-23,
+2026-10-27T00:27,2026-10-26 20:27,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3810,,3810,,,10/28/2026,10/27/2026,778,A18,23-month lease,2026-09-24,
+2026-10-27T00:27,2026-10-26 20:27,IronState Properties,70 Columbus,2042220,1 Bedroom,price_change,3685,3715,3685,,,11/21/2026,,645,2042220,,2026-10-23,
+2026-10-27T00:27,2026-10-26 20:27,VYV,,N-0409,1 Bedroom,listed,3962,,3962,,,12/11/2026,,836,A22,,2026-10-27,
