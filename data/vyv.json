@@ -1,6 +1,6 @@
 {
   "property": "VYV",
-  "updated_at": "2026-10-27T00:27:05+00:00",
+  "updated_at": "2026-10-27T09:02:08+00:00",
   "units": {
     "|N-0409": {
       "building": "",
@@ -102,37 +102,6 @@
         }
       ]
     },
-    "|N-3312": {
-      "building": "",
-      "unit": "N-3312",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3742,
-      "base_rent_max": null,
-      "available": "11/17/2026",
-      "sqft": 720,
-      "special": null,
-      "floor_plan": "A07",
-      "first_seen": "2026-09-27",
-      "price_history": [
-        {
-          "date": "2026-09-27",
-          "price": 3722
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3742
-        },
-        {
-          "date": "2026-10-09",
-          "price": 3792
-        },
-        {
-          "date": "2026-10-25",
-          "price": 3742
-        }
-      ]
-    },
     "|N-3412": {
       "building": "",
       "unit": "N-3412",
@@ -219,25 +188,6 @@
         {
           "date": "2026-10-25",
           "price": 3855
-        }
-      ]
-    },
-    "|S-1755": {
-      "building": "",
-      "unit": "S-1755",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3687,
-      "base_rent_max": null,
-      "available": "1/2/2027",
-      "sqft": 703,
-      "special": null,
-      "floor_plan": "A05",
-      "first_seen": "2026-10-25",
-      "price_history": [
-        {
-          "date": "2026-10-25",
-          "price": 3687
         }
       ]
     },
@@ -362,6 +312,25 @@
         {
           "date": "2026-10-25",
           "price": 3704
+        }
+      ]
+    },
+    "|S-3361": {
+      "building": "",
+      "unit": "S-3361",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3934,
+      "base_rent_max": null,
+      "available": "11/2/2026",
+      "sqft": 734,
+      "special": null,
+      "floor_plan": "A11",
+      "first_seen": "2026-10-27",
+      "price_history": [
+        {
+          "date": "2026-10-27",
+          "price": 3934
         }
       ]
     },

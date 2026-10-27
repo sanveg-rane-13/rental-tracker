@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-27T00:27:05+00:00",
+  "updated_at": "2026-10-27T09:02:08+00:00",
   "units": {
     "Aquablu|2804": {
       "building": "Aquablu",
@@ -1129,7 +1129,7 @@
       "rent": 3944,
       "base_rent": 3896,
       "base_rent_max": null,
-      "available": "10/27/2026",
+      "available": "Now",
       "sqft": 899,
       "special": "0.5 Month Free",
       "floor_plan": null,
@@ -7793,7 +7793,7 @@
       "rent": 4184,
       "base_rent": 4136,
       "base_rent_max": null,
-      "available": "10/27/2026",
+      "available": "Now",
       "sqft": 815,
       "special": "0.5 Month Free",
       "floor_plan": null,
@@ -8488,7 +8488,7 @@
       "rent": 4024,
       "base_rent": 3976,
       "base_rent_max": null,
-      "available": "10/27/2026",
+      "available": "Now",
       "sqft": 838,
       "special": "1 Month Free",
       "floor_plan": null,
