@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-27T22:15:30+00:00",
+  "updated_at": "2026-10-28T05:44:51+00:00",
   "units": {
     "Aquablu|2804": {
       "building": "Aquablu",
@@ -2430,6 +2430,25 @@
         {
           "date": "2026-10-27",
           "price": 4558
+        }
+      ]
+    },
+    "Bisby|405": {
+      "building": "Bisby",
+      "unit": "405",
+      "beds": "1 Bedroom",
+      "rent": 4497,
+      "base_rent": 4439,
+      "base_rent_max": null,
+      "available": "12/7/2026",
+      "sqft": 773,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-28",
+      "price_history": [
+        {
+          "date": "2026-10-28",
+          "price": 4497
         }
       ]
     },
@@ -7605,7 +7624,7 @@
       "rent": 4181,
       "base_rent": 4133,
       "base_rent_max": null,
-      "available": "10/28/2026",
+      "available": "Now",
       "sqft": 815,
       "special": "0.5 Month Free",
       "floor_plan": null,
@@ -7896,6 +7915,25 @@
         {
           "date": "2026-10-27",
           "price": 4196
+        }
+      ]
+    },
+    "Riverside|3011": {
+      "building": "Riverside",
+      "unit": "3011",
+      "beds": "1 Bedroom",
+      "rent": 3975,
+      "base_rent": 3927,
+      "base_rent_max": null,
+      "available": "11/8/2026",
+      "sqft": 834,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-28",
+      "price_history": [
+        {
+          "date": "2026-10-28",
+          "price": 3975
         }
       ]
     },
