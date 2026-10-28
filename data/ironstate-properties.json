@@ -1,6 +1,6 @@
 {
   "property": "IronState Properties",
-  "updated_at": "2026-10-28T12:57:43+00:00",
+  "updated_at": "2026-10-28T20:16:36+00:00",
   "units": {
     "50 Columbus|4775839": {
       "building": "50 Columbus",
@@ -18,6 +18,25 @@
         {
           "date": "2026-10-10",
           "price": 4130
+        }
+      ]
+    },
+    "50 Columbus|4775841": {
+      "building": "50 Columbus",
+      "unit": "4775841",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4230,
+      "base_rent_max": null,
+      "available": "11/25/2026",
+      "sqft": 840,
+      "special": null,
+      "floor_plan": "4775841",
+      "first_seen": "2026-10-28",
+      "price_history": [
+        {
+          "date": "2026-10-28",
+          "price": 4230
         }
       ]
     },
@@ -60,6 +79,63 @@
         {
           "date": "2026-10-27",
           "price": 3685
+        }
+      ]
+    },
+    "70 Columbus|2042223": {
+      "building": "70 Columbus",
+      "unit": "2042223",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3895,
+      "base_rent_max": null,
+      "available": "11/22/2026",
+      "sqft": 662,
+      "special": null,
+      "floor_plan": "2042223",
+      "first_seen": "2026-10-28",
+      "price_history": [
+        {
+          "date": "2026-10-28",
+          "price": 3895
+        }
+      ]
+    },
+    "70 Columbus|2042226": {
+      "building": "70 Columbus",
+      "unit": "2042226",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3700,
+      "base_rent_max": null,
+      "available": "01/14/2027",
+      "sqft": 675,
+      "special": null,
+      "floor_plan": "2042226",
+      "first_seen": "2026-10-28",
+      "price_history": [
+        {
+          "date": "2026-10-28",
+          "price": 3700
+        }
+      ]
+    },
+    "70 Columbus|2042228": {
+      "building": "70 Columbus",
+      "unit": "2042228",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4460,
+      "base_rent_max": null,
+      "available": null,
+      "sqft": 747,
+      "special": null,
+      "floor_plan": "2042228",
+      "first_seen": "2026-10-28",
+      "price_history": [
+        {
+          "date": "2026-10-28",
+          "price": 4460
         }
       ]
     },

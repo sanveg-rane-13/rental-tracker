@@ -1,6 +1,6 @@
 {
   "property": "Equity Apartments",
-  "updated_at": "2026-10-28T12:57:43+00:00",
+  "updated_at": "2026-10-28T20:16:36+00:00",
   "units": {
     "Hudson Point|130": {
       "building": "Hudson Point",
@@ -61,7 +61,7 @@
       "unit": "416",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3385,
+      "base_rent": 3310,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 665,
@@ -80,6 +80,10 @@
         {
           "date": "2026-10-21",
           "price": 3385
+        },
+        {
+          "date": "2026-10-28",
+          "price": 3310
         }
       ]
     },
@@ -88,7 +92,7 @@
       "unit": "418",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3280,
+      "base_rent": 3205,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 689,
@@ -107,6 +111,10 @@
         {
           "date": "2026-10-21",
           "price": 3280
+        },
+        {
+          "date": "2026-10-28",
+          "price": 3205
         }
       ]
     },
@@ -115,7 +123,7 @@
       "unit": "522",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3795,
+      "base_rent": 3720,
       "base_rent_max": null,
       "available": "12/10/2026",
       "sqft": 877,
@@ -134,6 +142,10 @@
         {
           "date": "2026-10-21",
           "price": 3795
+        },
+        {
+          "date": "2026-10-28",
+          "price": 3720
         }
       ]
     },
@@ -142,9 +154,9 @@
       "unit": "622",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3965,
+      "base_rent": 3890,
       "base_rent_max": null,
-      "available": "10/31/2026",
+      "available": "11/2/2026",
       "sqft": 877,
       "special": null,
       "floor_plan": "B9",
@@ -157,6 +169,10 @@
         {
           "date": "2026-10-21",
           "price": 3965
+        },
+        {
+          "date": "2026-10-28",
+          "price": 3890
         }
       ]
     },
@@ -165,7 +181,7 @@
       "unit": "816",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3455,
+      "base_rent": 3380,
       "base_rent_max": null,
       "available": "12/25/2026",
       "sqft": 665,
@@ -184,6 +200,10 @@
         {
           "date": "2026-10-21",
           "price": 3455
+        },
+        {
+          "date": "2026-10-28",
+          "price": 3380
         }
       ]
     },
@@ -238,7 +258,7 @@
       "unit": "314",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3970,
+      "base_rent": 3870,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 1012,
@@ -257,6 +277,10 @@
         {
           "date": "2026-10-21",
           "price": 3970
+        },
+        {
+          "date": "2026-10-28",
+          "price": 3870
         }
       ]
     },
@@ -400,7 +424,7 @@
       "unit": "1-318",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3756,
+      "base_rent": 3681,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 703,
@@ -423,6 +447,29 @@
         {
           "date": "2026-10-23",
           "price": 3756
+        },
+        {
+          "date": "2026-10-28",
+          "price": 3681
+        }
+      ]
+    },
+    "The Pier|1-331": {
+      "building": "The Pier",
+      "unit": "1-331",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4068,
+      "base_rent_max": null,
+      "available": "12/4/2026",
+      "sqft": 830,
+      "special": null,
+      "floor_plan": "A8",
+      "first_seen": "2026-10-28",
+      "price_history": [
+        {
+          "date": "2026-10-28",
+          "price": 4068
         }
       ]
     },
@@ -535,7 +582,7 @@
       "unit": "1-633",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3814,
+      "base_rent": 3739,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 741,
@@ -558,6 +605,10 @@
         {
           "date": "2026-10-23",
           "price": 3814
+        },
+        {
+          "date": "2026-10-28",
+          "price": 3739
         }
       ]
     }
