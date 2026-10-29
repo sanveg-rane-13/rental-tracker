@@ -1,82 +1,7 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-28T20:16:35+00:00",
+  "updated_at": "2026-10-29T00:59:12+00:00",
   "units": {
-    "Aquablu|2804": {
-      "building": "Aquablu",
-      "unit": "2804",
-      "beds": "1 Bedroom",
-      "rent": 4496,
-      "base_rent": 4453,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 790,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-10-15",
-      "price_history": [
-        {
-          "date": "2026-10-15",
-          "price": 4567
-        },
-        {
-          "date": "2026-10-16",
-          "price": 4580
-        },
-        {
-          "date": "2026-10-17",
-          "price": 4591
-        },
-        {
-          "date": "2026-10-18",
-          "price": 4589
-        },
-        {
-          "date": "2026-10-19",
-          "price": 4573
-        },
-        {
-          "date": "2026-10-20",
-          "price": 4575
-        },
-        {
-          "date": "2026-10-21",
-          "price": 4742
-        },
-        {
-          "date": "2026-10-22",
-          "price": 4744
-        },
-        {
-          "date": "2026-10-23",
-          "price": 4746
-        },
-        {
-          "date": "2026-10-23",
-          "price": 4557
-        },
-        {
-          "date": "2026-10-24",
-          "price": 4553
-        },
-        {
-          "date": "2026-10-25",
-          "price": 4551
-        },
-        {
-          "date": "2026-10-26",
-          "price": 4548
-        },
-        {
-          "date": "2026-10-27",
-          "price": 4583
-        },
-        {
-          "date": "2026-10-28",
-          "price": 4496
-        }
-      ]
-    },
     "Aquablu|521": {
       "building": "Aquablu",
       "unit": "521",
@@ -2196,8 +2121,8 @@
       "building": "Beach",
       "unit": "708",
       "beds": "1 Bedroom",
-      "rent": 4266,
-      "base_rent": 4208,
+      "rent": 4246,
+      "base_rent": 4188,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 552,
@@ -2336,6 +2261,10 @@
         {
           "date": "2026-10-28",
           "price": 4266
+        },
+        {
+          "date": "2026-10-29",
+          "price": 4246
         }
       ]
     },
@@ -2483,45 +2412,6 @@
         {
           "date": "2026-10-28",
           "price": 4761
-        }
-      ]
-    },
-    "Bisby|1011": {
-      "building": "Bisby",
-      "unit": "1011",
-      "beds": "1 Bedroom",
-      "rent": 4516,
-      "base_rent": 4458,
-      "base_rent_max": null,
-      "available": "11/13/2026",
-      "sqft": 827,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-10-23",
-      "price_history": [
-        {
-          "date": "2026-10-23",
-          "price": 4766
-        },
-        {
-          "date": "2026-10-24",
-          "price": 4573
-        },
-        {
-          "date": "2026-10-25",
-          "price": 4571
-        },
-        {
-          "date": "2026-10-26",
-          "price": 4568
-        },
-        {
-          "date": "2026-10-27",
-          "price": 4603
-        },
-        {
-          "date": "2026-10-28",
-          "price": 4516
         }
       ]
     },
@@ -7963,8 +7853,8 @@
       "building": "Riverside",
       "unit": "2111",
       "beds": "1 Bedroom",
-      "rent": 4034,
-      "base_rent": 3986,
+      "rent": 3859,
+      "base_rent": 3811,
       "base_rent_max": null,
       "available": "12/16/2026",
       "sqft": 834,
@@ -8039,93 +7929,10 @@
         {
           "date": "2026-10-28",
           "price": 4034
-        }
-      ]
-    },
-    "Riverside|2407": {
-      "building": "Riverside",
-      "unit": "2407",
-      "beds": "1 Bedroom",
-      "rent": 4124,
-      "base_rent": 4076,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 815,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-10-12",
-      "price_history": [
-        {
-          "date": "2026-10-12",
-          "price": 3985
         },
         {
-          "date": "2026-10-13",
-          "price": 3994
-        },
-        {
-          "date": "2026-10-14",
-          "price": 3923
-        },
-        {
-          "date": "2026-10-14",
-          "price": 4098
-        },
-        {
-          "date": "2026-10-15",
-          "price": 4108
-        },
-        {
-          "date": "2026-10-16",
-          "price": 4107
-        },
-        {
-          "date": "2026-10-17",
-          "price": 4116
-        },
-        {
-          "date": "2026-10-18",
-          "price": 4118
-        },
-        {
-          "date": "2026-10-19",
-          "price": 4114
-        },
-        {
-          "date": "2026-10-20",
-          "price": 4117
-        },
-        {
-          "date": "2026-10-21",
-          "price": 4128
-        },
-        {
-          "date": "2026-10-22",
-          "price": 4140
-        },
-        {
-          "date": "2026-10-23",
-          "price": 4149
-        },
-        {
-          "date": "2026-10-24",
-          "price": 4164
-        },
-        {
-          "date": "2026-10-25",
-          "price": 4174
-        },
-        {
-          "date": "2026-10-26",
-          "price": 4184
-        },
-        {
-          "date": "2026-10-27",
-          "price": 4196
-        },
-        {
-          "date": "2026-10-28",
-          "price": 4124
+          "date": "2026-10-29",
+          "price": 3859
         }
       ]
     },
@@ -9692,29 +9499,6 @@
         {
           "date": "2026-10-28",
           "price": 3839
-        }
-      ]
-    },
-    "Southampton|304": {
-      "building": "Southampton",
-      "unit": "304",
-      "beds": "1 Bedroom",
-      "rent": 3784,
-      "base_rent": 3736,
-      "base_rent_max": null,
-      "available": "11/8/2026",
-      "sqft": 851,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-10-27",
-      "price_history": [
-        {
-          "date": "2026-10-27",
-          "price": 3895
-        },
-        {
-          "date": "2026-10-28",
-          "price": 3784
         }
       ]
     },
