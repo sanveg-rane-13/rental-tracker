@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-29T18:29:17+00:00",
+  "updated_at": "2026-10-30T01:01:53+00:00",
   "units": {
     "Aquablu|521": {
       "building": "Aquablu",
@@ -5610,6 +5610,25 @@
         }
       ]
     },
+    "Ellipse|3701": {
+      "building": "Ellipse",
+      "unit": "3701",
+      "beds": "1 Bedroom",
+      "rent": 4712,
+      "base_rent": 4654,
+      "base_rent_max": null,
+      "available": "11/29/2026",
+      "sqft": 835,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-30",
+      "price_history": [
+        {
+          "date": "2026-10-30",
+          "price": 4712
+        }
+      ]
+    },
     "Ellipse|3706": {
       "building": "Ellipse",
       "unit": "3706",
@@ -8026,153 +8045,6 @@
         {
           "date": "2026-10-29",
           "price": 3831
-        }
-      ]
-    },
-    "Riverside|2107": {
-      "building": "Riverside",
-      "unit": "2107",
-      "beds": "1 Bedroom",
-      "rent": 4111,
-      "base_rent": 4063,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 815,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4189
-        },
-        {
-          "date": "2026-09-24",
-          "price": 4198
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4203
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4204
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4201
-        },
-        {
-          "date": "2026-09-29",
-          "price": 4203
-        },
-        {
-          "date": "2026-09-30",
-          "price": 4081
-        },
-        {
-          "date": "2026-10-01",
-          "price": 4076
-        },
-        {
-          "date": "2026-10-02",
-          "price": 4072
-        },
-        {
-          "date": "2026-10-03",
-          "price": 4070
-        },
-        {
-          "date": "2026-10-04",
-          "price": 4074
-        },
-        {
-          "date": "2026-10-05",
-          "price": 4073
-        },
-        {
-          "date": "2026-10-06",
-          "price": 4075
-        },
-        {
-          "date": "2026-10-07",
-          "price": 4086
-        },
-        {
-          "date": "2026-10-08",
-          "price": 4103
-        },
-        {
-          "date": "2026-10-12",
-          "price": 4145
-        },
-        {
-          "date": "2026-10-13",
-          "price": 4154
-        },
-        {
-          "date": "2026-10-14",
-          "price": 4083
-        },
-        {
-          "date": "2026-10-15",
-          "price": 4093
-        },
-        {
-          "date": "2026-10-16",
-          "price": 4092
-        },
-        {
-          "date": "2026-10-17",
-          "price": 4101
-        },
-        {
-          "date": "2026-10-18",
-          "price": 4103
-        },
-        {
-          "date": "2026-10-19",
-          "price": 4099
-        },
-        {
-          "date": "2026-10-20",
-          "price": 4102
-        },
-        {
-          "date": "2026-10-21",
-          "price": 4113
-        },
-        {
-          "date": "2026-10-22",
-          "price": 4125
-        },
-        {
-          "date": "2026-10-23",
-          "price": 4134
-        },
-        {
-          "date": "2026-10-24",
-          "price": 4149
-        },
-        {
-          "date": "2026-10-25",
-          "price": 4159
-        },
-        {
-          "date": "2026-10-26",
-          "price": 4169
-        },
-        {
-          "date": "2026-10-27",
-          "price": 4181
-        },
-        {
-          "date": "2026-10-28",
-          "price": 4109
-        },
-        {
-          "date": "2026-10-29",
-          "price": 4111
         }
       ]
     },
