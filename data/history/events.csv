@@ -6247,3 +6247,11 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-30T18:01,2026-10-30 14:01,IronState Properties,50 Columbus,4775836,1 Bedroom,listed,3785,,3785,,,01/11/2027,,783,4775836,,2026-10-30,
 2026-10-30T18:01,2026-10-30 14:01,IronState Properties,50 Columbus,4775839,1 Bedroom,available_change,4130,,4130,,,11/10/2026,11/21/2026,812,4775839,,2026-10-10,
 2026-10-30T18:01,2026-10-30 14:01,VYV,,,,site_failed,,,,,,,,,,,,only 6 units vs 15 saved
+2026-10-30T22:22,2026-10-30 18:22,Newport Rentals,Pacific,1107,1 Bedroom,listed,3481,,3468,,3481,11/7/2026,,841,,,2026-10-30,
+2026-10-30T22:22,2026-10-30 18:22,Newport Rentals,Southampton,2512,1 Bedroom,available_change,3841,,3793,,3841,11/12/2026,Now,798,,1 Month Free,2026-10-24,
+2026-10-30T22:22,2026-10-30 18:22,Newport Rentals,Pacific,401,1 Bedroom,delisted,3271,,3258,,3271,11/8/2026,,821,,,2026-10-30,
+2026-10-30T22:22,2026-10-30 18:22,Newport Rentals,Riverside,905,1 Bedroom,delisted,3906,,3858,,3906,Now,,813,,0.5 Month Free,2026-09-24,
+2026-10-30T22:22,2026-10-30 18:22,Equity Apartments,Portside Towers,407,1 Bedroom,listed,3996,,3996,,,12/4/2026,,889,D1 & K1,,2026-10-30,
+2026-10-30T22:22,2026-10-30 18:22,Equity Apartments,Portside Towers,2309,1 Bedroom,listed,3976,,3976,,,12/4/2026,,777,C1B,,2026-10-30,
+2026-10-30T22:22,2026-10-30 18:22,VYV,,,,site_failed,,,,,,,,,,,,only 7 units vs 15 saved
+2026-10-30T22:22,2026-10-30 18:22,Lenox,,410,1 Bedroom,listed,4198,,4198,,,12/8/2026,,779,A6,,2026-10-30,

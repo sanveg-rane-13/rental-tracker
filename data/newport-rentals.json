@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-10-30T18:01:38+00:00",
+  "updated_at": "2026-10-30T22:23:04+00:00",
   "units": {
     "Aquablu|521": {
       "building": "Aquablu",
@@ -6786,6 +6786,25 @@
         }
       ]
     },
+    "Pacific|1107": {
+      "building": "Pacific",
+      "unit": "1107",
+      "beds": "1 Bedroom",
+      "rent": 3481,
+      "base_rent": 3468,
+      "base_rent_max": null,
+      "available": "11/7/2026",
+      "sqft": 841,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-10-30",
+      "price_history": [
+        {
+          "date": "2026-10-30",
+          "price": 3481
+        }
+      ]
+    },
     "Pacific|1502": {
       "building": "Pacific",
       "unit": "1502",
@@ -7211,25 +7230,6 @@
         {
           "date": "2026-10-29",
           "price": 3796
-        }
-      ]
-    },
-    "Pacific|401": {
-      "building": "Pacific",
-      "unit": "401",
-      "beds": "1 Bedroom",
-      "rent": 3271,
-      "base_rent": 3258,
-      "base_rent_max": null,
-      "available": "11/8/2026",
-      "sqft": 821,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-10-30",
-      "price_history": [
-        {
-          "date": "2026-10-30",
-          "price": 3271
         }
       ]
     },
@@ -8504,157 +8504,6 @@
         }
       ]
     },
-    "Riverside|905": {
-      "building": "Riverside",
-      "unit": "905",
-      "beds": "1 Bedroom",
-      "rent": 3906,
-      "base_rent": 3858,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 813,
-      "special": "0.5 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4159
-        },
-        {
-          "date": "2026-09-24",
-          "price": 4168
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4173
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4174
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4171
-        },
-        {
-          "date": "2026-09-29",
-          "price": 4173
-        },
-        {
-          "date": "2026-09-30",
-          "price": 4051
-        },
-        {
-          "date": "2026-10-01",
-          "price": 4046
-        },
-        {
-          "date": "2026-10-02",
-          "price": 4042
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3867
-        },
-        {
-          "date": "2026-10-03",
-          "price": 3865
-        },
-        {
-          "date": "2026-10-04",
-          "price": 3869
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3868
-        },
-        {
-          "date": "2026-10-06",
-          "price": 3870
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3881
-        },
-        {
-          "date": "2026-10-08",
-          "price": 3898
-        },
-        {
-          "date": "2026-10-12",
-          "price": 3940
-        },
-        {
-          "date": "2026-10-13",
-          "price": 3949
-        },
-        {
-          "date": "2026-10-14",
-          "price": 3878
-        },
-        {
-          "date": "2026-10-15",
-          "price": 3888
-        },
-        {
-          "date": "2026-10-16",
-          "price": 3887
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3896
-        },
-        {
-          "date": "2026-10-18",
-          "price": 3898
-        },
-        {
-          "date": "2026-10-19",
-          "price": 3894
-        },
-        {
-          "date": "2026-10-20",
-          "price": 3897
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3908
-        },
-        {
-          "date": "2026-10-22",
-          "price": 3920
-        },
-        {
-          "date": "2026-10-23",
-          "price": 3929
-        },
-        {
-          "date": "2026-10-24",
-          "price": 3944
-        },
-        {
-          "date": "2026-10-25",
-          "price": 3954
-        },
-        {
-          "date": "2026-10-26",
-          "price": 3964
-        },
-        {
-          "date": "2026-10-27",
-          "price": 3976
-        },
-        {
-          "date": "2026-10-28",
-          "price": 3904
-        },
-        {
-          "date": "2026-10-29",
-          "price": 3906
-        }
-      ]
-    },
     "Roosevelt House|503": {
       "building": "Roosevelt House",
       "unit": "503",
@@ -9789,7 +9638,7 @@
       "rent": 3841,
       "base_rent": 3793,
       "base_rent_max": null,
-      "available": "Now",
+      "available": "11/12/2026",
       "sqft": 798,
       "special": "1 Month Free",
       "floor_plan": null,
