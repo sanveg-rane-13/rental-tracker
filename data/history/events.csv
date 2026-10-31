@@ -6314,3 +6314,11 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-10-31T12:34,2026-10-31 08:34,Northern Chapter Properties,18 Park,1044,1 Bedroom,price_change,3375,3385,3375,3700,,12/26/2026,,651,Floor Plan Video,,2026-10-20,
 2026-10-31T12:34,2026-10-31 08:34,Northern Chapter Properties,18 Park,0433,1 Bedroom,price_change,3135,3150,3135,3450,,1/7/2027,,651,Floor Plan Video,,2026-10-01,
 2026-10-31T12:34,2026-10-31 08:34,Northern Chapter Properties,18 Park,0735,1 Bedroom,price_change,3255,3270,3255,3580,,1/7/2027,,651,Floor Plan Video,,2026-10-27,
+2026-10-31T19:18,2026-10-31 15:18,BLVD Collection,BLVD 401,0308,1 Bedroom,price_change,3710,3950,3710,,,Now,,749,B401 A2,,2026-09-24,
+2026-10-31T19:18,2026-10-31 15:18,Liberty Harbor,88 Regent,2804,1 Bedroom,price_change,3676,4010,3676,,,11/10/2026,,636,,discounted,2026-09-26,
+2026-10-31T19:18,2026-10-31 15:18,Liberty Harbor,88 Regent,2804,1 Bedroom,available_change,3676,,3676,,,11/10/2026,11/11/2026,636,,discounted,2026-09-26,
+2026-10-31T19:18,2026-10-31 15:18,Liberty Harbor,50 Regent,713,1 Bedroom,price_change,3295,3595,3295,,,11/10/2026,,667,,discounted,2026-10-04,
+2026-10-31T19:18,2026-10-31 15:18,Liberty Harbor,50 Regent,713,1 Bedroom,available_change,3295,,3295,,,11/10/2026,11/11/2026,667,,discounted,2026-10-04,
+2026-10-31T19:18,2026-10-31 15:18,Liberty Harbor,333 Grand,816,1 Bedroom,price_change,3639,3970,3639,,,11/11/2026,,746,,discounted,2026-10-02,
+2026-10-31T19:18,2026-10-31 15:18,Liberty Harbor,The Zenith,711,1 Bedroom,delisted,2743,,2743,,,Now,,736,,discounted,2026-10-27,
+2026-10-31T19:18,2026-10-31 15:18,VYV,,,,site_failed,,,,,,,,,,,,only 7 units vs 15 saved

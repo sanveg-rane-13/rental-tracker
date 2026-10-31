@@ -1,14 +1,14 @@
 {
   "property": "BLVD Collection",
-  "updated_at": "2026-10-31T12:34:17+00:00",
+  "updated_at": "2026-10-31T19:19:03+00:00",
   "units": {
     "BLVD 401|0308": {
       "building": "BLVD 401",
       "unit": "0308",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3950,
-      "base_rent_max": 4464,
+      "base_rent": 3710,
+      "base_rent_max": null,
       "available": "Now",
       "sqft": 749,
       "special": null,
@@ -22,6 +22,10 @@
         {
           "date": "2026-09-24",
           "price": 3950
+        },
+        {
+          "date": "2026-10-31",
+          "price": 3710
         }
       ]
     },
