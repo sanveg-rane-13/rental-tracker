@@ -1,6 +1,6 @@
 {
   "property": "Northern Chapter Properties",
-  "updated_at": "2026-11-01T00:08:47+00:00",
+  "updated_at": "2026-11-01T06:08:54+00:00",
   "units": {
     "18 Park|0410": {
       "building": "18 Park",
@@ -1106,101 +1106,6 @@
         {
           "date": "2026-10-31",
           "price": 3450
-        }
-      ]
-    },
-    "18 Park|PH18": {
-      "building": "18 Park",
-      "unit": "PH18",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3250,
-      "base_rent_max": 3585,
-      "available": "Now",
-      "sqft": 651,
-      "special": null,
-      "floor_plan": "Floor Plan Video",
-      "first_seen": "2026-09-28",
-      "price_history": [
-        {
-          "date": "2026-09-28",
-          "price": 3765
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3665
-        },
-        {
-          "date": "2026-10-09",
-          "price": 3575
-        },
-        {
-          "date": "2026-10-10",
-          "price": 3560
-        },
-        {
-          "date": "2026-10-11",
-          "price": 3545
-        },
-        {
-          "date": "2026-10-12",
-          "price": 3535
-        },
-        {
-          "date": "2026-10-13",
-          "price": 3520
-        },
-        {
-          "date": "2026-10-14",
-          "price": 3505
-        },
-        {
-          "date": "2026-10-20",
-          "price": 3480
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3380
-        },
-        {
-          "date": "2026-10-22",
-          "price": 3365
-        },
-        {
-          "date": "2026-10-23",
-          "price": 3355
-        },
-        {
-          "date": "2026-10-24",
-          "price": 3340
-        },
-        {
-          "date": "2026-10-25",
-          "price": 3330
-        },
-        {
-          "date": "2026-10-26",
-          "price": 3315
-        },
-        {
-          "date": "2026-10-27",
-          "price": 3305
-        },
-        {
-          "date": "2026-10-28",
-          "price": 3290
-        },
-        {
-          "date": "2026-10-29",
-          "price": 3275
-        },
-        {
-          "date": "2026-10-30",
-          "price": 3265
-        },
-        {
-          "date": "2026-10-31",
-          "price": 3250
         }
       ]
     },

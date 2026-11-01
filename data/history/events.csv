@@ -6341,3 +6341,8 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-01T00:08,2026-10-31 20:08,VYV,,S-3250,1 Bedroom,price_change,3654,3704,3654,,,12/30/2026,,757,A14,,2026-10-16,
 2026-11-01T00:08,2026-10-31 20:08,VYV,,N-0409,1 Bedroom,price_change,3913,3963,3913,,,12/11/2026,,836,A22,,2026-10-27,
 2026-11-01T00:08,2026-10-31 20:08,VYV,,S-3462,1 Bedroom,price_change,4750,4800,4750,,,12/1/2026,,965,A25,,2026-10-14,
+2026-11-01T06:08,2026-11-01 01:08,Liberty Harbor,The Zenith,719,1 Bedroom,delisted,2745,,2745,,,Now,,662,,discounted,2026-10-22,
+2026-11-01T06:08,2026-11-01 01:08,Equity Apartments,Portside Towers,505,1 Bedroom,available_change,4225,,4225,,,11/6/2026,11/5/2026,960,G,,2026-10-23,
+2026-11-01T06:08,2026-11-01 01:08,Equity Apartments,Portside Towers,2309,1 Bedroom,available_change,3976,,3976,,,12/3/2026,12/4/2026,777,C1B,,2026-10-30,
+2026-11-01T06:08,2026-11-01 01:08,VYV,,,,site_failed,,,,,,,,,,,,only 7 units vs 15 saved
+2026-11-01T06:08,2026-11-01 01:08,Northern Chapter Properties,18 Park,PH18,1 Bedroom,delisted,3250,,3250,3585,,Now,,651,Floor Plan Video,,2026-09-28,
