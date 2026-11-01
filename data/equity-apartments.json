@@ -1,6 +1,6 @@
 {
   "property": "Equity Apartments",
-  "updated_at": "2026-10-31T19:19:04+00:00",
+  "updated_at": "2026-11-01T00:08:47+00:00",
   "units": {
     "Hudson Point|130": {
       "building": "Hudson Point",
@@ -125,7 +125,7 @@
       "rent": null,
       "base_rent": 3890,
       "base_rent_max": null,
-      "available": "11/2/2026",
+      "available": "Now",
       "sqft": 877,
       "special": null,
       "floor_plan": "B9",

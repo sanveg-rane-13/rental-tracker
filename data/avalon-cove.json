@@ -1,6 +1,6 @@
 {
   "property": "Avalon Cove",
-  "updated_at": "2026-10-31T19:19:04+00:00",
+  "updated_at": "2026-11-01T00:08:47+00:00",
   "units": {
     "Avalon Cove|2121": {
       "building": "Avalon Cove",
@@ -782,7 +782,7 @@
       "rent": null,
       "base_rent": 3680,
       "base_rent_max": null,
-      "available": "11/1/2026",
+      "available": "11/2/2026",
       "sqft": 778,
       "special": "23-month lease",
       "floor_plan": "A18",
@@ -1047,7 +1047,7 @@
       "rent": null,
       "base_rent": 3470,
       "base_rent_max": null,
-      "available": "11/1/2026",
+      "available": "11/2/2026",
       "sqft": 693,
       "special": "10-month lease",
       "floor_plan": "A2",
@@ -1318,133 +1318,6 @@
         {
           "date": "2026-10-31",
           "price": 4065
-        }
-      ]
-    },
-    "Avalon Cove|5327": {
-      "building": "Avalon Cove",
-      "unit": "5327",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3720,
-      "base_rent_max": null,
-      "available": "11/27/2026",
-      "sqft": 818,
-      "special": "21-month lease",
-      "floor_plan": "A9",
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4015
-        },
-        {
-          "date": "2026-09-28",
-          "price": 3890
-        },
-        {
-          "date": "2026-09-29",
-          "price": 3885
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3835
-        },
-        {
-          "date": "2026-10-01",
-          "price": 3855
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3825
-        },
-        {
-          "date": "2026-10-03",
-          "price": 3850
-        },
-        {
-          "date": "2026-10-04",
-          "price": 3810
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3905
-        },
-        {
-          "date": "2026-10-06",
-          "price": 3925
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3920
-        },
-        {
-          "date": "2026-10-08",
-          "price": 3915
-        },
-        {
-          "date": "2026-10-09",
-          "price": 3900
-        },
-        {
-          "date": "2026-10-12",
-          "price": 3890
-        },
-        {
-          "date": "2026-10-16",
-          "price": 3900
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3890
-        },
-        {
-          "date": "2026-10-18",
-          "price": 3875
-        },
-        {
-          "date": "2026-10-19",
-          "price": 3900
-        },
-        {
-          "date": "2026-10-20",
-          "price": 3895
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3885
-        },
-        {
-          "date": "2026-10-23",
-          "price": 3880
-        },
-        {
-          "date": "2026-10-24",
-          "price": 3855
-        },
-        {
-          "date": "2026-10-25",
-          "price": 3850
-        },
-        {
-          "date": "2026-10-27",
-          "price": 3840
-        },
-        {
-          "date": "2026-10-28",
-          "price": 3830
-        },
-        {
-          "date": "2026-10-29",
-          "price": 3705
-        },
-        {
-          "date": "2026-10-30",
-          "price": 3730
-        },
-        {
-          "date": "2026-10-31",
-          "price": 3720
         }
       ]
     },
