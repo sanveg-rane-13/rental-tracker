@@ -6599,3 +6599,8 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-01T19:42,2026-11-01 14:42,VYV,,N-2612,1 Bedroom,delisted,3632,,3632,,,11/21/2026,,720,A07,,2026-11-01,
 2026-11-01T19:42,2026-11-01 14:42,VYV,,S-2055,1 Bedroom,delisted,3657,,3657,,,12/2/2026,,703,A05,,2026-09-27,
 2026-11-01T19:42,2026-11-01 14:42,VYV,,S-2255,1 Bedroom,delisted,3667,,3667,,,Now,,703,A05,,2026-11-01,
+2026-11-02T00:46,2026-11-01 19:46,Newport Rentals,East Hampton,1609,1 Bedroom,delisted,3904,,3856,,3904,11/2/2026,,817,,1 Month Free,2026-09-29,
+2026-11-02T00:46,2026-11-01 19:46,Avalon Cove,Avalon Cove,5221,1 Bedroom,available_change,3505,,3505,,,11/3/2026,11/2/2026,693,A2,10-month lease,2026-09-24,
+2026-11-02T00:46,2026-11-01 19:46,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3685,,3685,,,11/3/2026,11/2/2026,778,A18,22-month lease,2026-09-24,
+2026-11-02T00:46,2026-11-01 19:46,IronState Properties,70 Columbus,2042220,1 Bedroom,delisted,3685,,3685,,,11/21/2026,,645,2042220,,2026-10-23,
+2026-11-02T00:46,2026-11-01 19:46,VYV,,S-3361,1 Bedroom,available_change,3885,,3885,,,Now,11/2/2026,734,A11,,2026-10-27,
