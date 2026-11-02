@@ -1,6 +1,6 @@
 {
   "property": "Equity Apartments",
-  "updated_at": "2026-11-02T00:46:06+00:00",
+  "updated_at": "2026-11-02T11:11:31+00:00",
   "units": {
     "Hudson Point|130": {
       "building": "Hudson Point",
@@ -346,37 +346,6 @@
         {
           "date": "2026-10-21",
           "price": 3975
-        }
-      ]
-    },
-    "The Pier|1-245": {
-      "building": "The Pier",
-      "unit": "1-245",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3926,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 741,
-      "special": null,
-      "floor_plan": "A5",
-      "first_seen": "2026-09-27",
-      "price_history": [
-        {
-          "date": "2026-09-27",
-          "price": 3996
-        },
-        {
-          "date": "2026-10-01",
-          "price": 4046
-        },
-        {
-          "date": "2026-10-14",
-          "price": 3971
-        },
-        {
-          "date": "2026-10-23",
-          "price": 3926
         }
       ]
     },
