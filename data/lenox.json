@@ -1,13 +1,13 @@
 {
   "property": "Lenox",
-  "updated_at": "2026-11-02T11:11:31+00:00",
+  "updated_at": "2026-11-02T21:43:26+00:00",
   "units": {
     "|410": {
       "building": "",
       "unit": "410",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4198,
+      "base_rent": 4199,
       "base_rent_max": null,
       "available": "12/8/2026",
       "sqft": 779,
@@ -18,6 +18,10 @@
         {
           "date": "2026-10-30",
           "price": 4198
+        },
+        {
+          "date": "2026-11-02",
+          "price": 4199
         }
       ]
     },
@@ -26,7 +30,7 @@
       "unit": "804",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4195,
+      "base_rent": 4196,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 718,
@@ -41,6 +45,10 @@
         {
           "date": "2026-10-26",
           "price": 4195
+        },
+        {
+          "date": "2026-11-02",
+          "price": 4196
         }
       ]
     }

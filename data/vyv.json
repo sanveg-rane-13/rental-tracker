@@ -1,186 +1,23 @@
 {
   "property": "VYV",
-  "updated_at": "2026-11-02T11:11:31+00:00",
+  "updated_at": "2026-11-02T21:43:26+00:00",
   "units": {
-    "|N-0409": {
+    "|S-0453": {
       "building": "",
-      "unit": "N-0409",
+      "unit": "S-0453",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3913,
+      "base_rent": 3803,
       "base_rent_max": null,
-      "available": "12/11/2026",
-      "sqft": 836,
+      "available": "Now",
+      "sqft": 733,
       "special": null,
-      "floor_plan": "A22",
-      "first_seen": "2026-10-27",
+      "floor_plan": "A10",
+      "first_seen": "2026-11-02",
       "price_history": [
         {
-          "date": "2026-10-27",
-          "price": 3962
-        },
-        {
-          "date": "2026-10-27",
-          "price": 3963
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3913
-        }
-      ]
-    },
-    "|N-1610": {
-      "building": "",
-      "unit": "N-1610",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3668,
-      "base_rent_max": null,
-      "available": "12/21/2026",
-      "sqft": 739,
-      "special": null,
-      "floor_plan": "A13",
-      "first_seen": "2026-10-16",
-      "price_history": [
-        {
-          "date": "2026-10-16",
-          "price": 3767
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3768
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3767
-        },
-        {
-          "date": "2026-10-18",
-          "price": 3768
-        },
-        {
-          "date": "2026-10-25",
-          "price": 3718
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3668
-        }
-      ]
-    },
-    "|N-2110": {
-      "building": "",
-      "unit": "N-2110",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3763,
-      "base_rent_max": null,
-      "available": "12/28/2026",
-      "sqft": 739,
-      "special": null,
-      "floor_plan": "A13",
-      "first_seen": "2026-10-21",
-      "price_history": [
-        {
-          "date": "2026-10-21",
-          "price": 3862
-        },
-        {
-          "date": "2026-10-25",
-          "price": 3813
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3763
-        }
-      ]
-    },
-    "|N-3101": {
-      "building": "",
-      "unit": "N-3101",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3885,
-      "base_rent_max": null,
-      "available": "1/22/2027",
-      "sqft": 763,
-      "special": null,
-      "floor_plan": "A16",
-      "first_seen": "2026-10-30",
-      "price_history": [
-        {
-          "date": "2026-10-30",
-          "price": 3934
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3885
-        }
-      ]
-    },
-    "|N-3412": {
-      "building": "",
-      "unit": "N-3412",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3717,
-      "base_rent_max": null,
-      "available": "12/7/2026",
-      "sqft": 720,
-      "special": null,
-      "floor_plan": "A07",
-      "first_seen": "2026-10-10",
-      "price_history": [
-        {
-          "date": "2026-10-10",
-          "price": 3766
-        },
-        {
-          "date": "2026-10-10",
-          "price": 3817
-        },
-        {
-          "date": "2026-10-25",
-          "price": 3767
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3717
-        }
-      ]
-    },
-    "|N-3504": {
-      "building": "",
-      "unit": "N-3504",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3878,
-      "base_rent_max": null,
-      "available": "11/7/2026",
-      "sqft": 739,
-      "special": null,
-      "floor_plan": "A13",
-      "first_seen": "2026-09-27",
-      "price_history": [
-        {
-          "date": "2026-09-27",
-          "price": 3908
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3928
-        },
-        {
-          "date": "2026-10-09",
-          "price": 3978
-        },
-        {
-          "date": "2026-10-25",
-          "price": 3928
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3878
+          "date": "2026-11-02",
+          "price": 3803
         }
       ]
     },
