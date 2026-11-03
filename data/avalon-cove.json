@@ -1,6 +1,6 @@
 {
   "property": "Avalon Cove",
-  "updated_at": "2026-11-03T06:50:36+00:00",
+  "updated_at": "2026-11-03T17:04:29+00:00",
   "units": {
     "Avalon Cove|2121": {
       "building": "Avalon Cove",
@@ -66,7 +66,7 @@
       "unit": "2128",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3905,
+      "base_rent": 3885,
       "base_rent_max": null,
       "available": "11/20/2026",
       "sqft": 817,
@@ -205,6 +205,10 @@
         {
           "date": "2026-11-02",
           "price": 3905
+        },
+        {
+          "date": "2026-11-03",
+          "price": 3885
         }
       ]
     },
@@ -344,7 +348,7 @@
       "unit": "3138",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3915,
+      "base_rent": 3910,
       "base_rent_max": null,
       "available": "11/13/2026",
       "sqft": 778,
@@ -487,6 +491,10 @@
         {
           "date": "2026-11-02",
           "price": 3915
+        },
+        {
+          "date": "2026-11-03",
+          "price": 3910
         }
       ]
     },
@@ -495,7 +503,7 @@
       "unit": "3143",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3695,
+      "base_rent": 3675,
       "base_rent_max": null,
       "available": "11/17/2026",
       "sqft": 778,
@@ -630,6 +638,10 @@
         {
           "date": "2026-11-02",
           "price": 3695
+        },
+        {
+          "date": "2026-11-03",
+          "price": 3675
         }
       ]
     },
@@ -943,7 +955,7 @@
       "unit": "4403",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4325,
+      "base_rent": 4320,
       "base_rent_max": null,
       "available": "11/26/2026",
       "sqft": 1039,
@@ -1006,6 +1018,10 @@
         {
           "date": "2026-11-02",
           "price": 4325
+        },
+        {
+          "date": "2026-11-03",
+          "price": 4320
         }
       ]
     },
@@ -1014,7 +1030,7 @@
       "unit": "5123",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3970,
+      "base_rent": 3965,
       "base_rent_max": null,
       "available": "12/22/2026",
       "sqft": 818,
@@ -1093,149 +1109,10 @@
         {
           "date": "2026-11-02",
           "price": 3970
-        }
-      ]
-    },
-    "Avalon Cove|5221": {
-      "building": "Avalon Cove",
-      "unit": "5221",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3535,
-      "base_rent_max": null,
-      "available": "11/4/2026",
-      "sqft": 693,
-      "special": "21-month lease",
-      "floor_plan": "A2",
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3645
         },
         {
-          "date": "2026-09-26",
-          "price": 3640
-        },
-        {
-          "date": "2026-09-27",
-          "price": 3655
-        },
-        {
-          "date": "2026-09-28",
-          "price": 3740
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3695
-        },
-        {
-          "date": "2026-10-01",
-          "price": 3725
-        },
-        {
-          "date": "2026-10-04",
-          "price": 3810
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3935
-        },
-        {
-          "date": "2026-10-06",
-          "price": 3930
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3920
-        },
-        {
-          "date": "2026-10-09",
-          "price": 3910
-        },
-        {
-          "date": "2026-10-12",
-          "price": 3790
-        },
-        {
-          "date": "2026-10-13",
-          "price": 3775
-        },
-        {
-          "date": "2026-10-14",
-          "price": 3755
-        },
-        {
-          "date": "2026-10-15",
-          "price": 3750
-        },
-        {
-          "date": "2026-10-16",
-          "price": 3765
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3740
-        },
-        {
-          "date": "2026-10-18",
-          "price": 3725
-        },
-        {
-          "date": "2026-10-19",
-          "price": 3715
-        },
-        {
-          "date": "2026-10-20",
-          "price": 3705
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3700
-        },
-        {
-          "date": "2026-10-23",
-          "price": 3690
-        },
-        {
-          "date": "2026-10-24",
-          "price": 3560
-        },
-        {
-          "date": "2026-10-25",
-          "price": 3555
-        },
-        {
-          "date": "2026-10-26",
-          "price": 3595
-        },
-        {
-          "date": "2026-10-27",
-          "price": 3580
-        },
-        {
-          "date": "2026-10-28",
-          "price": 3570
-        },
-        {
-          "date": "2026-10-29",
-          "price": 3445
-        },
-        {
-          "date": "2026-10-30",
-          "price": 3490
-        },
-        {
-          "date": "2026-10-31",
-          "price": 3470
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3505
-        },
-        {
-          "date": "2026-11-02",
-          "price": 3535
+          "date": "2026-11-03",
+          "price": 3965
         }
       ]
     },
@@ -1303,7 +1180,7 @@
       "unit": "5239",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4085,
+      "base_rent": 4080,
       "base_rent_max": null,
       "available": "12/22/2026",
       "sqft": 832,
@@ -1390,6 +1267,10 @@
         {
           "date": "2026-11-02",
           "price": 4085
+        },
+        {
+          "date": "2026-11-03",
+          "price": 4080
         }
       ]
     },
@@ -1632,11 +1513,11 @@
       "unit": "6455",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3570,
+      "base_rent": 3565,
       "base_rent_max": null,
       "available": "11/10/2026",
       "sqft": 752,
-      "special": "10-month lease",
+      "special": "21-month lease",
       "floor_plan": "A3",
       "first_seen": "2026-09-24",
       "price_history": [
@@ -1775,6 +1656,10 @@
         {
           "date": "2026-11-02",
           "price": 3570
+        },
+        {
+          "date": "2026-11-03",
+          "price": 3565
         }
       ]
     }
