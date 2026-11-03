@@ -6946,3 +6946,22 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-03T17:04,2026-11-03 12:04,Northern Chapter Properties,225 Grand,0601,1 Bedroom,price_change,3490,3495,3490,3810,,Now,,777,Floor Plan Video,,2026-10-07,
 2026-11-03T17:04,2026-11-03 12:04,Northern Chapter Properties,225 Grand,0711,1 Bedroom,price_change,3330,3335,3330,3640,,Now,,744,Floor Plan Video,,2026-09-28,
 2026-11-03T17:04,2026-11-03 12:04,Northern Chapter Properties,235 Grand,2112,1 Bedroom,delisted,3780,,3780,4195,,11/25/2026,,,Floor Plan Video,,2026-09-28,
+2026-11-03T23:24,2026-11-03 18:24,Newport Rentals,Bisby,1611,1 Bedroom,listed,4519,,4461,,4519,12/21/2026,,827,,,2026-11-03,
+2026-11-03T23:24,2026-11-03 18:24,Newport Rentals,Southampton,2407,1 Bedroom,delisted,3809,,3761,,3809,Now,,838,,1 Month Free,2026-09-24,
+2026-11-03T23:24,2026-11-03 18:24,Newport Rentals,Southampton,3312,1 Bedroom,delisted,3839,,3791,,3839,Now,,798,,1 Month Free,2026-09-24,
+2026-11-03T23:24,2026-11-03 18:24,BLVD Collection,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.rentcafe.com/apartments/nj/jersey-city/the-blvd-collection/default.aspx
+2026-11-03T23:24,2026-11-03 18:24,Liberty Harbor,333 Grand,802,1 Bedroom,price_change,3570,3827,3570,,,Now,,790,,discounted,2026-10-04,
+2026-11-03T23:24,2026-11-03 18:24,Liberty Harbor,333 Grand,305,1 Bedroom,price_change,2745,2924,2745,,,Now,,686,,discounted,2026-09-24,
+2026-11-03T23:24,2026-11-03 18:24,Liberty Harbor,333 Grand,304,1 Bedroom,price_change,2745,3007,2745,,,Now,,671,,discounted,2026-09-24,
+2026-11-03T23:24,2026-11-03 18:24,Liberty Harbor,333 Grand,813,1 Bedroom,available_change,3240,,3240,,,11/13/2026,Now,661,,discounted,2026-09-24,
+2026-11-03T23:24,2026-11-03 18:24,Liberty Harbor,333 Grand,1218,1 Bedroom,price_change,3295,3426,3295,,,11/4/2026,,650,,discounted,2026-09-24,
+2026-11-03T23:24,2026-11-03 18:24,Liberty Harbor,333 Grand,703,1 Bedroom,price_change,2874,3057,2874,,,Now,,643,,discounted,2026-09-24,
+2026-11-03T23:24,2026-11-03 18:24,Liberty Harbor,333 Grand,1203,1 Bedroom,price_change,3204,3318,3204,,,Now,,643,,discounted,2026-09-24,
+2026-11-03T23:24,2026-11-03 18:24,Liberty Harbor,333 Grand,1204,1 Bedroom,price_change,3204,3460,3204,,,11/11/2026,,620,,discounted,2026-09-24,
+2026-11-03T23:24,2026-11-03 18:24,65 Bay Street,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.65bay.com/floorplans/1-br-1-ba-res-01-%26-09%3A-fl-8---44
+2026-11-03T23:24,2026-11-03 18:24,Avalon Cove,Avalon Cove,6455,1 Bedroom,delisted,3565,,3565,,,11/10/2026,,752,A3,21-month lease,2026-09-24,
+2026-11-03T23:24,2026-11-03 18:24,Equity Apartments,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-03T23:24,2026-11-03 18:24,IronState Properties,90 Columbus,2442555,1 Bedroom,delisted,3995,,3995,,,11/30/2026,,676,2442555,,2026-09-27,
+2026-11-03T23:24,2026-11-03 18:24,VYV,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-03T23:24,2026-11-03 18:24,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-03T23:24,2026-11-03 18:24,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
