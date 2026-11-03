@@ -1,13 +1,13 @@
 {
   "property": "VYV",
-  "updated_at": "2026-11-02T21:43:26+00:00",
+  "updated_at": "2026-11-03T06:50:36+00:00",
   "units": {
     "|S-0453": {
       "building": "",
       "unit": "S-0453",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3803,
+      "base_rent": 3810,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 733,
@@ -18,6 +18,10 @@
         {
           "date": "2026-11-02",
           "price": 3803
+        },
+        {
+          "date": "2026-11-03",
+          "price": 3810
         }
       ]
     },
@@ -111,6 +115,25 @@
         {
           "date": "2026-11-01",
           "price": 3785
+        }
+      ]
+    },
+    "|S-2255": {
+      "building": "",
+      "unit": "S-2255",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3667,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 703,
+      "special": null,
+      "floor_plan": "A05",
+      "first_seen": "2026-11-03",
+      "price_history": [
+        {
+          "date": "2026-11-03",
+          "price": 3667
         }
       ]
     },
@@ -239,41 +262,6 @@
         {
           "date": "2026-11-01",
           "price": 4750
-        }
-      ]
-    },
-    "|S-3561": {
-      "building": "",
-      "unit": "S-3561",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3985,
-      "base_rent_max": null,
-      "available": "11/27/2026",
-      "sqft": 734,
-      "special": null,
-      "floor_plan": "A11",
-      "first_seen": "2026-09-27",
-      "price_history": [
-        {
-          "date": "2026-09-27",
-          "price": 4015
-        },
-        {
-          "date": "2026-10-05",
-          "price": 4035
-        },
-        {
-          "date": "2026-10-09",
-          "price": 4085
-        },
-        {
-          "date": "2026-10-25",
-          "price": 4035
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3985
         }
       ]
     }
