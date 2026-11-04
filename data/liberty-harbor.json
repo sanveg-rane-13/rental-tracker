@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-11-04T17:16:52+00:00",
+  "updated_at": "2026-11-04T23:41:03+00:00",
   "units": {
     "333 Grand|1112": {
       "building": "333 Grand",
@@ -160,37 +160,6 @@
         }
       ]
     },
-    "333 Grand|305": {
-      "building": "333 Grand",
-      "unit": "305",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 2745,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 686,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3675
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3369
-        },
-        {
-          "date": "2026-10-27",
-          "price": 2924
-        },
-        {
-          "date": "2026-11-03",
-          "price": 2745
-        }
-      ]
-    },
     "333 Grand|407": {
       "building": "333 Grand",
       "unit": "407",
@@ -211,37 +180,6 @@
         {
           "date": "2026-11-01",
           "price": 3373
-        }
-      ]
-    },
-    "333 Grand|703": {
-      "building": "333 Grand",
-      "unit": "703",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 2874,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 643,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3510
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3218
-        },
-        {
-          "date": "2026-10-24",
-          "price": 3057
-        },
-        {
-          "date": "2026-11-03",
-          "price": 2874
         }
       ]
     },
@@ -453,17 +391,21 @@
       "unit": "1504",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3950,
+      "base_rent": 3621,
       "base_rent_max": null,
       "available": "11/11/2026",
       "sqft": 636,
-      "special": null,
+      "special": "discounted",
       "floor_plan": null,
       "first_seen": "2026-10-06",
       "price_history": [
         {
           "date": "2026-10-06",
           "price": 3950
+        },
+        {
+          "date": "2026-11-04",
+          "price": 3621
         }
       ]
     },

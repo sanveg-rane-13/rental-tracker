@@ -1,26 +1,7 @@
 {
   "property": "IronState Properties",
-  "updated_at": "2026-11-04T17:16:52+00:00",
+  "updated_at": "2026-11-04T23:41:03+00:00",
   "units": {
-    "50 Columbus|4775281": {
-      "building": "50 Columbus",
-      "unit": "4775281",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3810,
-      "base_rent_max": null,
-      "available": null,
-      "sqft": 781,
-      "special": null,
-      "floor_plan": "4775281",
-      "first_seen": "2026-11-02",
-      "price_history": [
-        {
-          "date": "2026-11-02",
-          "price": 3810
-        }
-      ]
-    },
     "50 Columbus|4775836": {
       "building": "50 Columbus",
       "unit": "4775836",
@@ -135,22 +116,22 @@
         }
       ]
     },
-    "90 Columbus|2442623": {
-      "building": "90 Columbus",
-      "unit": "2442623",
+    "70 Columbus|2042231": {
+      "building": "70 Columbus",
+      "unit": "2042231",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3800,
+      "base_rent": 4735,
       "base_rent_max": null,
-      "available": "11/09/2026",
-      "sqft": 692,
+      "available": "01/21/2027",
+      "sqft": 821,
       "special": null,
-      "floor_plan": "2442623",
-      "first_seen": "2026-09-27",
+      "floor_plan": "2042231",
+      "first_seen": "2026-11-04",
       "price_history": [
         {
-          "date": "2026-09-27",
-          "price": 3800
+          "date": "2026-11-04",
+          "price": 4735
         }
       ]
     },
@@ -189,6 +170,25 @@
         {
           "date": "2026-10-26",
           "price": 4290
+        }
+      ]
+    },
+    "90 Columbus|2442655": {
+      "building": "90 Columbus",
+      "unit": "2442655",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4295,
+      "base_rent_max": null,
+      "available": "11/24/2026",
+      "sqft": 694,
+      "special": null,
+      "floor_plan": "2442655",
+      "first_seen": "2026-11-04",
+      "price_history": [
+        {
+          "date": "2026-11-04",
+          "price": 4295
         }
       ]
     },
