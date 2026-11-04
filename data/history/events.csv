@@ -6965,3 +6965,12 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-03T23:24,2026-11-03 18:24,VYV,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
 2026-11-03T23:24,2026-11-03 18:24,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
 2026-11-03T23:24,2026-11-03 18:24,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
+2026-11-04T06:25,2026-11-04 01:25,Newport Rentals,East Hampton,1702,1 Bedroom,listed,3903,,3855,,3903,11/17/2026,,831,,,2026-11-04,
+2026-11-04T06:25,2026-11-04 01:25,Newport Rentals,Aquablu,521,1 Bedroom,available_change,3999,,3956,,3999,Now,11/4/2026,816,,,2026-10-21,
+2026-11-04T06:25,2026-11-04 01:25,Liberty Harbor,88 Regent,3109,1 Bedroom,listed,4162,,4162,,,Now,,663,,discounted,2026-11-04,
+2026-11-04T06:25,2026-11-04 01:25,Liberty Harbor,333 Grand,1218,1 Bedroom,available_change,3295,,3295,,,Now,11/4/2026,650,,discounted,2026-09-24,
+2026-11-04T06:25,2026-11-04 01:25,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3710,,3710,,,11/5/2026,11/4/2026,778,A18,22-month lease,2026-09-24,
+2026-11-04T06:25,2026-11-04 01:25,Avalon Cove,Avalon Cove,3330,1 Bedroom,available_change,3840,,3840,,,11/5/2026,11/4/2026,817,A8,22-month lease,2026-09-24,
+2026-11-04T06:25,2026-11-04 01:25,Equity Apartments,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-04T06:25,2026-11-04 01:25,VYV,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-04T06:25,2026-11-04 01:25,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
