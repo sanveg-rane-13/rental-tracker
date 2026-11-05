@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-11-05T06:50:14+00:00",
+  "updated_at": "2026-11-05T17:26:00+00:00",
   "units": {
     "333 Grand|1112": {
       "building": "333 Grand",
@@ -111,7 +111,7 @@
       "unit": "204",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3519,
+      "base_rent": 2865,
       "base_rent_max": null,
       "available": "11/9/2026",
       "sqft": 737,
@@ -126,6 +126,10 @@
         {
           "date": "2026-10-02",
           "price": 3519
+        },
+        {
+          "date": "2026-11-05",
+          "price": 2865
         }
       ]
     },
@@ -134,7 +138,7 @@
       "unit": "407",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3373,
+      "base_rent": 2929,
       "base_rent_max": null,
       "available": "11/11/2026",
       "sqft": 686,
@@ -149,6 +153,10 @@
         {
           "date": "2026-11-01",
           "price": 3373
+        },
+        {
+          "date": "2026-11-05",
+          "price": 2929
         }
       ]
     },
@@ -180,7 +188,7 @@
       "unit": "813",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3240,
+      "base_rent": 2979,
       "base_rent_max": null,
       "available": "11/13/2026",
       "sqft": 661,
@@ -195,6 +203,10 @@
         {
           "date": "2026-09-30",
           "price": 3240
+        },
+        {
+          "date": "2026-11-05",
+          "price": 2979
         }
       ]
     },
@@ -604,39 +616,12 @@
         }
       ]
     },
-    "The Regent|702": {
-      "building": "The Regent",
-      "unit": "702",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 2979,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 654,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3655
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3350
-        },
-        {
-          "date": "2026-10-27",
-          "price": 2979
-        }
-      ]
-    },
     "The Zenith|204": {
       "building": "The Zenith",
       "unit": "204",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3713,
+      "base_rent": 3045,
       "base_rent_max": null,
       "available": "12/5/2026",
       "sqft": 849,
@@ -647,6 +632,10 @@
         {
           "date": "2026-10-28",
           "price": 3713
+        },
+        {
+          "date": "2026-11-05",
+          "price": 3045
         }
       ]
     },
@@ -655,7 +644,7 @@
       "unit": "509",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3350,
+      "base_rent": 3090,
       "base_rent_max": null,
       "available": "1/11/2027",
       "sqft": 702,
@@ -666,6 +655,10 @@
         {
           "date": "2026-10-18",
           "price": 3350
+        },
+        {
+          "date": "2026-11-05",
+          "price": 3090
         }
       ]
     },
@@ -674,7 +667,7 @@
       "unit": "510",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3675,
+      "base_rent": 3125,
       "base_rent_max": null,
       "available": "12/11/2026",
       "sqft": 830,
@@ -685,6 +678,10 @@
         {
           "date": "2026-10-07",
           "price": 3675
+        },
+        {
+          "date": "2026-11-05",
+          "price": 3125
         }
       ]
     },
@@ -693,7 +690,7 @@
       "unit": "606",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3550,
+      "base_rent": 3195,
       "base_rent_max": null,
       "available": "12/15/2026",
       "sqft": 664,
@@ -704,6 +701,10 @@
         {
           "date": "2026-10-04",
           "price": 3550
+        },
+        {
+          "date": "2026-11-05",
+          "price": 3195
         }
       ]
     },
@@ -712,7 +713,7 @@
       "unit": "714",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3675,
+      "base_rent": 3195,
       "base_rent_max": null,
       "available": "12/11/2026",
       "sqft": 743,
@@ -727,6 +728,10 @@
         {
           "date": "2026-10-04",
           "price": 3675
+        },
+        {
+          "date": "2026-11-05",
+          "price": 3195
         }
       ]
     }
