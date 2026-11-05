@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-11-04T23:41:03+00:00",
+  "updated_at": "2026-11-05T06:50:14+00:00",
   "units": {
     "Aquablu|521": {
       "building": "Aquablu",
@@ -7299,6 +7299,25 @@
         }
       ]
     },
+    "Laguna|1610": {
+      "building": "Laguna",
+      "unit": "1610",
+      "beds": "1 Bedroom",
+      "rent": 4532,
+      "base_rent": 4474,
+      "base_rent_max": null,
+      "available": "12/12/2026",
+      "sqft": 838,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-11-05",
+      "price_history": [
+        {
+          "date": "2026-11-05",
+          "price": 4532
+        }
+      ]
+    },
     "Laguna|505": {
       "building": "Laguna",
       "unit": "505",
@@ -10376,7 +10395,7 @@
       "rent": 3835,
       "base_rent": 3787,
       "base_rent_max": null,
-      "available": "11/5/2026",
+      "available": "Now",
       "sqft": 798,
       "special": "1 Month Free",
       "floor_plan": null,
@@ -10779,125 +10798,6 @@
         {
           "date": "2026-11-04",
           "price": 3905
-        }
-      ]
-    },
-    "Southampton|2401": {
-      "building": "Southampton",
-      "unit": "2401",
-      "beds": "1 Bedroom",
-      "rent": 3845,
-      "base_rent": 3797,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 849,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-10-06",
-      "price_history": [
-        {
-          "date": "2026-10-06",
-          "price": 3865
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3876
-        },
-        {
-          "date": "2026-10-08",
-          "price": 3893
-        },
-        {
-          "date": "2026-10-12",
-          "price": 3935
-        },
-        {
-          "date": "2026-10-13",
-          "price": 3944
-        },
-        {
-          "date": "2026-10-14",
-          "price": 3873
-        },
-        {
-          "date": "2026-10-15",
-          "price": 3883
-        },
-        {
-          "date": "2026-10-16",
-          "price": 3882
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3891
-        },
-        {
-          "date": "2026-10-18",
-          "price": 3893
-        },
-        {
-          "date": "2026-10-19",
-          "price": 3889
-        },
-        {
-          "date": "2026-10-20",
-          "price": 3892
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3853
-        },
-        {
-          "date": "2026-10-22",
-          "price": 3865
-        },
-        {
-          "date": "2026-10-23",
-          "price": 3874
-        },
-        {
-          "date": "2026-10-24",
-          "price": 3889
-        },
-        {
-          "date": "2026-10-25",
-          "price": 3899
-        },
-        {
-          "date": "2026-10-26",
-          "price": 3909
-        },
-        {
-          "date": "2026-10-27",
-          "price": 3921
-        },
-        {
-          "date": "2026-10-28",
-          "price": 3809
-        },
-        {
-          "date": "2026-10-29",
-          "price": 3811
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3812
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3814
-        },
-        {
-          "date": "2026-11-02",
-          "price": 3824
-        },
-        {
-          "date": "2026-11-03",
-          "price": 3834
-        },
-        {
-          "date": "2026-11-04",
-          "price": 3845
         }
       ]
     },

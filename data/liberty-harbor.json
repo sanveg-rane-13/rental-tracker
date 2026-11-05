@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-11-04T23:41:03+00:00",
+  "updated_at": "2026-11-05T06:50:14+00:00",
   "units": {
     "333 Grand|1112": {
       "building": "333 Grand",
@@ -126,37 +126,6 @@
         {
           "date": "2026-10-02",
           "price": 3519
-        }
-      ]
-    },
-    "333 Grand|304": {
-      "building": "333 Grand",
-      "unit": "304",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 2745,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 671,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3525
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3231
-        },
-        {
-          "date": "2026-10-24",
-          "price": 3007
-        },
-        {
-          "date": "2026-11-03",
-          "price": 2745
         }
       ]
     },
