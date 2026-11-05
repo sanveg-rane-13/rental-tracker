@@ -7350,3 +7350,13 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-05T17:25,2026-11-05 12:25,Northern Chapter Properties,225 Grand,1209,1 Bedroom,price_change,3355,3365,3355,3645,,Now,,744,Floor Plan Video,,2026-10-26,
 2026-11-05T17:25,2026-11-05 12:25,Northern Chapter Properties,225 Grand,0309,1 Bedroom,price_change,3280,3290,3280,3575,,Now,,744,Floor Plan Video,,2026-11-04,
 2026-11-05T17:25,2026-11-05 12:25,Northern Chapter Properties,225 Grand,1010,1 Bedroom,price_change,3265,3275,3265,3575,,Now,,758,Floor Plan Video,,2026-09-28,
+2026-11-05T23:39,2026-11-05 18:39,Newport Rentals,Parkside West,3007,1 Bedroom,available_change,3500,,3487,,3500,Now,11/11/2026,766,,,2026-09-28,
+2026-11-05T23:39,2026-11-05 18:39,Newport Rentals,East Hampton,301,1 Bedroom,available_change,3885,,3837,,3885,12/13/2026,12/7/2026,862,,1 Month Free,2026-10-14,
+2026-11-05T23:39,2026-11-05 18:39,Newport Rentals,East Hampton,1804,1 Bedroom,listed,4120,,4072,,4120,12/15/2026,,761,,,2026-11-05,
+2026-11-05T23:39,2026-11-05 18:39,Newport Rentals,Beach,1023,1 Bedroom,available_change,4737,,4679,,4737,Now,11/6/2026,730,,1 Month Free,2026-10-20,
+2026-11-05T23:39,2026-11-05 18:39,Equity Apartments,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-05T23:39,2026-11-05 18:39,IronState Properties,50 Columbus,4775839,1 Bedroom,price_change,4180,4130,4180,,,11/10/2026,,812,4775839,,2026-10-10,
+2026-11-05T23:39,2026-11-05 18:39,VYV,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-05T23:39,2026-11-05 18:39,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-05T23:39,2026-11-05 18:39,Northern Chapter Properties,18 Park,1040,1 Bedroom,listed,3350,,3350,3790,,12/28/2026,,651,Floor Plan Video,,2026-11-05,
+2026-11-05T23:39,2026-11-05 18:39,Northern Chapter Properties,18 Park,1045,1 Bedroom,delisted,3425,,3425,3775,,12/7/2026,,651,Floor Plan Video,,2026-10-02,

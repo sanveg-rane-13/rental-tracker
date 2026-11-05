@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-11-05T17:26:00+00:00",
+  "updated_at": "2026-11-05T23:39:12+00:00",
   "units": {
     "Aquablu|521": {
       "building": "Aquablu",
@@ -1980,7 +1980,7 @@
       "rent": 4737,
       "base_rent": 4679,
       "base_rent_max": null,
-      "available": "11/6/2026",
+      "available": "Now",
       "sqft": 730,
       "special": "1 Month Free",
       "floor_plan": null,
@@ -4447,6 +4447,25 @@
         }
       ]
     },
+    "East Hampton|1804": {
+      "building": "East Hampton",
+      "unit": "1804",
+      "beds": "1 Bedroom",
+      "rent": 4120,
+      "base_rent": 4072,
+      "base_rent_max": null,
+      "available": "12/15/2026",
+      "sqft": 761,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-11-05",
+      "price_history": [
+        {
+          "date": "2026-11-05",
+          "price": 4120
+        }
+      ]
+    },
     "East Hampton|2004": {
       "building": "East Hampton",
       "unit": "2004",
@@ -5014,7 +5033,7 @@
       "rent": 3885,
       "base_rent": 3837,
       "base_rent_max": null,
-      "available": "12/7/2026",
+      "available": "12/13/2026",
       "sqft": 862,
       "special": "1 Month Free",
       "floor_plan": null,
@@ -9290,7 +9309,7 @@
       "rent": 3500,
       "base_rent": 3487,
       "base_rent_max": null,
-      "available": "11/11/2026",
+      "available": "Now",
       "sqft": 766,
       "special": null,
       "floor_plan": null,
