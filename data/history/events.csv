@@ -7360,3 +7360,23 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-05T23:39,2026-11-05 18:39,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
 2026-11-05T23:39,2026-11-05 18:39,Northern Chapter Properties,18 Park,1040,1 Bedroom,listed,3350,,3350,3790,,12/28/2026,,651,Floor Plan Video,,2026-11-05,
 2026-11-05T23:39,2026-11-05 18:39,Northern Chapter Properties,18 Park,1045,1 Bedroom,delisted,3425,,3425,3775,,12/7/2026,,651,Floor Plan Video,,2026-10-02,
+2026-11-06T06:49,2026-11-06 01:49,Newport Rentals,Ellipse,306,1 Bedroom,available_change,4342,,4284,,4342,Now,11/6/2026,742,,1 Month Free,2026-09-24,
+2026-11-06T06:49,2026-11-06 01:49,Newport Rentals,Beach,1628,1 Bedroom,available_change,4347,,4289,,4347,Now,11/6/2026,800,,1 Month Free,2026-10-27,
+2026-11-06T06:49,2026-11-06 01:49,Liberty Harbor,333 Grand,903,1 Bedroom,available_change,3369,,3369,,,Now,11/6/2026,643,,discounted,2026-10-25,
+2026-11-06T06:49,2026-11-06 01:49,Liberty Harbor,333 Grand,813,1 Bedroom,delisted,2979,,2979,,,11/13/2026,,661,,discounted,2026-09-24,
+2026-11-06T06:49,2026-11-06 01:49,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3625,,3625,,,11/7/2026,11/6/2026,778,A18,22-month lease,2026-09-24,
+2026-11-06T06:49,2026-11-06 01:49,Avalon Cove,Avalon Cove,3330,1 Bedroom,available_change,3755,,3755,,,11/7/2026,11/6/2026,817,A8,22-month lease,2026-09-24,
+2026-11-06T06:49,2026-11-06 01:49,Equity Apartments,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-06T06:49,2026-11-06 01:49,VYV,,S-0453,1 Bedroom,price_change,3581,3681,3581,,,Now,,733,A10,,2026-11-02,
+2026-11-06T06:49,2026-11-06 01:49,VYV,,N-3412,1 Bedroom,listed,3717,,3717,,,12/7/2026,,720,A07,,2026-11-06,
+2026-11-06T06:49,2026-11-06 01:49,VYV,,N-1610,1 Bedroom,listed,3668,,3668,,,12/21/2026,,739,A13,,2026-11-06,
+2026-11-06T06:49,2026-11-06 01:49,VYV,,N-1710,1 Bedroom,listed,3718,,3718,,,Now,,739,A13,,2026-11-06,
+2026-11-06T06:49,2026-11-06 01:49,VYV,,N-2110,1 Bedroom,listed,3763,,3763,,,12/28/2026,,739,A13,,2026-11-06,
+2026-11-06T06:49,2026-11-06 01:49,VYV,,N-3504,1 Bedroom,listed,3878,,3878,,,11/7/2026,,739,A13,,2026-11-06,
+2026-11-06T06:49,2026-11-06 01:49,VYV,,N-3101,1 Bedroom,listed,3885,,3885,,,1/22/2027,,763,A16,,2026-11-06,
+2026-11-06T06:49,2026-11-06 01:49,VYV,,N-1608,1 Bedroom,listed,3959,,3959,,,11/28/2026,,879,A24,,2026-11-06,
+2026-11-06T06:49,2026-11-06 01:49,VYV,,N-1208,1 Bedroom,listed,3939,,3939,,,12/3/2026,,879,A24,,2026-11-06,
+2026-11-06T06:49,2026-11-06 01:49,VYV,,S-1361,1 Bedroom,price_change,3705,3805,3705,,,Now,,734,A11,,2026-09-27,
+2026-11-06T06:49,2026-11-06 01:49,VYV,,N-0409,1 Bedroom,listed,3913,,3913,,,11/29/2026,,836,A22,,2026-11-06,
+2026-11-06T06:49,2026-11-06 01:49,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-06T06:49,2026-11-06 01:49,Northern Chapter Properties,18 Park,0825,1 Bedroom,delisted,3155,,3155,3485,,Now,,651,Floor Plan Video,,2026-10-05,
