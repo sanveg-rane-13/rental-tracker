@@ -7533,3 +7533,10 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-06T16:46,2026-11-06 11:46,Northern Chapter Properties,225 Grand,0309,1 Bedroom,price_change,3275,3280,3275,3565,,Now,,744,Floor Plan Video,,2026-11-04,
 2026-11-06T16:46,2026-11-06 11:46,Northern Chapter Properties,225 Grand,1010,1 Bedroom,price_change,3260,3265,3260,3565,,Now,,758,Floor Plan Video,,2026-09-28,
 2026-11-06T16:46,2026-11-06 11:46,Northern Chapter Properties,225 Grand,0428,1 Bedroom,delisted,3140,,3140,3450,,Now,,666,Floor Plan Video,,2026-10-27,
+2026-11-06T23:11,2026-11-06 18:11,Newport Rentals,Riverside,507,1 Bedroom,listed,3918,,3870,,3918,11/28/2026,,815,,,2026-11-06,
+2026-11-06T23:11,2026-11-06 18:11,Newport Rentals,Roosevelt House,503,1 Bedroom,delisted,3029,,2996,,3029,12/8/2026,,720,,,2026-10-26,
+2026-11-06T23:11,2026-11-06 18:11,Avalon Cove,Avalon Cove,1109,1 Bedroom,listed,3810,,3810,,,1/19/2027,,778,A5,19-month lease,2026-11-06,
+2026-11-06T23:11,2026-11-06 18:11,Equity Apartments,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-06T23:11,2026-11-06 18:11,IronState Properties,90 Columbus,2442655,1 Bedroom,available_change,4295,,4295,,,,11/24/2026,694,2442655,,2026-11-04,
+2026-11-06T23:11,2026-11-06 18:11,VYV,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-06T23:11,2026-11-06 18:11,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
