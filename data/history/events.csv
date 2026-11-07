@@ -7540,3 +7540,11 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-06T23:11,2026-11-06 18:11,IronState Properties,90 Columbus,2442655,1 Bedroom,available_change,4295,,4295,,,,11/24/2026,694,2442655,,2026-11-04,
 2026-11-06T23:11,2026-11-06 18:11,VYV,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
 2026-11-06T23:11,2026-11-06 18:11,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-07T06:00,2026-11-07 01:00,Newport Rentals,Pacific,1107,1 Bedroom,available_change,3538,,3525,,3538,Now,11/7/2026,841,,,2026-10-30,
+2026-11-07T06:00,2026-11-07 01:00,Newport Rentals,Bisby,1611,1 Bedroom,delisted,4484,,4426,,4484,12/21/2026,,827,,,2026-11-03,
+2026-11-07T06:00,2026-11-07 01:00,Liberty Harbor,333 Grand,1204,1 Bedroom,delisted,3204,,3204,,,11/11/2026,,620,,discounted,2026-09-24,
+2026-11-07T06:00,2026-11-07 01:00,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3625,,3625,,,11/8/2026,11/7/2026,778,A18,22-month lease,2026-09-24,
+2026-11-07T06:00,2026-11-07 01:00,Avalon Cove,Avalon Cove,3330,1 Bedroom,available_change,3755,,3755,,,11/8/2026,11/7/2026,817,A8,22-month lease,2026-09-24,
+2026-11-07T06:00,2026-11-07 01:00,Equity Apartments,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-07T06:00,2026-11-07 01:00,VYV,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-07T06:00,2026-11-07 01:00,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
