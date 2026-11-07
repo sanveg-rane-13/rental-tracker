@@ -1,6 +1,6 @@
 {
   "property": "Equity Apartments",
-  "updated_at": "2026-11-03T17:04:29+00:00",
+  "updated_at": "2026-11-07T13:04:41+00:00",
   "units": {
     "Hudson Point|130": {
       "building": "Hudson Point",
@@ -9,7 +9,7 @@
       "rent": null,
       "base_rent": 3718,
       "base_rent_max": null,
-      "available": "11/6/2026",
+      "available": "Now",
       "sqft": 824,
       "special": null,
       "floor_plan": "Morris (A2)",
@@ -87,43 +87,12 @@
         }
       ]
     },
-    "Madox|418": {
-      "building": "Madox",
-      "unit": "418",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3205,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 689,
-      "special": null,
-      "floor_plan": "A3-9",
-      "first_seen": "2026-10-15",
-      "price_history": [
-        {
-          "date": "2026-10-15",
-          "price": 3380
-        },
-        {
-          "date": "2026-10-16",
-          "price": 3330
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3280
-        },
-        {
-          "date": "2026-10-28",
-          "price": 3205
-        }
-      ]
-    },
     "Madox|622": {
       "building": "Madox",
       "unit": "622",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3890,
+      "base_rent": 3740,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 877,
@@ -142,6 +111,10 @@
         {
           "date": "2026-10-28",
           "price": 3890
+        },
+        {
+          "date": "2026-11-07",
+          "price": 3740
         }
       ]
     },
@@ -181,7 +154,7 @@
       "unit": "2006",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4149,
+      "base_rent": 4049,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 913,
@@ -200,6 +173,10 @@
         {
           "date": "2026-10-21",
           "price": 4149
+        },
+        {
+          "date": "2026-11-07",
+          "price": 4049
         }
       ]
     },
@@ -227,7 +204,7 @@
       "unit": "2309",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3976,
+      "base_rent": 3876,
       "base_rent_max": null,
       "available": "12/3/2026",
       "sqft": 777,
@@ -238,6 +215,10 @@
         {
           "date": "2026-10-30",
           "price": 3976
+        },
+        {
+          "date": "2026-11-07",
+          "price": 3876
         }
       ]
     },
@@ -246,7 +227,7 @@
       "unit": "314",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3870,
+      "base_rent": 3770,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 1012,
@@ -269,6 +250,29 @@
         {
           "date": "2026-10-28",
           "price": 3870
+        },
+        {
+          "date": "2026-11-07",
+          "price": 3770
+        }
+      ]
+    },
+    "Portside Towers|406": {
+      "building": "Portside Towers",
+      "unit": "406",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3894,
+      "base_rent_max": null,
+      "available": "11/27/2026",
+      "sqft": 913,
+      "special": null,
+      "floor_plan": "E1 & J1",
+      "first_seen": "2026-11-07",
+      "price_history": [
+        {
+          "date": "2026-11-07",
+          "price": 3894
         }
       ]
     },
@@ -277,7 +281,7 @@
       "unit": "407",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3996,
+      "base_rent": 3896,
       "base_rent_max": null,
       "available": "12/4/2026",
       "sqft": 889,
@@ -288,6 +292,10 @@
         {
           "date": "2026-10-30",
           "price": 3996
+        },
+        {
+          "date": "2026-11-07",
+          "price": 3896
         }
       ]
     },
@@ -298,7 +306,7 @@
       "rent": null,
       "base_rent": 4225,
       "base_rent_max": null,
-      "available": "11/5/2026",
+      "available": "Now",
       "sqft": 960,
       "special": null,
       "floor_plan": "G",
@@ -310,17 +318,36 @@
         }
       ]
     },
+    "Portside Towers|606": {
+      "building": "Portside Towers",
+      "unit": "606",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3905,
+      "base_rent_max": null,
+      "available": "12/11/2026",
+      "sqft": 913,
+      "special": null,
+      "floor_plan": "E1 & J1",
+      "first_seen": "2026-11-07",
+      "price_history": [
+        {
+          "date": "2026-11-07",
+          "price": 3905
+        }
+      ]
+    },
     "Portside Towers|808": {
       "building": "Portside Towers",
       "unit": "808",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3975,
+      "base_rent": 3877,
       "base_rent_max": null,
-      "available": "Now",
-      "sqft": 889,
+      "available": "12/11/2026",
+      "sqft": 960,
       "special": null,
-      "floor_plan": "D1 & K1",
+      "floor_plan": "G",
       "first_seen": "2026-09-27",
       "price_history": [
         {
@@ -346,6 +373,29 @@
         {
           "date": "2026-10-21",
           "price": 3975
+        },
+        {
+          "date": "2026-11-07",
+          "price": 3877
+        }
+      ]
+    },
+    "Portside Towers|812": {
+      "building": "Portside Towers",
+      "unit": "812",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3311,
+      "base_rent_max": null,
+      "available": "12/25/2026",
+      "sqft": 700,
+      "special": null,
+      "floor_plan": "L",
+      "first_seen": "2026-11-07",
+      "price_history": [
+        {
+          "date": "2026-11-07",
+          "price": 3311
         }
       ]
     },
@@ -383,7 +433,7 @@
       "rent": null,
       "base_rent": 4094,
       "base_rent_max": null,
-      "available": "11/6/2026",
+      "available": "Now",
       "sqft": 830,
       "special": null,
       "floor_plan": "A8",
@@ -506,7 +556,7 @@
       "rent": null,
       "base_rent": 3855,
       "base_rent_max": null,
-      "available": "12/18/2026",
+      "available": "12/16/2026",
       "sqft": 741,
       "special": null,
       "floor_plan": "A5",
