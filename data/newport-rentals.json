@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-11-07T19:26:29+00:00",
+  "updated_at": "2026-11-08T00:38:33+00:00",
   "units": {
     "Aquablu|521": {
       "building": "Aquablu",
@@ -10872,45 +10872,6 @@
         {
           "date": "2026-11-07",
           "price": 3657
-        }
-      ]
-    },
-    "Roosevelt House|420": {
-      "building": "Roosevelt House",
-      "unit": "420",
-      "beds": "1 Bedroom",
-      "rent": 3235,
-      "base_rent": 3202,
-      "base_rent_max": null,
-      "available": "12/8/2026",
-      "sqft": 724,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-11-02",
-      "price_history": [
-        {
-          "date": "2026-11-02",
-          "price": 3258
-        },
-        {
-          "date": "2026-11-03",
-          "price": 3255
-        },
-        {
-          "date": "2026-11-04",
-          "price": 3246
-        },
-        {
-          "date": "2026-11-05",
-          "price": 3233
-        },
-        {
-          "date": "2026-11-06",
-          "price": 3224
-        },
-        {
-          "date": "2026-11-07",
-          "price": 3235
         }
       ]
     },
