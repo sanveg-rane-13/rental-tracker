@@ -7907,3 +7907,11 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-08T17:56,2026-11-08 12:56,Northern Chapter Properties,18 Park,0433,1 Bedroom,price_change,3115,3110,3115,3425,,1/7/2027,,651,Floor Plan Video,,2026-10-01,
 2026-11-08T17:56,2026-11-08 12:56,Northern Chapter Properties,18 Park,0703,1 Bedroom,price_change,3235,3230,3235,3555,,1/7/2027,,651,Floor Plan Video,,2026-11-04,
 2026-11-08T17:56,2026-11-08 12:56,Northern Chapter Properties,18 Park,0735,1 Bedroom,price_change,3235,3230,3235,3555,,1/7/2027,,651,Floor Plan Video,,2026-10-27,
+2026-11-08T22:07,2026-11-08 17:07,Newport Rentals,Atlantic,3401,1 Bedroom,delisted,4415,,4367,,4415,Now,,860,,1 Month Free,2026-10-29,
+2026-11-08T22:07,2026-11-08 17:07,Newport Rentals,Bisby,405,1 Bedroom,delisted,4309,,4251,,4309,12/7/2026,,773,,,2026-10-28,
+2026-11-08T22:07,2026-11-08 17:07,Newport Rentals,Waterside Square North,1805,1 Bedroom,delisted,3483,,3470,,3483,11/9/2026,,684,,,2026-10-28,
+2026-11-08T22:07,2026-11-08 17:07,Newport Rentals,Waterside Square South,1710,1 Bedroom,delisted,3578,,3565,,3578,Now,,696,,0.5 Month Free,2026-10-23,
+2026-11-08T22:07,2026-11-08 17:07,Equity Apartments,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-08T22:07,2026-11-08 17:07,VYV,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-08T22:07,2026-11-08 17:07,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-08T22:07,2026-11-08 17:07,Northern Chapter Properties,18 Park,0634,1 Bedroom,delisted,3295,,3295,3640,,12/7/2026,,651,Floor Plan Video,,2026-09-28,
