@@ -1,7 +1,26 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-11-08T00:38:33+00:00",
+  "updated_at": "2026-11-08T10:25:37+00:00",
   "units": {
+    "333 Grand|1007": {
+      "building": "333 Grand",
+      "unit": "1007",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3144,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 671,
+      "special": "discounted",
+      "floor_plan": null,
+      "first_seen": "2026-11-08",
+      "price_history": [
+        {
+          "date": "2026-11-08",
+          "price": 3144
+        }
+      ]
+    },
     "333 Grand|1112": {
       "building": "333 Grand",
       "unit": "1112",
@@ -76,33 +95,6 @@
         {
           "date": "2026-11-05",
           "price": 2865
-        }
-      ]
-    },
-    "333 Grand|407": {
-      "building": "333 Grand",
-      "unit": "407",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 2929,
-      "base_rent_max": null,
-      "available": "11/11/2026",
-      "sqft": 686,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-10-02",
-      "price_history": [
-        {
-          "date": "2026-10-02",
-          "price": 3680
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3373
-        },
-        {
-          "date": "2026-11-05",
-          "price": 2929
         }
       ]
     },
@@ -454,33 +446,6 @@
         }
       ]
     },
-    "The Regent|306": {
-      "building": "The Regent",
-      "unit": "306",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 2933,
-      "base_rent_max": null,
-      "available": "11/11/2026",
-      "sqft": 789,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-10-07",
-      "price_history": [
-        {
-          "date": "2026-10-07",
-          "price": 3555
-        },
-        {
-          "date": "2026-10-27",
-          "price": 3200
-        },
-        {
-          "date": "2026-11-01",
-          "price": 2933
-        }
-      ]
-    },
     "The Regent|401": {
       "building": "The Regent",
       "unit": "401",
@@ -597,6 +562,25 @@
         {
           "date": "2026-11-05",
           "price": 3195
+        }
+      ]
+    },
+    "The Zenith|711": {
+      "building": "The Zenith",
+      "unit": "711",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 2743,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 736,
+      "special": "discounted",
+      "floor_plan": null,
+      "first_seen": "2026-11-08",
+      "price_history": [
+        {
+          "date": "2026-11-08",
+          "price": 2743
         }
       ]
     },

@@ -7739,3 +7739,20 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-08T00:38,2026-11-07 19:38,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
 2026-11-08T00:38,2026-11-07 19:38,Northern Chapter Properties,18 Park,0743,1 Bedroom,delisted,3350,,3350,3685,,Now,,651,Floor Plan Video,,2026-09-28,
 2026-11-08T00:38,2026-11-07 19:38,Northern Chapter Properties,18 Park,0945,1 Bedroom,delisted,3400,,3400,3735,,Now,,651,Floor Plan Video,,2026-09-28,
+2026-11-08T10:25,2026-11-08 05:25,Newport Rentals,Pacific,1402,1 Bedroom,available_change,3557,,3544,,3557,Now,11/8/2026,764,,,2026-11-01,
+2026-11-08T10:25,2026-11-08 05:25,Newport Rentals,Atlantic,3008,1 Bedroom,available_change,3947,,3899,,3947,Now,11/8/2026,758,,1 Month Free,2026-10-20,
+2026-11-08T10:25,2026-11-08 05:25,Newport Rentals,Riverside,3011,1 Bedroom,available_change,3972,,3924,,3972,Now,11/8/2026,834,,,2026-10-28,
+2026-11-08T10:25,2026-11-08 05:25,Newport Rentals,Southampton,3104,1 Bedroom,available_change,3987,,3939,,3987,Now,11/8/2026,851,,1 Month Free,2026-10-06,
+2026-11-08T10:25,2026-11-08 05:25,Newport Rentals,East Hampton,1204,1 Bedroom,available_change,4117,,4069,,4117,Now,11/8/2026,761,,1 Month Free,2026-09-29,
+2026-11-08T10:25,2026-11-08 05:25,Newport Rentals,East Hampton,2206,1 Bedroom,available_change,4122,,4074,,4122,Now,11/8/2026,862,,1 Month Free,2026-09-24,
+2026-11-08T10:25,2026-11-08 05:25,Newport Rentals,Atlantic,1412,1 Bedroom,available_change,4127,,4079,,4127,Now,11/8/2026,796,,1 Month Free,2026-10-30,
+2026-11-08T10:25,2026-11-08 05:25,Newport Rentals,East Hampton,2004,1 Bedroom,available_change,4152,,4104,,4152,Now,11/8/2026,761,,1 Month Free,2026-10-02,
+2026-11-08T10:25,2026-11-08 05:25,Liberty Harbor,The Zenith,711,1 Bedroom,listed,2743,,2743,,,Now,,736,,discounted,2026-11-08,
+2026-11-08T10:25,2026-11-08 05:25,Liberty Harbor,333 Grand,1007,1 Bedroom,listed,3144,,3144,,,Now,,671,,discounted,2026-11-08,
+2026-11-08T10:25,2026-11-08 05:25,Liberty Harbor,333 Grand,407,1 Bedroom,delisted,2929,,2929,,,11/11/2026,,686,,discounted,2026-10-02,
+2026-11-08T10:25,2026-11-08 05:25,Liberty Harbor,The Regent,306,1 Bedroom,delisted,2933,,2933,,,11/11/2026,,789,,discounted,2026-10-07,
+2026-11-08T10:25,2026-11-08 05:25,Equity Apartments,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-08T10:25,2026-11-08 05:25,VYV,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-08T10:25,2026-11-08 05:25,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-08T10:25,2026-11-08 05:25,Northern Chapter Properties,18 Park,0432,1 Bedroom,delisted,3210,,3210,3535,,Now,,651,Floor Plan Video,,2026-09-28,
+2026-11-08T10:25,2026-11-08 05:25,Northern Chapter Properties,18 Park,0930,1 Bedroom,delisted,3320,,3320,3660,,12/7/2026,,637,Floor Plan Video,,2026-09-28,
