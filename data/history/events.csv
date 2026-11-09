@@ -7915,3 +7915,13 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-08T22:07,2026-11-08 17:07,VYV,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
 2026-11-08T22:07,2026-11-08 17:07,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
 2026-11-08T22:07,2026-11-08 17:07,Northern Chapter Properties,18 Park,0634,1 Bedroom,delisted,3295,,3295,3640,,12/7/2026,,651,Floor Plan Video,,2026-09-28,
+2026-11-09T06:33,2026-11-09 01:33,Newport Rentals,Bisby,1509,1 Bedroom,delisted,4534,,4476,,4534,11/23/2026,,827,,,2026-11-08,
+2026-11-09T06:33,2026-11-09 01:33,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3630,,3630,,,11/10/2026,11/9/2026,778,A18,22-month lease,2026-09-24,
+2026-11-09T06:33,2026-11-09 01:33,Equity Apartments,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-09T06:33,2026-11-09 01:33,VYV,,N-3504,1 Bedroom,available_change,3878,,3878,,,Now,11/7/2026,739,A13,,2026-11-06,
+2026-11-09T06:33,2026-11-09 01:33,VYV,,S-2961,1 Bedroom,listed,3834,,3834,,,1/25/2027,,734,A11,,2026-11-09,
+2026-11-09T06:33,2026-11-09 01:33,VYV,,N-1608,1 Bedroom,delisted,3959,,3959,,,11/28/2026,,879,A24,,2026-11-06,
+2026-11-09T06:33,2026-11-09 01:33,VYV,,N-1710,1 Bedroom,delisted,3718,,3718,,,Now,,739,A13,,2026-11-06,
+2026-11-09T06:33,2026-11-09 01:33,VYV,,S-2255,1 Bedroom,delisted,3667,,3667,,,Now,,703,A05,,2026-11-03,
+2026-11-09T06:33,2026-11-09 01:33,VYV,,S-2959,1 Bedroom,delisted,3775,,3775,,,12/17/2026,,759,A15,,2026-10-14,
+2026-11-09T06:33,2026-11-09 01:33,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
