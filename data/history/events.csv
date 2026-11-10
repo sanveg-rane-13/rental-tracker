@@ -8073,3 +8073,20 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-09T19:50,2026-11-09 14:50,Northern Chapter Properties,18 Park,0433,1 Bedroom,price_change,3125,3115,3125,3435,,1/7/2027,,651,Floor Plan Video,,2026-10-01,
 2026-11-09T19:50,2026-11-09 14:50,Northern Chapter Properties,18 Park,0703,1 Bedroom,price_change,3245,3235,3245,3565,,1/7/2027,,651,Floor Plan Video,,2026-11-04,
 2026-11-09T19:50,2026-11-09 14:50,Northern Chapter Properties,18 Park,0735,1 Bedroom,price_change,3245,3235,3245,3565,,1/7/2027,,651,Floor Plan Video,,2026-10-27,
+2026-11-10T03:35,2026-11-09 22:35,Newport Rentals,Atlantic,712,1 Bedroom,delisted,3841,,3793,,3841,11/13/2026,,796,,,2026-11-09,
+2026-11-10T03:35,2026-11-09 22:35,Newport Rentals,Pacific,1107,1 Bedroom,delisted,3541,,3528,,3541,Now,,841,,,2026-10-30,
+2026-11-10T03:35,2026-11-09 22:35,Liberty Harbor,88 Regent,2804,1 Bedroom,price_change,3529,3676,3529,,,Now,,636,,discounted,2026-09-26,
+2026-11-10T03:35,2026-11-09 22:35,Liberty Harbor,88 Regent,2804,1 Bedroom,available_change,3529,,3529,,,Now,11/10/2026,636,,discounted,2026-09-26,
+2026-11-10T03:35,2026-11-09 22:35,Liberty Harbor,88 Regent,1504,1 Bedroom,price_change,3479,3621,3479,,,11/11/2026,,636,,discounted,2026-10-06,
+2026-11-10T03:35,2026-11-09 22:35,Liberty Harbor,88 Regent,307,1 Bedroom,price_change,3595,3695,3595,,,12/11/2026,,653,,,2026-09-24,
+2026-11-10T03:35,2026-11-09 22:35,Liberty Harbor,88 Regent,2808,1 Bedroom,price_change,3387,3515,3387,,,11/11/2026,,594,,discounted,2026-10-03,
+2026-11-10T03:35,2026-11-09 22:35,Liberty Harbor,88 Regent,714,1 Bedroom,price_change,3545,3675,3545,,,12/11/2026,,594,,,2026-10-07,
+2026-11-10T03:35,2026-11-09 22:35,Liberty Harbor,88 Regent,1905,1 Bedroom,price_change,3479,3585,3479,,,Now,,636,,discounted,2026-09-24,
+2026-11-10T03:35,2026-11-09 22:35,Liberty Harbor,88 Regent,811,1 Bedroom,price_change,3433,3630,3433,,,Now,,653,,discounted,2026-09-24,
+2026-11-10T03:35,2026-11-09 22:35,Liberty Harbor,50 Regent,713,1 Bedroom,available_change,3295,,3295,,,Now,11/10/2026,667,,discounted,2026-10-04,
+2026-11-10T03:35,2026-11-09 22:35,Liberty Harbor,The Zenith,711,1 Bedroom,delisted,2743,,2743,,,Now,,736,,discounted,2026-11-08,
+2026-11-10T03:35,2026-11-09 22:35,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3645,,3645,,,11/11/2026,11/10/2026,778,A18,22-month lease,2026-09-24,
+2026-11-10T03:35,2026-11-09 22:35,Equity Apartments,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-10T03:35,2026-11-09 22:35,IronState Properties,50 Columbus,4775839,1 Bedroom,available_change,4180,,4180,,,,11/10/2026,812,4775839,,2026-10-10,
+2026-11-10T03:35,2026-11-09 22:35,VYV,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
+2026-11-10T03:35,2026-11-09 22:35,Lenox,,,,site_failed,,,,,,,,,,,,panda_entity units not found - ApartmentList layout may have changed
