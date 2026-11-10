@@ -1,6 +1,6 @@
 {
   "property": "Equity Apartments",
-  "updated_at": "2026-11-07T13:04:41+00:00",
+  "updated_at": "2026-11-10T21:18:38+00:00",
   "units": {
     "Hudson Point|130": {
       "building": "Hudson Point",
@@ -56,6 +56,25 @@
         }
       ]
     },
+    "Madox|307": {
+      "building": "Madox",
+      "unit": "307",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3423,
+      "base_rent_max": null,
+      "available": "12/24/2026",
+      "sqft": 659,
+      "special": null,
+      "floor_plan": "A3-4 with Terrace",
+      "first_seen": "2026-11-10",
+      "price_history": [
+        {
+          "date": "2026-11-10",
+          "price": 3423
+        }
+      ]
+    },
     "Madox|416": {
       "building": "Madox",
       "unit": "416",
@@ -84,68 +103,6 @@
         {
           "date": "2026-10-28",
           "price": 3310
-        }
-      ]
-    },
-    "Madox|622": {
-      "building": "Madox",
-      "unit": "622",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3740,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 877,
-      "special": null,
-      "floor_plan": "B9",
-      "first_seen": "2026-10-19",
-      "price_history": [
-        {
-          "date": "2026-10-19",
-          "price": 4015
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3965
-        },
-        {
-          "date": "2026-10-28",
-          "price": 3890
-        },
-        {
-          "date": "2026-11-07",
-          "price": 3740
-        }
-      ]
-    },
-    "Madox|816": {
-      "building": "Madox",
-      "unit": "816",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3380,
-      "base_rent_max": null,
-      "available": "12/25/2026",
-      "sqft": 665,
-      "special": null,
-      "floor_plan": "A3-2",
-      "first_seen": "2026-10-14",
-      "price_history": [
-        {
-          "date": "2026-10-14",
-          "price": 3555
-        },
-        {
-          "date": "2026-10-16",
-          "price": 3505
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3455
-        },
-        {
-          "date": "2026-10-28",
-          "price": 3380
         }
       ]
     },
@@ -264,7 +221,7 @@
       "rent": null,
       "base_rent": 3894,
       "base_rent_max": null,
-      "available": "11/27/2026",
+      "available": "11/26/2026",
       "sqft": 913,
       "special": null,
       "floor_plan": "E1 & J1",
@@ -318,6 +275,25 @@
         }
       ]
     },
+    "Portside Towers|512": {
+      "building": "Portside Towers",
+      "unit": "512",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3363,
+      "base_rent_max": null,
+      "available": "1/1/2027",
+      "sqft": 763,
+      "special": null,
+      "floor_plan": "L1 & M1",
+      "first_seen": "2026-11-10",
+      "price_history": [
+        {
+          "date": "2026-11-10",
+          "price": 3363
+        }
+      ]
+    },
     "Portside Towers|606": {
       "building": "Portside Towers",
       "unit": "606",
@@ -325,7 +301,7 @@
       "rent": null,
       "base_rent": 3905,
       "base_rent_max": null,
-      "available": "12/11/2026",
+      "available": "12/10/2026",
       "sqft": 913,
       "special": null,
       "floor_plan": "E1 & J1",
@@ -344,7 +320,7 @@
       "rent": null,
       "base_rent": 3877,
       "base_rent_max": null,
-      "available": "12/11/2026",
+      "available": "12/10/2026",
       "sqft": 960,
       "special": null,
       "floor_plan": "G",
@@ -387,7 +363,7 @@
       "rent": null,
       "base_rent": 3311,
       "base_rent_max": null,
-      "available": "12/25/2026",
+      "available": "12/24/2026",
       "sqft": 700,
       "special": null,
       "floor_plan": "L",
@@ -396,6 +372,25 @@
         {
           "date": "2026-11-07",
           "price": 3311
+        }
+      ]
+    },
+    "The Pier|1-251": {
+      "building": "The Pier",
+      "unit": "1-251",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4401,
+      "base_rent_max": null,
+      "available": "11/26/2026",
+      "sqft": 1032,
+      "special": null,
+      "floor_plan": "A11",
+      "first_seen": "2026-11-10",
+      "price_history": [
+        {
+          "date": "2026-11-10",
+          "price": 4401
         }
       ]
     },
