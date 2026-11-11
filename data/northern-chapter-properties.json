@@ -1,14 +1,14 @@
 {
   "property": "Northern Chapter Properties",
-  "updated_at": "2026-11-11T06:25:39+00:00",
+  "updated_at": "2026-11-11T17:09:40+00:00",
   "units": {
     "18 Park|0410": {
       "building": "18 Park",
       "unit": "0410",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3185,
-      "base_rent_max": 3520,
+      "base_rent": 3195,
+      "base_rent_max": 3530,
       "available": "12/7/2026",
       "sqft": 651,
       "special": null,
@@ -106,6 +106,10 @@
         {
           "date": "2026-11-10",
           "price": 3185
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3195
         }
       ]
     },
@@ -114,8 +118,8 @@
       "unit": "0433",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3135,
-      "base_rent_max": 3445,
+      "base_rent": 3145,
+      "base_rent_max": 3455,
       "available": "1/7/2027",
       "sqft": 651,
       "special": null,
@@ -221,6 +225,10 @@
         {
           "date": "2026-11-10",
           "price": 3135
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3145
         }
       ]
     },
@@ -229,8 +237,8 @@
       "unit": "0703",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3255,
-      "base_rent_max": 3575,
+      "base_rent": 3265,
+      "base_rent_max": 3585,
       "available": "1/7/2027",
       "sqft": 651,
       "special": null,
@@ -252,6 +260,10 @@
         {
           "date": "2026-11-10",
           "price": 3255
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3265
         }
       ]
     },
@@ -260,8 +272,8 @@
       "unit": "0735",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3255,
-      "base_rent_max": 3575,
+      "base_rent": 3265,
+      "base_rent_max": 3585,
       "available": "1/7/2027",
       "sqft": 651,
       "special": null,
@@ -307,6 +319,10 @@
         {
           "date": "2026-11-10",
           "price": 3255
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3265
         }
       ]
     },
@@ -315,8 +331,8 @@
       "unit": "0918",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3400,
-      "base_rent_max": 3750,
+      "base_rent": 3410,
+      "base_rent_max": 3760,
       "available": "12/7/2026",
       "sqft": 651,
       "special": null,
@@ -414,6 +430,10 @@
         {
           "date": "2026-11-10",
           "price": 3400
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3410
         }
       ]
     },
@@ -422,8 +442,8 @@
       "unit": "1035",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3225,
-      "base_rent_max": 3540,
+      "base_rent": 3235,
+      "base_rent_max": 3550,
       "available": "12/21/2026",
       "sqft": 651,
       "special": null,
@@ -521,6 +541,10 @@
         {
           "date": "2026-11-10",
           "price": 3225
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3235
         }
       ]
     },
@@ -529,8 +553,8 @@
       "unit": "1040",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3370,
-      "base_rent_max": 3685,
+      "base_rent": 3380,
+      "base_rent_max": 3695,
       "available": "12/28/2026",
       "sqft": 651,
       "special": null,
@@ -548,6 +572,10 @@
         {
           "date": "2026-11-10",
           "price": 3370
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3380
         }
       ]
     },
@@ -556,8 +584,8 @@
       "unit": "1044",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3370,
-      "base_rent_max": 3695,
+      "base_rent": 3380,
+      "base_rent_max": 3705,
       "available": "12/26/2026",
       "sqft": 651,
       "special": null,
@@ -627,6 +655,10 @@
         {
           "date": "2026-11-10",
           "price": 3370
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3380
         }
       ]
     },
@@ -635,8 +667,8 @@
       "unit": "PH44",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3370,
-      "base_rent_max": 3720,
+      "base_rent": 3380,
+      "base_rent_max": 3725,
       "available": "12/7/2026",
       "sqft": 651,
       "special": null,
@@ -734,6 +766,10 @@
         {
           "date": "2026-11-10",
           "price": 3370
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3380
         }
       ]
     },
@@ -742,8 +778,8 @@
       "unit": "0309",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3260,
-      "base_rent_max": 3550,
+      "base_rent": 3250,
+      "base_rent_max": 3540,
       "available": "Now",
       "sqft": 744,
       "special": null,
@@ -769,6 +805,10 @@
         {
           "date": "2026-11-10",
           "price": 3260
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3250
         }
       ]
     },
@@ -777,8 +817,8 @@
       "unit": "0410",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3275,
-      "base_rent_max": 3580,
+      "base_rent": 3270,
+      "base_rent_max": 3575,
       "available": "Now",
       "sqft": 758,
       "special": null,
@@ -884,6 +924,10 @@
         {
           "date": "2026-11-10",
           "price": 3275
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3270
         }
       ]
     },
@@ -892,8 +936,8 @@
       "unit": "0601",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3450,
-      "base_rent_max": 3770,
+      "base_rent": 3445,
+      "base_rent_max": 3760,
       "available": "Now",
       "sqft": 777,
       "special": null,
@@ -999,6 +1043,10 @@
         {
           "date": "2026-11-10",
           "price": 3450
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3445
         }
       ]
     },
@@ -1007,8 +1055,8 @@
       "unit": "0711",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3290,
-      "base_rent_max": 3595,
+      "base_rent": 3285,
+      "base_rent_max": 3590,
       "available": "Now",
       "sqft": 744,
       "special": null,
@@ -1122,6 +1170,10 @@
         {
           "date": "2026-11-10",
           "price": 3290
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3285
         }
       ]
     },
@@ -1130,8 +1182,8 @@
       "unit": "0712",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3290,
-      "base_rent_max": 3575,
+      "base_rent": 3285,
+      "base_rent_max": 3570,
       "available": "Now",
       "sqft": 746,
       "special": null,
@@ -1181,6 +1233,10 @@
         {
           "date": "2026-11-10",
           "price": 3290
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3285
         }
       ]
     },
@@ -1189,8 +1245,8 @@
       "unit": "0809",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3195,
-      "base_rent_max": 3490,
+      "base_rent": 3190,
+      "base_rent_max": 3480,
       "available": "Now",
       "sqft": 744,
       "special": null,
@@ -1216,6 +1272,10 @@
         {
           "date": "2026-11-10",
           "price": 3195
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3190
         }
       ]
     },
@@ -1224,8 +1284,8 @@
       "unit": "1010",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3245,
-      "base_rent_max": 3550,
+      "base_rent": 3235,
+      "base_rent_max": 3540,
       "available": "Now",
       "sqft": 758,
       "special": null,
@@ -1331,6 +1391,10 @@
         {
           "date": "2026-11-10",
           "price": 3245
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3235
         }
       ]
     },
@@ -1339,8 +1403,8 @@
       "unit": "1209",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3335,
-      "base_rent_max": 3625,
+      "base_rent": 3325,
+      "base_rent_max": 3615,
       "available": "Now",
       "sqft": 744,
       "special": null,
@@ -1390,6 +1454,10 @@
         {
           "date": "2026-11-10",
           "price": 3335
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3325
         }
       ]
     },
@@ -1398,8 +1466,8 @@
       "unit": "1503",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3510,
-      "base_rent_max": 3840,
+      "base_rent": 3505,
+      "base_rent_max": 3830,
       "available": "Now",
       "sqft": 758,
       "special": null,
@@ -1509,6 +1577,10 @@
         {
           "date": "2026-11-10",
           "price": 3510
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3505
         }
       ]
     },
@@ -1517,8 +1589,8 @@
       "unit": "1518",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3265,
-      "base_rent_max": 3560,
+      "base_rent": 3260,
+      "base_rent_max": 3545,
       "available": "Now",
       "sqft": 666,
       "special": null,
@@ -1628,6 +1700,10 @@
         {
           "date": "2026-11-10",
           "price": 3265
+        },
+        {
+          "date": "2026-11-11",
+          "price": 3260
         }
       ]
     },
@@ -1839,7 +1915,7 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3805,
-      "base_rent_max": 4270,
+      "base_rent_max": 4265,
       "available": "Now",
       "sqft": null,
       "special": null,
@@ -1994,7 +2070,7 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3720,
-      "base_rent_max": 4180,
+      "base_rent_max": 4175,
       "available": "Now",
       "sqft": null,
       "special": null,
@@ -2215,7 +2291,7 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3690,
-      "base_rent_max": 4145,
+      "base_rent_max": 4140,
       "available": "Now",
       "sqft": null,
       "special": null,
@@ -2714,7 +2790,7 @@
       "beds": "1 Bedroom",
       "rent": null,
       "base_rent": 3905,
-      "base_rent_max": 4380,
+      "base_rent_max": 4375,
       "available": "Now",
       "sqft": null,
       "special": null,
