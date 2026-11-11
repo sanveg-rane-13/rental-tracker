@@ -8209,3 +8209,19 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-10T21:18,2026-11-10 16:18,VYV,,S-3250,1 Bedroom,delisted,3654,,3654,,,12/30/2026,,757,A14,,2026-10-16,
 2026-11-10T21:18,2026-11-10 16:18,Lenox,,804,1 Bedroom,price_change,4242,4196,4242,,,Now,,718,A1a,,2026-10-02,
 2026-11-10T21:18,2026-11-10 16:18,Lenox,,410,1 Bedroom,price_change,4236,4199,4236,,,12/8/2026,,779,A6,,2026-10-30,
+2026-11-11T06:25,2026-11-11 01:25,Newport Rentals,Lincoln House,117,1 Bedroom,listed,3221,,3208,,3221,11/20/2026,,707,,,2026-11-11,
+2026-11-11T06:25,2026-11-11 01:25,Newport Rentals,Southampton,3604,1 Bedroom,available_change,4006,,3958,,4006,Now,11/12/2026,851,,1 Month Free,2026-10-19,
+2026-11-11T06:25,2026-11-11 01:25,Newport Rentals,Lincoln House,402,1 Bedroom,delisted,3352,,3339,,3352,Now,,725,,,2026-09-27,
+2026-11-11T06:25,2026-11-11 01:25,Newport Rentals,Southampton,1712,1 Bedroom,delisted,3861,,3813,,3861,Now,,798,,1 Month Free,2026-10-06,
+2026-11-11T06:25,2026-11-11 01:25,Liberty Harbor,88 Regent,1504,1 Bedroom,available_change,3479,,3479,,,Now,11/11/2026,636,,discounted,2026-10-06,
+2026-11-11T06:25,2026-11-11 01:25,Liberty Harbor,88 Regent,2808,1 Bedroom,available_change,3387,,3387,,,Now,11/11/2026,594,,discounted,2026-10-03,
+2026-11-11T06:25,2026-11-11 01:25,Liberty Harbor,The Regent,401,1 Bedroom,available_change,3144,,3144,,,Now,11/11/2026,673,,discounted,2026-10-06,
+2026-11-11T06:25,2026-11-11 01:25,Liberty Harbor,333 Grand,816,1 Bedroom,available_change,3639,,3639,,,Now,11/11/2026,746,,discounted,2026-10-02,
+2026-11-11T06:25,2026-11-11 01:25,Liberty Harbor,333 Grand,705,1 Bedroom,listed,3550,,3550,,,12/15/2026,,671,,,2026-11-11,
+2026-11-11T06:25,2026-11-11 01:25,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3645,,3645,,,11/12/2026,11/11/2026,778,A18,22-month lease,2026-09-24,
+2026-11-11T06:25,2026-11-11 01:25,Avalon Cove,Avalon Cove,3138,1 Bedroom,available_change,3845,,3845,,,11/12/2026,11/11/2026,778,A5,22-month lease,2026-09-24,
+2026-11-11T06:25,2026-11-11 01:25,Equity Apartments,,,,site_failed,,,,,,,,,,,,403 Client Error:  for url: https://www.apartmentlist.com/nj/jersey-city/hudson-point
+2026-11-11T06:25,2026-11-11 01:25,IronState Properties,90 Columbus,2442628,1 Bedroom,listed,4375,,4375,,,12/28/2026,,701,2442628,,2026-11-11,
+2026-11-11T06:25,2026-11-11 01:25,IronState Properties,50 Columbus,4775839,1 Bedroom,delisted,4180,,4180,,,,,812,4775839,,2026-10-10,
+2026-11-11T06:25,2026-11-11 01:25,VYV,,,,site_failed,,,,,,,,,,,,403 Client Error:  for url: https://www.apartmentlist.com/nj/jersey-city/vyv--2
+2026-11-11T06:25,2026-11-11 01:25,Lenox,,,,site_failed,,,,,,,,,,,,403 Client Error:  for url: https://www.apartmentlist.com/nj/jersey-city/lenox

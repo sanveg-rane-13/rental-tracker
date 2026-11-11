@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-11-10T21:18:37+00:00",
+  "updated_at": "2026-11-11T06:25:39+00:00",
   "units": {
     "333 Grand|1007": {
       "building": "333 Grand",
@@ -71,6 +71,25 @@
         }
       ]
     },
+    "333 Grand|705": {
+      "building": "333 Grand",
+      "unit": "705",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3550,
+      "base_rent_max": null,
+      "available": "12/15/2026",
+      "sqft": 671,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-11-11",
+      "price_history": [
+        {
+          "date": "2026-11-11",
+          "price": 3550
+        }
+      ]
+    },
     "333 Grand|802": {
       "building": "333 Grand",
       "unit": "802",
@@ -101,7 +120,7 @@
       "rent": null,
       "base_rent": 3639,
       "base_rent_max": null,
-      "available": "11/11/2026",
+      "available": "Now",
       "sqft": 746,
       "special": "discounted",
       "floor_plan": null,
@@ -227,7 +246,7 @@
       "rent": null,
       "base_rent": 3479,
       "base_rent_max": null,
-      "available": "11/11/2026",
+      "available": "Now",
       "sqft": 636,
       "special": "discounted",
       "floor_plan": null,
@@ -308,7 +327,7 @@
       "rent": null,
       "base_rent": 3387,
       "base_rent_max": null,
-      "available": "11/11/2026",
+      "available": "Now",
       "sqft": 594,
       "special": "discounted",
       "floor_plan": null,
@@ -450,7 +469,7 @@
       "rent": null,
       "base_rent": 3144,
       "base_rent_max": null,
-      "available": "11/11/2026",
+      "available": "Now",
       "sqft": 673,
       "special": "discounted",
       "floor_plan": null,
