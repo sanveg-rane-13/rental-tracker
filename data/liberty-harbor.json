@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-11-12T00:45:31+00:00",
+  "updated_at": "2026-11-12T11:16:00+00:00",
   "units": {
     "333 Grand|1007": {
       "building": "333 Grand",
@@ -293,33 +293,6 @@
         }
       ]
     },
-    "88 Regent|2804": {
-      "building": "88 Regent",
-      "unit": "2804",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3529,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 636,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-09-26",
-      "price_history": [
-        {
-          "date": "2026-09-26",
-          "price": 4010
-        },
-        {
-          "date": "2026-10-31",
-          "price": 3676
-        },
-        {
-          "date": "2026-11-10",
-          "price": 3529
-        }
-      ]
-    },
     "88 Regent|2808": {
       "building": "88 Regent",
       "unit": "2808",
@@ -486,29 +459,6 @@
         {
           "date": "2026-11-01",
           "price": 3144
-        }
-      ]
-    },
-    "The Zenith|204": {
-      "building": "The Zenith",
-      "unit": "204",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3045,
-      "base_rent_max": null,
-      "available": "12/5/2026",
-      "sqft": 849,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-10-28",
-      "price_history": [
-        {
-          "date": "2026-10-28",
-          "price": 3713
-        },
-        {
-          "date": "2026-11-05",
-          "price": 3045
         }
       ]
     },

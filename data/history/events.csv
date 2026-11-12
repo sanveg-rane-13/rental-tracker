@@ -8410,3 +8410,24 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-12T00:45,2026-11-11 19:45,Equity Apartments,Madox,307,1 Bedroom,price_change,3473,3423,3473,,,12/24/2026,,659,A3-4 with Terrace,,2026-11-10,
 2026-11-12T00:45,2026-11-11 19:45,Equity Apartments,Madox,416,1 Bedroom,price_change,3360,3310,3360,,,Now,,665,A3-2,,2026-09-27,
 2026-11-12T00:45,2026-11-11 19:45,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
+2026-11-12T11:15,2026-11-12 06:15,Newport Rentals,Southampton,1408,1 Bedroom,available_change,3840,,3792,,3840,Now,11/12/2026,765,,1 Month Free,2026-10-20,
+2026-11-12T11:15,2026-11-12 06:15,Newport Rentals,Atlantic,1601,1 Bedroom,available_change,4150,,4102,,4150,Now,11/12/2026,860,,1 Month Free,2026-10-14,
+2026-11-12T11:15,2026-11-12 06:15,BLVD Collection,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.rentcafe.com/apartments/nj/jersey-city/the-blvd-collection/default.aspx
+2026-11-12T11:15,2026-11-12 06:15,Liberty Harbor,88 Regent,2804,1 Bedroom,delisted,3529,,3529,,,Now,,636,,discounted,2026-09-26,
+2026-11-12T11:15,2026-11-12 06:15,Liberty Harbor,The Zenith,204,1 Bedroom,delisted,3045,,3045,,,12/5/2026,,849,,,2026-10-28,
+2026-11-12T11:15,2026-11-12 06:15,65 Bay Street,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.65bay.com/floorplans/1-br-1-ba-res-01-%26-09%3A-fl-8---44
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,2219,1 Bedroom,price_change,3575,3580,3575,,,12/2/2026,,693,A2,20-month lease,2026-09-24,
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,4117,1 Bedroom,price_change,3585,3645,3585,,,11/13/2026,,778,A18,22-month lease,2026-09-24,
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,3143,1 Bedroom,price_change,3545,3610,3545,,,11/17/2026,,778,A18,22-month lease,2026-09-24,
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,3138,1 Bedroom,price_change,3785,3845,3785,,,11/13/2026,,778,A5,22-month lease,2026-09-24,
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,3238,1 Bedroom,price_change,4030,4100,4030,,,12/31/2026,,790,A6,20-month lease,2026-10-28,
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,2128,1 Bedroom,price_change,3755,3820,3755,,,11/20/2026,,817,A8,22-month lease,2026-09-24,
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,6132,1 Bedroom,price_change,3850,3920,3850,,,12/29/2026,,817,A8,20-month lease,2026-09-26,
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,5123,1 Bedroom,price_change,3830,3895,3830,,,12/22/2026,,818,A10,21-month lease,2026-10-08,
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,2121,1 Bedroom,price_change,3775,3845,3775,,,12/29/2026,,818,A10,20-month lease,2026-10-20,
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,5239,1 Bedroom,price_change,3945,4010,3945,,,12/22/2026,,832,A11,21-month lease,2026-10-04,
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,5235,1 Bedroom,price_change,3895,3965,3895,,,1/6/2027,,818,A9,20-month lease,2026-10-20,
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,4403,1 Bedroom,price_change,4170,4235,4170,,,12/1/2026,,1039,A12,21-month lease,2026-10-17,
+2026-11-12T11:15,2026-11-12 06:15,Avalon Cove,Avalon Cove,5539,1 Bedroom,price_change,4365,4370,4365,,,12/2/2026,,1351,A14LP,20-month lease,2026-10-02,
+2026-11-12T11:15,2026-11-12 06:15,Equity Apartments,Portside Towers,505,1 Bedroom,price_change,4225,4075,4225,,,Now,,960,G,,2026-10-23,
+2026-11-12T11:15,2026-11-12 06:15,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
