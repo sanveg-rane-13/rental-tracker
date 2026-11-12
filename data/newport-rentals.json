@@ -1,114 +1,7 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-11-11T17:09:39+00:00",
+  "updated_at": "2026-11-12T00:45:31+00:00",
   "units": {
-    "Aquablu|521": {
-      "building": "Aquablu",
-      "unit": "521",
-      "beds": "1 Bedroom",
-      "rent": 3940,
-      "base_rent": 3897,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 816,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-10-21",
-      "price_history": [
-        {
-          "date": "2026-10-21",
-          "price": 4282
-        },
-        {
-          "date": "2026-10-22",
-          "price": 4284
-        },
-        {
-          "date": "2026-10-23",
-          "price": 4286
-        },
-        {
-          "date": "2026-10-23",
-          "price": 4097
-        },
-        {
-          "date": "2026-10-24",
-          "price": 4093
-        },
-        {
-          "date": "2026-10-25",
-          "price": 4091
-        },
-        {
-          "date": "2026-10-26",
-          "price": 4088
-        },
-        {
-          "date": "2026-10-27",
-          "price": 4123
-        },
-        {
-          "date": "2026-10-28",
-          "price": 4036
-        },
-        {
-          "date": "2026-10-29",
-          "price": 4048
-        },
-        {
-          "date": "2026-10-30",
-          "price": 4045
-        },
-        {
-          "date": "2026-11-01",
-          "price": 4041
-        },
-        {
-          "date": "2026-11-01",
-          "price": 4044
-        },
-        {
-          "date": "2026-11-02",
-          "price": 4025
-        },
-        {
-          "date": "2026-11-03",
-          "price": 3999
-        },
-        {
-          "date": "2026-11-04",
-          "price": 3977
-        },
-        {
-          "date": "2026-11-05",
-          "price": 3957
-        },
-        {
-          "date": "2026-11-06",
-          "price": 3964
-        },
-        {
-          "date": "2026-11-07",
-          "price": 3962
-        },
-        {
-          "date": "2026-11-08",
-          "price": 3934
-        },
-        {
-          "date": "2026-11-09",
-          "price": 3938
-        },
-        {
-          "date": "2026-11-10",
-          "price": 3936
-        },
-        {
-          "date": "2026-11-11",
-          "price": 3940
-        }
-      ]
-    },
     "Aquablu|523": {
       "building": "Aquablu",
       "unit": "523",
@@ -1286,7 +1179,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 899,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-11-11",
       "price_history": [
@@ -2099,7 +1992,7 @@
       "base_rent_max": null,
       "available": "11/13/2026",
       "sqft": 796,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-11-10",
       "price_history": [
@@ -2424,7 +2317,7 @@
       "base_rent_max": null,
       "available": "12/26/2026",
       "sqft": 727,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-28",
       "price_history": [
@@ -3780,7 +3673,7 @@
       "base_rent_max": null,
       "available": "12/21/2026",
       "sqft": 827,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-11-09",
       "price_history": [
@@ -3807,7 +3700,7 @@
       "base_rent_max": null,
       "available": "1/5/2027",
       "sqft": 827,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-11-02",
       "price_history": [
@@ -3862,7 +3755,7 @@
       "base_rent_max": null,
       "available": "11/13/2026",
       "sqft": 795,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-26",
       "price_history": [
@@ -3945,7 +3838,7 @@
       "base_rent_max": null,
       "available": "12/7/2026",
       "sqft": 780,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -4148,7 +4041,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 827,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -4351,7 +4244,7 @@
       "base_rent_max": null,
       "available": "Now",
       "sqft": 835,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-09-24",
       "price_history": [
@@ -4856,7 +4749,7 @@
       "base_rent_max": null,
       "available": "11/25/2026",
       "sqft": 743,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-11-03",
       "price_history": [
@@ -4907,7 +4800,7 @@
       "base_rent_max": null,
       "available": "11/17/2026",
       "sqft": 831,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-11-04",
       "price_history": [
@@ -5113,7 +5006,7 @@
       "base_rent_max": null,
       "available": "12/15/2026",
       "sqft": 761,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-11-05",
       "price_history": [
@@ -7800,7 +7693,7 @@
       "base_rent_max": null,
       "available": "11/29/2026",
       "sqft": 835,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-30",
       "price_history": [
@@ -10687,189 +10580,6 @@
         }
       ]
     },
-    "Parkside West|3007": {
-      "building": "Parkside West",
-      "unit": "3007",
-      "beds": "1 Bedroom",
-      "rent": 3567,
-      "base_rent": 3554,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 766,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-09-28",
-      "price_history": [
-        {
-          "date": "2026-09-28",
-          "price": 3518
-        },
-        {
-          "date": "2026-09-29",
-          "price": 3502
-        },
-        {
-          "date": "2026-09-30",
-          "price": 3484
-        },
-        {
-          "date": "2026-10-01",
-          "price": 3465
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3448
-        },
-        {
-          "date": "2026-10-03",
-          "price": 3447
-        },
-        {
-          "date": "2026-10-04",
-          "price": 3437
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3427
-        },
-        {
-          "date": "2026-10-06",
-          "price": 3418
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3404
-        },
-        {
-          "date": "2026-10-08",
-          "price": 3410
-        },
-        {
-          "date": "2026-10-12",
-          "price": 3405
-        },
-        {
-          "date": "2026-10-13",
-          "price": 3421
-        },
-        {
-          "date": "2026-10-14",
-          "price": 3431
-        },
-        {
-          "date": "2026-10-15",
-          "price": 3456
-        },
-        {
-          "date": "2026-10-16",
-          "price": 3467
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3495
-        },
-        {
-          "date": "2026-10-18",
-          "price": 3517
-        },
-        {
-          "date": "2026-10-19",
-          "price": 3525
-        },
-        {
-          "date": "2026-10-20",
-          "price": 3519
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3426
-        },
-        {
-          "date": "2026-10-22",
-          "price": 3435
-        },
-        {
-          "date": "2026-10-23",
-          "price": 3429
-        },
-        {
-          "date": "2026-10-24",
-          "price": 3472
-        },
-        {
-          "date": "2026-10-25",
-          "price": 3475
-        },
-        {
-          "date": "2026-10-26",
-          "price": 3473
-        },
-        {
-          "date": "2026-10-27",
-          "price": 3485
-        },
-        {
-          "date": "2026-10-28",
-          "price": 3387
-        },
-        {
-          "date": "2026-10-29",
-          "price": 3414
-        },
-        {
-          "date": "2026-10-30",
-          "price": 3423
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3449
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3462
-        },
-        {
-          "date": "2026-11-02",
-          "price": 3470
-        },
-        {
-          "date": "2026-11-03",
-          "price": 3484
-        },
-        {
-          "date": "2026-11-04",
-          "price": 3491
-        },
-        {
-          "date": "2026-11-05",
-          "price": 3500
-        },
-        {
-          "date": "2026-11-06",
-          "price": 3510
-        },
-        {
-          "date": "2026-11-07",
-          "price": 3520
-        },
-        {
-          "date": "2026-11-08",
-          "price": 3523
-        },
-        {
-          "date": "2026-11-09",
-          "price": 3541
-        },
-        {
-          "date": "2026-11-10",
-          "price": 3553
-        },
-        {
-          "date": "2026-11-11",
-          "price": 3567
-        }
-      ]
-    },
     "Riverside|1402": {
       "building": "Riverside",
       "unit": "1402",
@@ -12675,7 +12385,7 @@
       "rent": 3905,
       "base_rent": 3857,
       "base_rent_max": null,
-      "available": "11/12/2026",
+      "available": "Now",
       "sqft": 798,
       "special": "1 Month Free",
       "floor_plan": null,
@@ -12760,7 +12470,7 @@
       "base_rent_max": null,
       "available": "12/15/2026",
       "sqft": 818,
-      "special": null,
+      "special": "1 Month Free",
       "floor_plan": null,
       "first_seen": "2026-10-30",
       "price_history": [
