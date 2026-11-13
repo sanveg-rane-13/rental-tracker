@@ -8573,3 +8573,8 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-13T01:50,2026-11-12 20:50,VYV,,S-2161,1 Bedroom,price_change,3845,4016,3845,,,Now,,734,A11,,2026-11-12,
 2026-11-13T01:50,2026-11-12 20:50,VYV,,S-0453,1 Bedroom,delisted,3631,,3631,,,Now,,733,A10,,2026-11-02,
 2026-11-13T01:50,2026-11-12 20:50,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
+2026-11-13T11:01,2026-11-13 06:01,Newport Rentals,Atlantic,712,1 Bedroom,available_change,3751,,3703,,3751,Now,11/13/2026,796,,1 Month Free,2026-11-10,
+2026-11-13T11:01,2026-11-13 06:01,Newport Rentals,Bisby,2906,1 Bedroom,available_change,4395,,4337,,4395,Now,11/13/2026,795,,,2026-10-26,
+2026-11-13T11:01,2026-11-13 06:01,BLVD Collection,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.rentcafe.com/apartments/nj/jersey-city/the-blvd-collection/default.aspx
+2026-11-13T11:01,2026-11-13 06:01,65 Bay Street,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.65bay.com/floorplans/1-br-1-ba-res-01-%26-09%3A-fl-8---44
+2026-11-13T11:01,2026-11-13 06:01,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
