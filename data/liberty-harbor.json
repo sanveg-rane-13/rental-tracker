@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-11-13T11:01:19+00:00",
+  "updated_at": "2026-11-13T19:44:07+00:00",
   "units": {
     "333 Grand|1007": {
       "building": "333 Grand",
@@ -87,6 +87,25 @@
         {
           "date": "2026-11-03",
           "price": 3204
+        }
+      ]
+    },
+    "333 Grand|204": {
+      "building": "333 Grand",
+      "unit": "204",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 2865,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 737,
+      "special": "discounted",
+      "floor_plan": null,
+      "first_seen": "2026-11-13",
+      "price_history": [
+        {
+          "date": "2026-11-13",
+          "price": 2865
         }
       ]
     },
@@ -221,17 +240,21 @@
       "unit": "709",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3855,
+      "base_rent": 3534,
       "base_rent_max": null,
       "available": "11/23/2026",
       "sqft": 667,
-      "special": null,
+      "special": "discounted",
       "floor_plan": null,
       "first_seen": "2026-10-17",
       "price_history": [
         {
           "date": "2026-10-17",
           "price": 3855
+        },
+        {
+          "date": "2026-11-13",
+          "price": 3534
         }
       ]
     },
@@ -497,6 +520,44 @@
         {
           "date": "2026-11-01",
           "price": 3144
+        }
+      ]
+    },
+    "The Zenith|211": {
+      "building": "The Zenith",
+      "unit": "211",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 2658,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 600,
+      "special": "discounted",
+      "floor_plan": null,
+      "first_seen": "2026-11-13",
+      "price_history": [
+        {
+          "date": "2026-11-13",
+          "price": 2658
+        }
+      ]
+    },
+    "The Zenith|606": {
+      "building": "The Zenith",
+      "unit": "606",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3195,
+      "base_rent_max": null,
+      "available": "12/15/2026",
+      "sqft": 664,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-11-13",
+      "price_history": [
+        {
+          "date": "2026-11-13",
+          "price": 3195
         }
       ]
     },
