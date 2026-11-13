@@ -8559,3 +8559,17 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-12T19:55,2026-11-12 14:55,VYV,,S-1755,1 Bedroom,listed,3687,,3687,,,1/2/2027,,703,A05,,2026-11-12,
 2026-11-12T19:55,2026-11-12 14:55,VYV,,S-2161,1 Bedroom,listed,4016,,4016,,,Now,,734,A11,,2026-11-12,
 2026-11-12T19:55,2026-11-12 14:55,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
+2026-11-13T01:50,2026-11-12 20:50,Newport Rentals,Ellipse,602,1 Bedroom,available_change,4300,,4242,,4300,Now,11/13/2026,755,,1 Month Free,2026-10-20,
+2026-11-13T01:50,2026-11-12 20:50,BLVD Collection,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.rentcafe.com/apartments/nj/jersey-city/the-blvd-collection/default.aspx
+2026-11-13T01:50,2026-11-12 20:50,Liberty Harbor,88 Regent,2705,1 Bedroom,listed,3895,,3895,,,1/11/2027,,636,,,2026-11-13,
+2026-11-13T01:50,2026-11-12 20:50,Liberty Harbor,The Zenith,807,1 Bedroom,listed,3400,,3400,,,1/11/2027,,664,,,2026-11-13,
+2026-11-13T01:50,2026-11-12 20:50,Liberty Harbor,333 Grand,1010,1 Bedroom,listed,3810,,3810,,,12/11/2026,,743,,,2026-11-13,
+2026-11-13T01:50,2026-11-12 20:50,Liberty Harbor,The Zenith,509,1 Bedroom,delisted,3090,,3090,,,1/11/2027,,702,,,2026-10-18,
+2026-11-13T01:50,2026-11-12 20:50,Liberty Harbor,The Zenith,606,1 Bedroom,delisted,3195,,3195,,,12/15/2026,,664,,,2026-10-04,
+2026-11-13T01:50,2026-11-12 20:50,Liberty Harbor,The Zenith,714,1 Bedroom,delisted,3195,,3195,,,12/11/2026,,743,,,2026-10-01,
+2026-11-13T01:50,2026-11-12 20:50,65 Bay Street,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.65bay.com/floorplans/1-br-1-ba-res-01-%26-09%3A-fl-8---44
+2026-11-13T01:50,2026-11-12 20:50,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3585,,3585,,,11/14/2026,11/13/2026,778,A18,22-month lease,2026-09-24,
+2026-11-13T01:50,2026-11-12 20:50,Avalon Cove,Avalon Cove,3138,1 Bedroom,available_change,3785,,3785,,,11/14/2026,11/13/2026,778,A5,22-month lease,2026-09-24,
+2026-11-13T01:50,2026-11-12 20:50,VYV,,S-2161,1 Bedroom,price_change,3845,4016,3845,,,Now,,734,A11,,2026-11-12,
+2026-11-13T01:50,2026-11-12 20:50,VYV,,S-0453,1 Bedroom,delisted,3631,,3631,,,Now,,733,A10,,2026-11-02,
+2026-11-13T01:50,2026-11-12 20:50,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
