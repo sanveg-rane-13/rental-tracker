@@ -8868,3 +8868,8 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-14T18:05,2026-11-14 13:05,Avalon Cove,Avalon Cove,4403,1 Bedroom,price_change,4155,4170,4155,,,12/1/2026,,1039,A12,21-month lease,2026-10-17,
 2026-11-14T18:05,2026-11-14 13:05,Avalon Cove,Avalon Cove,5539,1 Bedroom,price_change,4350,4365,4350,,,12/2/2026,,1351,A14LP,20-month lease,2026-10-02,
 2026-11-14T18:05,2026-11-14 13:05,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
+2026-11-14T22:26,2026-11-14 17:26,Newport Rentals,Roosevelt House,420,1 Bedroom,listed,3227,,3194,,3227,12/8/2026,,724,,,2026-11-14,
+2026-11-14T22:26,2026-11-14 17:26,BLVD Collection,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.rentcafe.com/apartments/nj/jersey-city/the-blvd-collection/default.aspx
+2026-11-14T22:26,2026-11-14 17:26,65 Bay Street,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.65bay.com/floorplans/1-br-1-ba-res-01-%26-09%3A-fl-8---44
+2026-11-14T22:26,2026-11-14 17:26,IronState Properties,50 Columbus,4775839,1 Bedroom,delisted,4180,,4180,,,,,812,4775839,,2026-11-14,
+2026-11-14T22:26,2026-11-14 17:26,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
