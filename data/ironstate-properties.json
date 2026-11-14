@@ -1,6 +1,6 @@
 {
   "property": "IronState Properties",
-  "updated_at": "2026-11-13T19:44:07+00:00",
+  "updated_at": "2026-11-14T01:27:32+00:00",
   "units": {
     "50 Columbus|4775836": {
       "building": "50 Columbus",
@@ -21,6 +21,25 @@
         }
       ]
     },
+    "50 Columbus|4775839": {
+      "building": "50 Columbus",
+      "unit": "4775839",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 4180,
+      "base_rent_max": null,
+      "available": null,
+      "sqft": 812,
+      "special": null,
+      "floor_plan": "4775839",
+      "first_seen": "2026-11-14",
+      "price_history": [
+        {
+          "date": "2026-11-14",
+          "price": 4180
+        }
+      ]
+    },
     "50 Columbus|4775841": {
       "building": "50 Columbus",
       "unit": "4775841",
@@ -28,7 +47,7 @@
       "rent": null,
       "base_rent": 4230,
       "base_rent_max": null,
-      "available": "11/14/2026",
+      "available": null,
       "sqft": 840,
       "special": null,
       "floor_plan": "4775841",
@@ -135,6 +154,25 @@
         }
       ]
     },
+    "90 Columbus|2442623": {
+      "building": "90 Columbus",
+      "unit": "2442623",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3800,
+      "base_rent_max": null,
+      "available": null,
+      "sqft": 692,
+      "special": null,
+      "floor_plan": "2442623",
+      "first_seen": "2026-11-14",
+      "price_history": [
+        {
+          "date": "2026-11-14",
+          "price": 3800
+        }
+      ]
+    },
     "90 Columbus|2442628": {
       "building": "90 Columbus",
       "unit": "2442628",
@@ -208,6 +246,25 @@
         {
           "date": "2026-09-27",
           "price": 3425
+        }
+      ]
+    },
+    "The Gotham|5059876": {
+      "building": "The Gotham",
+      "unit": "5059876",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3510,
+      "base_rent_max": null,
+      "available": null,
+      "sqft": 754,
+      "special": null,
+      "floor_plan": "5059876",
+      "first_seen": "2026-11-14",
+      "price_history": [
+        {
+          "date": "2026-11-14",
+          "price": 3510
         }
       ]
     },
