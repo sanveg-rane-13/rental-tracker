@@ -8873,3 +8873,14 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-14T22:26,2026-11-14 17:26,65 Bay Street,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.65bay.com/floorplans/1-br-1-ba-res-01-%26-09%3A-fl-8---44
 2026-11-14T22:26,2026-11-14 17:26,IronState Properties,50 Columbus,4775839,1 Bedroom,delisted,4180,,4180,,,,,812,4775839,,2026-11-14,
 2026-11-14T22:26,2026-11-14 17:26,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
+2026-11-15T06:35,2026-11-15 01:35,Newport Rentals,East Hampton,2604,1 Bedroom,available_change,3924,,3876,,3924,Now,11/15/2026,761,,1 Month Free,2026-10-21,
+2026-11-15T06:35,2026-11-15 01:35,Newport Rentals,Beach,1628,1 Bedroom,delisted,4126,,4068,,4126,Now,,800,,1 Month Free,2026-10-27,
+2026-11-15T06:35,2026-11-15 01:35,Newport Rentals,Bisby,503,1 Bedroom,delisted,4516,,4458,,4516,Now,,835,,,2026-09-24,
+2026-11-15T06:35,2026-11-15 01:35,Newport Rentals,Southampton,310,1 Bedroom,delisted,3334,,3286,,3334,12/15/2026,,818,,1 Month Free,2026-10-30,
+2026-11-15T06:35,2026-11-15 01:35,BLVD Collection,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.rentcafe.com/apartments/nj/jersey-city/the-blvd-collection/default.aspx
+2026-11-15T06:35,2026-11-15 01:35,Liberty Harbor,The Zenith,606,1 Bedroom,delisted,3195,,3195,,,12/15/2026,,664,,,2026-11-13,
+2026-11-15T06:35,2026-11-15 01:35,65 Bay Street,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.65bay.com/floorplans/1-br-1-ba-res-01-%26-09%3A-fl-8---44
+2026-11-15T06:35,2026-11-15 01:35,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3580,,3580,,,11/16/2026,11/15/2026,778,A18,22-month lease,2026-09-24,
+2026-11-15T06:35,2026-11-15 01:35,Avalon Cove,Avalon Cove,3138,1 Bedroom,available_change,3780,,3780,,,11/16/2026,11/15/2026,778,A5,22-month lease,2026-09-24,
+2026-11-15T06:35,2026-11-15 01:35,IronState Properties,90 Columbus,2442631,1 Bedroom,available_change,4290,,4290,,,,11/15/2026,708,2442631,,2026-10-26,
+2026-11-15T06:35,2026-11-15 01:35,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
