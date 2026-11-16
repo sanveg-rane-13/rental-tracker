@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-11-15T22:50:08+00:00",
+  "updated_at": "2026-11-16T06:32:37+00:00",
   "units": {
     "Aquablu|523": {
       "building": "Aquablu",
@@ -6618,221 +6618,6 @@
         }
       ]
     },
-    "Ellipse|1710": {
-      "building": "Ellipse",
-      "unit": "1710",
-      "beds": "1 Bedroom",
-      "rent": 4301,
-      "base_rent": 4243,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 759,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4863
-        },
-        {
-          "date": "2026-09-25",
-          "price": 4884
-        },
-        {
-          "date": "2026-09-26",
-          "price": 4892
-        },
-        {
-          "date": "2026-09-27",
-          "price": 4904
-        },
-        {
-          "date": "2026-09-28",
-          "price": 4925
-        },
-        {
-          "date": "2026-09-29",
-          "price": 4929
-        },
-        {
-          "date": "2026-09-30",
-          "price": 4851
-        },
-        {
-          "date": "2026-10-01",
-          "price": 4864
-        },
-        {
-          "date": "2026-10-02",
-          "price": 4870
-        },
-        {
-          "date": "2026-10-03",
-          "price": 4884
-        },
-        {
-          "date": "2026-10-04",
-          "price": 4902
-        },
-        {
-          "date": "2026-10-05",
-          "price": 4916
-        },
-        {
-          "date": "2026-10-06",
-          "price": 4925
-        },
-        {
-          "date": "2026-10-07",
-          "price": 4723
-        },
-        {
-          "date": "2026-10-08",
-          "price": 4745
-        },
-        {
-          "date": "2026-10-12",
-          "price": 4831
-        },
-        {
-          "date": "2026-10-13",
-          "price": 4849
-        },
-        {
-          "date": "2026-10-15",
-          "price": 4847
-        },
-        {
-          "date": "2026-10-16",
-          "price": 4860
-        },
-        {
-          "date": "2026-10-17",
-          "price": 4871
-        },
-        {
-          "date": "2026-10-18",
-          "price": 4869
-        },
-        {
-          "date": "2026-10-19",
-          "price": 4853
-        },
-        {
-          "date": "2026-10-20",
-          "price": 4855
-        },
-        {
-          "date": "2026-10-21",
-          "price": 4832
-        },
-        {
-          "date": "2026-10-22",
-          "price": 4834
-        },
-        {
-          "date": "2026-10-23",
-          "price": 4836
-        },
-        {
-          "date": "2026-10-24",
-          "price": 4647
-        },
-        {
-          "date": "2026-10-24",
-          "price": 4643
-        },
-        {
-          "date": "2026-10-25",
-          "price": 4641
-        },
-        {
-          "date": "2026-10-26",
-          "price": 4638
-        },
-        {
-          "date": "2026-10-27",
-          "price": 4673
-        },
-        {
-          "date": "2026-10-28",
-          "price": 4586
-        },
-        {
-          "date": "2026-10-29",
-          "price": 4598
-        },
-        {
-          "date": "2026-10-30",
-          "price": 4595
-        },
-        {
-          "date": "2026-11-01",
-          "price": 4594
-        },
-        {
-          "date": "2026-11-02",
-          "price": 4575
-        },
-        {
-          "date": "2026-11-03",
-          "price": 4549
-        },
-        {
-          "date": "2026-11-04",
-          "price": 4527
-        },
-        {
-          "date": "2026-11-05",
-          "price": 4507
-        },
-        {
-          "date": "2026-11-06",
-          "price": 4514
-        },
-        {
-          "date": "2026-11-07",
-          "price": 4512
-        },
-        {
-          "date": "2026-11-08",
-          "price": 4484
-        },
-        {
-          "date": "2026-11-09",
-          "price": 4488
-        },
-        {
-          "date": "2026-11-10",
-          "price": 4486
-        },
-        {
-          "date": "2026-11-11",
-          "price": 4490
-        },
-        {
-          "date": "2026-11-12",
-          "price": 4410
-        },
-        {
-          "date": "2026-11-13",
-          "price": 4405
-        },
-        {
-          "date": "2026-11-14",
-          "price": 4305
-        },
-        {
-          "date": "2026-11-14",
-          "price": 4286
-        },
-        {
-          "date": "2026-11-15",
-          "price": 4301
-        }
-      ]
-    },
     "Ellipse|210": {
       "building": "Ellipse",
       "unit": "210",
@@ -7171,6 +6956,25 @@
         {
           "date": "2026-11-15",
           "price": 4231
+        }
+      ]
+    },
+    "Ellipse|2702": {
+      "building": "Ellipse",
+      "unit": "2702",
+      "beds": "1 Bedroom",
+      "rent": 4316,
+      "base_rent": 4258,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 753,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-11-16",
+      "price_history": [
+        {
+          "date": "2026-11-16",
+          "price": 4316
         }
       ]
     },
@@ -13135,7 +12939,7 @@
       "rent": 3745,
       "base_rent": 3697,
       "base_rent_max": null,
-      "available": "11/16/2026",
+      "available": "Now",
       "sqft": 765,
       "special": "1 Month Free",
       "floor_plan": null,
