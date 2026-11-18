@@ -6,16 +6,30 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3600
+    "max_rent": 4000
   },
   {
     "name": "BLVD Collection",
-    "url": "https://www.rentcafe.com/apartments/nj/jersey-city/the-blvd-collection/default.aspx",
-    "parser": "blvd",
+    "parser": "apartmentlist",
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3600
+    "max_rent": 3700,
+    "link": "https://www.apartmentlist.com/nj/jersey-city/blvd-425",
+    "pages": [
+      {
+        "building": "BLVD 401",
+        "url": "https://www.apartmentlist.com/nj/jersey-city/blvd-401"
+      },
+      {
+        "building": "BLVD 425",
+        "url": "https://www.apartmentlist.com/nj/jersey-city/blvd-425"
+      },
+      {
+        "building": "BLVD 475",
+        "url": "https://www.apartmentlist.com/nj/jersey-city/blvd-475"
+      }
+    ]
   },
   {
     "name": "Liberty Harbor",
@@ -24,37 +38,16 @@
     "beds": [
       "1 Bedroom"
     ],
-    "max_rent": 3600
+    "max_rent": 3700
   },
   {
     "name": "65 Bay Street",
     "link": "https://www.65bay.com/floorplans?Beds=1",
-    "parser": "yardi_site",
+    "parser": "apartmentlist",
     "pages": [
       {
         "building": "65 Bay Street",
-        "beds": "1 Bedroom",
-        "url": "https://www.65bay.com/floorplans/1-br-1-ba-res-01-%26-09%3a-fl-8---44"
-      },
-      {
-        "building": "65 Bay Street",
-        "beds": "1 Bedroom",
-        "url": "https://www.65bay.com/floorplans/1-br-1-ba-res-02-%26-08%3a-fl-8---44"
-      },
-      {
-        "building": "65 Bay Street",
-        "beds": "1 Bedroom",
-        "url": "https://www.65bay.com/floorplans/1-br-1-ba-w%2foffice-res-03-%26-07%3a-fl-3---48"
-      },
-      {
-        "building": "65 Bay Street",
-        "beds": "1 Bedroom",
-        "url": "https://www.65bay.com/floorplans/1-br-1-ba-w%2foffice-res-05%3a-fl-3---6"
-      },
-      {
-        "building": "65 Bay Street",
-        "beds": "1 Bedroom",
-        "url": "https://www.65bay.com/floorplans/1-br-1-ba-w%2foffice-res-06%3a-fl-3---6"
+        "url": "https://www.apartmentlist.com/nj/jersey-city/65-bay-street"
       }
     ],
     "beds": [
@@ -150,22 +143,32 @@
   },
   {
     "name": "Northern Chapter Properties",
-    "parser": "yardi_site",
+    "parser": "apartmentlist",
     "pages": [
       {
         "building": "235 Grand",
-        "beds": "1 Bedroom",
-        "url": "https://www.235grand.com/floorplans/1-bedroom---1-bathroom"
-      },
-      {
-        "building": "18 Park",
-        "beds": "1 Bedroom",
-        "url": "https://www.18park.com/floorplans/1-bed-1-bath"
+        "url": "https://www.apartmentlist.com/nj/jersey-city/235-grand--1"
       },
       {
         "building": "225 Grand",
-        "beds": "1 Bedroom",
-        "url": "https://www.225grandstreet.com/floorplans/1-br---1ba?Beds=1"
+        "url": "https://www.apartmentlist.com/nj/jersey-city/225-grand-street--2"
+      }
+    ],
+    "beds": [
+      "1 Bedroom"
+    ],
+    "max_rent": 3600,
+    "link": "https://www.235grand.com/floorplans/1-bedroom---1-bathroom"
+  },
+  {
+    "name": "18 Park",
+    "enabled": false,
+    "parser": "apartmentlist",
+    "link": "https://www.18park.com/floorplans",
+    "pages": [
+      {
+        "building": "18 Park",
+        "url": "https://www.apartmentlist.com/nj/jersey-city/18-park"
       }
     ],
     "beds": [
