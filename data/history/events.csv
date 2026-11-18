@@ -9409,3 +9409,15 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-18T00:58,2026-11-17 19:58,Avalon Cove,Avalon Cove,2128,1 Bedroom,listed,3745,,3745,,,11/20/2026,,817,A8,22-month lease,2026-11-18,
 2026-11-18T00:58,2026-11-17 19:58,VYV,,S-1361,1 Bedroom,delisted,3755,,3755,,,Now,,734,A11,,2026-09-27,
 2026-11-18T00:58,2026-11-17 19:58,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
+2026-11-18T01:14,2026-11-17 20:14,BLVD Collection,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.rentcafe.com/apartments/nj/jersey-city/the-blvd-collection/default.aspx
+2026-11-18T01:14,2026-11-17 20:14,Liberty Harbor,50 Regent,306,1 Bedroom,price_change,3500,3425,3500,,,12/11/2026,,667,,,2026-11-02,
+2026-11-18T01:14,2026-11-17 20:14,Liberty Harbor,333 Grand,816,1 Bedroom,price_change,3639,3548,3639,,,11/22/2026,,746,,discounted,2026-10-02,
+2026-11-18T01:14,2026-11-17 20:14,Liberty Harbor,333 Grand,1010,1 Bedroom,price_change,3810,3710,3810,,,12/11/2026,,743,,,2026-11-13,
+2026-11-18T01:14,2026-11-17 20:14,Liberty Harbor,333 Grand,1112,1 Bedroom,price_change,4050,3950,4050,,,12/11/2026,,743,,,2026-10-22,
+2026-11-18T01:14,2026-11-17 20:14,Liberty Harbor,333 Grand,705,1 Bedroom,price_change,3550,3450,3550,,,12/15/2026,,671,,,2026-11-11,
+2026-11-18T01:14,2026-11-17 20:14,Liberty Harbor,333 Grand,1007,1 Bedroom,price_change,3144,3218,3144,,,Now,,671,,discounted,2026-11-08,
+2026-11-18T01:14,2026-11-17 20:14,Liberty Harbor,333 Grand,906,1 Bedroom,price_change,3415,3323,3415,,,Now,,646,,discounted,2026-11-10,
+2026-11-18T01:14,2026-11-17 20:14,Liberty Harbor,333 Grand,903,1 Bedroom,price_change,3369,3277,3369,,,11/22/2026,,643,,discounted,2026-10-25,
+2026-11-18T01:14,2026-11-17 20:14,Liberty Harbor,The Regent,401,1 Bedroom,delisted,3144,,3144,,,Now,,673,,discounted,2026-11-18,
+2026-11-18T01:14,2026-11-17 20:14,65 Bay Street,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.65bay.com/floorplans/1-br-1-ba-res-01-%26-09%3A-fl-8---44
+2026-11-18T01:14,2026-11-17 20:14,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
