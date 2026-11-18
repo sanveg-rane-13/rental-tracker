@@ -1,13 +1,13 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-11-18T01:14:51+00:00",
+  "updated_at": "2026-11-18T01:27:33+00:00",
   "units": {
     "333 Grand|1007": {
       "building": "333 Grand",
       "unit": "1007",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3144,
+      "base_rent": 3218,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 671,
@@ -26,6 +26,10 @@
         {
           "date": "2026-11-18",
           "price": 3144
+        },
+        {
+          "date": "2026-11-18",
+          "price": 3218
         }
       ]
     },
@@ -34,7 +38,7 @@
       "unit": "1010",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3810,
+      "base_rent": 3710,
       "base_rent_max": null,
       "available": "12/11/2026",
       "sqft": 743,
@@ -53,6 +57,10 @@
         {
           "date": "2026-11-18",
           "price": 3810
+        },
+        {
+          "date": "2026-11-18",
+          "price": 3710
         }
       ]
     },
@@ -61,7 +69,7 @@
       "unit": "1112",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4050,
+      "base_rent": 3950,
       "base_rent_max": null,
       "available": "12/11/2026",
       "sqft": 743,
@@ -80,6 +88,10 @@
         {
           "date": "2026-11-18",
           "price": 4050
+        },
+        {
+          "date": "2026-11-18",
+          "price": 3950
         }
       ]
     },
@@ -119,7 +131,7 @@
       "unit": "705",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3550,
+      "base_rent": 3450,
       "base_rent_max": null,
       "available": "12/15/2026",
       "sqft": 671,
@@ -138,6 +150,10 @@
         {
           "date": "2026-11-18",
           "price": 3550
+        },
+        {
+          "date": "2026-11-18",
+          "price": 3450
         }
       ]
     },
@@ -146,7 +162,7 @@
       "unit": "816",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3639,
+      "base_rent": 3548,
       "base_rent_max": null,
       "available": "11/22/2026",
       "sqft": 746,
@@ -169,6 +185,10 @@
         {
           "date": "2026-11-18",
           "price": 3639
+        },
+        {
+          "date": "2026-11-18",
+          "price": 3548
         }
       ]
     },
@@ -177,7 +197,7 @@
       "unit": "903",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3369,
+      "base_rent": 3277,
       "base_rent_max": null,
       "available": "11/22/2026",
       "sqft": 643,
@@ -200,6 +220,10 @@
         {
           "date": "2026-11-18",
           "price": 3369
+        },
+        {
+          "date": "2026-11-18",
+          "price": 3277
         }
       ]
     },
@@ -208,7 +232,7 @@
       "unit": "906",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3415,
+      "base_rent": 3323,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 646,
@@ -227,6 +251,10 @@
         {
           "date": "2026-11-18",
           "price": 3415
+        },
+        {
+          "date": "2026-11-18",
+          "price": 3323
         }
       ]
     },
@@ -235,7 +263,7 @@
       "unit": "306",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3500,
+      "base_rent": 3425,
       "base_rent_max": null,
       "available": "12/11/2026",
       "sqft": 667,
@@ -254,6 +282,10 @@
         {
           "date": "2026-11-18",
           "price": 3500
+        },
+        {
+          "date": "2026-11-18",
+          "price": 3425
         }
       ]
     },
@@ -515,6 +547,25 @@
         {
           "date": "2026-10-06",
           "price": 3199
+        }
+      ]
+    },
+    "The Regent|401": {
+      "building": "The Regent",
+      "unit": "401",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3144,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 673,
+      "special": "discounted",
+      "floor_plan": null,
+      "first_seen": "2026-11-18",
+      "price_history": [
+        {
+          "date": "2026-11-18",
+          "price": 3144
         }
       ]
     },
