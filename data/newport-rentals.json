@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-11-18T11:45:01+00:00",
+  "updated_at": "2026-11-18T20:33:34+00:00",
   "units": {
     "Aquablu|523": {
       "building": "Aquablu",
@@ -7915,6 +7915,25 @@
         }
       ]
     },
+    "Ellipse|3701": {
+      "building": "Ellipse",
+      "unit": "3701",
+      "beds": "1 Bedroom",
+      "rent": 4358,
+      "base_rent": 4300,
+      "base_rent_max": null,
+      "available": "11/29/2026",
+      "sqft": 835,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-11-18",
+      "price_history": [
+        {
+          "date": "2026-11-18",
+          "price": 4358
+        }
+      ]
+    },
     "Ellipse|3706": {
       "building": "Ellipse",
       "unit": "3706",
@@ -13835,29 +13854,6 @@
         {
           "date": "2026-11-18",
           "price": 3618
-        }
-      ]
-    },
-    "Southampton|2712": {
-      "building": "Southampton",
-      "unit": "2712",
-      "beds": "1 Bedroom",
-      "rent": 3453,
-      "base_rent": 3405,
-      "base_rent_max": null,
-      "available": "1/1/2027",
-      "sqft": 798,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-11-17",
-      "price_history": [
-        {
-          "date": "2026-11-17",
-          "price": 3454
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3453
         }
       ]
     },
