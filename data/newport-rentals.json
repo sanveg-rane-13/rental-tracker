@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-11-17T16:02:13+00:00",
+  "updated_at": "2026-11-18T00:58:15+00:00",
   "units": {
     "Aquablu|523": {
       "building": "Aquablu",
@@ -826,157 +826,6 @@
         {
           "date": "2026-11-17",
           "price": 3839
-        }
-      ]
-    },
-    "Atlantic|1601": {
-      "building": "Atlantic",
-      "unit": "1601",
-      "beds": "1 Bedroom",
-      "rent": 3864,
-      "base_rent": 3816,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 860,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-10-14",
-      "price_history": [
-        {
-          "date": "2026-10-14",
-          "price": 4058
-        },
-        {
-          "date": "2026-10-15",
-          "price": 4068
-        },
-        {
-          "date": "2026-10-16",
-          "price": 4067
-        },
-        {
-          "date": "2026-10-17",
-          "price": 4076
-        },
-        {
-          "date": "2026-10-18",
-          "price": 4078
-        },
-        {
-          "date": "2026-10-19",
-          "price": 4074
-        },
-        {
-          "date": "2026-10-20",
-          "price": 4077
-        },
-        {
-          "date": "2026-10-21",
-          "price": 4088
-        },
-        {
-          "date": "2026-10-22",
-          "price": 4100
-        },
-        {
-          "date": "2026-10-23",
-          "price": 4109
-        },
-        {
-          "date": "2026-10-24",
-          "price": 4124
-        },
-        {
-          "date": "2026-10-25",
-          "price": 4134
-        },
-        {
-          "date": "2026-10-26",
-          "price": 4144
-        },
-        {
-          "date": "2026-10-27",
-          "price": 4156
-        },
-        {
-          "date": "2026-10-28",
-          "price": 4084
-        },
-        {
-          "date": "2026-10-29",
-          "price": 4086
-        },
-        {
-          "date": "2026-11-01",
-          "price": 4087
-        },
-        {
-          "date": "2026-11-01",
-          "price": 4089
-        },
-        {
-          "date": "2026-11-02",
-          "price": 4099
-        },
-        {
-          "date": "2026-11-03",
-          "price": 4109
-        },
-        {
-          "date": "2026-11-04",
-          "price": 4120
-        },
-        {
-          "date": "2026-11-05",
-          "price": 4130
-        },
-        {
-          "date": "2026-11-06",
-          "price": 4143
-        },
-        {
-          "date": "2026-11-07",
-          "price": 4152
-        },
-        {
-          "date": "2026-11-08",
-          "price": 4150
-        },
-        {
-          "date": "2026-11-09",
-          "price": 4146
-        },
-        {
-          "date": "2026-11-11",
-          "price": 4150
-        },
-        {
-          "date": "2026-11-12",
-          "price": 4056
-        },
-        {
-          "date": "2026-11-14",
-          "price": 3958
-        },
-        {
-          "date": "2026-11-14",
-          "price": 3959
-        },
-        {
-          "date": "2026-11-15",
-          "price": 3960
-        },
-        {
-          "date": "2026-11-16",
-          "price": 3962
-        },
-        {
-          "date": "2026-11-17",
-          "price": 3863
-        },
-        {
-          "date": "2026-11-17",
-          "price": 3864
         }
       ]
     },
@@ -11499,7 +11348,7 @@
       "rent": 3709,
       "base_rent": 3661,
       "base_rent_max": null,
-      "available": "11/20/2026",
+      "available": "Now",
       "sqft": 834,
       "special": null,
       "floor_plan": null,
@@ -12750,7 +12599,7 @@
       "rent": 3624,
       "base_rent": 3576,
       "base_rent_max": null,
-      "available": "11/21/2026",
+      "available": "Now",
       "sqft": 851,
       "special": "1 Month Free",
       "floor_plan": null,

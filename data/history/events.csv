@@ -9389,3 +9389,23 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-17T16:01,2026-11-17 11:01,Avalon Cove,Avalon Cove,5539,1 Bedroom,price_change,4395,4410,4395,,,12/2/2026,,1351,A14LP,20-month lease,2026-10-02,
 2026-11-17T16:01,2026-11-17 11:01,VYV,,S-1855,1 Bedroom,price_change,3697,3647,3697,,,12/22/2026,,703,A05,,2026-11-16,
 2026-11-17T16:01,2026-11-17 11:01,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
+2026-11-18T00:58,2026-11-17 19:58,Newport Rentals,Southampton,1604,1 Bedroom,available_change,3624,,3576,,3624,Now,11/21/2026,851,,1 Month Free,2026-10-08,
+2026-11-18T00:58,2026-11-17 19:58,Newport Rentals,Riverside,1511,1 Bedroom,available_change,3709,,3661,,3709,Now,11/20/2026,834,,,2026-09-24,
+2026-11-18T00:58,2026-11-17 19:58,Newport Rentals,Atlantic,1601,1 Bedroom,delisted,3864,,3816,,3864,Now,,860,,1 Month Free,2026-10-14,
+2026-11-18T00:58,2026-11-17 19:58,BLVD Collection,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.rentcafe.com/apartments/nj/jersey-city/the-blvd-collection/default.aspx
+2026-11-18T00:58,2026-11-17 19:58,Liberty Harbor,50 Regent,306,1 Bedroom,price_change,3425,3500,3425,,,12/11/2026,,667,,,2026-11-02,
+2026-11-18T00:58,2026-11-17 19:58,Liberty Harbor,The Regent,401,1 Bedroom,listed,3144,,3144,,,Now,,673,,discounted,2026-11-18,
+2026-11-18T00:58,2026-11-17 19:58,Liberty Harbor,333 Grand,816,1 Bedroom,price_change,3548,3639,3548,,,11/22/2026,,746,,discounted,2026-10-02,
+2026-11-18T00:58,2026-11-17 19:58,Liberty Harbor,333 Grand,1010,1 Bedroom,price_change,3710,3810,3710,,,12/11/2026,,743,,,2026-11-13,
+2026-11-18T00:58,2026-11-17 19:58,Liberty Harbor,333 Grand,1112,1 Bedroom,price_change,3950,4050,3950,,,12/11/2026,,743,,,2026-10-22,
+2026-11-18T00:58,2026-11-17 19:58,Liberty Harbor,333 Grand,705,1 Bedroom,price_change,3450,3550,3450,,,12/15/2026,,671,,,2026-11-11,
+2026-11-18T00:58,2026-11-17 19:58,Liberty Harbor,333 Grand,1007,1 Bedroom,price_change,3218,3144,3218,,,Now,,671,,discounted,2026-11-08,
+2026-11-18T00:58,2026-11-17 19:58,Liberty Harbor,333 Grand,906,1 Bedroom,price_change,3323,3415,3323,,,Now,,646,,discounted,2026-11-10,
+2026-11-18T00:58,2026-11-17 19:58,Liberty Harbor,333 Grand,903,1 Bedroom,price_change,3277,3369,3277,,,11/22/2026,,643,,discounted,2026-10-25,
+2026-11-18T00:58,2026-11-17 19:58,65 Bay Street,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.65bay.com/floorplans/1-br-1-ba-res-01-%26-09%3A-fl-8---44
+2026-11-18T00:58,2026-11-17 19:58,Avalon Cove,Avalon Cove,3143,1 Bedroom,available_change,3535,,3535,,,11/19/2026,11/18/2026,778,A18,22-month lease,2026-09-24,
+2026-11-18T00:58,2026-11-17 19:58,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3585,,3585,,,11/19/2026,11/18/2026,778,A18,22-month lease,2026-09-24,
+2026-11-18T00:58,2026-11-17 19:58,Avalon Cove,Avalon Cove,3138,1 Bedroom,available_change,3785,,3785,,,11/19/2026,11/18/2026,778,A5,22-month lease,2026-09-24,
+2026-11-18T00:58,2026-11-17 19:58,Avalon Cove,Avalon Cove,2128,1 Bedroom,listed,3745,,3745,,,11/20/2026,,817,A8,22-month lease,2026-11-18,
+2026-11-18T00:58,2026-11-17 19:58,VYV,,S-1361,1 Bedroom,delisted,3755,,3755,,,Now,,734,A11,,2026-09-27,
+2026-11-18T00:58,2026-11-17 19:58,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,403 Client Error: Forbidden for url: https://www.235grand.com/floorplans/1-bedroom---1-bathroom
