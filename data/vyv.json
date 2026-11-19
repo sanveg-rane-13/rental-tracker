@@ -1,6 +1,6 @@
 {
   "property": "VYV",
-  "updated_at": "2026-11-19T11:43:05+00:00",
+  "updated_at": "2026-11-19T20:39:21+00:00",
   "units": {
     "|N-1008": {
       "building": "",
@@ -80,33 +80,6 @@
         {
           "date": "2026-11-18",
           "price": 3985
-        }
-      ]
-    },
-    "|S-1855": {
-      "building": "",
-      "unit": "S-1855",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3747,
-      "base_rent_max": null,
-      "available": "12/22/2026",
-      "sqft": 703,
-      "special": null,
-      "floor_plan": "A05",
-      "first_seen": "2026-11-16",
-      "price_history": [
-        {
-          "date": "2026-11-16",
-          "price": 3647
-        },
-        {
-          "date": "2026-11-17",
-          "price": 3697
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3747
         }
       ]
     },
