@@ -1,13 +1,13 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-11-19T02:35:14+00:00",
+  "updated_at": "2026-11-19T11:43:05+00:00",
   "units": {
     "Aquablu|523": {
       "building": "Aquablu",
       "unit": "523",
       "beds": "1 Bedroom",
-      "rent": 3533,
-      "base_rent": 3490,
+      "rent": 3526,
+      "base_rent": 3483,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 719,
@@ -170,6 +170,10 @@
         {
           "date": "2026-11-18",
           "price": 3533
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3526
         }
       ]
     },
@@ -177,8 +181,8 @@
       "building": "Aquablu",
       "unit": "624",
       "beds": "1 Bedroom",
-      "rent": 3973,
-      "base_rent": 3930,
+      "rent": 3966,
+      "base_rent": 3923,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 812,
@@ -405,6 +409,10 @@
         {
           "date": "2026-11-18",
           "price": 3973
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3966
         }
       ]
     },
@@ -5008,197 +5016,6 @@
         }
       ]
     },
-    "East Hampton|1801": {
-      "building": "East Hampton",
-      "unit": "1801",
-      "beds": "1 Bedroom",
-      "rent": 3648,
-      "base_rent": 3600,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 862,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-10-02",
-      "price_history": [
-        {
-          "date": "2026-10-02",
-          "price": 3832
-        },
-        {
-          "date": "2026-10-03",
-          "price": 3830
-        },
-        {
-          "date": "2026-10-04",
-          "price": 3834
-        },
-        {
-          "date": "2026-10-05",
-          "price": 3833
-        },
-        {
-          "date": "2026-10-06",
-          "price": 3835
-        },
-        {
-          "date": "2026-10-07",
-          "price": 3846
-        },
-        {
-          "date": "2026-10-08",
-          "price": 3863
-        },
-        {
-          "date": "2026-10-12",
-          "price": 3905
-        },
-        {
-          "date": "2026-10-13",
-          "price": 3914
-        },
-        {
-          "date": "2026-10-14",
-          "price": 3843
-        },
-        {
-          "date": "2026-10-15",
-          "price": 3853
-        },
-        {
-          "date": "2026-10-16",
-          "price": 3852
-        },
-        {
-          "date": "2026-10-17",
-          "price": 3861
-        },
-        {
-          "date": "2026-10-18",
-          "price": 3863
-        },
-        {
-          "date": "2026-10-19",
-          "price": 3859
-        },
-        {
-          "date": "2026-10-20",
-          "price": 3862
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3873
-        },
-        {
-          "date": "2026-10-22",
-          "price": 3885
-        },
-        {
-          "date": "2026-10-23",
-          "price": 3894
-        },
-        {
-          "date": "2026-10-24",
-          "price": 3909
-        },
-        {
-          "date": "2026-10-25",
-          "price": 3919
-        },
-        {
-          "date": "2026-10-26",
-          "price": 3929
-        },
-        {
-          "date": "2026-10-27",
-          "price": 3941
-        },
-        {
-          "date": "2026-10-28",
-          "price": 3869
-        },
-        {
-          "date": "2026-10-29",
-          "price": 3871
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3872
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3874
-        },
-        {
-          "date": "2026-11-02",
-          "price": 3884
-        },
-        {
-          "date": "2026-11-03",
-          "price": 3894
-        },
-        {
-          "date": "2026-11-04",
-          "price": 3905
-        },
-        {
-          "date": "2026-11-05",
-          "price": 3915
-        },
-        {
-          "date": "2026-11-06",
-          "price": 3928
-        },
-        {
-          "date": "2026-11-07",
-          "price": 3937
-        },
-        {
-          "date": "2026-11-08",
-          "price": 3935
-        },
-        {
-          "date": "2026-11-09",
-          "price": 3931
-        },
-        {
-          "date": "2026-11-11",
-          "price": 3935
-        },
-        {
-          "date": "2026-11-12",
-          "price": 3841
-        },
-        {
-          "date": "2026-11-14",
-          "price": 3743
-        },
-        {
-          "date": "2026-11-14",
-          "price": 3744
-        },
-        {
-          "date": "2026-11-15",
-          "price": 3745
-        },
-        {
-          "date": "2026-11-16",
-          "price": 3747
-        },
-        {
-          "date": "2026-11-17",
-          "price": 3648
-        },
-        {
-          "date": "2026-11-17",
-          "price": 3649
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3648
-        }
-      ]
-    },
     "East Hampton|1804": {
       "building": "East Hampton",
       "unit": "1804",
@@ -8970,8 +8787,8 @@
       "building": "Lincoln House",
       "unit": "117",
       "beds": "1 Bedroom",
-      "rent": 3060,
-      "base_rent": 3047,
+      "rent": 3063,
+      "base_rent": 3050,
       "base_rent_max": null,
       "available": "11/20/2026",
       "sqft": 707,
@@ -9018,6 +8835,10 @@
         {
           "date": "2026-11-18",
           "price": 3060
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3063
         }
       ]
     },
@@ -9025,8 +8846,8 @@
       "building": "Lincoln House",
       "unit": "310",
       "beds": "1 Bedroom",
-      "rent": 3170,
-      "base_rent": 3157,
+      "rent": 3173,
+      "base_rent": 3160,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 645,
@@ -9173,6 +8994,10 @@
         {
           "date": "2026-11-18",
           "price": 3170
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3173
         }
       ]
     },
@@ -9180,8 +9005,8 @@
       "building": "Lincoln House",
       "unit": "324",
       "beds": "1 Bedroom",
-      "rent": 3185,
-      "base_rent": 3172,
+      "rent": 3188,
+      "base_rent": 3175,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 713,
@@ -9392,6 +9217,10 @@
         {
           "date": "2026-11-18",
           "price": 3185
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3188
         }
       ]
     },
@@ -9399,8 +9228,8 @@
       "building": "Lincoln House",
       "unit": "402",
       "beds": "1 Bedroom",
-      "rent": 3190,
-      "base_rent": 3177,
+      "rent": 3193,
+      "base_rent": 3180,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 725,
@@ -9443,6 +9272,10 @@
         {
           "date": "2026-11-18",
           "price": 3190
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3193
         }
       ]
     },
@@ -9450,8 +9283,8 @@
       "building": "Lincoln House",
       "unit": "417",
       "beds": "1 Bedroom",
-      "rent": 3000,
-      "base_rent": 2987,
+      "rent": 3003,
+      "base_rent": 2990,
       "base_rent_max": null,
       "available": "11/23/2026",
       "sqft": 707,
@@ -9466,6 +9299,10 @@
         {
           "date": "2026-11-18",
           "price": 3000
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3003
         }
       ]
     },
@@ -9473,8 +9310,8 @@
       "building": "Lincoln House",
       "unit": "626",
       "beds": "1 Bedroom",
-      "rent": 3150,
-      "base_rent": 3137,
+      "rent": 3153,
+      "base_rent": 3140,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 725,
@@ -9685,6 +9522,10 @@
         {
           "date": "2026-11-18",
           "price": 3150
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3153
         }
       ]
     },
@@ -9692,8 +9533,8 @@
       "building": "Pacific",
       "unit": "1402",
       "beds": "1 Bedroom",
-      "rent": 3368,
-      "base_rent": 3355,
+      "rent": 3369,
+      "base_rent": 3356,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 764,
@@ -9772,6 +9613,10 @@
         {
           "date": "2026-11-18",
           "price": 3368
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3369
         }
       ]
     },
@@ -9779,8 +9624,8 @@
       "building": "Pacific",
       "unit": "1502",
       "beds": "1 Bedroom",
-      "rent": 3548,
-      "base_rent": 3535,
+      "rent": 3549,
+      "base_rent": 3536,
       "base_rent_max": null,
       "available": "12/25/2026",
       "sqft": 764,
@@ -9891,6 +9736,10 @@
         {
           "date": "2026-11-18",
           "price": 3548
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3549
         }
       ]
     },
@@ -9898,8 +9747,8 @@
       "building": "Pacific",
       "unit": "1507",
       "beds": "1 Bedroom",
-      "rent": 3623,
-      "base_rent": 3610,
+      "rent": 3624,
+      "base_rent": 3611,
       "base_rent_max": null,
       "available": "2/1/2027",
       "sqft": 841,
@@ -9914,6 +9763,10 @@
         {
           "date": "2026-11-18",
           "price": 3623
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3624
         }
       ]
     },
@@ -9921,8 +9774,8 @@
       "building": "Pacific",
       "unit": "1907",
       "beds": "1 Bedroom",
-      "rent": 3893,
-      "base_rent": 3880,
+      "rent": 3894,
+      "base_rent": 3881,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 841,
@@ -10133,6 +9986,10 @@
         {
           "date": "2026-11-18",
           "price": 3893
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3894
         }
       ]
     },
@@ -10140,8 +9997,8 @@
       "building": "Pacific",
       "unit": "1911",
       "beds": "1 Bedroom",
-      "rent": 3518,
-      "base_rent": 3505,
+      "rent": 3519,
+      "base_rent": 3506,
       "base_rent_max": null,
       "available": "12/15/2026",
       "sqft": 773,
@@ -10292,6 +10149,10 @@
         {
           "date": "2026-11-18",
           "price": 3518
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3519
         }
       ]
     },
@@ -10299,8 +10160,8 @@
       "building": "Pacific",
       "unit": "2008",
       "beds": "1 Bedroom",
-      "rent": 3673,
-      "base_rent": 3660,
+      "rent": 3674,
+      "base_rent": 3661,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 808,
@@ -10511,6 +10372,10 @@
         {
           "date": "2026-11-18",
           "price": 3673
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3674
         }
       ]
     },
@@ -10518,8 +10383,8 @@
       "building": "Pacific",
       "unit": "806",
       "beds": "1 Bedroom",
-      "rent": 3743,
-      "base_rent": 3730,
+      "rent": 3744,
+      "base_rent": 3731,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 799,
@@ -10626,6 +10491,10 @@
         {
           "date": "2026-11-18",
           "price": 3743
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3744
         }
       ]
     },
@@ -11070,8 +10939,8 @@
       "building": "Parkside West",
       "unit": "1515",
       "beds": "1 Bedroom",
-      "rent": 3256,
-      "base_rent": 3243,
+      "rent": 3260,
+      "base_rent": 3247,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 767,
@@ -11298,6 +11167,10 @@
         {
           "date": "2026-11-18",
           "price": 3256
+        },
+        {
+          "date": "2026-11-19",
+          "price": 3260
         }
       ]
     },
@@ -12449,6 +12322,25 @@
         }
       ]
     },
+    "Southampton|1202": {
+      "building": "Southampton",
+      "unit": "1202",
+      "beds": "1 Bedroom",
+      "rent": 3630,
+      "base_rent": 3582,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 821,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-11-19",
+      "price_history": [
+        {
+          "date": "2026-11-19",
+          "price": 3630
+        }
+      ]
+    },
     "Southampton|1404": {
       "building": "Southampton",
       "unit": "1404",
@@ -13046,205 +12938,6 @@
         {
           "date": "2026-11-18",
           "price": 3568
-        }
-      ]
-    },
-    "Southampton|1904": {
-      "building": "Southampton",
-      "unit": "1904",
-      "beds": "1 Bedroom",
-      "rent": 3748,
-      "base_rent": 3700,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 851,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-09-30",
-      "price_history": [
-        {
-          "date": "2026-09-30",
-          "price": 4030
-        },
-        {
-          "date": "2026-10-01",
-          "price": 4026
-        },
-        {
-          "date": "2026-10-02",
-          "price": 4022
-        },
-        {
-          "date": "2026-10-03",
-          "price": 4020
-        },
-        {
-          "date": "2026-10-04",
-          "price": 4024
-        },
-        {
-          "date": "2026-10-05",
-          "price": 4023
-        },
-        {
-          "date": "2026-10-06",
-          "price": 4025
-        },
-        {
-          "date": "2026-10-07",
-          "price": 4036
-        },
-        {
-          "date": "2026-10-08",
-          "price": 4053
-        },
-        {
-          "date": "2026-10-12",
-          "price": 4095
-        },
-        {
-          "date": "2026-10-13",
-          "price": 4104
-        },
-        {
-          "date": "2026-10-14",
-          "price": 4033
-        },
-        {
-          "date": "2026-10-15",
-          "price": 4043
-        },
-        {
-          "date": "2026-10-16",
-          "price": 4042
-        },
-        {
-          "date": "2026-10-17",
-          "price": 4051
-        },
-        {
-          "date": "2026-10-18",
-          "price": 4053
-        },
-        {
-          "date": "2026-10-19",
-          "price": 4049
-        },
-        {
-          "date": "2026-10-20",
-          "price": 4052
-        },
-        {
-          "date": "2026-10-21",
-          "price": 4013
-        },
-        {
-          "date": "2026-10-22",
-          "price": 4025
-        },
-        {
-          "date": "2026-10-23",
-          "price": 4034
-        },
-        {
-          "date": "2026-10-24",
-          "price": 4049
-        },
-        {
-          "date": "2026-10-25",
-          "price": 4059
-        },
-        {
-          "date": "2026-10-26",
-          "price": 4069
-        },
-        {
-          "date": "2026-10-27",
-          "price": 4081
-        },
-        {
-          "date": "2026-10-28",
-          "price": 3969
-        },
-        {
-          "date": "2026-10-29",
-          "price": 3971
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3972
-        },
-        {
-          "date": "2026-11-01",
-          "price": 3974
-        },
-        {
-          "date": "2026-11-02",
-          "price": 3984
-        },
-        {
-          "date": "2026-11-03",
-          "price": 3994
-        },
-        {
-          "date": "2026-11-04",
-          "price": 4005
-        },
-        {
-          "date": "2026-11-05",
-          "price": 4015
-        },
-        {
-          "date": "2026-11-06",
-          "price": 4028
-        },
-        {
-          "date": "2026-11-07",
-          "price": 4037
-        },
-        {
-          "date": "2026-11-08",
-          "price": 4035
-        },
-        {
-          "date": "2026-11-09",
-          "price": 4031
-        },
-        {
-          "date": "2026-11-11",
-          "price": 4035
-        },
-        {
-          "date": "2026-11-12",
-          "price": 3941
-        },
-        {
-          "date": "2026-11-14",
-          "price": 3843
-        },
-        {
-          "date": "2026-11-14",
-          "price": 3844
-        },
-        {
-          "date": "2026-11-15",
-          "price": 3845
-        },
-        {
-          "date": "2026-11-16",
-          "price": 3847
-        },
-        {
-          "date": "2026-11-17",
-          "price": 3748
-        },
-        {
-          "date": "2026-11-17",
-          "price": 3749
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3748
         }
       ]
     },
