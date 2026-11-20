@@ -1,6 +1,6 @@
 {
   "property": "VYV",
-  "updated_at": "2026-11-20T02:20:16+00:00",
+  "updated_at": "2026-11-20T11:43:01+00:00",
   "units": {
     "|N-1008": {
       "building": "",
@@ -189,7 +189,7 @@
       "unit": "S-3059",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3850,
+      "base_rent": 3857,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 759,
@@ -200,6 +200,10 @@
         {
           "date": "2026-11-20",
           "price": 3850
+        },
+        {
+          "date": "2026-11-20",
+          "price": 3857
         }
       ]
     },
