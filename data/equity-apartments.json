@@ -1,38 +1,7 @@
 {
   "property": "Equity Apartments",
-  "updated_at": "2026-11-21T02:17:31+00:00",
+  "updated_at": "2026-11-21T11:05:11+00:00",
   "units": {
-    "Hudson Point|130": {
-      "building": "Hudson Point",
-      "unit": "130",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3643,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 824,
-      "special": null,
-      "floor_plan": "Morris (A2)",
-      "first_seen": "2026-09-27",
-      "price_history": [
-        {
-          "date": "2026-09-27",
-          "price": 3718
-        },
-        {
-          "date": "2026-10-14",
-          "price": 3668
-        },
-        {
-          "date": "2026-10-21",
-          "price": 3718
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3643
-        }
-      ]
-    },
     "Hudson Point|415": {
       "building": "Hudson Point",
       "unit": "415",

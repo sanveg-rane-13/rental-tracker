@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-11-21T02:17:31+00:00",
+  "updated_at": "2026-11-21T11:05:11+00:00",
   "units": {
     "Aquablu|523": {
       "building": "Aquablu",
@@ -7462,6 +7462,25 @@
         }
       ]
     },
+    "Ellipse|2702": {
+      "building": "Ellipse",
+      "unit": "2702",
+      "beds": "1 Bedroom",
+      "rent": 4224,
+      "base_rent": 4166,
+      "base_rent_max": null,
+      "available": "Now",
+      "sqft": 753,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-11-21",
+      "price_history": [
+        {
+          "date": "2026-11-21",
+          "price": 4224
+        }
+      ]
+    },
     "Ellipse|2710": {
       "building": "Ellipse",
       "unit": "2710",
@@ -7638,7 +7657,7 @@
       "rent": 4294,
       "base_rent": 4236,
       "base_rent_max": null,
-      "available": "11/21/2026",
+      "available": "Now",
       "sqft": 757,
       "special": "1 Month Free",
       "floor_plan": null,
@@ -7663,33 +7682,6 @@
         {
           "date": "2026-11-20",
           "price": 4294
-        }
-      ]
-    },
-    "Ellipse|3701": {
-      "building": "Ellipse",
-      "unit": "3701",
-      "beds": "1 Bedroom",
-      "rent": 4349,
-      "base_rent": 4291,
-      "base_rent_max": null,
-      "available": "11/29/2026",
-      "sqft": 835,
-      "special": "1 Month Free",
-      "floor_plan": null,
-      "first_seen": "2026-11-18",
-      "price_history": [
-        {
-          "date": "2026-11-18",
-          "price": 4358
-        },
-        {
-          "date": "2026-11-19",
-          "price": 4351
-        },
-        {
-          "date": "2026-11-20",
-          "price": 4349
         }
       ]
     },
