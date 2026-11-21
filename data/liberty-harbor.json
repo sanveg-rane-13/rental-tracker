@@ -1,42 +1,7 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-11-21T11:05:11+00:00",
+  "updated_at": "2026-11-21T19:17:27+00:00",
   "units": {
-    "333 Grand|1007": {
-      "building": "333 Grand",
-      "unit": "1007",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3020,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 671,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-11-08",
-      "price_history": [
-        {
-          "date": "2026-11-08",
-          "price": 3144
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3218
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3144
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3218
-        },
-        {
-          "date": "2026-11-21",
-          "price": 3020
-        }
-      ]
-    },
     "333 Grand|1010": {
       "building": "333 Grand",
       "unit": "1010",
@@ -185,41 +150,6 @@
         {
           "date": "2026-11-21",
           "price": 3395
-        }
-      ]
-    },
-    "333 Grand|816": {
-      "building": "333 Grand",
-      "unit": "816",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3548,
-      "base_rent_max": null,
-      "available": "11/22/2026",
-      "sqft": 746,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-10-02",
-      "price_history": [
-        {
-          "date": "2026-10-02",
-          "price": 3970
-        },
-        {
-          "date": "2026-10-31",
-          "price": 3639
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3548
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3639
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3548
         }
       ]
     },
@@ -646,7 +576,7 @@
       "rent": null,
       "base_rent": 3430,
       "base_rent_max": null,
-      "available": "Now",
+      "available": "12/1/2026",
       "sqft": 673,
       "special": null,
       "floor_plan": null,
