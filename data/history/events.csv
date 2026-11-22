@@ -10121,3 +10121,7 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-22T11:27,2026-11-22 06:27,Avalon Cove,Avalon Cove,5539,1 Bedroom,price_change,4350,4355,4350,,,12/2/2026,,1351,A14LP,20-month lease,2026-10-02,
 2026-11-22T11:27,2026-11-22 06:27,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
 2026-11-22T11:27,2026-11-22 06:27,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved
+2026-11-22T19:42,2026-11-22 14:42,BLVD Collection,,,,site_failed,,,,,,,,,,,,only 5 units vs 21 saved
+2026-11-22T19:42,2026-11-22 14:42,65 Bay Street,65 Bay Street,31-07,1 Bedroom,delisted,4306,,4306,,,1/4/2027,,801,1 BR 1 BA w/ Office Res 03 & 07: FL 3 - 48,,2026-10-30,
+2026-11-22T19:42,2026-11-22 14:42,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
+2026-11-22T19:42,2026-11-22 14:42,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved
