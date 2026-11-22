@@ -10113,3 +10113,11 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-22T01:20,2026-11-21 20:20,Avalon Cove,Avalon Cove,2128,1 Bedroom,available_change,3745,,3745,,,11/23/2026,11/22/2026,817,A8,22-month lease,2026-11-18,
 2026-11-22T01:20,2026-11-21 20:20,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
 2026-11-22T01:20,2026-11-21 20:20,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved
+2026-11-22T11:27,2026-11-22 06:27,Newport Rentals,East Hampton,1011,1 Bedroom,available_change,3467,,3419,,3467,Now,11/22/2026,743,,1 Month Free,2026-10-12,
+2026-11-22T11:27,2026-11-22 06:27,BLVD Collection,,,,site_failed,,,,,,,,,,,,only 5 units vs 21 saved
+2026-11-22T11:27,2026-11-22 06:27,Avalon Cove,Avalon Cove,2219,1 Bedroom,price_change,3560,3565,3560,,,12/2/2026,,693,A2,20-month lease,2026-09-24,
+2026-11-22T11:27,2026-11-22 06:27,Avalon Cove,Avalon Cove,1109,1 Bedroom,price_change,3770,3775,3770,,,1/19/2027,,778,A5,19-month lease,2026-11-06,
+2026-11-22T11:27,2026-11-22 06:27,Avalon Cove,Avalon Cove,4403,1 Bedroom,price_change,4155,4160,4155,,,12/1/2026,,1039,A12,21-month lease,2026-10-17,
+2026-11-22T11:27,2026-11-22 06:27,Avalon Cove,Avalon Cove,5539,1 Bedroom,price_change,4350,4355,4350,,,12/2/2026,,1351,A14LP,20-month lease,2026-10-02,
+2026-11-22T11:27,2026-11-22 06:27,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
+2026-11-22T11:27,2026-11-22 06:27,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved

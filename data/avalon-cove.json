@@ -1,13 +1,13 @@
 {
   "property": "Avalon Cove",
-  "updated_at": "2026-11-22T01:20:53+00:00",
+  "updated_at": "2026-11-22T11:27:50+00:00",
   "units": {
     "Avalon Cove|1109": {
       "building": "Avalon Cove",
       "unit": "1109",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3775,
+      "base_rent": 3770,
       "base_rent_max": null,
       "available": "1/19/2027",
       "sqft": 778,
@@ -62,6 +62,10 @@
         {
           "date": "2026-11-21",
           "price": 3775
+        },
+        {
+          "date": "2026-11-22",
+          "price": 3770
         }
       ]
     },
@@ -200,7 +204,7 @@
       "unit": "2219",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3565,
+      "base_rent": 3560,
       "base_rent_max": null,
       "available": "12/2/2026",
       "sqft": 693,
@@ -383,6 +387,10 @@
         {
           "date": "2026-11-21",
           "price": 3565
+        },
+        {
+          "date": "2026-11-22",
+          "price": 3560
         }
       ]
     },
@@ -1046,7 +1054,7 @@
       "unit": "4403",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4160,
+      "base_rent": 4155,
       "base_rent_max": null,
       "available": "12/1/2026",
       "sqft": 1039,
@@ -1177,6 +1185,10 @@
         {
           "date": "2026-11-21",
           "price": 4160
+        },
+        {
+          "date": "2026-11-22",
+          "price": 4155
         }
       ]
     },
@@ -1598,7 +1610,7 @@
       "unit": "5539",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4355,
+      "base_rent": 4350,
       "base_rent_max": null,
       "available": "12/2/2026",
       "sqft": 1351,
@@ -1781,6 +1793,10 @@
         {
           "date": "2026-11-21",
           "price": 4355
+        },
+        {
+          "date": "2026-11-22",
+          "price": 4350
         }
       ]
     },
