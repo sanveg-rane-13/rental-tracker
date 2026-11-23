@@ -10137,3 +10137,33 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-23T01:44,2026-11-22 20:44,Avalon Cove,Avalon Cove,2128,1 Bedroom,available_change,3745,,3745,,,11/24/2026,11/23/2026,817,A8,22-month lease,2026-11-18,
 2026-11-23T01:44,2026-11-22 20:44,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
 2026-11-23T01:44,2026-11-22 20:44,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved
+2026-11-23T12:47,2026-11-23 07:47,Newport Rentals,Lincoln House,417,1 Bedroom,available_change,3012,,2999,,3012,Now,11/23/2026,707,,,2026-11-17,
+2026-11-23T12:47,2026-11-23 07:47,Newport Rentals,Bisby,1509,1 Bedroom,available_change,4477,,4419,,4477,Now,11/23/2026,827,,,2026-11-17,
+2026-11-23T12:47,2026-11-23 07:47,BLVD Collection,,,,site_failed,,,,,,,,,,,,only 5 units vs 21 saved
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,03-06,1 Bedroom,price_change,4224,4263,4224,,,Now,,911,1 BR 1 BA w/ Office Res 06: FL 3 - 6,,2026-10-10,
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,03-07,1 Bedroom,price_change,4913,4908,4913,,,12/7/2026,,1092,1 BR 1 BA w/ Office Res 07: FL 3 - 6,,2026-11-18,
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,08-01,1 Bedroom,price_change,3709,3715,3709,,,12/28/2026,,685,1 BR 1 BA Res 01 & 09: FL 8 - 44,,2026-09-24,
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,18-09,1 Bedroom,price_change,3749,3755,3749,,,12/7/2026,,685,1 BR 1 BA Res 01 & 09: FL 8 - 44,,2026-09-24,
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,24-01,1 Bedroom,price_change,3831,3837,3831,,,2/7/2027,,685,1 BR 1 BA Res 01 & 09: FL 8 - 44,,2026-11-18,
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,31-01,1 Bedroom,price_change,3752,3758,3752,,,Now,,685,1 BR 1 BA Res 01 & 09: FL 8 - 44,,2026-10-01,
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,44-01,1 Bedroom,price_change,3909,3915,3909,,,3/5/2027,,685,1 BR 1 BA Res 01 & 09: FL 8 - 44,,2026-11-11,
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,27-02,1 Bedroom,price_change,4237,4244,4237,,,Now,,794,1 BR 1 BA Res 02 & 08: FL 8 - 44,,2026-09-24,
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,36-08,1 Bedroom,price_change,4397,4404,4397,,,1/7/2027,,794,1 BR 1 BA Res 02 & 08: FL 8 - 44,,2026-11-07,
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,38-03,1 Bedroom,price_change,4077,4073,4077,,,Now,,797,1 BR 1 BA w/ Office Res 03 & 07: FL 3 - 48,,2026-11-05,
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,30-07,1 Bedroom,price_change,4105,4101,4105,,,Now,,801,1 BR 1 BA w/ Office Res 03 & 07: FL 3 - 48,,2026-09-24,
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,30-09,1 Bedroom,delisted,3738,,3738,,,Now,,685,1 BR 1 BA Res 01 & 09: FL 8 - 44,,2026-10-07,
+2026-11-23T12:47,2026-11-23 07:47,65 Bay Street,65 Bay Street,31-07,1 Bedroom,delisted,4306,,4306,,,1/4/2027,,801,1 BR 1 BA w/ Office Res 03 & 07: FL 3 - 48,,2026-11-23,
+2026-11-23T12:47,2026-11-23 07:47,Avalon Cove,Avalon Cove,2219,1 Bedroom,price_change,3635,3560,3635,,,12/2/2026,,693,A2,20-month lease,2026-09-24,
+2026-11-23T12:47,2026-11-23 07:47,Avalon Cove,Avalon Cove,3151,1 Bedroom,price_change,3700,3660,3700,,,12/28/2026,,778,A5,20-month lease,2026-11-16,
+2026-11-23T12:47,2026-11-23 07:47,Avalon Cove,Avalon Cove,1109,1 Bedroom,price_change,3815,3770,3815,,,1/19/2027,,778,A5,19-month lease,2026-11-06,
+2026-11-23T12:47,2026-11-23 07:47,Avalon Cove,Avalon Cove,3238,1 Bedroom,price_change,4035,3995,4035,,,12/31/2026,,790,A6,20-month lease,2026-10-28,
+2026-11-23T12:47,2026-11-23 07:47,Avalon Cove,Avalon Cove,6132,1 Bedroom,price_change,3855,3815,3855,,,12/29/2026,,817,A8,20-month lease,2026-09-26,
+2026-11-23T12:47,2026-11-23 07:47,Avalon Cove,Avalon Cove,5123,1 Bedroom,price_change,3855,3810,3855,,,12/22/2026,,818,A10,21-month lease,2026-10-08,
+2026-11-23T12:47,2026-11-23 07:47,Avalon Cove,Avalon Cove,2121,1 Bedroom,price_change,3780,3740,3780,,,12/29/2026,,818,A10,20-month lease,2026-10-20,
+2026-11-23T12:47,2026-11-23 07:47,Avalon Cove,Avalon Cove,5239,1 Bedroom,price_change,3970,3925,3970,,,12/22/2026,,832,A11,21-month lease,2026-10-04,
+2026-11-23T12:47,2026-11-23 07:47,Avalon Cove,Avalon Cove,5235,1 Bedroom,price_change,3900,3860,3900,,,1/6/2027,,818,A9,20-month lease,2026-10-20,
+2026-11-23T12:47,2026-11-23 07:47,Avalon Cove,Avalon Cove,4403,1 Bedroom,price_change,4225,4155,4225,,,12/1/2026,,1039,A12,21-month lease,2026-10-17,
+2026-11-23T12:47,2026-11-23 07:47,Avalon Cove,Avalon Cove,5539,1 Bedroom,price_change,4425,4350,4425,,,12/2/2026,,1351,A14LP,20-month lease,2026-10-02,
+2026-11-23T12:47,2026-11-23 07:47,VYV,,N-3101,1 Bedroom,delisted,4060,,4060,,,1/22/2027,,763,A16,,2026-11-06,
+2026-11-23T12:47,2026-11-23 07:47,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
+2026-11-23T12:47,2026-11-23 07:47,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved
