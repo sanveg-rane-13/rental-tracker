@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-11-22T19:42:36+00:00",
+  "updated_at": "2026-11-23T01:45:01+00:00",
   "units": {
     "333 Grand|1010": {
       "building": "333 Grand",
@@ -61,37 +61,6 @@
         {
           "date": "2026-11-18",
           "price": 3950
-        }
-      ]
-    },
-    "333 Grand|1203": {
-      "building": "333 Grand",
-      "unit": "1203",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3204,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 643,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 4000
-        },
-        {
-          "date": "2026-09-24",
-          "price": 3620
-        },
-        {
-          "date": "2026-09-26",
-          "price": 3318
-        },
-        {
-          "date": "2026-11-03",
-          "price": 3204
         }
       ]
     },
@@ -188,37 +157,6 @@
         }
       ]
     },
-    "333 Grand|906": {
-      "building": "333 Grand",
-      "unit": "906",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3323,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 646,
-      "special": "discounted",
-      "floor_plan": null,
-      "first_seen": "2026-11-10",
-      "price_history": [
-        {
-          "date": "2026-11-10",
-          "price": 3415
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3323
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3415
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3323
-        }
-      ]
-    },
     "50 Regent|220": {
       "building": "50 Regent",
       "unit": "220",
@@ -276,7 +214,7 @@
       "rent": null,
       "base_rent": 3534,
       "base_rent_max": null,
-      "available": "11/23/2026",
+      "available": "Now",
       "sqft": 667,
       "special": "discounted",
       "floor_plan": null,
@@ -489,37 +427,6 @@
         {
           "date": "2026-11-10",
           "price": 3545
-        }
-      ]
-    },
-    "88 Regent|811": {
-      "building": "88 Regent",
-      "unit": "811",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3745,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 653,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-09-24",
-      "price_history": [
-        {
-          "date": "2026-09-24",
-          "price": 3960
-        },
-        {
-          "date": "2026-10-02",
-          "price": 3630
-        },
-        {
-          "date": "2026-11-10",
-          "price": 3433
-        },
-        {
-          "date": "2026-11-18",
-          "price": 3745
         }
       ]
     },

@@ -10125,3 +10125,15 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-22T19:42,2026-11-22 14:42,65 Bay Street,65 Bay Street,31-07,1 Bedroom,delisted,4306,,4306,,,1/4/2027,,801,1 BR 1 BA w/ Office Res 03 & 07: FL 3 - 48,,2026-10-30,
 2026-11-22T19:42,2026-11-22 14:42,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
 2026-11-22T19:42,2026-11-22 14:42,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved
+2026-11-23T01:44,2026-11-22 20:44,BLVD Collection,,,,site_failed,,,,,,,,,,,,only 5 units vs 21 saved
+2026-11-23T01:44,2026-11-22 20:44,Liberty Harbor,50 Regent,709,1 Bedroom,available_change,3534,,3534,,,Now,11/23/2026,667,,discounted,2026-10-17,
+2026-11-23T01:44,2026-11-22 20:44,Liberty Harbor,333 Grand,1203,1 Bedroom,delisted,3204,,3204,,,Now,,643,,discounted,2026-09-24,
+2026-11-23T01:44,2026-11-22 20:44,Liberty Harbor,333 Grand,906,1 Bedroom,delisted,3323,,3323,,,Now,,646,,discounted,2026-11-10,
+2026-11-23T01:44,2026-11-22 20:44,Liberty Harbor,88 Regent,811,1 Bedroom,delisted,3745,,3745,,,Now,,653,,,2026-09-24,
+2026-11-23T01:44,2026-11-22 20:44,65 Bay Street,65 Bay Street,31-07,1 Bedroom,listed,4306,,4306,,,1/4/2027,,801,1 BR 1 BA w/ Office Res 03 & 07: FL 3 - 48,,2026-11-23,
+2026-11-23T01:44,2026-11-22 20:44,Avalon Cove,Avalon Cove,3143,1 Bedroom,available_change,3535,,3535,,,11/24/2026,11/23/2026,778,A18,22-month lease,2026-09-24,
+2026-11-23T01:44,2026-11-22 20:44,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3585,,3585,,,11/24/2026,11/23/2026,778,A18,22-month lease,2026-09-24,
+2026-11-23T01:44,2026-11-22 20:44,Avalon Cove,Avalon Cove,3138,1 Bedroom,available_change,3785,,3785,,,11/24/2026,11/23/2026,778,A5,22-month lease,2026-09-24,
+2026-11-23T01:44,2026-11-22 20:44,Avalon Cove,Avalon Cove,2128,1 Bedroom,available_change,3745,,3745,,,11/24/2026,11/23/2026,817,A8,22-month lease,2026-11-18,
+2026-11-23T01:44,2026-11-22 20:44,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
+2026-11-23T01:44,2026-11-22 20:44,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved
