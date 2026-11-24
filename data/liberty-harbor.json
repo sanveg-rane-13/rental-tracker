@@ -1,6 +1,6 @@
 {
   "property": "Liberty Harbor",
-  "updated_at": "2026-11-23T12:48:00+00:00",
+  "updated_at": "2026-11-24T02:14:24+00:00",
   "units": {
     "333 Grand|1010": {
       "building": "333 Grand",
@@ -38,7 +38,7 @@
       "unit": "1112",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 3950,
+      "base_rent": 3895,
       "base_rent_max": null,
       "available": "12/11/2026",
       "sqft": 743,
@@ -61,6 +61,10 @@
         {
           "date": "2026-11-18",
           "price": 3950
+        },
+        {
+          "date": "2026-11-24",
+          "price": 3895
         }
       ]
     },
@@ -92,29 +96,6 @@
         {
           "date": "2026-11-18",
           "price": 3450
-        },
-        {
-          "date": "2026-11-21",
-          "price": 3395
-        }
-      ]
-    },
-    "333 Grand|708": {
-      "building": "333 Grand",
-      "unit": "708",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 3395,
-      "base_rent_max": null,
-      "available": "1/11/2027",
-      "sqft": 664,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-11-18",
-      "price_history": [
-        {
-          "date": "2026-11-18",
-          "price": 3550
         },
         {
           "date": "2026-11-21",
@@ -496,25 +477,6 @@
         {
           "date": "2026-11-18",
           "price": 3430
-        }
-      ]
-    },
-    "The Zenith|211": {
-      "building": "The Zenith",
-      "unit": "211",
-      "beds": "1 Bedroom",
-      "rent": null,
-      "base_rent": 2900,
-      "base_rent_max": null,
-      "available": "Now",
-      "sqft": 600,
-      "special": null,
-      "floor_plan": null,
-      "first_seen": "2026-11-19",
-      "price_history": [
-        {
-          "date": "2026-11-19",
-          "price": 2900
         }
       ]
     },
