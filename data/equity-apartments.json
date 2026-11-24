@@ -1,6 +1,6 @@
 {
   "property": "Equity Apartments",
-  "updated_at": "2026-11-24T13:45:38+00:00",
+  "updated_at": "2026-11-24T23:54:56+00:00",
   "units": {
     "Hudson Point|415": {
       "building": "Hudson Point",
@@ -84,6 +84,25 @@
         {
           "date": "2026-11-12",
           "price": 3360
+        }
+      ]
+    },
+    "Portside Towers|1711": {
+      "building": "Portside Towers",
+      "unit": "1711",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3730,
+      "base_rent_max": null,
+      "available": "12/25/2026",
+      "sqft": 917,
+      "special": null,
+      "floor_plan": "B1",
+      "first_seen": "2026-11-24",
+      "price_history": [
+        {
+          "date": "2026-11-24",
+          "price": 3730
         }
       ]
     },
@@ -214,7 +233,7 @@
       "rent": null,
       "base_rent": 3819,
       "base_rent_max": null,
-      "available": "11/27/2026",
+      "available": "11/28/2026",
       "sqft": 913,
       "special": null,
       "floor_plan": "E1 & J1",
@@ -254,6 +273,44 @@
         {
           "date": "2026-11-18",
           "price": 3821
+        }
+      ]
+    },
+    "Portside Towers|410": {
+      "building": "Portside Towers",
+      "unit": "410",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3358,
+      "base_rent_max": null,
+      "available": "12/25/2026",
+      "sqft": 695,
+      "special": null,
+      "floor_plan": "L",
+      "first_seen": "2026-11-24",
+      "price_history": [
+        {
+          "date": "2026-11-24",
+          "price": 3358
+        }
+      ]
+    },
+    "Portside Towers|411": {
+      "building": "Portside Towers",
+      "unit": "411",
+      "beds": "1 Bedroom",
+      "rent": null,
+      "base_rent": 3741,
+      "base_rent_max": null,
+      "available": "12/25/2026",
+      "sqft": 917,
+      "special": null,
+      "floor_plan": "B1",
+      "first_seen": "2026-11-24",
+      "price_history": [
+        {
+          "date": "2026-11-24",
+          "price": 3741
         }
       ]
     },
@@ -422,7 +479,7 @@
       "rent": null,
       "base_rent": 3607,
       "base_rent_max": null,
-      "available": "11/27/2026",
+      "available": "1/21/2027",
       "sqft": 703,
       "special": null,
       "floor_plan": "A3",
@@ -492,7 +549,7 @@
       "rent": null,
       "base_rent": 3993,
       "base_rent_max": null,
-      "available": "11/27/2026",
+      "available": "11/28/2026",
       "sqft": 830,
       "special": null,
       "floor_plan": "A8",
