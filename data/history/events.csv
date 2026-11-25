@@ -10434,3 +10434,26 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-24T23:54,2026-11-24 18:54,VYV,,S-0355,1 Bedroom,listed,3687,,3687,,,1/10/2027,,722,A08,,2026-11-24,
 2026-11-24T23:54,2026-11-24 18:54,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
 2026-11-24T23:54,2026-11-24 18:54,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved
+2026-11-25T08:37,2026-11-25 03:37,Newport Rentals,Waterside Square South,407,1 Bedroom,available_change,3335,,3322,,3335,Now,11/25/2026,738,,0.5 Month Free,2026-11-14,
+2026-11-25T08:37,2026-11-25 03:37,Newport Rentals,East Hampton,1611,1 Bedroom,available_change,3466,,3418,,3466,Now,11/25/2026,743,,1 Month Free,2026-11-03,
+2026-11-25T08:37,2026-11-25 03:37,Newport Rentals,Southampton,2712,1 Bedroom,listed,3526,,3478,,3526,1/1/2027,,798,,,2026-11-25,
+2026-11-25T08:37,2026-11-25 03:37,Newport Rentals,Ellipse,3203,1 Bedroom,available_change,4494,,4436,,4494,Now,11/25/2026,813,,1 Month Free,2026-11-19,
+2026-11-25T08:37,2026-11-25 03:37,BLVD Collection,,,,site_failed,,,,,,,,,,,,only 4 units vs 21 saved
+2026-11-25T08:37,2026-11-25 03:37,Liberty Harbor,333 Grand,705,1 Bedroom,delisted,3395,,3395,,,12/15/2026,,671,,,2026-11-11,
+2026-11-25T08:37,2026-11-25 03:37,65 Bay Street,65 Bay Street,03-06,1 Bedroom,price_change,4242,4229,4242,,,Now,,911,1 BR 1 BA w/ Office Res 06: FL 3 - 6,,2026-10-10,
+2026-11-25T08:37,2026-11-25 03:37,65 Bay Street,65 Bay Street,03-07,1 Bedroom,price_change,4933,4918,4933,,,12/7/2026,,1092,1 BR 1 BA w/ Office Res 07: FL 3 - 6,,2026-11-18,
+2026-11-25T08:37,2026-11-25 03:37,65 Bay Street,65 Bay Street,08-01,1 Bedroom,price_change,3734,3703,3734,,,12/28/2026,,685,1 BR 1 BA Res 01 & 09: FL 8 - 44,,2026-09-24,
+2026-11-25T08:37,2026-11-25 03:37,65 Bay Street,65 Bay Street,18-09,1 Bedroom,price_change,3774,3743,3774,,,12/7/2026,,685,1 BR 1 BA Res 01 & 09: FL 8 - 44,,2026-09-24,
+2026-11-25T08:37,2026-11-25 03:37,65 Bay Street,65 Bay Street,24-01,1 Bedroom,price_change,3845,3825,3845,,,2/7/2027,,685,1 BR 1 BA Res 01 & 09: FL 8 - 44,,2026-11-18,
+2026-11-25T08:37,2026-11-25 03:37,65 Bay Street,65 Bay Street,31-01,1 Bedroom,price_change,3758,3747,3758,,,Now,,685,1 BR 1 BA Res 01 & 09: FL 8 - 44,,2026-10-01,
+2026-11-25T08:37,2026-11-25 03:37,65 Bay Street,65 Bay Street,44-01,1 Bedroom,price_change,3915,3903,3915,,,3/5/2027,,685,1 BR 1 BA Res 01 & 09: FL 8 - 44,,2026-11-11,
+2026-11-25T08:37,2026-11-25 03:37,65 Bay Street,65 Bay Street,36-08,1 Bedroom,price_change,4425,4390,4425,,,1/7/2027,,794,1 BR 1 BA Res 02 & 08: FL 8 - 44,,2026-11-07,
+2026-11-25T08:37,2026-11-25 03:37,65 Bay Street,65 Bay Street,38-03,1 Bedroom,price_change,4093,4081,4093,,,Now,,797,1 BR 1 BA w/ Office Res 03 & 07: FL 3 - 48,,2026-11-05,
+2026-11-25T08:37,2026-11-25 03:37,65 Bay Street,65 Bay Street,21-05,1 Bedroom,listed,3869,,3869,,,1/30/2027,,696,1 BR 1 BA Res 05: FL 9 - 49,,2026-11-25,
+2026-11-25T08:37,2026-11-25 03:37,Avalon Cove,Avalon Cove,3143,1 Bedroom,available_change,3535,,3535,,,11/26/2026,11/25/2026,778,A18,22-month lease,2026-09-24,
+2026-11-25T08:37,2026-11-25 03:37,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3585,,3585,,,11/26/2026,11/25/2026,778,A18,22-month lease,2026-09-24,
+2026-11-25T08:37,2026-11-25 03:37,Avalon Cove,Avalon Cove,3138,1 Bedroom,available_change,3785,,3785,,,11/26/2026,11/25/2026,778,A5,22-month lease,2026-09-24,
+2026-11-25T08:37,2026-11-25 03:37,Avalon Cove,Avalon Cove,2128,1 Bedroom,available_change,3745,,3745,,,11/26/2026,11/25/2026,817,A8,22-month lease,2026-11-18,
+2026-11-25T08:37,2026-11-25 03:37,Equity Apartments,The Pier,1-344,1 Bedroom,listed,3555,,3555,,,12/30/2026,,769,A6,,2026-11-25,
+2026-11-25T08:37,2026-11-25 03:37,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
+2026-11-25T08:37,2026-11-25 03:37,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved

@@ -1,6 +1,6 @@
 {
   "property": "Newport Rentals",
-  "updated_at": "2026-11-24T23:54:56+00:00",
+  "updated_at": "2026-11-25T08:37:43+00:00",
   "units": {
     "Aquablu|523": {
       "building": "Aquablu",
@@ -5199,7 +5199,7 @@
       "rent": 3466,
       "base_rent": 3418,
       "base_rent_max": null,
-      "available": "11/25/2026",
+      "available": "Now",
       "sqft": 743,
       "special": "1 Month Free",
       "floor_plan": null,
@@ -7674,7 +7674,7 @@
       "rent": 4494,
       "base_rent": 4436,
       "base_rent_max": null,
-      "available": "11/25/2026",
+      "available": "Now",
       "sqft": 813,
       "special": "1 Month Free",
       "floor_plan": null,
@@ -13124,6 +13124,25 @@
         }
       ]
     },
+    "Southampton|2712": {
+      "building": "Southampton",
+      "unit": "2712",
+      "beds": "1 Bedroom",
+      "rent": 3526,
+      "base_rent": 3478,
+      "base_rent_max": null,
+      "available": "1/1/2027",
+      "sqft": 798,
+      "special": null,
+      "floor_plan": null,
+      "first_seen": "2026-11-25",
+      "price_history": [
+        {
+          "date": "2026-11-25",
+          "price": 3526
+        }
+      ]
+    },
     "Southampton|3104": {
       "building": "Southampton",
       "unit": "3104",
@@ -15332,7 +15351,7 @@
       "rent": 3335,
       "base_rent": 3322,
       "base_rent_max": null,
-      "available": "11/25/2026",
+      "available": "Now",
       "sqft": 738,
       "special": "0.5 Month Free",
       "floor_plan": null,
