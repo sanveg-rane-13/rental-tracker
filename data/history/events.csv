@@ -10628,3 +10628,22 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-25T19:18,2026-11-25 14:18,VYV,,S-0355,1 Bedroom,price_change,3688,3687,3688,,,1/10/2027,,722,A08,,2026-11-24,
 2026-11-25T19:18,2026-11-25 14:18,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
 2026-11-25T19:18,2026-11-25 14:18,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved
+2026-11-26T03:35,2026-11-25 22:35,Newport Rentals,Parkside East,3401,1 Bedroom,available_change,3356,,3343,,3356,Now,11/27/2026,771,,,2026-10-26,
+2026-11-26T03:35,2026-11-25 22:35,Newport Rentals,Pacific,502,1 Bedroom,listed,3515,,3502,,3515,1/9/2027,,764,,,2026-11-26,
+2026-11-26T03:35,2026-11-25 22:35,Newport Rentals,Southampton,2608,1 Bedroom,listed,3675,,3627,,3675,1/6/2027,,765,,,2026-11-26,
+2026-11-26T03:35,2026-11-25 22:35,Newport Rentals,Beach,708,1 Bedroom,delisted,3869,,3811,,3869,Now,,552,,1 Month Free,2026-09-24,
+2026-11-26T03:35,2026-11-25 22:35,Newport Rentals,Ellipse,2806,1 Bedroom,delisted,4164,,4106,,4164,Now,,742,,1 Month Free,2026-11-24,
+2026-11-26T03:35,2026-11-25 22:35,Newport Rentals,Lincoln House,224,1 Bedroom,delisted,3204,,3191,,3204,1/25/2027,,713,,,2026-11-24,
+2026-11-26T03:35,2026-11-25 22:35,Newport Rentals,Southampton,612,1 Bedroom,delisted,3415,,3367,,3415,Now,,798,,0.5 Month Free,2026-10-26,
+2026-11-26T03:35,2026-11-25 22:35,Avalon Cove,Avalon Cove,3143,1 Bedroom,available_change,3535,,3535,,,11/27/2026,11/26/2026,778,A18,22-month lease,2026-09-24,
+2026-11-26T03:35,2026-11-25 22:35,Avalon Cove,Avalon Cove,4117,1 Bedroom,available_change,3585,,3585,,,11/27/2026,11/26/2026,778,A18,22-month lease,2026-09-24,
+2026-11-26T03:35,2026-11-25 22:35,Avalon Cove,Avalon Cove,3138,1 Bedroom,available_change,3785,,3785,,,11/27/2026,11/26/2026,778,A5,22-month lease,2026-09-24,
+2026-11-26T03:35,2026-11-25 22:35,Avalon Cove,Avalon Cove,2128,1 Bedroom,available_change,3745,,3745,,,11/27/2026,11/26/2026,817,A8,22-month lease,2026-11-18,
+2026-11-26T03:35,2026-11-25 22:35,Avalon Cove,Avalon Cove,4403,1 Bedroom,price_change,4105,4195,4105,,,11/27/2026,,1039,A12,22-month lease,2026-10-17,
+2026-11-26T03:35,2026-11-25 22:35,Avalon Cove,Avalon Cove,4403,1 Bedroom,available_change,4105,,4105,,,11/27/2026,12/1/2026,1039,A12,22-month lease,2026-10-17,
+2026-11-26T03:35,2026-11-25 22:35,Equity Apartments,The Pier,1-251,1 Bedroom,available_change,4326,,4326,,,Now,11/26/2026,1032,A11,,2026-11-20,
+2026-11-26T03:35,2026-11-25 22:35,Equity Apartments,The Pier,1-331,1 Bedroom,available_change,3993,,3993,,,Now,12/1/2026,830,A8,,2026-10-28,
+2026-11-26T03:35,2026-11-25 22:35,Equity Apartments,The Pier,1-609,1 Bedroom,delisted,3844,,3844,,,12/25/2026,,830,A8,,2026-10-21,
+2026-11-26T03:35,2026-11-25 22:35,VYV,,S-2961,1 Bedroom,delisted,4010,,4010,,,1/25/2027,,734,A11,,2026-11-09,
+2026-11-26T03:35,2026-11-25 22:35,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
+2026-11-26T03:35,2026-11-25 22:35,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved
