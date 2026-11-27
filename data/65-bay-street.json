@@ -1,13 +1,13 @@
 {
   "property": "65 Bay Street",
-  "updated_at": "2026-11-27T12:24:49+00:00",
+  "updated_at": "2026-11-27T23:28:32+00:00",
   "units": {
     "65 Bay Street|03-06": {
       "building": "65 Bay Street",
       "unit": "03-06",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4269,
+      "base_rent": 4280,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 911,
@@ -178,6 +178,10 @@
         {
           "date": "2026-11-27",
           "price": 4269
+        },
+        {
+          "date": "2026-11-27",
+          "price": 4280
         }
       ]
     },
@@ -186,7 +190,7 @@
       "unit": "03-07",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4963,
+      "base_rent": 4975,
       "base_rent_max": null,
       "available": "12/7/2026",
       "sqft": 1092,
@@ -241,6 +245,10 @@
         {
           "date": "2026-11-27",
           "price": 4963
+        },
+        {
+          "date": "2026-11-27",
+          "price": 4975
         }
       ]
     },
@@ -1135,7 +1143,7 @@
       "unit": "38-03",
       "beds": "1 Bedroom",
       "rent": null,
-      "base_rent": 4117,
+      "base_rent": 4126,
       "base_rent_max": null,
       "available": "Now",
       "sqft": 797,
@@ -1218,6 +1226,10 @@
         {
           "date": "2026-11-27",
           "price": 4117
+        },
+        {
+          "date": "2026-11-27",
+          "price": 4126
         }
       ]
     },
