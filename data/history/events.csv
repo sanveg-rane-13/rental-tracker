@@ -10793,3 +10793,16 @@ time_utc,time_ny,property,building,unit,beds,event,price,old_price,base_rent,bas
 2026-11-27T01:44,2026-11-26 20:44,Avalon Cove,Avalon Cove,4403,1 Bedroom,available_change,4105,,4105,,,11/28/2026,11/27/2026,1039,A12,22-month lease,2026-10-17,
 2026-11-27T01:44,2026-11-26 20:44,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
 2026-11-27T01:44,2026-11-26 20:44,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved
+2026-11-27T12:24,2026-11-27 07:24,Newport Rentals,Atlantic,111,1 Bedroom,available_change,4021,,3973,,4021,Now,11/27/2026,1000,,1 Month Free,2026-09-24,
+2026-11-27T12:24,2026-11-27 07:24,Avalon Cove,Avalon Cove,2219,1 Bedroom,price_change,3610,3600,3610,,,12/2/2026,,693,A2,20-month lease,2026-09-24,
+2026-11-27T12:24,2026-11-27 07:24,Avalon Cove,Avalon Cove,3151,1 Bedroom,price_change,3690,3685,3690,,,12/28/2026,,778,A5,20-month lease,2026-11-16,
+2026-11-27T12:24,2026-11-27 07:24,Avalon Cove,Avalon Cove,1109,1 Bedroom,price_change,3805,3800,3805,,,1/19/2027,,778,A5,19-month lease,2026-11-06,
+2026-11-27T12:24,2026-11-27 07:24,Avalon Cove,Avalon Cove,3238,1 Bedroom,price_change,4025,4020,4025,,,12/31/2026,,790,A6,20-month lease,2026-10-28,
+2026-11-27T12:24,2026-11-27 07:24,Avalon Cove,Avalon Cove,6132,1 Bedroom,price_change,3845,3840,3845,,,12/29/2026,,817,A8,20-month lease,2026-09-26,
+2026-11-27T12:24,2026-11-27 07:24,Avalon Cove,Avalon Cove,5123,1 Bedroom,price_change,3845,3835,3845,,,12/22/2026,,818,A10,21-month lease,2026-10-08,
+2026-11-27T12:24,2026-11-27 07:24,Avalon Cove,Avalon Cove,2121,1 Bedroom,price_change,3770,3765,3770,,,12/29/2026,,818,A10,20-month lease,2026-10-20,
+2026-11-27T12:24,2026-11-27 07:24,Avalon Cove,Avalon Cove,5239,1 Bedroom,price_change,3960,3950,3960,,,12/22/2026,,832,A11,21-month lease,2026-10-04,
+2026-11-27T12:24,2026-11-27 07:24,Avalon Cove,Avalon Cove,5235,1 Bedroom,price_change,3890,3885,3890,,,1/6/2027,,818,A9,20-month lease,2026-10-20,
+2026-11-27T12:24,2026-11-27 07:24,Avalon Cove,Avalon Cove,5539,1 Bedroom,price_change,4400,4390,4400,,,12/2/2026,,1351,A14LP,20-month lease,2026-10-02,
+2026-11-27T12:24,2026-11-27 07:24,Lenox,,,,site_failed,,,,,,,,,,,,no units parsed
+2026-11-27T12:24,2026-11-27 07:24,Northern Chapter Properties,,,,site_failed,,,,,,,,,,,,only 1 units vs 31 saved
